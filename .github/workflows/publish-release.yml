@@ -1,0 +1,174 @@
+name: Publish Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'profiles/**/metadata.yaml'
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: 'Profile to release (e.g., TribalGovernmentUS)'
+        required: true
+        type: string
+
+jobs:
+  detect-changes:
+    name: Detect Profile Changes
+    runs-on: ubuntu-latest
+    outputs:
+      profiles: ${{ steps.detect.outputs.profiles }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Detect changed profiles
+        id: detect
+        run: |
+          python - <<'EOF'
+          import json
+          import os
+          import yaml
+          from pathlib import Path
+          
+          changed_profiles = []
+          
+          # Check if triggered manually with specific profile
+          manual_profile = os.environ.get('MANUAL_PROFILE', '')
+          if manual_profile:
+              changed_profiles.append(manual_profile)
+          else:
+              # Detect changed metadata files
+              for metadata_file in Path('profiles').rglob('metadata.yaml'):
+                  profile_name = metadata_file.parent.name
+                  changed_profiles.append(profile_name)
+          
+          # Output for next job
+          profiles_json = json.dumps(changed_profiles)
+          print(f"Changed profiles: {profiles_json}")
+          
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"profiles={profiles_json}\n")
+          EOF
+        env:
+          MANUAL_PROFILE: ${{ github.event.inputs.profile }}
+  
+  release:
+    name: Create Release for Profile
+    runs-on: ubuntu-latest
+    needs: detect-changes
+    if: needs.detect-changes.outputs.profiles != '[]'
+    strategy:
+      matrix:
+        profile: ${{ fromJson(needs.detect-changes.outputs.profiles) }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Extract version and changelog
+        id: extract
+        run: |
+          python - <<'EOF'
+          import os
+          import yaml
+          from pathlib import Path
+          
+          profile = os.environ['PROFILE']
+          metadata_file = Path(f'profiles/{profile}/metadata.yaml')
+          changelog_file = Path(f'profiles/{profile}/CHANGELOG.md')
+          
+          # Read metadata
+          with open(metadata_file, 'r') as f:
+              metadata = yaml.safe_load(f)
+          
+          version = metadata.get('version', '0.0.0')
+          name = metadata.get('name', profile)
+          
+          # Extract latest changelog entry
+          changelog_content = ""
+          if changelog_file.exists():
+              with open(changelog_file, 'r') as f:
+                  lines = f.readlines()
+              
+              # Find first version section
+              in_version = False
+              for line in lines:
+                  if line.startswith('## [') and version in line:
+                      in_version = True
+                      continue
+                  elif line.startswith('## [') and in_version:
+                      break
+                  elif in_version:
+                      changelog_content += line
+          
+          # Write outputs
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"version={version}\n")
+              f.write(f"name={name}\n")
+              f.write(f"tag={profile}-v{version}\n")
+          
+          # Save changelog for release notes
+          with open('release_notes.md', 'w') as f:
+              f.write(f"# {name} v{version}\n\n")
+              f.write(changelog_content or "No changelog available for this release.")
+          
+          print(f"Profile: {profile}")
+          print(f"Version: {version}")
+          print(f"Tag: {profile}-v{version}")
+          EOF
+        env:
+          PROFILE: ${{ matrix.profile }}
+      
+      - name: Check if tag exists
+        id: check_tag
+        run: |
+          TAG="${{ steps.extract.outputs.tag }}"
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Tag $TAG already exists"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "Tag $TAG is new"
+          fi
+      
+      - name: Create Git tag
+        if: steps.check_tag.outputs.exists == 'false'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          TAG="${{ steps.extract.outputs.tag }}"
+          git tag -a "$TAG" -m "${{ steps.extract.outputs.name }} version ${{ steps.extract.outputs.version }}"
+          git push origin "$TAG"
+      
+      - name: Create GitHub Release
+        if: steps.check_tag.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.extract.outputs.tag }}
+          name: ${{ steps.extract.outputs.name }} v${{ steps.extract.outputs.version }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          files: |
+            profiles/${{ matrix.profile }}/profile.yaml
+            profiles/${{ matrix.profile }}/metadata.yaml
+            profiles/${{ matrix.profile }}/README.md
+            profiles/${{ matrix.profile }}/CHANGELOG.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

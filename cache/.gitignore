@@ -1,0 +1,5 @@
+# Cached SPARQL query results
+*.json
+
+# Allow the README
+!README.md
