@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-03-03T19:49:37.632637+00:00",
+  "commit_sha": "23637c047ccb2c7cafdabbccfa16f356893b57d0",
+  "commit_timestamp": "2026-03-03T11:47:51-07:00",
+  "profiles": [
+    {
+      "id": "OfficeHeldByHeadOfState",
+      "name": "Office Held by Head of State",
+      "description": "Canonical form for representing governmental positions or offices held by heads of state or heads of government of political entities. This profile supports documentation of executive offices, their jurisdictions, establishment dates, and relationships to governing entities. Designed for use with tribal governments, but applicable to any governmental executive office.\n",
+      "version": "1.0.0",
+      "status": "stable",
+      "authors": [
+        {
+          "name": "Sky Bristol"
+        }
+      ],
+      "maintainers": [
+        {
+          "name": "Sky Bristol"
+        }
+      ],
+      "published_date": "2026-03-01",
+      "related_profiles": [
+        "TribalGovernmentUS"
+      ],
+      "files": {
+        "profile_yaml": "profiles/OfficeHeldByHeadOfState/profile.yaml",
+        "metadata_yaml": "profiles/OfficeHeldByHeadOfState/metadata.yaml",
+        "readme": "profiles/OfficeHeldByHeadOfState/README.md",
+        "changelog": "profiles/OfficeHeldByHeadOfState/CHANGELOG.md"
+      },
+      "cache_directory": "cache/profiles/OfficeHeldByHeadOfState/"
+    },
+    {
+      "id": "TribalGovernmentUS",
+      "name": "Federally Recognized Tribe",
+      "description": "Canonical form for representing a federally recognized Native American tribe in the United States. This profile provides comprehensive support for documenting tribal governments with a focus on official nomenclature, federal recognition status, government structure, and cultural attributes. Based on Wikidata EntitySchema E502 with additional properties and enhanced validation.\n",
+      "version": "1.0.0",
+      "status": "stable",
+      "authors": [
+        {
+          "name": "Sky Bristol"
+        }
+      ],
+      "maintainers": [
+        {
+          "name": "Sky Bristol"
+        }
+      ],
+      "published_date": "2026-03-01",
+      "related_profiles": [
+        "OfficeHeldByHeadOfState"
+      ],
+      "files": {
+        "profile_yaml": "profiles/TribalGovernmentUS/profile.yaml",
+        "metadata_yaml": "profiles/TribalGovernmentUS/metadata.yaml",
+        "readme": "profiles/TribalGovernmentUS/README.md",
+        "changelog": "profiles/TribalGovernmentUS/CHANGELOG.md"
+      },
+      "queries": [
+        {
+          "filename": "bia_federal_register_issues.sparql",
+          "source_path": "profiles/TribalGovernmentUS/queries/bia_federal_register_issues.sparql",
+          "cache_path": "cache/profiles/TribalGovernmentUS/bia_federal_register_issues.json"
+        },
+        {
+          "filename": "wikidata_language_items_en.sparql",
+          "source_path": "profiles/TribalGovernmentUS/queries/wikidata_language_items_en.sparql",
+          "cache_path": "cache/profiles/TribalGovernmentUS/wikidata_language_items_en.json"
+        }
+      ],
+      "cache_directory": "cache/profiles/TribalGovernmentUS/"
+    }
+  ]
+}

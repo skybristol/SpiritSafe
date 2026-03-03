@@ -1,5 +1,6 @@
 # Cached SPARQL query results
 *.json
 
-# Allow the README
+# Allow the README and manifest
 !README.md
+!manifest.json
