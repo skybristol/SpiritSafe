@@ -1,0 +1,62 @@
+name: Build Registry Manifest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'profiles/**'
+      - 'queries/**'
+      - 'cache/**'
+      - '.github/scripts/build-manifest.py'
+      - '.github/workflows/build-manifest.yml'
+
+jobs:
+  build-manifest:
+    name: Generate and Commit Manifest
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for git log
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Build manifest
+        run: |
+          python .github/scripts/build-manifest.py --output cache/manifest.json
+
+      - name: Check if manifest changed
+        id: manifest_check
+        run: |
+          if git diff --quiet cache/manifest.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Configure Git
+        if: steps.manifest_check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push manifest
+        if: steps.manifest_check.outputs.changed == 'true'
+        run: |
+          git add cache/manifest.json
+          git commit -m "chore: update registry manifest [skip ci]"
+          git push
