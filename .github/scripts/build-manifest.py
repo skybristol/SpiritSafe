@@ -70,6 +70,53 @@ def load_metadata(metadata_path: Path) -> Dict[str, Any]:
         return {}
 
 
+def load_profile(profile_path: Path) -> Dict[str, Any]:
+    """Load and parse profile.yaml file."""
+    try:
+        with open(profile_path, "r") as f:
+            return yaml.safe_load(f) or {}
+    except Exception as e:
+        print(f"Warning: Failed to load {profile_path}: {e}", file=sys.stderr)
+        return {}
+
+
+def serialize_value(value: Any) -> Any:
+    """Convert YAML-native Python values to JSON-safe values."""
+    if isinstance(value, dict):
+        return {k: serialize_value(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [serialize_value(v) for v in value]
+    if hasattr(value, "isoformat"):
+        return value.isoformat()
+    return value
+
+
+def extract_statement_linkages(profile_data: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Extract statement-level linkage metadata for entity_profile statements."""
+    statements = profile_data.get("statements", [])
+    linkages: List[Dict[str, Any]] = []
+
+    for statement in statements:
+        if not isinstance(statement, dict):
+            continue
+        if "entity_profile" not in statement:
+            continue
+
+        linkage_entry: Dict[str, Any] = {
+            "statement_id": statement.get("id"),
+            "wikidata_property": statement.get("wikidata_property"),
+            "target_profile": statement.get("entity_profile"),
+            "form_policy": statement.get("form_policy"),
+        }
+
+        if "linkage" in statement:
+            linkage_entry["linkage"] = serialize_value(statement["linkage"])
+
+        linkages.append(linkage_entry)
+
+    return linkages
+
+
 def discover_queries(profile_dir: Path) -> List[Dict[str, str]]:
     """Discover SPARQL query files in profile's queries directory."""
     queries_dir = profile_dir / "queries"
@@ -98,6 +145,7 @@ def build_profile_entry(
     """Build manifest entry for a single profile."""
     profile_id = profile_dir.name
     metadata = load_metadata(profile_dir / "metadata.yaml")
+    profile_data = load_profile(profile_dir / "profile.yaml")
     
     # Paths relative to repo root
     rel_root = profile_dir.relative_to(repo_root)
@@ -124,6 +172,22 @@ def build_profile_entry(
             entry["published_date"] = str(published_date)
     if "related_profiles" in metadata:
         entry["related_profiles"] = metadata["related_profiles"]
+    if "source_references" in metadata:
+        entry["source_references"] = serialize_value(metadata["source_references"])
+    if "datatypes_used" in metadata:
+        entry["datatypes_used"] = serialize_value(metadata["datatypes_used"])
+    if "statements_count" in metadata:
+        entry["statements_count"] = metadata["statements_count"]
+    if "references_required" in metadata:
+        entry["references_required"] = metadata["references_required"]
+    if "qualifiers_used" in metadata:
+        entry["qualifiers_used"] = serialize_value(metadata["qualifiers_used"])
+    if "sparql_sources" in metadata:
+        entry["sparql_sources"] = serialize_value(metadata["sparql_sources"])
+    if "profile_graph" in metadata:
+        entry["profile_graph"] = serialize_value(metadata["profile_graph"])
+    if "community_feedback" in metadata:
+        entry["community_feedback"] = serialize_value(metadata["community_feedback"])
     
     # File references
     entry["files"] = {
@@ -140,6 +204,11 @@ def build_profile_entry(
     queries = discover_queries(profile_dir)
     if queries:
         entry["queries"] = queries
+
+    # Statement-level linkage inventory
+    statement_linkages = extract_statement_linkages(profile_data)
+    if statement_linkages:
+        entry["statement_linkages"] = statement_linkages
     
     # Cache directory
     entry["cache_directory"] = f"cache/profiles/{profile_id}/"
@@ -204,7 +273,7 @@ def main():
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
     with open(output_path, "w") as f:
-        json.dump(manifest, f, indent=2)
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
     
     print(f"✓ Manifest written to: {output_path}")
     print(f"  Profiles indexed: {len(manifest['profiles'])}")

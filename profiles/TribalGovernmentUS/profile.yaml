@@ -374,6 +374,20 @@ statements:
     max_count: 1
     validation_policy: allow_existing_nonconforming
     form_policy: target_only
+    linkage:
+      target_profile: OfficeHeldByHeadOfState
+      relationship:
+        type: office_of_head_of_state
+        direction: bidirectional
+        reverse_statement_hint: applies_to_jurisdiction
+      cardinality:
+        min: 0
+        max: 1
+      workflow_policy:
+        create: allowed
+        select_existing: allowed
+      traversal:
+        max_depth: 1
     guidance: >
       This is the office itself (e.g., "Principal Chief of the Cherokee Nation", "President 
       of the Navajo Nation"), not the person currently holding the office. Use the "head of 
