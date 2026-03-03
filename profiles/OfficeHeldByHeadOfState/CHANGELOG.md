@@ -36,6 +36,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Metadata-level `profile_graph` edge definition for `TribalGovernmentUS` via `applies_to_jurisdiction` (P1001), including relationship type and cardinality.
+- Reciprocal graph-awareness metadata to support bidirectional profile discovery.
+
 ### Planned
 
 - Properties for term length and term limits

@@ -108,6 +108,47 @@ profile = loader.load_from_file("profiles/TribalGovernmentUS/profile.yaml")
 6. **CI validation** runs; maintainer reviews
 7. **Merge** — New version is tagged and released automatically
 
+### Solo Maintainer PR Workflow (Fast Path)
+
+SpiritSafe is configured to keep a review gate for normal contributor PRs while allowing the repository owner to merge efficiently when operating solo.
+
+#### Recommended Git aliases
+
+Run once on your machine:
+
+```bash
+git config --global alias.prm "!f(){ gh pr merge ${1:?PR number required} --squash --admin --delete-branch; }; f"
+git config --global alias.pra "!f(){ gh pr review ${1:?PR number required} --approve && gh pr merge ${1} --squash --delete-branch; }; f"
+```
+
+#### Daily usage
+
+- **PR authored by someone else** (normal review path):
+
+    ```bash
+    git pra 12
+    ```
+
+    This approves and merges PR `12` with squash + branch cleanup.
+
+- **PR authored by you** (solo path):
+
+    ```bash
+    git prm 12
+    ```
+
+    This uses admin merge so you are not blocked by the required human-review rule.
+
+#### Optional auto-merge pattern
+
+If checks are still running and you want GitHub to merge when ready:
+
+```bash
+gh pr merge 12 --auto --squash --delete-branch
+```
+
+Use `--admin` only when needed (typically self-authored PRs under required review rules).
+
 ## Profile Standards
 
 All profiles must include:

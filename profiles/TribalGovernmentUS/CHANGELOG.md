@@ -50,6 +50,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Explicit `linkage` metadata on `office_held_by_head_of_state` (P1906) for relationship semantics, cardinality, workflow policy, and traversal depth.
+- Metadata-level `profile_graph` edge definition for `OfficeHeldByHeadOfState` including `via_statement`, relationship type, and cardinality.
+
 ### Planned
 
 - Support for additional languages in labels, descriptions, and sitelinks

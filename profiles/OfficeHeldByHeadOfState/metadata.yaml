@@ -23,6 +23,19 @@ source_references:
 related_profiles:
   - TribalGovernmentUS
 
+profile_graph:
+  neighbors:
+    - TribalGovernmentUS
+  edges:
+    - target_profile: TribalGovernmentUS
+      via_statement: applies_to_jurisdiction
+      relationship_type: governs_jurisdiction
+      cardinality:
+        min: 0
+        max: 1
+      traversal:
+        max_depth: 1
+
 community_feedback:
   issue_tracker: https://github.com/skybristol/SpiritSafe/issues
 

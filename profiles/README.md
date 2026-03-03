@@ -118,6 +118,88 @@ Profiles can reference other profiles via **entity_profile** statement types. Th
 
 When a curator creates a tribal government, the wizard offers to create the associated office in the same session. Both entities are bundled into a **GKC Curation Packet** with cross-references maintained via `packet_id` placeholders.
 
+## Implemented Schema Fields (Phase 1)
+
+The following fields are now part of the active SpiritSafe profile design and are validated in CI.
+
+### Statement-level linkage (`profile.yaml`)
+
+Use on statements that include `entity_profile`.
+
+```yaml
+- id: office_held_by_head_of_state
+    type: statement
+    entity_profile: OfficeHeldByHeadOfState
+    form_policy: target_only
+    linkage:
+        target_profile: OfficeHeldByHeadOfState
+        relationship:
+            type: office_of_head_of_state
+            direction: bidirectional
+            reverse_statement_hint: applies_to_jurisdiction
+        cardinality:
+            min: 0
+            max: 1
+        workflow_policy:
+            create: allowed
+            select_existing: allowed
+        traversal:
+            max_depth: 1
+```
+
+Required linkage keys:
+
+- `target_profile`
+- `relationship.type`
+- `relationship.direction`
+- `cardinality.min`
+- `cardinality.max`
+- `workflow_policy.create`
+- `workflow_policy.select_existing`
+- `traversal.max_depth`
+
+### Metadata profile graph (`metadata.yaml`)
+
+```yaml
+profile_graph:
+    neighbors:
+        - OfficeHeldByHeadOfState
+    edges:
+        - target_profile: OfficeHeldByHeadOfState
+            via_statement: office_held_by_head_of_state
+            relationship_type: office_of_head_of_state
+            cardinality:
+                min: 0
+                max: 1
+            traversal:
+                max_depth: 1
+```
+
+Required metadata graph keys:
+
+- `profile_graph.neighbors`
+- `profile_graph.edges[*].target_profile`
+- `profile_graph.edges[*].via_statement`
+- `profile_graph.edges[*].relationship_type`
+- `profile_graph.edges[*].cardinality.min`
+- `profile_graph.edges[*].cardinality.max`
+- `profile_graph.edges[*].traversal.max_depth`
+
+### Registry manifest (`cache/manifest.json`)
+
+The production manifest now includes, per profile:
+
+- Profile metadata used by consumers (`name`, `description`, `status`, `related_profiles`, `profile_graph`)
+- Query inventory (`queries[*].source_path`, `queries[*].cache_path`)
+- Statement linkage inventory (`statement_linkages` extracted from `profile.yaml`)
+- File references (`files.profile_yaml`, `files.metadata_yaml`, `files.readme`, `files.changelog`)
+
+Top-level manifest traceability fields are:
+
+- `generated_at`
+- `commit_sha`
+- `commit_timestamp`
+
 ---
 
 ## Documentation

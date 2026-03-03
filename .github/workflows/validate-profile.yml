@@ -5,6 +5,7 @@ on:
     paths:
       - 'profiles/**'
       - 'queries/**'
+      - '.github/scripts/validate-profile-schema.py'
       - '.github/workflows/validate-profile.yml'
   push:
     branches:
@@ -12,6 +13,7 @@ on:
     paths:
       - 'profiles/**'
       - 'queries/**'
+      - '.github/scripts/validate-profile-schema.py'
 
 jobs:
   validate-yaml:
@@ -89,6 +91,11 @@ jobs:
           else:
               print(f'\nAll metadata files validated successfully')
           "
+
+      - name: Validate linkage and profile graph schema
+        run: |
+          echo "Validating linkage metadata and profile graph schema..."
+          python .github/scripts/validate-profile-schema.py
       
       - name: Check for required documentation
         run: |
