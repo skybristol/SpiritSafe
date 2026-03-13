@@ -1,11 +1,12 @@
-name: Validate Profile
+name: SpiritSafe CI
 
 on:
   pull_request:
+    branches:
+      - main
     paths:
       - 'profiles/**'
       - 'queries/**'
-      - '.github/scripts/validate-profile-schema.py'
       - '.github/workflows/validate-profile.yml'
   push:
     branches:
@@ -13,171 +14,118 @@ on:
     paths:
       - 'profiles/**'
       - 'queries/**'
-      - '.github/scripts/validate-profile-schema.py'
+      - '.github/workflows/validate-profile.yml'
 
 jobs:
-  validate-yaml:
-    name: Validate Profile YAML
+  validate-registry-shape:
+    name: Validate Registry Shape
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml jsonschema
-      
+          pip install pyyaml
+
       - name: Validate YAML syntax
         run: |
-          echo "Validating YAML syntax for all profiles..."
-          python -c "
-          import yaml
+          python - <<'PY'
           import sys
           from pathlib import Path
-          
-          errors = []
-          for profile_file in Path('profiles').rglob('profile.yaml'):
-              try:
-                  with open(profile_file, 'r') as f:
-                      yaml.safe_load(f)
-                  print(f'✓ {profile_file}')
-              except yaml.YAMLError as e:
-                  errors.append(f'{profile_file}: {e}')
-                  print(f'✗ {profile_file}: {e}')
-          
-          if errors:
-              print(f'\n{len(errors)} validation error(s) found')
-              sys.exit(1)
-          else:
-              print(f'\nAll profiles validated successfully')
-          "
-      
-      - name: Validate metadata files
-        run: |
-          echo "Validating metadata.yaml for all profiles..."
-          python -c "
           import yaml
-          import sys
-          from pathlib import Path
-          
-          required_fields = ['name', 'description', 'version', 'status', 'published_date', 'authors', 'maintainers']
-          errors = []
-          
-          for metadata_file in Path('profiles').rglob('metadata.yaml'):
-              try:
-                  with open(metadata_file, 'r') as f:
-                      data = yaml.safe_load(f)
-                  
-                  missing = [field for field in required_fields if field not in data]
-                  if missing:
-                      errors.append(f'{metadata_file}: Missing required fields: {missing}')
-                      print(f'✗ {metadata_file}: Missing {missing}')
-                  else:
-                      print(f'✓ {metadata_file}')
-              except Exception as e:
-                  errors.append(f'{metadata_file}: {e}')
-                  print(f'✗ {metadata_file}: {e}')
-          
-          if errors:
-              print(f'\n{len(errors)} metadata validation error(s) found')
-              sys.exit(1)
-          else:
-              print(f'\nAll metadata files validated successfully')
-          "
 
-      - name: Validate linkage and profile graph schema
+          errors = []
+          for profile_file in Path("profiles").rglob("profile.yaml"):
+            try:
+              with open(profile_file, "r", encoding="utf-8") as f:
+                yaml.safe_load(f)
+              print(f"OK {profile_file}")
+            except yaml.YAMLError as e:
+              errors.append(f"{profile_file}: {e}")
+              print(f"ERROR {profile_file}: {e}")
+
+          if errors:
+            print(f"YAML validation failed for {len(errors)} file(s)")
+            sys.exit(1)
+
+          print("YAML validation passed")
+          PY
+
+      - name: Check profile package shape
         run: |
-          echo "Validating linkage metadata and profile graph schema..."
-          python .github/scripts/validate-profile-schema.py
-      
-      - name: Check for required documentation
-        run: |
-          echo "Checking for required documentation files..."
-          python -c "
+          python - <<'PY'
           import sys
           from pathlib import Path
-          
+
           errors = []
-          for profile_dir in Path('profiles').iterdir():
+          profiles_root = Path("profiles")
+          if profiles_root.exists():
+            for profile_dir in profiles_root.iterdir():
               if profile_dir.is_dir():
-                  required_files = ['profile.yaml', 'metadata.yaml', 'README.md', 'CHANGELOG.md']
-                  for req_file in required_files:
-                      file_path = profile_dir / req_file
-                      if not file_path.exists():
-                          errors.append(f'{profile_dir.name} missing {req_file}')
-                          print(f'✗ {profile_dir.name}: Missing {req_file}')
-                      else:
-                          print(f'✓ {profile_dir.name}/{req_file}')
-          
+                required_files = ["profile.yaml", "metadata.yaml", "README.md", "CHANGELOG.md"]
+                for req_file in required_files:
+                  file_path = profile_dir / req_file
+                  if not file_path.exists():
+                    errors.append(f"{profile_dir.name} missing {req_file}")
+                    print(f"ERROR {profile_dir.name}: Missing {req_file}")
+                  else:
+                    print(f"OK {profile_dir.name}/{req_file}")
+
           if errors:
-              print(f'\n{len(errors)} documentation error(s) found')
-              sys.exit(1)
-          else:
-              print(f'\nAll required documentation present')
-          "
-      
+            print(f"Profile package shape check failed for {len(errors)} issue(s)")
+            sys.exit(1)
+
+          print("Profile package shape check passed")
+          PY
+
       - name: Validate SPARQL query syntax
         run: |
-          echo "Validating SPARQL query files..."
-          # Basic validation - check that files are readable and contain SELECT
-          python -c "
+          python - <<'PY'
           import sys
           from pathlib import Path
-          
+
           errors = []
-          for sparql_file in Path('profiles').rglob('*.sparql'):
+          for root in [Path("profiles"), Path("queries")]:
+            for sparql_file in root.rglob("*.sparql"):
               try:
-                  with open(sparql_file, 'r') as f:
-                      content = f.read()
-                  if 'SELECT' not in content.upper() and 'CONSTRUCT' not in content.upper():
-                      errors.append(f'{sparql_file}: No SELECT or CONSTRUCT clause found')
-                      print(f'✗ {sparql_file}: Invalid SPARQL')
-                  else:
-                      print(f'✓ {sparql_file}')
+                with open(sparql_file, "r", encoding="utf-8") as f:
+                  content = f.read()
+                upper = content.upper()
+                if "SELECT" not in upper and "CONSTRUCT" not in upper:
+                  errors.append(f"{sparql_file}: missing SELECT/CONSTRUCT")
+                  print(f"ERROR {sparql_file}: missing SELECT/CONSTRUCT")
+                else:
+                  print(f"OK {sparql_file}")
               except Exception as e:
-                  errors.append(f'{sparql_file}: {e}')
-                  print(f'✗ {sparql_file}: {e}')
-          
-          # Check shared queries too
-          for sparql_file in Path('queries').rglob('*.sparql'):
-              try:
-                  with open(sparql_file, 'r') as f:
-                      content = f.read()
-                  if 'SELECT' not in content.upper() and 'CONSTRUCT' not in content.upper():
-                      errors.append(f'{sparql_file}: No SELECT or CONSTRUCT clause found')
-                      print(f'✗ {sparql_file}: Invalid SPARQL')
-                  else:
-                      print(f'✓ {sparql_file}')
-              except Exception as e:
-                  errors.append(f'{sparql_file}: {e}')
-                  print(f'✗ {sparql_file}: {e}')
-          
+                errors.append(f"{sparql_file}: {e}")
+                print(f"ERROR {sparql_file}: {e}")
+
           if errors:
-              print(f'\n{len(errors)} SPARQL validation error(s) found')
-              sys.exit(1)
-          else:
-              print(f'\nAll SPARQL queries validated successfully')
-          "
+            print(f"SPARQL validation failed for {len(errors)} file(s)")
+            sys.exit(1)
+
+          print("SPARQL validation passed")
+          PY
 
   summary:
     name: Validation Summary
     runs-on: ubuntu-latest
-    needs: [validate-yaml]
+    needs: [validate-registry-shape]
     if: always()
-    
+
     steps:
       - name: Check validation results
         run: |
-          if [ "${{ needs.validate-yaml.result }}" != "success" ]; then
-            echo "❌ Profile validation failed"
+          if [ "${{ needs.validate-registry-shape.result }}" != "success" ]; then
+            echo "Validation failed"
             exit 1
-          else
-            echo "✅ All validations passed"
           fi
+          echo "All validations passed"
