@@ -4,8 +4,8 @@
     "pageid": 7,
     "ns": 120,
     "title": "Item:Q4",
-    "lastrevid": 479,
-    "modified": "2026-03-12T20:44:37Z",
+    "lastrevid": 540,
+    "modified": "2026-03-13T17:30:11Z",
     "type": "item",
     "id": "Q4",
     "labels": {
@@ -762,6 +762,24 @@
           "type": "statement",
           "id": "Q4$df600c5c-4ce1-7a2a-da73-b51bf51458b9",
           "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P185",
+            "hash": "673bbd5a7ad8705b6f5706f9e2fabd248494b2bb",
+            "datavalue": {
+              "value": {
+                "text": "Utilice el nombre que la tribu emplea para referirse a s\u00ed misma como etiqueta principal siempre que sea posible. Ap\u00f3yese en los sitios web oficiales del gobierno tribal. D\u00e9 preferencia a la autodenominaci\u00f3n de la tribu sobre los nombres asignados por gobiernos externos.",
+                "language": "es"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$a29ab1bf-4dd1-f8c9-ff2f-726716c799c9",
+          "rank": "normal"
         }
       ],
       "P188": [
@@ -781,6 +799,24 @@
           },
           "type": "statement",
           "id": "Q4$bed715f0-4941-411e-56b9-7be42f771afe",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P188",
+            "hash": "0dfaafcc6dd37ff39430c4ca8741e4ff6132f474",
+            "datavalue": {
+              "value": {
+                "text": "nombre principal que la tribu utiliza para referirse a s\u00ed misma en ingl\u00e9s",
+                "language": "es"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$4d93eca9-47f2-4473-b7cd-197648fb50a1",
           "rank": "normal"
         }
       ],
@@ -869,12 +905,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-13T17:30:11Z",
+    "cache_exported_at": "2026-03-13T17:31:40.435093Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": "main",
+    "source_commit": "ea7f1d4ce942774f237859e74926030866c251be"
   }
 }
