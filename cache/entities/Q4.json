@@ -1,0 +1,880 @@
+{
+  "entity_id": "Q4",
+  "entity": {
+    "pageid": 7,
+    "ns": 120,
+    "title": "Item:Q4",
+    "lastrevid": 479,
+    "modified": "2026-03-12T20:44:37Z",
+    "type": "item",
+    "id": "Q4",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Tribal Government in the United States"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "Tribal Government in the United States"
+      },
+      "es": {
+        "language": "es",
+        "value": "Gobierno tribal en los Estados Unidos"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "GKC Entity Profile describing the content model for entities representing the governments of federally recognized Native American and Alaska Native Tribes in the United States"
+      },
+      "es": {
+        "language": "es",
+        "value": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "dad80ce021597708e456b39bc26c8f08f3771429",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 3,
+                "id": "Q3"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q4$3fa55aad-4c09-ad89-47ad-926e93d994e7",
+          "rank": "normal"
+        }
+      ],
+      "P3": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P3",
+            "hash": "27021fb90051817e5dc600ad10b1f56fa4eee9c9",
+            "datavalue": {
+              "value": "https://www.wikidata.org/wiki/EntitySchema:E502",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q4$46743143-4eb7-66fa-8afa-10843a454f99",
+          "rank": "normal"
+        }
+      ],
+      "P157": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "a96949cae73d3692acbfba23af6b5914ffd428f1",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 16,
+                "id": "Q16"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "f1b48fd04bc19af0376de672f3c34435a999c98d",
+                "datavalue": {
+                  "value": {
+                    "text": "the primary classification for the tribe (fixed to \"federally recognized Native American tribe in the United States\" for this profile)",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "novalue",
+                "property": "P182",
+                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+                "datatype": "quantity"
+              }
+            ],
+            "P183": [
+              {
+                "snaktype": "value",
+                "property": "P183",
+                "hash": "56006b117a25edf9344a72b45947bcce108da9ab",
+                "datavalue": {
+                  "value": "http://www.wikidata.org/entity/Q7840353",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ],
+            "P161": [
+              {
+                "snaktype": "value",
+                "property": "P161",
+                "hash": "0774bb5766a3a19875e58be04019c8916b5721b5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 23,
+                    "id": "Q23"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              {
+                "snaktype": "value",
+                "property": "P161",
+                "hash": "3835d15711881855362d094374d91aa5cd6f44f5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 24,
+                    "id": "Q24"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "deea6e80a3828dafee8fde702c7078258d85d630",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 28,
+                    "id": "Q28"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P183",
+            "P161",
+            "P159"
+          ],
+          "id": "Q4$15014c9e-43a8-a3ba-7633-fdac71e024c3",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "507bbdb2b220c18c706381095117f0b659b13437",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 19,
+                "id": "Q19"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "8f0563d6e1f0a7eda44eb66bf2aa611f1468df44",
+                "datavalue": {
+                  "value": {
+                    "text": "official website for the tribal government",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "value",
+                "property": "P182",
+                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+                "datavalue": {
+                  "value": {
+                    "amount": "+1",
+                    "unit": "1"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "288b3303000bd0c496d97f10f0e43e90e212ddbc",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 26,
+                    "id": "Q26"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P159"
+          ],
+          "id": "Q4$30e29ce3-4b23-93a9-b039-9ca8116613ec",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "150d039580792435bced51cadcefb40ed07c8714",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 21,
+                "id": "Q21"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "88df77ebb22ba3b94f8059a541f090e85af5004e",
+                "datavalue": {
+                  "value": {
+                    "text": "number of tribal citizens/members when a reliable reference source can be cited",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "novalue",
+                "property": "P182",
+                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+                "datatype": "quantity"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P159"
+          ],
+          "id": "Q4$3145ed71-44e8-04c3-37c1-fb67a60f3cc3",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "efb86f2b6fba36e16f9bece82f98fa07397486bd",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 32,
+                "id": "Q32"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "dcb5cb0a13dd458227b9ef5cf12e52517dcdf57f",
+                "datavalue": {
+                  "value": {
+                    "text": "native label in the language used by the tribe",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "novalue",
+                "property": "P182",
+                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+                "datatype": "quantity"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P170": [
+              {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "b25e9152658286e8afffc5b391087b2c4a1582d7",
+                "datavalue": {
+                  "value": {
+                    "text": "providing a native label will help promote tribal sovereignty by helping to identify the tribe with the name tribal members use for themselves",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P159",
+            "P170"
+          ],
+          "id": "Q4$700b22e7-4a17-e0f5-e1e7-55acc7eca428",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "35219d95aacdb42a9eb79497885d8a6d95bb5ff0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 33,
+                "id": "Q33"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "866a7fe6b2ca04d2cda2ea9a7d095753341201bc",
+                "datavalue": {
+                  "value": {
+                    "text": "headquarters location for the tribal government",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "value",
+                "property": "P182",
+                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+                "datavalue": {
+                  "value": {
+                    "amount": "+1",
+                    "unit": "1"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P158": [
+              {
+                "snaktype": "value",
+                "property": "P158",
+                "hash": "c0bd9751ba1641dccc0de582596863122639ef0e",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 34,
+                    "id": "Q34"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              {
+                "snaktype": "value",
+                "property": "P158",
+                "hash": "d1b68001d5e6edb68186eca3fab81c23b66e85d3",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 35,
+                    "id": "Q35"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              {
+                "snaktype": "value",
+                "property": "P158",
+                "hash": "78c5c2fd57515fac2a114418e40fcb23baaf0b64",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 36,
+                    "id": "Q36"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P159",
+            "P158"
+          ],
+          "id": "Q4$88445224-4c5c-b22b-e719-8cd4332b7b4d",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "67a9c7f93221ede469d025bab778ce792d135a42",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 37,
+                "id": "Q37"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "4f4d023295995d377b6a76936adca41a47e1682f",
+                "datavalue": {
+                  "value": {
+                    "text": "inception date for formal recognition or establishment",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "value",
+                "property": "P182",
+                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+                "datavalue": {
+                  "value": {
+                    "amount": "+1",
+                    "unit": "1"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P159"
+          ],
+          "id": "Q4$f58b3c8c-4c84-a62b-4ed9-97c5173c3ce1",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "8fbf69b9079d788e9d4c33409b59642418858396",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 38,
+                "id": "Q38"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "62025ac31814f360d7344b2640179e319913a0da",
+                "datavalue": {
+                  "value": {
+                    "text": "official flag for the tribe",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "novalue",
+                "property": "P182",
+                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+                "datatype": "quantity"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P159"
+          ],
+          "id": "Q4$6a7b6901-49d0-bfd8-197b-bf20506c80c9",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P157",
+            "hash": "1c9aaf43c7b29b2e71020fb5af05263c04e406c8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 40,
+                "id": "Q40"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "4af95140121ee51012c7c3b50f7aa3f25a5f6f81",
+                "datavalue": {
+                  "value": {
+                    "text": "the title of the office held by the head of government of this tribe",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "value",
+                "property": "P182",
+                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+                "datavalue": {
+                  "value": {
+                    "amount": "+1",
+                    "unit": "1"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P162": [
+              {
+                "snaktype": "value",
+                "property": "P162",
+                "hash": "ab85669574880ce5e08cfe1196b24ac5fb5219ff",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 39,
+                    "id": "Q39"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P171",
+            "P182",
+            "P159",
+            "P162"
+          ],
+          "id": "Q4$cf2f9803-461e-4c26-a6ef-7d876f402d21",
+          "rank": "normal"
+        }
+      ],
+      "P185": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P185",
+            "hash": "871b8479305e4c784849aca36d961985010d99e6",
+            "datavalue": {
+              "value": {
+                "text": "Use the name that the tribe uses in referring to itself as the primary label where possible. Rely on official tribal government websites. Prefer the tribe's self-designation over external government names.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$df600c5c-4ce1-7a2a-da73-b51bf51458b9",
+          "rank": "normal"
+        }
+      ],
+      "P188": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P188",
+            "hash": "df11531b591f4679cd51c3a3b5cc25f4ffffa370",
+            "datavalue": {
+              "value": {
+                "text": "primary name that the tribe uses to refer to itself in English",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$bed715f0-4941-411e-56b9-7be42f771afe",
+          "rank": "normal"
+        }
+      ],
+      "P189": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P189",
+            "hash": "0cff0569c13841b963311d8a0a68333ba1a153ac",
+            "datavalue": {
+              "value": {
+                "text": "short, distinctive description to disambiguate this tribe from others",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$59f4b629-480c-a769-79c6-cca5478b9763",
+          "rank": "normal"
+        }
+      ],
+      "P186": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P186",
+            "hash": "542a34d136df75b1be19b2ad63952a8ec09103bc",
+            "datavalue": {
+              "value": {
+                "text": "Example: \"federally recognized Native American tribe of Cherokee people\"",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$49235fb6-4394-8ef8-5fdf-cb293ca2bf32",
+          "rank": "normal"
+        }
+      ],
+      "P190": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P190",
+            "hash": "9effc19f947069f078dca38e17fff51b6167f9ca",
+            "datavalue": {
+              "value": {
+                "text": "alternative names by which this tribe is known or has been referred to",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$13c70cfd-48e8-ee8f-f08a-a3d392b0620e",
+          "rank": "normal"
+        }
+      ],
+      "P187": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P187",
+            "hash": "f7ddce91fcf322cd3625eeb8934d55b415bd1c0b",
+            "datavalue": {
+              "value": {
+                "text": "Include an alias for the official name of the tribe as referred to by the U.S. Government (e.g., from the Bureau of Indian Affairs list).",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$7b9491e6-4538-33bf-833f-9c2a7be506e9",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "entity_id": "Q36",
+  "entity": {
+    "pageid": 93,
+    "ns": 120,
+    "title": "Item:Q36",
+    "lastrevid": 526,
+    "modified": "2026-03-12T22:49:03Z",
+    "type": "item",
+    "id": "Q36",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "coordinate location"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "geocoordinates of the subject. For Earth, please note that only the WGS84 geodetic datum is currently supported"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q36$0290ff94-4d34-d589-aa9c-2cc9e4dba37b",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "13e9316d5a473b287aac7933d8b9c67e58260d08",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P625",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q36$a7dce213-41ce-fcea-af4c-d0189c96b638",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P194",
+            "hash": "1cd6a39a99856d5f709a182b4b17370c493e8a6c",
+            "datavalue": {
+              "value": {
+                "entity-type": "property",
+                "numeric-id": 198,
+                "id": "P198"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q36$7fce9605-45dc-7d2b-8830-7857c8f51aa9",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "926d61abec6a2db8329d5d61ce4a113e973dc4d0",
+            "datavalue": {
+              "value": {
+                "text": "provide the coordinates for the subject location",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q36$37db9ffc-43ba-6294-875f-0a6014ebfd7a",
+          "rank": "normal"
+        }
+      ],
+      "P170": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P170",
+            "hash": "3d5fdf6ab35bfdc11f69da1eeb0f16afde09695f",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the entity cannot be placed on a map or included in spatial queries and proximity analyses.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q36$89B6F218-C24A-45B5-AEEE-A6FEB9CDE3EF",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

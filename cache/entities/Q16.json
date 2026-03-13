@@ -1,0 +1,148 @@
+{
+  "entity_id": "Q16",
+  "entity": {
+    "pageid": 48,
+    "ns": 120,
+    "title": "Item:Q16",
+    "lastrevid": 482,
+    "modified": "2026-03-12T20:45:38Z",
+    "type": "item",
+    "id": "Q16",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "instance of"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "instance of"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "primary classification property used in Wikidata for declaring the type of item"
+      }
+    },
+    "aliases": {
+      "en": [
+        {
+          "language": "en",
+          "value": "instance_of"
+        }
+      ]
+    },
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q16$dbd7ead2-4965-fd55-240b-05c4728d10fe",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "7eac90c2101d3415b618d689c17e26576d517f7d",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P31",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q16$d81df90f-4532-d461-3ff2-13e24de3718c",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P194",
+            "hash": "bccaf81bd5ce96ff658c888a9a506d54403612c6",
+            "datavalue": {
+              "value": {
+                "entity-type": "property",
+                "numeric-id": 193,
+                "id": "P193"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q16$1482ec96-4a08-fe0d-48cf-63c1b430708d",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "ccac4deeb1e0dcc7fd9ff6163e345020ab7ed854",
+            "datavalue": {
+              "value": {
+                "text": "enter or choose the type of entity",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q16$fbaae2e3-456e-9831-a9dc-5715c472d858",
+          "rank": "normal"
+        }
+      ],
+      "P170": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P170",
+            "hash": "a32ecfcf00b85d1e36526458805615f966dc584d",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the item has no type classification, making it impossible to apply type-specific validation, constraints, or display logic.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q16$B2D236A2-96E2-4650-870A-5969B9907A2B",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

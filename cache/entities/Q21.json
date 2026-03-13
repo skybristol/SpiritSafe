@@ -1,0 +1,158 @@
+{
+  "entity_id": "Q21",
+  "entity": {
+    "pageid": 56,
+    "ns": 120,
+    "title": "Item:Q21",
+    "lastrevid": 488,
+    "modified": "2026-03-12T22:24:07Z",
+    "type": "item",
+    "id": "Q21",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "member count"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "number of members in the organization or group"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q21$4c6ec1c4-480d-f439-c7df-5ae8b7092b93",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "e9b8df4c78319a71d373e26b1113f5d663531d5c",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P2124",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q21$7f46de22-4dfd-1a9b-6ce2-d65d54ee9030",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P194",
+            "hash": "515a346bf5404177b12abc91d4374762672f91aa",
+            "datavalue": {
+              "value": {
+                "entity-type": "property",
+                "numeric-id": 200,
+                "id": "P200"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q21$567b9c6b-4505-9d72-8222-3ebe22eb6176",
+          "rank": "normal"
+        }
+      ],
+      "P158": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P158",
+            "hash": "c8f65ded2ca9f82dd4ce8504cacef5ef5bdfade0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 25,
+                "id": "Q25"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q21$ec9fba24-4d48-8af1-9f1d-298cd6086534",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "b5aa6180b042f88708eab640950721000b6b2f3f",
+            "datavalue": {
+              "value": {
+                "text": "enter the number of members for the entity at a point in time",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q21$2f9bfd66-4c0e-0e03-843a-95cb3c1fd9ef",
+          "rank": "normal"
+        }
+      ],
+      "P170": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P170",
+            "hash": "ad36a12d38466c054607c9f7c3f4b5068764bbe2",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, quantitative analysis of organizational size is unavailable and comparisons across entities cannot be made.",
+                "language": "en"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q21$AF5C0278-8CC9-417C-B766-480D5E6F14A9",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "entity_id": "Q34",
+  "entity": {
+    "pageid": 91,
+    "ns": 120,
+    "title": "Item:Q34",
+    "lastrevid": 522,
+    "modified": "2026-03-12T22:48:22Z",
+    "type": "item",
+    "id": "Q34",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "street address"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "street address in a string format that can be resolved in mapping tools"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q34$4982d1bf-4383-53f2-c7c6-54b333810dc1",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "fbba6d5520480556b7fa852131a584091bcc6e44",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P6375",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q34$8efad33c-49e6-591b-4148-cce9c38a3137",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P194",
+            "hash": "c2749c6486f78a29835281789a8902ba4d89eaf4",
+            "datavalue": {
+              "value": {
+                "entity-type": "property",
+                "numeric-id": 199,
+                "id": "P199"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q34$942a3413-41f6-600d-8d97-cb1d54051d17",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "aed917881b700e6d38caf6981e58649e25b5ec76",
+            "datavalue": {
+              "value": {
+                "text": "enter the street address for the subject item",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q34$ad47a00e-43a5-7540-a4a3-c81b2dd2f8a8",
+          "rank": "normal"
+        }
+      ],
+      "P170": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P170",
+            "hash": "82014a597f6d906ad8cfb44e425e1861ac566ab6",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, precise location data is missing, preventing address-based lookup, mapping, or contact workflows.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q34$32A5BF53-A29B-4CB3-9EB2-226AF16E914A",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

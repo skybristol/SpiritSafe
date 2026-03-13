@@ -1,0 +1,59 @@
+{
+  "entity_id": "Q44",
+  "entity": {
+    "pageid": 104,
+    "ns": 120,
+    "title": "Item:Q44",
+    "lastrevid": 429,
+    "modified": "2026-03-12T13:56:38Z",
+    "type": "item",
+    "id": "Q44",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Wikibase Property Template"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "property used as a template for creating properties of a particular type"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "5aa2790f00d0566e350921d987bf7a10b2407aa3",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 47,
+                "id": "Q47"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q44$4d733af4-4d23-ab4c-ddc2-c59e080b1788",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

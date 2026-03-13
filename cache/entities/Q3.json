@@ -1,0 +1,59 @@
+{
+  "entity_id": "Q3",
+  "entity": {
+    "pageid": 6,
+    "ns": 120,
+    "title": "Item:Q3",
+    "lastrevid": 9,
+    "modified": "2026-03-05T20:44:42Z",
+    "type": "item",
+    "id": "Q3",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "GKC Entity Profile"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "formal specification for the content model used to build, validate, and organize GKC Entities"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q3$bcada215-45e9-7544-9d7e-1069d0de5f8e",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

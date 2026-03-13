@@ -1,0 +1,119 @@
+{
+  "entity_id": "Q28",
+  "entity": {
+    "pageid": 84,
+    "ns": 120,
+    "title": "Item:Q28",
+    "lastrevid": 307,
+    "modified": "2026-03-09T19:20:40Z",
+    "type": "item",
+    "id": "Q28",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Federal Register Notices Listing Tribes"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "SPARQL query returning list of U.S. Federal Register notices listing federally recognized Tribal Governments used as a reference source"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q28$c338c136-446a-33ae-91a3-83579e72fa88",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "b8dce1c2f57c39767c85aac552254e073a343af3",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 6,
+                "id": "Q6"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q28$16cc2e21-4257-054c-e7bb-4e7ec460550f",
+          "rank": "normal"
+        }
+      ],
+      "P163": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P163",
+            "hash": "9fa112f42b1b472f796f4c427d56f0cad9f8bf12",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q28$f9aeec29-455c-5a88-856a-3d61fefc3ea1",
+          "rank": "normal"
+        }
+      ],
+      "P191": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P191",
+            "hash": "cb5336bb5039c34215e5558cd9e393078e5ca804",
+            "datavalue": {
+              "value": {
+                "text": "use the value list as values for stated in references",
+                "language": "en"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q28$0730a972-40de-aa00-7b61-9bfc9bcdda17",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}
