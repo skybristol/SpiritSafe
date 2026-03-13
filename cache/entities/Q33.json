@@ -1,0 +1,137 @@
+{
+  "entity_id": "Q33",
+  "entity": {
+    "pageid": 90,
+    "ns": 120,
+    "title": "Item:Q33",
+    "lastrevid": 494,
+    "modified": "2026-03-12T22:25:15Z",
+    "type": "item",
+    "id": "Q33",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "headquarters location"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "city or locality of the headquarters for an organization or institution"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q33$1712866d-45f7-5d1c-cf8a-20bf2469e16e",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "6a0cd7f3cf3290e50c15a57659218774d233a7d9",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P159",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q33$7ff05ef1-4475-bb4f-f5b5-0913d6a83161",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P194",
+            "hash": "bccaf81bd5ce96ff658c888a9a506d54403612c6",
+            "datavalue": {
+              "value": {
+                "entity-type": "property",
+                "numeric-id": 193,
+                "id": "P193"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q33$92485b64-441f-ba84-fd4a-f433164b67f5",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "67f5ab0bcce1ed4e66b0d48509500dc99699895a",
+            "datavalue": {
+              "value": {
+                "text": "link to a locality where the subject item has its headquarters",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q33$bde77de3-45da-5f78-2188-1c267ac79b8b",
+          "rank": "normal"
+        }
+      ],
+      "P170": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P170",
+            "hash": "49d7d08e721e33c6bf3a29d60c3e25d4255a0841",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the physical base of operations is unknown, affecting geographic queries and jurisdiction-based filtering.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q33$DDD3EA04-29C7-4286-8D98-080C0D83E589",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

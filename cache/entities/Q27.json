@@ -1,0 +1,171 @@
+{
+  "entity_id": "Q27",
+  "entity": {
+    "pageid": 81,
+    "ns": 120,
+    "title": "Item:Q27",
+    "lastrevid": 486,
+    "modified": "2026-03-12T22:23:08Z",
+    "type": "item",
+    "id": "Q27",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "language of work or name"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "language of the subject item"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q27$487f2eca-4f76-f04d-15d6-e9a49ce19a87",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "501708cc93cc354c75704c4856cab8381bb91d49",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P407",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q27$cfa82d71-4480-a9d2-4686-97eadc450adc",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P194",
+            "hash": "bccaf81bd5ce96ff658c888a9a506d54403612c6",
+            "datavalue": {
+              "value": {
+                "entity-type": "property",
+                "numeric-id": 193,
+                "id": "P193"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q27$7e9ca667-4a5e-aab7-7e1b-976e772e9772",
+          "rank": "normal"
+        }
+      ],
+      "P202": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P202",
+            "hash": "8798f9dd28bb2ceb4d2fd9cba12fd50f90f0e9cb",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/Q1860",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P203": [
+              {
+                "snaktype": "value",
+                "property": "P203",
+                "hash": "8b345edc4f8a37db18e8f418047716447522d450",
+                "datavalue": {
+                  "value": "English",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P203"
+          ],
+          "id": "Q27$5281a544-476b-71cb-e630-dbb1828e3df0",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "94ff2213269d75d200ca28ed1884010eb6b39c76",
+            "datavalue": {
+              "value": {
+                "text": "enter the language used by the linked object",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q27$6ded0285-42a3-0675-ade3-70dabf452705",
+          "rank": "normal"
+        }
+      ],
+      "P170": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P170",
+            "hash": "7578507ca5f9af8d8cd2416f5384fdd014e6a29a",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the linguistic context of the work or name is unknown, hindering multilingual discovery and disambiguation.",
+                "language": "en"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q27$0C0EE8A8-6D24-4EE2-B370-7495B18B1B49",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}

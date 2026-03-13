@@ -1,0 +1,137 @@
+{
+  "entity_id": "Q40",
+  "entity": {
+    "pageid": 97,
+    "ns": 120,
+    "title": "Item:Q40",
+    "lastrevid": 502,
+    "modified": "2026-03-12T22:26:54Z",
+    "type": "item",
+    "id": "Q40",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "office held by head of government"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "political office that is fulfilled by the head of the government of this item"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q40$e5ccd3a3-4a5c-05f4-9e0d-a0443b899984",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "0bd032e39eecd36621db664b805f86b5d291b08b",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P1313",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q40$66a8ed0a-4511-042f-bce0-c6336ebcada9",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P194",
+            "hash": "bccaf81bd5ce96ff658c888a9a506d54403612c6",
+            "datavalue": {
+              "value": {
+                "entity-type": "property",
+                "numeric-id": 193,
+                "id": "P193"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q40$12e853ce-435b-97e5-c9d3-18de07278e5d",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "bf54e70e4432a476b069599d022134450e98e969",
+            "datavalue": {
+              "value": {
+                "text": "link to an item representing the office held by the head of government for the subject governmental organization",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q40$01102e12-4164-5bec-7978-e20a307dba8e",
+          "rank": "normal"
+        }
+      ],
+      "P170": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P170",
+            "hash": "f235250fc649428d9f8b6d0a224510b92572b282",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the governing role associated with this entity is undefined, breaking political structure queries.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q40$DD491BA0-FB08-4160-98D9-1E63BB26D45B",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
+    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+  }
+}
