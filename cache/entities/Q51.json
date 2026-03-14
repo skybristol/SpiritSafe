@@ -1,23 +1,23 @@
 {
-  "entity_id": "Q28",
+  "entity_id": "Q51",
   "entity": {
-    "pageid": 84,
+    "pageid": 117,
     "ns": 120,
-    "title": "Item:Q28",
-    "lastrevid": 548,
-    "modified": "2026-03-13T22:13:42Z",
+    "title": "Item:Q51",
+    "lastrevid": 555,
+    "modified": "2026-03-13T22:17:24Z",
     "type": "item",
-    "id": "Q28",
+    "id": "Q51",
     "labels": {
       "en": {
         "language": "en",
-        "value": "Federal Register Notices Listing Tribes"
+        "value": "List of Human Languages"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "SPARQL query returning list of U.S. Federal Register notices listing federally recognized Tribal Governments used as a reference source"
+        "value": "provides a listing of languages for use in qualifiers and statements"
       }
     },
     "aliases": {},
@@ -39,7 +39,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q28$c338c136-446a-33ae-91a3-83579e72fa88",
+          "id": "Q51$caa43859-45a1-d7cb-5c14-7072a004aec1",
           "rank": "normal"
         },
         {
@@ -58,7 +58,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q28$16cc2e21-4257-054c-e7bb-4e7ec460550f",
+          "id": "Q51$ce6caadb-4c8c-7e74-3f0a-bd269ab80574",
           "rank": "normal"
         }
       ],
@@ -67,19 +67,19 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P163",
-            "hash": "9fa112f42b1b472f796f4c427d56f0cad9f8bf12",
+            "hash": "77edbe4afca9ec0d66feeb31f7502c72faadbe56",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 30,
-                "id": "Q30"
+                "numeric-id": 27,
+                "id": "Q27"
               },
               "type": "wikibase-entityid"
             },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q28$f9aeec29-455c-5a88-856a-3d61fefc3ea1",
+          "id": "Q51$f6806116-42e8-1ffa-e213-a65ee5631e2e",
           "rank": "normal"
         }
       ],
@@ -88,18 +88,18 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P191",
-            "hash": "cb5336bb5039c34215e5558cd9e393078e5ca804",
+            "hash": "0981e4bddbacf681442b25aa88363b9b0b89c34f",
             "datavalue": {
               "value": {
-                "text": "use the value list as values for stated in references",
-                "language": "en"
+                "text": "use the list of languages to fill language qualifiers",
+                "language": "mul"
               },
               "type": "monolingualtext"
             },
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q28$0730a972-40de-aa00-7b61-9bfc9bcdda17",
+          "id": "Q51$238fa33e-43e5-6ebf-a894-caa20fb0db31",
           "rank": "normal"
         }
       ],
@@ -120,7 +120,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q28$7379999b-4c1d-0354-b67f-c55028e9f98f",
+          "id": "Q51$f53fc509-4a7e-d91e-8e1c-bf8f044c89b3",
           "rank": "normal"
         }
       ]
@@ -131,7 +131,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-13T22:13:42Z",
+    "graph_fetched_at": "2026-03-13T22:17:24Z",
     "cache_exported_at": "2026-03-14T23:51:50.412369Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",

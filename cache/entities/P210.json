@@ -1,0 +1,60 @@
+{
+  "entity_id": "P210",
+  "entity": {
+    "pageid": 115,
+    "ns": 122,
+    "title": "Property:P210",
+    "lastrevid": 545,
+    "modified": "2026-03-13T22:10:02Z",
+    "type": "property",
+    "datatype": "wikibase-item",
+    "id": "P210",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "refresh policy"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "specifies when or how often an entity such as a value list represented by an item should be refreshed"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "676553b9266a81903fd754b304e11fdd9c0a589e",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 49,
+                "id": "Q49"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P210$25fe92f5-4105-a7e9-6d13-2d6dc253d4d5",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-13T22:10:02Z",
+    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

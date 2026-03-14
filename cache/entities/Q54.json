@@ -1,23 +1,23 @@
 {
-  "entity_id": "Q26",
+  "entity_id": "Q54",
   "entity": {
-    "pageid": 80,
+    "pageid": 122,
     "ns": 120,
-    "title": "Item:Q26",
-    "lastrevid": 570,
-    "modified": "2026-03-14T13:00:29Z",
+    "title": "Item:Q54",
+    "lastrevid": 587,
+    "modified": "2026-03-14T13:14:58Z",
     "type": "item",
-    "id": "Q26",
+    "id": "Q54",
     "labels": {
       "en": {
         "language": "en",
-        "value": "statement value applied as reference"
+        "value": "federally recognized Native American tribe in the United States"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "statement value is a URL that is applied as reference for itself indicating a self-evident reference from the site content"
+        "value": "item linking to Q7840353 in Wikidata"
       }
     },
     "aliases": {},
@@ -27,39 +27,36 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P1",
-            "hash": "b8dce1c2f57c39767c85aac552254e073a343af3",
+            "hash": "35a94efd43112fc38a1282c390950569d87f0cd6",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 6,
-                "id": "Q6"
+                "numeric-id": 52,
+                "id": "Q52"
               },
               "type": "wikibase-entityid"
             },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q26$aa95be0d-42d3-176a-333e-b595516365c2",
+          "id": "Q54$c8fb6aec-4382-b46c-04e0-2b7204ddc561",
           "rank": "normal"
         }
       ],
-      "P191": [
+      "P212": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P191",
-            "hash": "0681d1cd91197cb2e70b74d014c054b8ad22dda8",
+            "property": "P212",
+            "hash": "1ad0b0be2e400ac3903f59b9a08b53c953932ae3",
             "datavalue": {
-              "value": {
-                "text": "apply the statement value as reference URL type of reference",
-                "language": "mul"
-              },
-              "type": "monolingualtext"
+              "value": "http://www.wikidata.org/entity/Q7840353",
+              "type": "string"
             },
-            "datatype": "monolingualtext"
+            "datatype": "url"
           },
           "type": "statement",
-          "id": "Q26$4ba639ee-4713-f756-4738-95498736fdee",
+          "id": "Q54$c2c39eb8-44d8-dfa2-bd7e-f853a3bf565b",
           "rank": "normal"
         }
       ]
@@ -70,7 +67,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T13:00:29Z",
+    "graph_fetched_at": "2026-03-14T13:14:58Z",
     "cache_exported_at": "2026-03-14T23:51:50.412369Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
