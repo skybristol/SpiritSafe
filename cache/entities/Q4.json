@@ -4,8 +4,8 @@
     "pageid": 7,
     "ns": 120,
     "title": "Item:Q4",
-    "lastrevid": 601,
-    "modified": "2026-03-14T14:24:20Z",
+    "lastrevid": 634,
+    "modified": "2026-03-14T23:55:19Z",
     "type": "item",
     "id": "Q4",
     "labels": {
@@ -172,112 +172,6 @@
             "P211"
           ],
           "id": "Q4$15014c9e-43a8-a3ba-7633-fdac71e024c3",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P157",
-            "hash": "507bbdb2b220c18c706381095117f0b659b13437",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 19,
-                "id": "Q19"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "qualifiers": {
-            "P171": [
-              {
-                "snaktype": "value",
-                "property": "P171",
-                "hash": "8f0563d6e1f0a7eda44eb66bf2aa611f1468df44",
-                "datavalue": {
-                  "value": {
-                    "text": "official website for the tribal government",
-                    "language": "mul"
-                  },
-                  "type": "monolingualtext"
-                },
-                "datatype": "monolingualtext"
-              }
-            ],
-            "P182": [
-              {
-                "snaktype": "value",
-                "property": "P182",
-                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
-                "datavalue": {
-                  "value": {
-                    "amount": "+1",
-                    "unit": "1"
-                  },
-                  "type": "quantity"
-                },
-                "datatype": "quantity"
-              }
-            ],
-            "P159": [
-              {
-                "snaktype": "value",
-                "property": "P159",
-                "hash": "288b3303000bd0c496d97f10f0e43e90e212ddbc",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 26,
-                    "id": "Q26"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
-            ],
-            "P158": [
-              {
-                "snaktype": "value",
-                "property": "P158",
-                "hash": "e17c5f7fdbaf9a19bcd0c29158b4caa75e83ac7e",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 27,
-                    "id": "Q27"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
-            ]
-          },
-          "qualifiers-order": [
-            "P171",
-            "P182",
-            "P159",
-            "P158",
-            "P211"
-          ],
-          "id": "Q4$30e29ce3-4b23-93a9-b039-9ca8116613ec",
           "rank": "normal"
         },
         {
@@ -1074,8 +968,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T14:24:20Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "graph_fetched_at": "2026-03-14T23:55:19Z",
+    "cache_exported_at": "2026-03-14T23:56:43.613377Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
