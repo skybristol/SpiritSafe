@@ -4,8 +4,8 @@
     "pageid": 84,
     "ns": 120,
     "title": "Item:Q28",
-    "lastrevid": 548,
-    "modified": "2026-03-13T22:13:42Z",
+    "lastrevid": 307,
+    "modified": "2026-03-09T19:20:40Z",
     "type": "item",
     "id": "Q28",
     "labels": {
@@ -102,40 +102,21 @@
           "id": "Q28$0730a972-40de-aa00-7b61-9bfc9bcdda17",
           "rank": "normal"
         }
-      ],
-      "P210": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P210",
-            "hash": "468b9e8c300dd89e298220dc761adb98d6f5e359",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 50,
-                "id": "Q50"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q28$7379999b-4c1d-0354-b67f-c55028e9f98f",
-          "rank": "normal"
-        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
-    "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-13T22:13:42Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T17:15:18.363395Z",
+    "cache_exported_at": "2026-03-13T17:15:20.332362Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache",
     "extractor_version": "0.1.0",
-    "source_branch": null,
-    "source_commit": null
+    "source_branch": "main",
+    "source_commit": "ea7f1d4ce942774f237859e74926030866c251be"
   }
 }

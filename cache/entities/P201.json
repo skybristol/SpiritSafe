@@ -4,18 +4,14 @@
     "pageid": 79,
     "ns": 122,
     "title": "Property:P201",
-    "lastrevid": 623,
-    "modified": "2026-03-14T14:46:02Z",
+    "lastrevid": 390,
+    "modified": "2026-03-11T16:30:17Z",
     "type": "property",
     "datatype": "string",
     "id": "P201",
     "labels": {
       "en": {
         "language": "en",
-        "value": "string"
-      },
-      "mul": {
-        "language": "mul",
         "value": "string"
       }
     },
@@ -53,11 +49,11 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "3e6617c5dc66ba728e63216698599ece00be65d2",
+            "hash": "29f15a54ab8f978d97cc8f7d219befdf75e76a6d",
             "datavalue": {
               "value": {
                 "text": "Enter plain text without unsupported formatting.",
-                "language": "mul"
+                "language": "en"
               },
               "type": "monolingualtext"
             },
@@ -72,13 +68,15 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
-    "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T14:46:02Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T17:15:18.363395Z",
+    "cache_exported_at": "2026-03-13T17:15:20.332362Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache",
     "extractor_version": "0.1.0",
-    "source_branch": null,
-    "source_commit": null
+    "source_branch": "main",
+    "source_commit": "ea7f1d4ce942774f237859e74926030866c251be"
   }
 }

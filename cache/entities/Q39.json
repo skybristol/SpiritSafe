@@ -4,8 +4,8 @@
     "pageid": 96,
     "ns": 120,
     "title": "Item:Q39",
-    "lastrevid": 630,
-    "modified": "2026-03-14T15:10:19Z",
+    "lastrevid": 511,
+    "modified": "2026-03-12T22:28:20Z",
     "type": "item",
     "id": "Q39",
     "labels": {
@@ -52,25 +52,6 @@
           },
           "type": "statement",
           "id": "Q39$d0ce8c13-4929-a7d2-289f-ceace3179aff",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P1",
-            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 7,
-                "id": "Q7"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q39$fd7bb747-47a3-433f-bbdd-8df3b622090d",
           "rank": "normal"
         }
       ],
@@ -235,32 +216,28 @@
                 "datatype": "quantity"
               }
             ],
+            "P183": [
+              {
+                "snaktype": "value",
+                "property": "P183",
+                "hash": "4933985bb533fd7aab18b1dc598c7b3df0db4bfd",
+                "datavalue": {
+                  "value": "http://www.wikidata.org/entity/Q294414",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ],
             "P161": [
               {
                 "snaktype": "value",
                 "property": "P161",
-                "hash": "f8408ca4e4a05b99736a773e76c70b2f9520f757",
+                "hash": "0774bb5766a3a19875e58be04019c8916b5721b5",
                 "datavalue": {
                   "value": {
                     "entity-type": "item",
-                    "numeric-id": 55,
-                    "id": "Q55"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
+                    "numeric-id": 23,
+                    "id": "Q23"
                   },
                   "type": "wikibase-entityid"
                 },
@@ -268,13 +245,29 @@
               },
               {
                 "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+                "property": "P161",
+                "hash": "3835d15711881855362d094374d91aa5cd6f44f5",
                 "datavalue": {
                   "value": {
                     "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
+                    "numeric-id": 24,
+                    "id": "Q24"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
                   },
                   "type": "wikibase-entityid"
                 },
@@ -285,8 +278,9 @@
           "qualifiers-order": [
             "P171",
             "P182",
+            "P183",
             "P161",
-            "P211"
+            "P159"
           ],
           "id": "Q39$99e0cc68-4b4b-2b73-7800-c4ad01196f90",
           "rank": "normal"
@@ -338,6 +332,22 @@
                 "datatype": "quantity"
               }
             ],
+            "P159": [
+              {
+                "snaktype": "value",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 31,
+                    "id": "Q31"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
             "P161": [
               {
                 "snaktype": "value",
@@ -353,43 +363,13 @@
                 },
                 "datatype": "wikibase-item"
               }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
             "P171",
             "P182",
-            "P161",
-            "P211"
+            "P159",
+            "P161"
           ],
           "id": "Q39$5c1e4ce3-4d49-3e9e-153b-dd13d923cebe",
           "rank": "normal"
@@ -411,6 +391,22 @@
           },
           "type": "statement",
           "qualifiers": {
+            "P162": [
+              {
+                "snaktype": "value",
+                "property": "P162",
+                "hash": "2fd897c6fe0582aff7c2c14b23457ef8bfb9e88f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4,
+                    "id": "Q4"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
             "P171": [
               {
                 "snaktype": "value",
@@ -441,46 +437,16 @@
                 "datatype": "quantity"
               }
             ],
-            "P211": [
+            "P159": [
               {
                 "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+                "property": "P159",
+                "hash": "f15bcc0d4a629adac4a81d8cde720acfdb04d61b",
                 "datavalue": {
                   "value": {
                     "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
-            ],
-            "P161": [
-              {
-                "snaktype": "value",
-                "property": "P161",
-                "hash": "ea135cad72ce0b3e1147b341c2a83a105ad37da3",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 4,
-                    "id": "Q4"
+                    "numeric-id": 31,
+                    "id": "Q31"
                   },
                   "type": "wikibase-entityid"
                 },
@@ -489,33 +455,12 @@
             ]
           },
           "qualifiers-order": [
+            "P162",
             "P171",
             "P182",
-            "P211",
-            "P161"
+            "P159"
           ],
           "id": "Q39$4eadb019-427b-09ce-6491-b6439b25688c",
-          "rank": "normal"
-        }
-      ],
-      "P210": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P210",
-            "hash": "468b9e8c300dd89e298220dc761adb98d6f5e359",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 50,
-                "id": "Q50"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q39$797caa00-44f5-7c5a-b70d-bca7e3b4ee62",
           "rank": "normal"
         }
       ]
@@ -524,13 +469,15 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
-    "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T15:10:19Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T17:15:18.363395Z",
+    "cache_exported_at": "2026-03-13T17:15:20.332362Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache",
     "extractor_version": "0.1.0",
-    "source_branch": null,
-    "source_commit": null
+    "source_branch": "main",
+    "source_commit": "ea7f1d4ce942774f237859e74926030866c251be"
   }
 }

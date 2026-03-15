@@ -4,8 +4,8 @@
     "pageid": 81,
     "ns": 120,
     "title": "Item:Q27",
-    "lastrevid": 627,
-    "modified": "2026-03-14T14:59:33Z",
+    "lastrevid": 486,
+    "modified": "2026-03-12T22:23:08Z",
     "type": "item",
     "id": "Q27",
     "labels": {
@@ -154,73 +154,21 @@
           "id": "Q27$0C0EE8A8-6D24-4EE2-B370-7495B18B1B49",
           "rank": "normal"
         }
-      ],
-      "P161": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P161",
-            "hash": "c82e1b7e07255eabf2723cde9875222982e1460f",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 51,
-                "id": "Q51"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q27$71cba5c0-4cec-da26-a488-83e5e713048b",
-          "rank": "normal"
-        }
-      ],
-      "P182": [
-        {
-          "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P182",
-            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
-            "datatype": "quantity"
-          },
-          "type": "statement",
-          "id": "Q27$edebda97-45fa-56dd-cde5-cf5ab778b82e",
-          "rank": "normal"
-        }
-      ],
-      "P169": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P169",
-            "hash": "0c2969240c5f21fb644620e411b2b7472277d2d2",
-            "datavalue": {
-              "value": {
-                "text": "A language designation, often used as a qualifier, is used to indicate the language a person or agent can expect to find on the other end of a link or for interpreting and reading a label or other statement",
-                "language": "mul"
-              },
-              "type": "monolingualtext"
-            },
-            "datatype": "monolingualtext"
-          },
-          "type": "statement",
-          "id": "Q27$8c488a6c-491a-9640-4cfe-cc5109e43bfb",
-          "rank": "normal"
-        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
-    "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T14:59:33Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "workflow_mode": "profile-entry",
+    "profile_entry_ids": [
+      "Q4"
+    ],
+    "graph_fetched_at": "2026-03-13T17:15:18.363395Z",
+    "cache_exported_at": "2026-03-13T17:15:20.332362Z",
+    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache",
     "extractor_version": "0.1.0",
-    "source_branch": null,
-    "source_commit": null
+    "source_branch": "main",
+    "source_commit": "ea7f1d4ce942774f237859e74926030866c251be"
   }
 }
