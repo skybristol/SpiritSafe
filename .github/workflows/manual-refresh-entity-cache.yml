@@ -13,6 +13,19 @@ on:
         required: false
         type: string
         default: ""
+      sparql_endpoint:
+        description: Optional SPARQL endpoint URL override
+        required: false
+        type: string
+        default: ""
+      refresh_mode:
+        description: Cache refresh mode
+        required: true
+        type: choice
+        options:
+          - full
+          - incremental
+        default: full
 
 permissions:
   contents: write
@@ -39,26 +52,44 @@ jobs:
           python -m pip install --upgrade pip
           pip install "git+https://github.com/skybristol/gkc.git@main"
 
-      - name: Run revision check refresh
+      - name: Run cache refresh
         env:
           INPUT_API_URL: ${{ inputs.api_url }}
+          INPUT_SPARQL_ENDPOINT: ${{ inputs.sparql_endpoint }}
+          INPUT_REFRESH_MODE: ${{ inputs.refresh_mode }}
         run: |
           mkdir -p cache/refresh
-          if [ -n "$INPUT_API_URL" ]; then
-            gkc wikibase check-for-revisions \
-              --api-url "$INPUT_API_URL" \
-              --cache-dir cache/entities \
-              --ignore-id Q1 \
-              --ignore-id P1 \
-              --ignore-id P2 \
+
+          if [ "$INPUT_REFRESH_MODE" = "full" ]; then
+            cmd=(
+              gkc wikibase cache-builder
+              --cache-dir cache/entities
               --output cache/refresh/last_run_summary.json
+            )
+
+            if [ -n "$INPUT_API_URL" ]; then
+              cmd+=(--api-url "$INPUT_API_URL")
+            fi
+            if [ -n "$INPUT_SPARQL_ENDPOINT" ]; then
+              cmd+=(--sparql-endpoint "$INPUT_SPARQL_ENDPOINT")
+            fi
+
+            "${cmd[@]}"
           else
-            gkc wikibase check-for-revisions \
-              --cache-dir cache/entities \
-              --ignore-id Q1 \
-              --ignore-id P1 \
-              --ignore-id P2 \
+            cmd=(
+              gkc wikibase check-for-revisions
+              --cache-dir cache/entities
+              --ignore-id Q1
+              --ignore-id P1
+              --ignore-id P2
               --output cache/refresh/last_run_summary.json
+            )
+
+            if [ -n "$INPUT_API_URL" ]; then
+              cmd+=(--api-url "$INPUT_API_URL")
+            fi
+
+            "${cmd[@]}"
           fi
 
       - name: Commit and push cache updates
