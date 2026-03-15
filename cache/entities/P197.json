@@ -1,0 +1,84 @@
+{
+  "entity_id": "P197",
+  "entity": {
+    "pageid": 75,
+    "ns": 122,
+    "title": "Property:P197",
+    "lastrevid": 621,
+    "modified": "2026-03-14T14:45:33Z",
+    "type": "property",
+    "datatype": "external-id",
+    "id": "P197",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "external-id"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "external-id"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "external identifier property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "0c325a3f049c99e6891bf8ce55878d9356d58693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 44,
+                "id": "Q44"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P197$fe1d657b-4e8f-c222-902f-e2b03751aab4",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "3e3c02379a29731a12f657a2c64ba9014102a49e",
+            "datavalue": {
+              "value": {
+                "text": "Enter the identifier in the required format for this external ID.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "P197$5E93185D-01FF-4575-A6DA-1604E5D37D19",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-14T14:45:33Z",
+    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

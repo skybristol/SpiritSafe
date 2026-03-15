@@ -1,0 +1,84 @@
+{
+  "entity_id": "P207",
+  "entity": {
+    "pageid": 107,
+    "ns": 122,
+    "title": "Property:P207",
+    "lastrevid": 625,
+    "modified": "2026-03-14T14:46:33Z",
+    "type": "property",
+    "datatype": "math",
+    "id": "P207",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "math"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "math"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "mathematical expression property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "0c325a3f049c99e6891bf8ce55878d9356d58693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 44,
+                "id": "Q44"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P207$698f707a-413f-cca6-847b-3f54d2e43898",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "339ca2c9ecd5e8bc104a66708ace1a2f2753e661",
+            "datavalue": {
+              "value": {
+                "text": "Enter a valid math expression in supported syntax.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "P207$1FB7D472-18BE-4319-A46F-E4BD0BFEBD7B",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-14T14:46:33Z",
+    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

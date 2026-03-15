@@ -1,0 +1,84 @@
+{
+  "entity_id": "P209",
+  "entity": {
+    "pageid": 109,
+    "ns": 122,
+    "title": "Property:P209",
+    "lastrevid": 620,
+    "modified": "2026-03-14T14:45:03Z",
+    "type": "property",
+    "datatype": "tabular-data",
+    "id": "P209",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "tabular-data"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "tabular-data"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "tabular data property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "0c325a3f049c99e6891bf8ce55878d9356d58693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 44,
+                "id": "Q44"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P209$7635c9a0-44d8-aadd-826e-08089f89dec7",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "4fa5cc2a7c91982752ca1a5dec679e7bc078885e",
+            "datavalue": {
+              "value": {
+                "text": "Provide a valid Commons Data namespace tabular-data reference.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "P209$BFEF3451-7D39-458C-A618-B1B83AF3721D",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-14T14:45:03Z",
+    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

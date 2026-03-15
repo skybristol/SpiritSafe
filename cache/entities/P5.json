@@ -1,0 +1,60 @@
+{
+  "entity_id": "P5",
+  "entity": {
+    "pageid": 10,
+    "ns": 122,
+    "title": "Property:P5",
+    "lastrevid": 575,
+    "modified": "2026-03-14T13:04:32Z",
+    "type": "property",
+    "datatype": "url",
+    "id": "P5",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "to wikidata"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "link to the property in Wikidata used to create statements fulfilling the subject GKC Entity Statement"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "6f88efb859e68b4a882141f754ea4a59dc762c86",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 48,
+                "id": "Q48"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P5$1d977cc4-4242-890d-3d61-c2298c6a59a6",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-14T13:04:32Z",
+    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

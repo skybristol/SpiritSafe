@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q54",
+  "entity": {
+    "pageid": 122,
+    "ns": 120,
+    "title": "Item:Q54",
+    "lastrevid": 587,
+    "modified": "2026-03-14T13:14:58Z",
+    "type": "item",
+    "id": "Q54",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "federally recognized Native American tribe in the United States"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "item linking to Q7840353 in Wikidata"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "35a94efd43112fc38a1282c390950569d87f0cd6",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 52,
+                "id": "Q52"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q54$c8fb6aec-4382-b46c-04e0-2b7204ddc561",
+          "rank": "normal"
+        }
+      ],
+      "P212": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P212",
+            "hash": "1ad0b0be2e400ac3903f59b9a08b53c953932ae3",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/Q7840353",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q54$c2c39eb8-44d8-dfa2-bd7e-f853a3bf565b",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-14T13:14:58Z",
+    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

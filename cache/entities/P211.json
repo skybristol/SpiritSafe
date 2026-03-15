@@ -1,0 +1,38 @@
+{
+  "entity_id": "P211",
+  "entity": {
+    "pageid": 119,
+    "ns": 122,
+    "title": "Property:P211",
+    "lastrevid": 559,
+    "modified": "2026-03-13T22:30:19Z",
+    "type": "property",
+    "datatype": "wikibase-item",
+    "id": "P211",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "has reference"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "links a statement that is available as a reference on the subject statement"
+      }
+    },
+    "aliases": {},
+    "claims": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-13T22:30:19Z",
+    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
