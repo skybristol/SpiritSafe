@@ -507,6 +507,72 @@
           "max_count": null
         }
       ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q19",
+      "label": "official website",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P856"
+        }
+      ],
+      "value": {
+        "type": "url"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter the internet address for the tribal government",
+          "consequences_message": "The website for the Tribe is often used as the primary reference source for many of the statements about the Tribal Government.",
+          "guidance": "Make sure you find and record the official web site used by the Tribal Government and describing their services."
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q27",
+          "label": "language of work or name",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P407"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q51.json"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "enter the language used by the linked object",
+              "guidance": "A language designation, often used as a qualifier, is used to indicate the language a person or agent can expect to find on the other end of a link or for interpreting and reading a label or other statement"
+            },
+            "en": {
+              "consequences_message": "Without a value, the linguistic context of the work or name is unknown, hindering multilingual discovery and disambiguation."
+            }
+          },
+          "max_count": null
+        }
+      ],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        }
+      ]
     }
   ],
   "metadata": {
@@ -520,13 +586,13 @@
       "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
     },
     "aliases": {},
-    "generated_at": "2026-03-17T19:49:15.070813Z",
+    "generated_at": "2026-03-17T20:02:36.745743Z",
     "languages": [
       "en",
       "es",
       "mul"
     ],
-    "statement_count": 7,
+    "statement_count": 8,
     "profile_graph": [
       {
         "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
@@ -547,6 +613,12 @@
         "label": "Office Held by Head of Government",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
         "cache_path": "cache/queries/Q39.json"
+      },
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
+        "label": "List of Human Languages",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q27",
+        "cache_path": "cache/queries/Q51.json"
       }
     ],
     "exported_from": "https://datadistillery.wikibase.cloud/entity/Q4"
