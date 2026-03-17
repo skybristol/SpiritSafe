@@ -1,27 +1,18 @@
-# SpiritSafe Profiles
+# Profiles
 
-This directory stores generated JSON Entity Profiles built from SpiritSafe cache/entities data.
+This directory contains generated JSON Entity Profiles, one file per profile QID.
 
-## Current Layout
+## Source and Generation
 
-Profiles are written as one JSON file per profile QID:
+Profiles are produced by the `Cache From Wikibase` workflow, which runs `gkc profile export-json` against `cache/entities/`. Each profile is a structured JSON document derived from the corresponding Data Distillery Wikibase entity and its associated claims.
 
-- Q4.json
-- Q39.json
-- <QID>.json
+Profiles drive data validation and form generation in the `gkc` runtime. They are build artifacts and should not be hand-edited.
 
-These are generated artifacts produced by:
+## Contents
 
-- the Cache From Wikibase GitHub Actions workflow
-- the gkc CLI route `gkc profile export-json`
+Each profile file includes:
 
-## Generation Contract
-
-Each generated profile file is built from the per-entity cache and currently includes:
-
-- entity
-- identification
-- statements
-- metadata
-
-The files in this directory should be treated as exported build outputs rather than hand-maintained profile packages.
+- `entity` — QID, labels, and descriptions
+- `identification` — field definitions for the entity's identifying properties
+- `statements` — claim definitions with property, value type, constraints, and allowed-item references
+- `metadata` — generation timestamp and source Wikibase URI
