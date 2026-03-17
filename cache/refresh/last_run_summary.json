@@ -1,7 +1,7 @@
 {
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
-    "cache_dir": "/Users/sky/code/SpiritSafe/cache/entities",
+    "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/cache/entities",
     "since": "2026-03-17T14:15:36.762061Z",
     "next_since": "2026-03-17T14:16:36.762061Z",
     "overlap_seconds": 60
