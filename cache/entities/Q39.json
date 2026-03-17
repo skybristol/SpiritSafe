@@ -4,17 +4,13 @@
     "pageid": 96,
     "ns": 120,
     "title": "Item:Q39",
-    "lastrevid": 630,
-    "modified": "2026-03-14T15:10:19Z",
+    "lastrevid": 638,
+    "modified": "2026-03-17T14:15:12Z",
     "type": "item",
     "id": "Q39",
     "labels": {
       "en": {
         "language": "en",
-        "value": "Office Held by Head of Government"
-      },
-      "en-us": {
-        "language": "en-us",
         "value": "Office Held by Head of Government"
       },
       "mul": {
@@ -25,10 +21,6 @@
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "GKC Entity Profile describing entities representing the office held by a head of government"
-      },
-      "en-us": {
-        "language": "en-us",
         "value": "GKC Entity Profile describing entities representing the office held by a head of government"
       }
     },
@@ -526,8 +518,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T15:10:19Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "graph_fetched_at": "2026-03-17T14:15:12Z",
+    "cache_exported_at": "2026-03-17T14:16:36.762061Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
