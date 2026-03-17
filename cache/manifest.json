@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-03-17T18:51:02.244355Z",
+  "source": "https://github.com/skybristol/SpiritSafe",
+  "profiles": [
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+      "qid": "Q39",
+      "labels": {
+        "en": "Office Held by Head of Government",
+        "mul": "Office Held by Head of Government"
+      },
+      "descriptions": {
+        "en": "GKC Entity Profile describing entities representing the office held by a head of government"
+      },
+      "statement_count": 3,
+      "profile_graph": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+          "label": "Tribal Government in the United States",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
+          "linkage_type": "P161"
+        }
+      ],
+      "value_list_graph": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
+          "label": "List of World Countries",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q41",
+          "cache_path": "cache/queries/Q43.json"
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+          "label": "Tribal Government in the United States",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
+          "cache_path": "cache/queries/Q4.json"
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+      "qid": "Q4",
+      "labels": {
+        "en": "Tribal Government in the United States",
+        "mul": "Tribal Government in the United States",
+        "es": "Gobierno tribal en los Estados Unidos"
+      },
+      "descriptions": {
+        "en": "GKC Entity Profile describing the content model for entities representing the governments of federally recognized Native American and Alaska Native Tribes in the United States",
+        "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
+      },
+      "statement_count": 7,
+      "profile_graph": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+          "label": "Office Held by Head of Government",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
+          "linkage_type": "P161"
+        }
+      ],
+      "value_list_graph": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+          "label": "Office Held by Head of Government",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
+          "cache_path": "cache/queries/Q39.json"
+        }
+      ]
+    }
+  ],
+  "entities": {
+    "count": 57,
+    "qids": [
+      "P158",
+      "P161",
+      "P192",
+      "P193",
+      "P195",
+      "P196",
+      "P197",
+      "P198",
+      "P199",
+      "P200",
+      "P201",
+      "P202",
+      "P206",
+      "P207",
+      "P208",
+      "P209",
+      "P210",
+      "P211",
+      "P212",
+      "P5",
+      "Q1",
+      "Q16",
+      "Q19",
+      "Q21",
+      "Q23",
+      "Q24",
+      "Q25",
+      "Q26",
+      "Q27",
+      "Q28",
+      "Q29",
+      "Q3",
+      "Q30",
+      "Q31",
+      "Q32",
+      "Q33",
+      "Q34",
+      "Q35",
+      "Q36",
+      "Q37",
+      "Q38",
+      "Q39",
+      "Q4",
+      "Q40",
+      "Q41",
+      "Q42",
+      "Q43",
+      "Q44",
+      "Q47",
+      "Q5",
+      "Q50",
+      "Q51",
+      "Q52",
+      "Q54",
+      "Q55",
+      "Q6",
+      "Q7"
+    ]
+  },
+  "queries": [
+    {
+      "qid": "Q28",
+      "path": "queries/Q28.sparql"
+    },
+    {
+      "qid": "Q39",
+      "path": "queries/Q39.sparql"
+    },
+    {
+      "qid": "Q4",
+      "path": "queries/Q4.sparql"
+    },
+    {
+      "qid": "Q43",
+      "path": "queries/Q43.sparql"
+    },
+    {
+      "qid": "Q51",
+      "path": "queries/Q51.sparql"
+    }
+  ],
+  "value_lists": [
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
+      "qid": "Q28",
+      "label": "Federal Register Notices Listing Tribes",
+      "path": "cache/queries/Q28.json",
+      "item_count": 27
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+      "qid": "Q39",
+      "label": "Office Held by Head of Government",
+      "path": "cache/queries/Q39.json",
+      "item_count": 26921
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+      "qid": "Q4",
+      "label": "Tribal Government in the United States",
+      "path": "cache/queries/Q4.json",
+      "item_count": 573
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
+      "qid": "Q43",
+      "label": "List of World Countries",
+      "path": "cache/queries/Q43.json",
+      "item_count": 222
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
+      "qid": "Q51",
+      "label": "List of Human Languages",
+      "path": "cache/queries/Q51.json",
+      "item_count": 265
+    }
+  ]
+}
