@@ -1,0 +1,86 @@
+name: Hydrate Value Lists
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: Branch or tag to hydrate and commit into
+        required: false
+        type: string
+        default: main
+      api_url:
+        description: Optional Wikibase API URL override
+        required: false
+        type: string
+        default: ""
+      sparql_endpoint:
+        description: Optional SPARQL endpoint URL override
+        required: false
+        type: string
+        default: ""
+      page_size:
+        description: SPARQL page size used for hydration
+        required: false
+        type: string
+        default: "1000"
+
+permissions:
+  contents: write
+
+jobs:
+  hydrate-value-lists:
+    name: Hydrate Value Lists
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout SpiritSafe target ref
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.target_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install gkc CLI
+        run: |
+          python -m pip install --upgrade pip
+          pip install "git+https://github.com/skybristol/gkc.git@main"
+
+      - name: Hydrate value-list queries and cache artifacts
+        env:
+          INPUT_API_URL: ${{ inputs.api_url }}
+          INPUT_SPARQL_ENDPOINT: ${{ inputs.sparql_endpoint }}
+          INPUT_PAGE_SIZE: ${{ inputs.page_size }}
+        run: |
+          mkdir -p queries cache/queries
+
+          ARGS=(
+            --source local
+            --local-root .
+            --page-size "$INPUT_PAGE_SIZE"
+          )
+
+          if [ -n "$INPUT_API_URL" ]; then
+            ARGS+=(--api-url "$INPUT_API_URL")
+          fi
+
+          if [ -n "$INPUT_SPARQL_ENDPOINT" ]; then
+            ARGS+=(--endpoint "$INPUT_SPARQL_ENDPOINT")
+          fi
+
+          gkc --json profile value-lists hydrate "${ARGS[@]}"
+
+      - name: Commit and push value-list query/cache updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add queries cache/queries
+          if git diff --cached --quiet; then
+            echo "No value-list query or cache changes to commit"
+          else
+            git commit -m "chore: hydrate value-list queries and caches [skip ci]"
+            git push origin "HEAD:${{ inputs.target_ref }}"
+          fi
