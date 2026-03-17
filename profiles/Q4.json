@@ -520,7 +520,7 @@
       "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
     },
     "aliases": {},
-    "generated_at": "2026-03-17T14:56:03.691122Z",
+    "generated_at": "2026-03-17T19:49:15.070813Z",
     "languages": [
       "en",
       "es",
@@ -536,6 +536,12 @@
       }
     ],
     "value_list_graph": [
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
+        "label": "Federal Register Notices Listing Tribes",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
+        "cache_path": "cache/queries/Q28.json"
+      },
       {
         "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
         "label": "Office Held by Head of Government",

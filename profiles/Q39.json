@@ -226,7 +226,7 @@
       "en": "GKC Entity Profile describing entities representing the office held by a head of government"
     },
     "aliases": {},
-    "generated_at": "2026-03-17T14:56:03.690729Z",
+    "generated_at": "2026-03-17T19:49:15.070355Z",
     "languages": [
       "en",
       "mul"
@@ -241,6 +241,12 @@
       }
     ],
     "value_list_graph": [
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
+        "label": "Federal Register Notices Listing Tribes",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
+        "cache_path": "cache/queries/Q28.json"
+      },
       {
         "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
         "label": "List of World Countries",
