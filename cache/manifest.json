@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T20:04:05.030566Z",
+  "generated_at": "2026-03-17T20:58:25.764859Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -86,7 +86,7 @@
     }
   ],
   "entities": {
-    "count": 57,
+    "count": 58,
     "qids": [
       "P158",
       "P161",
@@ -107,6 +107,7 @@
       "P210",
       "P211",
       "P212",
+      "P213",
       "P5",
       "Q1",
       "Q16",
