@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T18:51:02.244355Z",
+  "generated_at": "2026-03-17T19:50:22.804852Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -22,6 +22,12 @@
         }
       ],
       "value_list_graph": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
+          "label": "Federal Register Notices Listing Tribes",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "cache_path": "cache/queries/Q28.json"
+        },
         {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
           "label": "List of World Countries",
@@ -58,6 +64,12 @@
         }
       ],
       "value_list_graph": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
+          "label": "Federal Register Notices Listing Tribes",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "cache_path": "cache/queries/Q28.json"
+        },
         {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
           "label": "Office Held by Head of Government",
