@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T19:50:22.804852Z",
+  "generated_at": "2026-03-17T20:04:05.030566Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -54,7 +54,7 @@
         "en": "GKC Entity Profile describing the content model for entities representing the governments of federally recognized Native American and Alaska Native Tribes in the United States",
         "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
       },
-      "statement_count": 7,
+      "statement_count": 8,
       "profile_graph": [
         {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
@@ -75,6 +75,12 @@
           "label": "Office Held by Head of Government",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
           "cache_path": "cache/queries/Q39.json"
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
+          "label": "List of Human Languages",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q27",
+          "cache_path": "cache/queries/Q51.json"
         }
       ]
     }
