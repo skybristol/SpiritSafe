@@ -1,18 +1,27 @@
 # SpiritSafe Profiles
 
-This directory is intentionally reset for the SpiritSafe reboot phase.
+This directory stores generated JSON Entity Profiles built from SpiritSafe cache/entities data.
 
-## Current State
+## Current Layout
 
-- Legacy profile packages have been removed.
-- New profile packages will be added under this directory as reboot work advances.
+Profiles are written as one JSON file per profile QID:
 
-## Expected Package Layout
+- Q4.json
+- Q39.json
+- <QID>.json
 
-Each profile package should use:
+These are generated artifacts produced by:
 
-- profile.yaml
-- metadata.yaml
-- README.md
-- CHANGELOG.md
-- queries/ (optional)
+- the Cache From Wikibase GitHub Actions workflow
+- the gkc CLI route `gkc profile export-json`
+
+## Generation Contract
+
+Each generated profile file is built from the per-entity cache and currently includes:
+
+- entity
+- identification
+- statements
+- metadata
+
+The files in this directory should be treated as exported build outputs rather than hand-maintained profile packages.

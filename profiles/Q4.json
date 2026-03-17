@@ -1,0 +1,548 @@
+{
+  "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+  "identification": {
+    "labels": {
+      "es": {
+        "prompt": "nombre principal que la tribu utiliza para referirse a s\u00ed misma en ingl\u00e9s",
+        "guidance": "Utilice el nombre que la tribu emplea para referirse a s\u00ed misma como etiqueta principal siempre que sea posible. Ap\u00f3yese en los sitios web oficiales del gobierno tribal. D\u00e9 preferencia a la autodenominaci\u00f3n de la tribu sobre los nombres asignados por gobiernos externos."
+      },
+      "mul": {
+        "prompt": "primary name that the tribe uses to refer to itself in English",
+        "guidance": "Use the name that the tribe uses in referring to itself as the primary label where possible. Rely on official tribal government websites. Prefer the tribe's self-designation over external government names."
+      }
+    },
+    "descriptions": {
+      "es": {
+        "prompt": "descripci\u00f3n breve y distintiva para diferenciar esta tribu de otras",
+        "guidance": "Ejemplo: \u201ctribu nativa americana de personas cheroqui reconocida a nivel federal\u201d"
+      },
+      "mul": {
+        "prompt": "short, distinctive description to disambiguate this tribe from others",
+        "guidance": "Example: \"federally recognized Native American tribe of Cherokee people\""
+      }
+    },
+    "aliases": {
+      "mul": {
+        "prompt": "alternative names by which this tribe is known or has been referred to",
+        "guidance": "Include an alias for the official name of the tribe as referred to by the U.S. Government (e.g., from the Bureau of Indian Affairs list)."
+      }
+    }
+  },
+  "statements": [
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q16",
+      "label": "instance of",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P31"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item",
+        "value_list": [
+          {
+            "item": "Q7840353",
+            "itemLabel": "federally recognized Native American tribe in the United States"
+          }
+        ]
+      },
+      "messages": {
+        "mul": {
+          "prompt": "the primary classification for the tribe (fixed to \"federally recognized Native American tribe in the United States\" for this profile)",
+          "consequences_message": "Without a value, the item has no type classification, making it impossible to apply type-specific validation, constraints, or display logic."
+        }
+      },
+      "max_count": null,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q21",
+      "label": "member count",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P2124"
+        }
+      ],
+      "value": {
+        "type": "quantity"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "number of tribal citizens/members when a reliable reference source can be cited"
+        },
+        "en": {
+          "consequences_message": "Without a value, quantitative analysis of organizational size is unavailable and comparisons across entities cannot be made."
+        }
+      },
+      "max_count": null,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q32",
+      "label": "native label",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P1705"
+        }
+      ],
+      "value": {
+        "type": "monolingualtext"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "native label in the language used by the tribe",
+          "consequences_message": "providing a native label will help promote tribal sovereignty by helping to identify the tribe with the name tribal members use for themselves"
+        }
+      },
+      "max_count": null,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q33",
+      "label": "headquarters location",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P159"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "headquarters location for the tribal government",
+          "consequences_message": "Without a value, the physical base of operations is unknown, affecting geographic queries and jurisdiction-based filtering."
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q34",
+          "label": "street address",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P6375"
+            }
+          ],
+          "value": {
+            "type": "monolingualtext"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "enter the street address for the subject item",
+              "consequences_message": "Without a value, precise location data is missing, preventing address-based lookup, mapping, or contact workflows."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q35",
+          "label": "postal code",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P281"
+            }
+          ],
+          "value": {
+            "type": "string"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "enter the postal code for the subject item or address",
+              "consequences_message": "Without a value, geographic sorting, regional filtering, and address completion workflows cannot function correctly."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q36",
+          "label": "coordinate location",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P625"
+            }
+          ],
+          "value": {
+            "type": "globe-coordinate"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "provide the coordinates for the subject location",
+              "consequences_message": "Without a value, the entity cannot be placed on a map or included in spatial queries and proximity analyses."
+            }
+          },
+          "max_count": null
+        }
+      ],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q37",
+      "label": "inception",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P571"
+        }
+      ],
+      "value": {
+        "type": "time"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "inception date for formal recognition or establishment",
+          "consequences_message": "Without a value, the founding or creation date is unknown, making chronological ordering and timeline display impossible."
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q38",
+      "label": "flag image",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P41"
+        }
+      ],
+      "value": {
+        "type": "commonsMedia"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "official flag for the tribe",
+          "consequences_message": "Without a value, visual identification of the entity in map or list contexts is missing, reducing recognizability."
+        }
+      },
+      "max_count": null,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q40",
+      "label": "office held by head of government",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P1313"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item",
+        "profile": {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+          "label": "Office Held by Head of Government"
+        },
+        "value_list_reference": "cache/queries/Q39.json"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "the title of the office held by the head of government of this tribe",
+          "consequences_message": "Without a value, the governing role associated with this entity is undefined, breaking political structure queries."
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "labels": {
+      "en": "Tribal Government in the United States",
+      "mul": "Tribal Government in the United States",
+      "es": "Gobierno tribal en los Estados Unidos"
+    },
+    "descriptions": {
+      "en": "GKC Entity Profile describing the content model for entities representing the governments of federally recognized Native American and Alaska Native Tribes in the United States",
+      "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
+    },
+    "aliases": {},
+    "generated_at": "2026-03-17T14:53:08.714373Z",
+    "languages": [
+      "en",
+      "es",
+      "mul"
+    ],
+    "statement_count": 7,
+    "profile_graph": [
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+        "label": "Office Held by Head of Government",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
+        "linkage_type": "P161"
+      }
+    ],
+    "value_list_graph": [
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+        "label": "Office Held by Head of Government",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
+        "cache_path": "cache/queries/Q39.json"
+      }
+    ],
+    "exported_from": "https://datadistillery.wikibase.cloud/entity/Q4"
+  }
+}

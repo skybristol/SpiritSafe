@@ -1,0 +1,259 @@
+{
+  "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+  "identification": {
+    "labels": {
+      "mul": {
+        "prompt": "official title of the office",
+        "guidance": "Use the formal title of the office as it appears in governing documents. Examples: \"Principal Chief of the Cherokee Nation\", \"President of the Navajo Nation\", \"Chairperson of the Oglala Sioux Tribe\""
+      }
+    },
+    "descriptions": {
+      "mul": {
+        "prompt": "short description identifying the office and jurisdiction",
+        "guidance": "Format: \"head of state/government office of [jurisdiction]\" Example: \"head of government office of the Cherokee Nation\""
+      }
+    },
+    "aliases": {
+      "mul": {
+        "prompt": "alternative titles or historical names for this office",
+        "guidance": "Include common abbreviations, historical titles, or informal names."
+      }
+    }
+  },
+  "statements": [
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q16",
+      "label": "instance of",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P31"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item",
+        "value_list": [
+          {
+            "item": "Q294414",
+            "itemLabel": "public office"
+          }
+        ]
+      },
+      "messages": {
+        "mul": {
+          "prompt": "the primary classification for the office (fixed to \"public office\" for this profile)",
+          "consequences_message": "Without a value, the item has no type classification, making it impossible to apply type-specific validation, constraints, or display logic."
+        }
+      },
+      "max_count": null,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q41",
+      "label": "country",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P17"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item",
+        "value_list_reference": "cache/queries/Q43.json"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "the country where this office exists",
+          "consequences_message": "Without a value, national context is absent, preventing jurisdiction filtering, legal scoping, and geographic grouping."
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q42",
+      "label": "applies to jurisdiction",
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P1001"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item",
+        "profile": {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+          "label": "Tribal Government in the United States"
+        },
+        "value_list_reference": "cache/queries/Q4.json"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "the governmental jurisdiction this office administers",
+          "consequences_message": "Without a value, the geographic or legal scope of the statement is undefined, allowing it to be misapplied across unintended regions."
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "en": {
+              "prompt": "provide the internet address for a reference",
+              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q28.json"
+          },
+          "messages": {
+            "en": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "labels": {
+      "en": "Office Held by Head of Government",
+      "mul": "Office Held by Head of Government"
+    },
+    "descriptions": {
+      "en": "GKC Entity Profile describing entities representing the office held by a head of government"
+    },
+    "aliases": {},
+    "generated_at": "2026-03-17T14:53:08.714190Z",
+    "languages": [
+      "en",
+      "mul"
+    ],
+    "statement_count": 3,
+    "profile_graph": [
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+        "label": "Tribal Government in the United States",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
+        "linkage_type": "P161"
+      }
+    ],
+    "value_list_graph": [
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
+        "label": "List of World Countries",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q41",
+        "cache_path": "cache/queries/Q43.json"
+      },
+      {
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+        "label": "Tribal Government in the United States",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
+        "cache_path": "cache/queries/Q4.json"
+      }
+    ],
+    "exported_from": "https://datadistillery.wikibase.cloud/entity/Q39"
+  }
+}
