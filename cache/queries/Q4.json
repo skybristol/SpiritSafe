@@ -1,0 +1,2303 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q4",
+    "query": "queries/Q4.sparql",
+    "updated": "2026-03-17T16:48:40.397973Z",
+    "count": 573
+  },
+  "items": [
+    {
+      "item": "http://www.wikidata.org/entity/Q137720083",
+      "itemLabel": "Aang\u00f3on"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4669719",
+      "itemLabel": "Absentee-Shawnee Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q85119937",
+      "itemLabel": "Acoma Pueblo tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107221091",
+      "itemLabel": "Agdaagux Tribe of King Cove"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4694429",
+      "itemLabel": "Agua Caliente Band of Cahuilla Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q356979",
+      "itemLabel": "Ak-Chin Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998113",
+      "itemLabel": "Akiachak Native Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137823033",
+      "itemLabel": "Akiak Native Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16158833",
+      "itemLabel": "Alabama-Coushatta Tribe of Texas"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4705170",
+      "itemLabel": "Alabama-Quassarte Tribal Town"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998427",
+      "itemLabel": "Alatna Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q120682488",
+      "itemLabel": "Algaaciq Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137734630",
+      "itemLabel": "Allakaket Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4737036",
+      "itemLabel": "Alturas Indian Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137734631",
+      "itemLabel": "Alutiiq Tribe of Old Harbor"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137734633",
+      "itemLabel": "Anvik Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q121841360",
+      "itemLabel": "Apache Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17450146",
+      "itemLabel": "Arapaho Tribe of the Wind River Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137734634",
+      "itemLabel": "Asa'carsarmiut Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4821154",
+      "itemLabel": "Augustine Band of Cahuilla Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4862966",
+      "itemLabel": "Barona Band of Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4874044",
+      "itemLabel": "Bay Mills Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5457381",
+      "itemLabel": "Bdewankantonwan Dakota Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4876553",
+      "itemLabel": "Bear River Band of the Rohnerville Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998428",
+      "itemLabel": "Beaver Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4905936",
+      "itemLabel": "Big Lagoon Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4906127",
+      "itemLabel": "Big Pine Paiute Tribe of the Owens Valley"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4906287",
+      "itemLabel": "Big Sandy Rancheria of Western Mono Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4906643",
+      "itemLabel": "Big Valley Band of Pomo Indians of the Big Valley Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998429",
+      "itemLabel": "Birch Creek Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4917673",
+      "itemLabel": "Bishop Paiute Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q33123248",
+      "itemLabel": "Blackfeet Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4929333",
+      "itemLabel": "Blue Lake Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4966603",
+      "itemLabel": "Bridgeport Indian Colony"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4985465",
+      "itemLabel": "Buena Vista Rancheria of Me-Wuk Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5000083",
+      "itemLabel": "Burns Paiute Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5015262",
+      "itemLabel": "Cabazon Band of Cahuilla Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5150246",
+      "itemLabel": "Cachil Dehe Band of Wintun Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q35170",
+      "itemLabel": "Caddo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q24248665",
+      "itemLabel": "Cahto Tribe of the Laytonville Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5017466",
+      "itemLabel": "Cahuilla Band of Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5021161",
+      "itemLabel": "California Valley Miwok Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q63431585",
+      "itemLabel": "Campo Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q55290",
+      "itemLabel": "Catawba people"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16148273",
+      "itemLabel": "Cayuga Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5057021",
+      "itemLabel": "Cedarville Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30286998",
+      "itemLabel": "Central Council of the Tlingit and Haida Indian Tribes"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137738318",
+      "itemLabel": "Chalkyitsik Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137788386",
+      "itemLabel": "Cheesh-Na Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14681735",
+      "itemLabel": "Chemehuevi Indian Tribe of the Chemehuevi Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5091774",
+      "itemLabel": "Cher-Ae Heights Indian Community of the Trinidad Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14708404",
+      "itemLabel": "Cherokee Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137738319",
+      "itemLabel": "Chevak Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5094611",
+      "itemLabel": "Cheyenne and Arapaho Tribes"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17260229",
+      "itemLabel": "Cheyenne River Sioux Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q57047524",
+      "itemLabel": "Chickahominy Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137738320",
+      "itemLabel": "Chickaloon Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3336808",
+      "itemLabel": "Chickasaw Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5096266",
+      "itemLabel": "Chicken Ranch Rancheria of Me-Wuk Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137738321",
+      "itemLabel": "Chignik Bay Tribal Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137738322",
+      "itemLabel": "Chignik Lake Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137738323",
+      "itemLabel": "Chilkat Indian Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137738324",
+      "itemLabel": "Chilkoot Indian Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138155635",
+      "itemLabel": "Chinik Eskimo Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5101668",
+      "itemLabel": "Chippewa Cree"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104904551",
+      "itemLabel": "Chitimacha Tribe of Louisiana"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5103726",
+      "itemLabel": "Choctaw Nation of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q136024060",
+      "itemLabel": "Chuloonawick Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161545",
+      "itemLabel": "Circle Native Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5122575",
+      "itemLabel": "Citizen Potawatomi Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5135955",
+      "itemLabel": "Cloverdale Rancheria of Pomo Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q165320",
+      "itemLabel": "Cocopah people"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104836859",
+      "itemLabel": "Coeur d'Alene Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5142382",
+      "itemLabel": "Cold Springs Rancheria of Mono Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5148891",
+      "itemLabel": "Colorado River Indian Tribes"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q117133",
+      "itemLabel": "Comanche"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q497587",
+      "itemLabel": "Confederated Salish and Kootenai Tribes of the Flathead Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q27464926",
+      "itemLabel": "Confederated Tribes and Bands of the Yakama Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2551413",
+      "itemLabel": "Confederated Tribes of Siletz Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15211471",
+      "itemLabel": "Confederated Tribes of the Chehalis Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5159767",
+      "itemLabel": "Confederated Tribes of the Colville Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5159766",
+      "itemLabel": "Confederated Tribes of the Coos, Lower Umpqua and Siuslaw Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15079932",
+      "itemLabel": "Confederated Tribes of the Goshute Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5159769",
+      "itemLabel": "Confederated Tribes of the Grand Ronde Community of Oregon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5159768",
+      "itemLabel": "Confederated Tribes of the Umatilla Indian Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3538941",
+      "itemLabel": "Confederated Tribes of Warm Springs"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5169327",
+      "itemLabel": "Coquille Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16828261",
+      "itemLabel": "Coushatta Tribe of Louisiana"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5179403",
+      "itemLabel": "Cow Creek Band of Umpqua Tribe of Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15211891",
+      "itemLabel": "Cowlitz Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113344872",
+      "itemLabel": "Coyote Valley Band of Pomo Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137753351",
+      "itemLabel": "Craig Tribal Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17278097",
+      "itemLabel": "Crow Creek Sioux Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q331789",
+      "itemLabel": "Crow Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161546",
+      "itemLabel": "Curyung Tribal Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3336809",
+      "itemLabel": "Delaware Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25543965",
+      "itemLabel": "Delaware Tribe of Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q428696",
+      "itemLabel": "Dot Lake Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137753809",
+      "itemLabel": "Douglas Indian Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5309502",
+      "itemLabel": "Dry Creek Rancheria Band of Pomo Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5311551",
+      "itemLabel": "Duckwater Shoshone Tribe of the Duckwater Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5330004",
+      "itemLabel": "Eastern Band of Cherokee Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q57048756",
+      "itemLabel": "Eastern Chickahominy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5330441",
+      "itemLabel": "Eastern Shawnee Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q307014",
+      "itemLabel": "Eastern Shoshone"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138154012",
+      "itemLabel": "Egegik Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3049619",
+      "itemLabel": "Eklutna Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5358801",
+      "itemLabel": "Elem Indian Colony"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14681919",
+      "itemLabel": "Elk Valley Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5368429",
+      "itemLabel": "Ely Shoshone Tribe of Nevada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998430",
+      "itemLabel": "Emmonak Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5380348",
+      "itemLabel": "Estom Yumeka Maidu Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161547",
+      "itemLabel": "Evansville Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5419035",
+      "itemLabel": "Ewiiaapaayp Band of Kumeyaay Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5440682",
+      "itemLabel": "Federated Indians of Graton Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5468836",
+      "itemLabel": "Forest County Potawatomi Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q63386746",
+      "itemLabel": "Fort Belknap Indian Community of the Fort Belknap Reservation of Montana"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5470818",
+      "itemLabel": "Fort Bidwell Indian Community of the Fort Bidwell Reservation of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5471383",
+      "itemLabel": "Fort Independence Indian Community of Paiute Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14705101",
+      "itemLabel": "Fort McDermitt Paiute and Shoshone Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5471623",
+      "itemLabel": "Fort McDowell Yavapai Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q100938408",
+      "itemLabel": "Fort Peck Assiniboine and Sioux Tribes"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5472034",
+      "itemLabel": "Fort Sill Apache Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1754503",
+      "itemLabel": "Fort Yuma Quechan Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1427305",
+      "itemLabel": "Gila River Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5595168",
+      "itemLabel": "Grand Traverse Band of Ottawa and Chippewa Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5604727",
+      "itemLabel": "Greenville Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5609471",
+      "itemLabel": "Grindstone Indian Rancheria of Wintun-Wailaki Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5615556",
+      "itemLabel": "Guidiville Rancheria of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137787509",
+      "itemLabel": "Gulkana Village Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5636694",
+      "itemLabel": "Habematolel Pomo of Upper Lake"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5649005",
+      "itemLabel": "Hannahville Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1500686",
+      "itemLabel": "Havasupai Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161548",
+      "itemLabel": "Healy Lake Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16148484",
+      "itemLabel": "Ho-Chunk Nation of Wisconsin"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1623415",
+      "itemLabel": "Hoh Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998431",
+      "itemLabel": "Holy Cross Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137753911",
+      "itemLabel": "Hoonah Indian Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q42305782",
+      "itemLabel": "Hoopa Valley Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2414272",
+      "itemLabel": "Hopi"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5900794",
+      "itemLabel": "Hopland Band of Pomo Indians of the Hopland Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16146865",
+      "itemLabel": "Houlton Band of Maliseet Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q42173399",
+      "itemLabel": "Hualapai Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161549",
+      "itemLabel": "Hughes Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161550",
+      "itemLabel": "Huslia Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137768132",
+      "itemLabel": "Hydaburg Cooperative Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161551",
+      "itemLabel": "Igiugig Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q13553810",
+      "itemLabel": "Iipay Nation of Santa Ysabel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6013402",
+      "itemLabel": "Inaja and Cosmit Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362189",
+      "itemLabel": "Inupiat Community of the Arctic Slope"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6063549",
+      "itemLabel": "Ione Band of Miwok Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16151185",
+      "itemLabel": "Iowa Tribe of Kansas and Nebraska"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16151202",
+      "itemLabel": "Iowa Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161552",
+      "itemLabel": "Iqugmiut Traditional Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1493034",
+      "itemLabel": "Isleta Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161553",
+      "itemLabel": "Ivanof Bay Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6117347",
+      "itemLabel": "Jackson Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106396961",
+      "itemLabel": "Jamestown S'Klallam Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6148290",
+      "itemLabel": "Jamul Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1686773",
+      "itemLabel": "Jemez Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6177350",
+      "itemLabel": "Jena Band of Choctaw Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q659307",
+      "itemLabel": "Jicarilla Apache"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362202",
+      "itemLabel": "Kaguyak Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6347549",
+      "itemLabel": "Kaibab Band of Paiute Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362207",
+      "itemLabel": "Kaktovik Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16211838",
+      "itemLabel": "Kalispel Indian Community of the Kalispel Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16147059",
+      "itemLabel": "Karuk Tribe of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6374254",
+      "itemLabel": "Kashia Band of Pomo Indians of the Stewarts Point Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161554",
+      "itemLabel": "Kasigluk Traditional Elders Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1723904",
+      "itemLabel": "Kaw people"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q122418152",
+      "itemLabel": "Kenaitze"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q118976353",
+      "itemLabel": "Ketchikan Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1550492",
+      "itemLabel": "Kewa Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q27825724",
+      "itemLabel": "Keweenaw Bay Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11929852",
+      "itemLabel": "Kialegee Tribal Town"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15238374",
+      "itemLabel": "Kickapoo Traditional Tribe of Texas"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16998330",
+      "itemLabel": "Kickapoo Tribe in Kansas"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6404281",
+      "itemLabel": "Kickapoo Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6411743",
+      "itemLabel": "King Island Native Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161556",
+      "itemLabel": "King Salmon Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q117100",
+      "itemLabel": "Kiowa people"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1744256",
+      "itemLabel": "Klamath Tribes"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137776601",
+      "itemLabel": "Klawock Cooperative Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5173306",
+      "itemLabel": "Kletsel Dehe Wintun Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161557",
+      "itemLabel": "Knik Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6426188",
+      "itemLabel": "Koi Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161558",
+      "itemLabel": "Kokhanok Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16212289",
+      "itemLabel": "Kootenai Tribe of Idaho"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161559",
+      "itemLabel": "Koyukuk Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14682998",
+      "itemLabel": "La Jolla Band of Luise\u00f1o Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6464552",
+      "itemLabel": "La Posta Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6467824",
+      "itemLabel": "Lac Courte Oreilles"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12061070",
+      "itemLabel": "Lac du Flambeau Band of Lake Superior Chippewa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6467901",
+      "itemLabel": "Lac Vieux Desert Band of Lake Superior Chippewa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6492656",
+      "itemLabel": "Las Vegas Paiute Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161561",
+      "itemLabel": "Levelock Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161562",
+      "itemLabel": "Lime Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6651681",
+      "itemLabel": "Little River Band of Ottawa Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1865809",
+      "itemLabel": "Little Shell Tribe of Chippewa Indians of Montana"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6652336",
+      "itemLabel": "Little Traverse Bay Bands of Odawa Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6682646",
+      "itemLabel": "Los Coyotes Band of Cahuilla and Cupe\u00f1o Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161563",
+      "itemLabel": "Louden Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6692246",
+      "itemLabel": "Lovelock Paiute Tribe of the Lovelock Indian Colony"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6693471",
+      "itemLabel": "Lower Elwha Klallam Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17280817",
+      "itemLabel": "Lower Sioux Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113715714",
+      "itemLabel": "Lumbee Tribe of North Carolina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107171994",
+      "itemLabel": "Lummi Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6710413",
+      "itemLabel": "Lytton Band of Pomo Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105107051",
+      "itemLabel": "Makah Indian Tribe of the Makah Indian Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14683245",
+      "itemLabel": "Manchester Band of Pomo Indians of the Manchester Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3285430",
+      "itemLabel": "Mandan, Hidatsa, and Arikara Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161564",
+      "itemLabel": "Manley Hot Springs Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137822652",
+      "itemLabel": "Manokotak Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6753441",
+      "itemLabel": "Manzanita Band of Diegueno Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106540706",
+      "itemLabel": "Mashantucket Pequot Tribal Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16149438",
+      "itemLabel": "Mashpee Wampanoag Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6786193",
+      "itemLabel": "Match-e-be-nash-she-wish Band of Pottawatomi Indians of Michigan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161565",
+      "itemLabel": "McGrath Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6804734",
+      "itemLabel": "Mechoopda Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2447438",
+      "itemLabel": "Menominee"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137732641",
+      "itemLabel": "Mentasta Traditional Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6821065",
+      "itemLabel": "Mesa Grande Band of Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30258193",
+      "itemLabel": "Mescalero Apache Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7396546",
+      "itemLabel": "Meskwaki Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998432",
+      "itemLabel": "Metlakatla Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14715170",
+      "itemLabel": "Mi'kmaq Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6827436",
+      "itemLabel": "Miami Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1778387",
+      "itemLabel": "Miccosukee"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6842107",
+      "itemLabel": "Middletown Rancheria of Pomo Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3508603",
+      "itemLabel": "Minnesota Chippewa Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6879061",
+      "itemLabel": "Mississippi Band of Choctaw Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6886439",
+      "itemLabel": "Moapa Band of Paiute Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6889563",
+      "itemLabel": "Modoc Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6894116",
+      "itemLabel": "Mohegan Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3513658",
+      "itemLabel": "Monacan people"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6908361",
+      "itemLabel": "Mooretown Rancheria of Maidu Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6913250",
+      "itemLabel": "Morongo Band of Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105035102",
+      "itemLabel": "Muckleshoot Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6940348",
+      "itemLabel": "Muscogee (Creek) Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161566",
+      "itemLabel": "Naknek Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1964155",
+      "itemLabel": "Namb\u00e9 Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3502382",
+      "itemLabel": "Nansemond"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q609726",
+      "itemLabel": "Narragansett people"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6980078",
+      "itemLabel": "Native Village of Afognak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124283576",
+      "itemLabel": "Native Village of Akhiok"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124260033",
+      "itemLabel": "Native Village of Akutan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161567",
+      "itemLabel": "Native Village of Aleknagik"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161568",
+      "itemLabel": "Native Village of Ambler"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124260032",
+      "itemLabel": "Native Village of Atka"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998433",
+      "itemLabel": "Native Village of Atqasuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6980080",
+      "itemLabel": "Native Village of Barrow Inupiat Traditional Government"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124357759",
+      "itemLabel": "Native Village of Belkofski"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161569",
+      "itemLabel": "Native Village of Brevig Mission"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161570",
+      "itemLabel": "Native Village of Buckland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137787540",
+      "itemLabel": "Native Village of Cantwell"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161571",
+      "itemLabel": "Native Village of Chenega"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138201529",
+      "itemLabel": "Native Village of Chignik Lagoon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137789664",
+      "itemLabel": "Native Village of Chitina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161574",
+      "itemLabel": "Native Village of Chuathbaluk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161575",
+      "itemLabel": "Native Village of Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161576",
+      "itemLabel": "Native Village of Deering"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161577",
+      "itemLabel": "Native Village of Diomede"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161578",
+      "itemLabel": "Native Village of Eagle"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q122494803",
+      "itemLabel": "Native Village of Eek"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161579",
+      "itemLabel": "Native Village of Ekuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161580",
+      "itemLabel": "Native Village of Ekwok"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161581",
+      "itemLabel": "Native Village of Elim"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q91452349",
+      "itemLabel": "Native Village of Eyak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124357749",
+      "itemLabel": "Native Village of False Pass"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161582",
+      "itemLabel": "Native Village of Fort Yukon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137723123",
+      "itemLabel": "Native Village of Gakona"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998434",
+      "itemLabel": "Native Village of Gambell"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1836641",
+      "itemLabel": "Native Village of Georgetown"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161583",
+      "itemLabel": "Native Village of Goodnews Bay"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161585",
+      "itemLabel": "Native Village of Hamilton"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161586",
+      "itemLabel": "Native Village of Hooper Bay"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161587",
+      "itemLabel": "Native Village of Kanatak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362201",
+      "itemLabel": "Native Village of Karluk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161588",
+      "itemLabel": "Native Village of Kiana"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161589",
+      "itemLabel": "Native Village of Kipnuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161590",
+      "itemLabel": "Native Village of Kivalina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16920150",
+      "itemLabel": "Native Village of Kluti Kaah"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161591",
+      "itemLabel": "Native Village of Kobuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161592",
+      "itemLabel": "Native Village of Kongiganak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q118958746",
+      "itemLabel": "Native Village of Kotzebue"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161594",
+      "itemLabel": "Native Village of Koyuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161595",
+      "itemLabel": "Native Village of Kwigillingok"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161596",
+      "itemLabel": "Native Village of Kwinhagak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362226",
+      "itemLabel": "Native Village of Larsen Bay"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161597",
+      "itemLabel": "Native Village of Marshall"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138201530",
+      "itemLabel": "Native Village of Mary's Igloo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161599",
+      "itemLabel": "Native Village of Mekoryuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161600",
+      "itemLabel": "Native Village of Minto"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161601",
+      "itemLabel": "Native Village of Nanwalek"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161602",
+      "itemLabel": "Native Village of Napaimute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161603",
+      "itemLabel": "Native Village of Napakiak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161604",
+      "itemLabel": "Native Village of Napaskiak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124357760",
+      "itemLabel": "Native Village of Nelson Lagoon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161605",
+      "itemLabel": "Native Village of Nightmute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124357747",
+      "itemLabel": "Native Village of Nikolski"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161606",
+      "itemLabel": "Native Village of Noatak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362170",
+      "itemLabel": "Native Village of Nuiqsut"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138201531",
+      "itemLabel": "Native Village of Nunam Iqua"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161608",
+      "itemLabel": "Native Village of Nunapitchuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362174",
+      "itemLabel": "Native Village of Ouzinkie"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161609",
+      "itemLabel": "Native Village of Paimiut"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161611",
+      "itemLabel": "Native Village of Perryville"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161612",
+      "itemLabel": "Native Village of Pilot Point"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362178",
+      "itemLabel": "Native Village of Point Hope"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362175",
+      "itemLabel": "Native Village of Point Lay"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161613",
+      "itemLabel": "Native Village of Port Graham"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161614",
+      "itemLabel": "Native Village of Port Heiden"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138155803",
+      "itemLabel": "Native Village of Port Lions"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161615",
+      "itemLabel": "Native Village of Ruby"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161616",
+      "itemLabel": "Native Village of Saint Michael"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161850",
+      "itemLabel": "Native Village of Savoonga"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138201532",
+      "itemLabel": "Native Village of Scammon Bay"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161852",
+      "itemLabel": "Native Village of Selawik"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161853",
+      "itemLabel": "Native Village of Shaktoolik"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161855",
+      "itemLabel": "Native Village of Shishmaref"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161857",
+      "itemLabel": "Native Village of Shungnak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161858",
+      "itemLabel": "Native Village of Stevens"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161859",
+      "itemLabel": "Native Village of Tanacross"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161861",
+      "itemLabel": "Native Village of Tanana"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161862",
+      "itemLabel": "Native Village of Tatitlek"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137787447",
+      "itemLabel": "Native Village of Tazlina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161864",
+      "itemLabel": "Native Village of Teller"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161865",
+      "itemLabel": "Native Village of Tetlin"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161866",
+      "itemLabel": "Native Village of Tuntutuliak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161867",
+      "itemLabel": "Native Village of Tununak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161868",
+      "itemLabel": "Native Village of Tyonek"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161870",
+      "itemLabel": "Native Village of Unalakleet"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124357765",
+      "itemLabel": "Native Village of Unga"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998435",
+      "itemLabel": "Native Village of Venetie Tribal Government"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q122494792",
+      "itemLabel": "Native Village of Wales"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161871",
+      "itemLabel": "Native Village of White Mountain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1783171",
+      "itemLabel": "Navajo Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161872",
+      "itemLabel": "Nenana Native Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161873",
+      "itemLabel": "New Koliganek Village Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137823088",
+      "itemLabel": "New Stuyahok Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161874",
+      "itemLabel": "Newhalen Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161876",
+      "itemLabel": "Newtok Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161877",
+      "itemLabel": "Nikolai Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106620215",
+      "itemLabel": "Nimiipuu"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161878",
+      "itemLabel": "Ninilchik Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15262399",
+      "itemLabel": "Nisqually Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161879",
+      "itemLabel": "Nome Eskimo Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161881",
+      "itemLabel": "Nondalton Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106395631",
+      "itemLabel": "Nooksack Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161883",
+      "itemLabel": "Noorvik Native Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2006701",
+      "itemLabel": "Northern Cheyenne Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7059423",
+      "itemLabel": "Northfork Rancheria of Mono Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998436",
+      "itemLabel": "Northway Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15087899",
+      "itemLabel": "Northwestern Band of the Shoshone Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7063553",
+      "itemLabel": "Nottawaseppi Huron Band of Potawatomi"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161884",
+      "itemLabel": "Nulato Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161885",
+      "itemLabel": "Nunakauyarmiut Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17279967",
+      "itemLabel": "Oglala Sioux Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q925772",
+      "itemLabel": "Ohkay Owingeh"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q120601",
+      "itemLabel": "Omaha Tribe of Nebraska"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7093666",
+      "itemLabel": "Oneida Indian Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7093670",
+      "itemLabel": "Oneida Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21056",
+      "itemLabel": "Onondaga Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161886",
+      "itemLabel": "Organized Village of Grayling"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12634109",
+      "itemLabel": "Organized Village of Kake"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137777636",
+      "itemLabel": "Organized Village of Kasaan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161888",
+      "itemLabel": "Organized Village of Kwethluk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137909601",
+      "itemLabel": "Organized Village of Saxman"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113682092",
+      "itemLabel": "Orutsararmiut Native Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q947650",
+      "itemLabel": "Osage Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161889",
+      "itemLabel": "Oscarville Traditional Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7108926",
+      "itemLabel": "Otoe-Missouria Tribe of Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7109263",
+      "itemLabel": "Ottawa Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14944355",
+      "itemLabel": "Paiute Indian Tribe of Utah"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7125241",
+      "itemLabel": "Paiute-Shoshone Indians of the Lone Pine Community of the Lone Pine Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14705249",
+      "itemLabel": "Paiute-Shoshone Tribe of the Fallon Reservation and Colony"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105576058",
+      "itemLabel": "Pala Band of Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q918556",
+      "itemLabel": "Pamunkey"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7141853",
+      "itemLabel": "Pascua Yaqui Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15265605",
+      "itemLabel": "Paskenta Band of Nomlaki Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1649265",
+      "itemLabel": "Passamaquoddy Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124241942",
+      "itemLabel": "Pauloff Harbor Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14683619",
+      "itemLabel": "Pauma Band of Luise\u00f1o Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q750947",
+      "itemLabel": "Pawnee Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14683627",
+      "itemLabel": "Pechanga Band of Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161890",
+      "itemLabel": "Pedro Bay Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q774932",
+      "itemLabel": "Penobscot Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2518090",
+      "itemLabel": "Peoria Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137782058",
+      "itemLabel": "Petersburg Indian Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7190546",
+      "itemLabel": "Picayune Rancheria of Chukchansi Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2092506",
+      "itemLabel": "Picuris Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161892",
+      "itemLabel": "Pilot Station Traditional Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7196403",
+      "itemLabel": "Pinoleville Pomo Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q57061684",
+      "itemLabel": "Pipa Aha Macav"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7198563",
+      "itemLabel": "Pit River Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161893",
+      "itemLabel": "Pitka's Point Traditional Council"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161894",
+      "itemLabel": "Platinum Traditional Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7206169",
+      "itemLabel": "Poarch Band of Creek Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7208559",
+      "itemLabel": "Pokagon Band of Potawatomi Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7227575",
+      "itemLabel": "Ponca Tribe of Nebraska"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7227577",
+      "itemLabel": "Ponca Tribe of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106395898",
+      "itemLabel": "Port Gamble S'Klallam Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161896",
+      "itemLabel": "Portage Creek Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7235293",
+      "itemLabel": "Potter Valley Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14689896",
+      "itemLabel": "Prairie Band Potawatomi Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7237912",
+      "itemLabel": "Prairie Island Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161897",
+      "itemLabel": "Pribilof Islands Aleut Communities of St. Paul & St. George Islands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1105155",
+      "itemLabel": "Pueblo de Cochiti"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q342057",
+      "itemLabel": "Pueblo of Acoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30258195",
+      "itemLabel": "Pueblo of Laguna"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1475079",
+      "itemLabel": "Pueblo of Pojoaque"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2144001",
+      "itemLabel": "Pueblo of San Felipe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6143571",
+      "itemLabel": "Pueblo of Tesuque"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1758522",
+      "itemLabel": "Pueblo of Zia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7315532",
+      "itemLabel": "Pulikla Tribe of Yurok People"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105027870",
+      "itemLabel": "Puyallup Tribe of the Puyallup Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7263259",
+      "itemLabel": "Pyramid Lake Indian Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124357764",
+      "itemLabel": "Qagan Tayagungin Tribe of Sand Point"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q118958752",
+      "itemLabel": "Qawalangin Tribe of Unalaska"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1268882",
+      "itemLabel": "Quapaw"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7269396",
+      "itemLabel": "Quartz Valley Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106518226",
+      "itemLabel": "Quileute Tribe of the Quileute Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15270596",
+      "itemLabel": "Quinault Indian Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7289903",
+      "itemLabel": "Ramona Band of Cahuilla"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161898",
+      "itemLabel": "Rampart Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7294310",
+      "itemLabel": "Rappahannock Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7303906",
+      "itemLabel": "Red Cliff Band of Lake Superior Chippewa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107220118",
+      "itemLabel": "Red Lake Band of Ojibwe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7305621",
+      "itemLabel": "Redding Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7306533",
+      "itemLabel": "Redwood Valley Little River Band of Pomo Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7313373",
+      "itemLabel": "Reno-Sparks Indian Colony"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7334608",
+      "itemLabel": "Rincon Band of Luiseno Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7353057",
+      "itemLabel": "Robinson Rancheria of Pomo Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17280097",
+      "itemLabel": "Rosebud Sioux Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113345033",
+      "itemLabel": "Round Valley Indian Tribes of the Round Valley Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3474201",
+      "itemLabel": "Sac and Fox Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7396543",
+      "itemLabel": "Sac and Fox Nation of Missouri in Kansas and Nebraska"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7399264",
+      "itemLabel": "Saginaw Chippewa Tribal Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104481510",
+      "itemLabel": "Saint Regis Mohawk Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998438",
+      "itemLabel": "Salamatof Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7405932",
+      "itemLabel": "Salt River Pima-Maricopa Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17017294",
+      "itemLabel": "Samish Indian Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12641662",
+      "itemLabel": "San Carlos Apache Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7414619",
+      "itemLabel": "San Juan Southern Paiute Tribe of Arizona"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7415075",
+      "itemLabel": "San Pasqual Band of Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1245540",
+      "itemLabel": "Sandia Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1121267",
+      "itemLabel": "Santa Ana Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1554220",
+      "itemLabel": "Santa Clara Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7419872",
+      "itemLabel": "Santa Rosa Band of Cahuilla Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7419975",
+      "itemLabel": "Santa Ynez Band of Chumash Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17280118",
+      "itemLabel": "Santee Sioux Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1718707",
+      "itemLabel": "Sauk-Suiattle Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3813824",
+      "itemLabel": "Sault Tribe of Chippewa Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7438169",
+      "itemLabel": "Scotts Valley Band of Pomo Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161899",
+      "itemLabel": "Seldovia Village Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7449528",
+      "itemLabel": "Seminole Nation of Oklahoma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7449545",
+      "itemLabel": "Seminole Tribe of Florida"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q110904219",
+      "itemLabel": "Seneca Nation of Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7450261",
+      "itemLabel": "Seneca-Cayuga Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161900",
+      "itemLabel": "Shageluk Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2276599",
+      "itemLabel": "Shakopee Mdewakanton Sioux Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q253436",
+      "itemLabel": "Shawnee"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7495566",
+      "itemLabel": "Sherwood Valley Rancheria of Pomo Indians of California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7497464",
+      "itemLabel": "Shingle Springs Band of Miwok Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q241285",
+      "itemLabel": "Shinnecock Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q826867",
+      "itemLabel": "Shoalwater Bay Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30288560",
+      "itemLabel": "Shoshone-Bannock Tribes of the Fort Hall Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14705085",
+      "itemLabel": "Shoshone-Paiute Tribes of the Duck Valley Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q992401",
+      "itemLabel": "Sicangu"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2590690",
+      "itemLabel": "Sisseton Wahpeton Oyate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7531942",
+      "itemLabel": "Sitka Tribe of Alaska"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137782111",
+      "itemLabel": "Skagway Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15278068",
+      "itemLabel": "Skokomish Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q112055198",
+      "itemLabel": "Skull Valley Band of Goshute Indians of Utah"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q141646",
+      "itemLabel": "Snoqualmie Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7550108",
+      "itemLabel": "Soboba Band of Luise\u00f1o Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14475923",
+      "itemLabel": "Sokaogon Chippewa Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137823309",
+      "itemLabel": "South Naknek Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12633982",
+      "itemLabel": "Southern Ute Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7577890",
+      "itemLabel": "Spirit Lake Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q110904601",
+      "itemLabel": "Spokane Tribe of Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q780825",
+      "itemLabel": "Squaxin Island Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17016936",
+      "itemLabel": "St. Croix Chippewa Indians of Wisconsin"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17280792",
+      "itemLabel": "Standing Rock Sioux Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161901",
+      "itemLabel": "Stebbins Community Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16900704",
+      "itemLabel": "Stillaguamish Tribe of Indians of Washington"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1695829",
+      "itemLabel": "Stockbridge-Munsee Community Band of Mohican Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7637826",
+      "itemLabel": "Summit Lake Paiute Tribe of Nevada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138026185",
+      "itemLabel": "Sun'aq Tribe of Kodiak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2304554",
+      "itemLabel": "Suquamish Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7648829",
+      "itemLabel": "Susanville Indian Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16900986",
+      "itemLabel": "Swinomish Indian Tribal Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7659641",
+      "itemLabel": "Sycuan Band of the Kumeyaay Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7673151",
+      "itemLabel": "Table Mountain Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7419909",
+      "itemLabel": "Tachi Yokut Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161903",
+      "itemLabel": "Takotna Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137997790",
+      "itemLabel": "Tangirnaq Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23681132",
+      "itemLabel": "Taos Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7690712",
+      "itemLabel": "Te-Moak Tribe of Western Shoshone Indians of Nevada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15122078",
+      "itemLabel": "Tejon Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161904",
+      "itemLabel": "Telida Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4840420",
+      "itemLabel": "The Bad River Band of Lake Superior Chippewa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7786588",
+      "itemLabel": "Thlopthlocco Tribal Town"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q501445",
+      "itemLabel": "Timbisha"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17108019",
+      "itemLabel": "Tohono O'odham Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7545308",
+      "itemLabel": "Tolowa Dee-ni' Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16243155",
+      "itemLabel": "Tonawanda Band of Seneca"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1493185",
+      "itemLabel": "Tonkawa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q135935523",
+      "itemLabel": "Tonto Apache Tribe of Arizona"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7827058",
+      "itemLabel": "Torres-Martinez Desert Cahuilla Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161905",
+      "itemLabel": "Traditional Village of Togiak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1516298",
+      "itemLabel": "Tulalip Tribes of Washington"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7851995",
+      "itemLabel": "Tule River Indian Tribe of the Tule River Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161906",
+      "itemLabel": "Tuluksak Native Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q51710",
+      "itemLabel": "Tunica-Biloxi"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7853422",
+      "itemLabel": "Tuolumne Band of Me-Wuk Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7856433",
+      "itemLabel": "Turtle Mountain Band of Chippewa Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q504912",
+      "itemLabel": "Tuscarora Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7857729",
+      "itemLabel": "Twenty-Nine Palms Band of Mission Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161907",
+      "itemLabel": "Twin Hills Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4894782",
+      "itemLabel": "Tyme Maidu Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161908",
+      "itemLabel": "Ugashik Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161910",
+      "itemLabel": "Umkumiut Native Village"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7887489",
+      "itemLabel": "United Auburn Indian Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2651031",
+      "itemLabel": "United Keetoowah Band of Cherokee Indians"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56886322",
+      "itemLabel": "Upper Mattaponi Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17307083",
+      "itemLabel": "Upper Sioux Community"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2499791",
+      "itemLabel": "Upper Skagit Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7902605",
+      "itemLabel": "Ute Indian Tribe of the Uintah and Ouray Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7902611",
+      "itemLabel": "Ute Mountain Ute Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7903468",
+      "itemLabel": "Utu Utu Gwaitu Paiute Tribe of the Benton Paiute Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q118959010",
+      "itemLabel": "Village of Alakanuk"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124283575",
+      "itemLabel": "Village of Anaktuvuk Pass"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998439",
+      "itemLabel": "Village of Aniak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161911",
+      "itemLabel": "Village of Atmautluak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161912",
+      "itemLabel": "Village of Bill Moore's Slough"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161619",
+      "itemLabel": "Village of Chefornak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998440",
+      "itemLabel": "Village of Clarks Point"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161913",
+      "itemLabel": "Village of Crooked Creek"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161620",
+      "itemLabel": "Village of Iliamna"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161622",
+      "itemLabel": "Village of Kalskag"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137998441",
+      "itemLabel": "Village of Kaltag"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161623",
+      "itemLabel": "Village of Kotlik"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161624",
+      "itemLabel": "Village of Lower Kalskag"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161625",
+      "itemLabel": "Village of Ohogamiut"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161626",
+      "itemLabel": "Village of Red Devil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161627",
+      "itemLabel": "Village of Sleetmute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161628",
+      "itemLabel": "Village of Solomon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161629",
+      "itemLabel": "Village of Stony River"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124362168",
+      "itemLabel": "Village of Wainwright"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7962311",
+      "itemLabel": "Walker River Paiute Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16148740",
+      "itemLabel": "Wampanoag Tribe of Gay Head"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7972620",
+      "itemLabel": "Washoe Tribe of Nevada and California"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104440572",
+      "itemLabel": "White Mountain Apache"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127429334",
+      "itemLabel": "Wichita and Affiliated Tribes"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8023397",
+      "itemLabel": "Wilton Rancheria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16148824",
+      "itemLabel": "Winnebago Tribe of Nebraska"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8025573",
+      "itemLabel": "Winnemucca Indian Colony of Nevada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q88901133",
+      "itemLabel": "Wiyot Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137782155",
+      "itemLabel": "Wrangell Cooperative Association"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q277271",
+      "itemLabel": "Wyandotte Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126361957",
+      "itemLabel": "Yakutat Tlingit Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8048832",
+      "itemLabel": "Yankton Sioux Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8050368",
+      "itemLabel": "Yavapai-Apache Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12344219",
+      "itemLabel": "Yavapai-Prescott Indian Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8052603",
+      "itemLabel": "Yerington Paiute Tribe of the Yerington Colony and Campbell Ranch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8054237",
+      "itemLabel": "Yocha Dehe Wintun Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8054844",
+      "itemLabel": "Yomba Shoshone Tribe of the Yomba Reservation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q940453",
+      "itemLabel": "Ysleta del Sur Pueblo"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7414787",
+      "itemLabel": "Yuhaaviatam of San Manuel Nation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138161630",
+      "itemLabel": "Yupiit of Andreafski"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138296872",
+      "itemLabel": "Yurok Tribe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q231317",
+      "itemLabel": "Zuni people"
+    }
+  ]
+}

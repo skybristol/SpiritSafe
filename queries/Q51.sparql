@@ -1,0 +1,15 @@
+# Purpose: list languages for "language of work or name" claims
+# Expected vars: ?item ?itemLabel
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?itemLabel
+WHERE {
+  VALUES ?target { wd:Q17376908 wd:Q2092812 }
+  ?item wdt:P31/wdt:P279 ?target ;
+        rdfs:label ?itemLabel ;
+		wdt:P219 ?iso_code .
+  FILTER(LANG(?itemLabel) = "en")
+}

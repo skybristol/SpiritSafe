@@ -1,0 +1,15 @@
+# Purpose: reference "stated in" candidates for federally recognized tribe assertions.
+# Expected vars: ?item ?itemLabel
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?itemLabel
+WHERE {
+  ?item wdt:P31 wd:Q121840925 ;
+        wdt:P50 wd:Q1010563 ;
+        rdfs:label ?itemLabel .
+  FILTER(LANG(?itemLabel) = "en")
+}
+ORDER BY ?itemLabel
