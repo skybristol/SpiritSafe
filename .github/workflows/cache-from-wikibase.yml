@@ -1,4 +1,4 @@
-name: Manual Refresh Entity Cache
+name: Cache From Wikibase
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   refresh-cache:
-    name: Refresh Entity Cache
+    name: Cache From Wikibase
     runs-on: ubuntu-latest
 
     steps:
@@ -39,7 +39,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install "git+https://github.com/skybristol/gkc.git@main"
 
-      - name: Run revision check refresh
+      - name: Refresh entity cache from recentchanges
         env:
           INPUT_API_URL: ${{ inputs.api_url }}
         run: |
@@ -61,14 +61,22 @@ jobs:
               --output cache/refresh/last_run_summary.json
           fi
 
-      - name: Commit and push cache updates
+      - name: Export JSON profiles from refreshed cache
+        run: |
+          mkdir -p profiles
+          find profiles -maxdepth 1 -type f -name 'Q*.json' -delete
+          gkc --json profile export-json \
+            --cache-entities-dir cache/entities \
+            --output profiles
+
+      - name: Commit and push cache and profile updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cache/entities cache/refresh/last_run_summary.json
+          git add cache/entities cache/refresh/last_run_summary.json profiles
           if git diff --cached --quiet; then
-            echo "No cache changes to commit"
+            echo "No cache or profile changes to commit"
           else
-            git commit -m "chore: refresh entity cache from recentchanges [skip ci]"
+            git commit -m "chore: refresh Wikibase cache and export profiles [skip ci]"
             git push origin "HEAD:${{ inputs.target_ref }}"
           fi

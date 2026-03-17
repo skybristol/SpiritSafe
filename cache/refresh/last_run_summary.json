@@ -1,25 +1,21 @@
 {
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
-    "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/cache/entities",
-    "since": "2026-03-16T14:40:43.398452Z",
-    "next_since": "2026-03-17T14:15:12Z",
+    "cache_dir": "/Users/sky/code/SpiritSafe/cache/entities",
+    "since": "2026-03-17T14:15:36.762061Z",
+    "next_since": "2026-03-17T14:16:36.762061Z",
     "overlap_seconds": 60
   },
   "summary": {
-    "changed_count": 1,
+    "changed_count": 0,
     "ignored_count": 0,
-    "refreshed_count": 1,
+    "refreshed_count": 0,
     "deleted_count": 0,
     "missing_count": 0
   },
-  "changed_ids": [
-    "Q39"
-  ],
+  "changed_ids": [],
   "ignored_ids": [],
-  "refreshed_ids": [
-    "Q39"
-  ],
+  "refreshed_ids": [],
   "deleted_ids": [],
   "missing_ids": []
 }
