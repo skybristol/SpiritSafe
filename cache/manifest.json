@@ -1,17 +1,14 @@
 {
-  "generated_at": "2026-03-17T20:58:25.764859Z",
+  "generated_at": "2026-03-18T14:19:32.864436Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
       "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
       "qid": "Q39",
       "labels": {
-        "en": "Office Held by Head of Government",
         "mul": "Office Held by Head of Government"
       },
-      "descriptions": {
-        "en": "GKC Entity Profile describing entities representing the office held by a head of government"
-      },
+      "descriptions": {},
       "statement_count": 3,
       "profile_graph": [
         {
@@ -46,14 +43,9 @@
       "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
       "qid": "Q4",
       "labels": {
-        "en": "Tribal Government in the United States",
-        "mul": "Tribal Government in the United States",
-        "es": "Gobierno tribal en los Estados Unidos"
+        "mul": "Tribal Government in the United States"
       },
-      "descriptions": {
-        "en": "GKC Entity Profile describing the content model for entities representing the governments of federally recognized Native American and Alaska Native Tribes in the United States",
-        "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
-      },
+      "descriptions": {},
       "statement_count": 8,
       "profile_graph": [
         {
