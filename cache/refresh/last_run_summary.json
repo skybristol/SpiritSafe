@@ -2,29 +2,39 @@
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
     "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/cache/entities",
-    "since": "2026-03-17T20:44:18.732421Z",
-    "next_since": "2026-03-18T13:26:41Z",
+    "since": "2026-03-18T14:17:30.208894Z",
+    "next_since": "2026-03-18T22:29:59Z",
     "overlap_seconds": 60
   },
   "summary": {
-    "changed_count": 4,
+    "changed_count": 9,
     "ignored_count": 0,
-    "refreshed_count": 4,
+    "refreshed_count": 9,
     "deleted_count": 0,
     "missing_count": 0
   },
   "changed_ids": [
-    "Q21",
+    "P163",
     "Q27",
+    "Q28",
     "Q29",
-    "Q30"
+    "Q30",
+    "Q4",
+    "Q41",
+    "Q43",
+    "Q51"
   ],
   "ignored_ids": [],
   "refreshed_ids": [
-    "Q21",
+    "P163",
     "Q27",
+    "Q28",
     "Q29",
-    "Q30"
+    "Q30",
+    "Q4",
+    "Q41",
+    "Q43",
+    "Q51"
   ],
   "deleted_ids": [],
   "missing_ids": [],
@@ -74,7 +84,6 @@
               "statement:https://datadistillery.wikibase.cloud/entity/Q16.messages.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q19.messages.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q21.messages.en.prompt",
-              "statement:https://datadistillery.wikibase.cloud/entity/Q27.messages.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q29.messages.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q30.messages.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q32.messages.en.prompt",
@@ -94,7 +103,6 @@
               "statement:https://datadistillery.wikibase.cloud/entity/Q16.messages.es.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q19.messages.es.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q21.messages.es.prompt",
-              "statement:https://datadistillery.wikibase.cloud/entity/Q27.messages.es.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q29.messages.es.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q30.messages.es.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q32.messages.es.prompt",

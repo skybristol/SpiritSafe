@@ -4,8 +4,8 @@
     "pageid": 98,
     "ns": 120,
     "title": "Item:Q41",
-    "lastrevid": 636,
-    "modified": "2026-03-16T14:40:20Z",
+    "lastrevid": 662,
+    "modified": "2026-03-18T22:04:05Z",
     "type": "item",
     "id": "Q41",
     "labels": {
@@ -138,6 +138,44 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
+          "qualifiers": {
+            "P205": [
+              {
+                "snaktype": "value",
+                "property": "P205",
+                "hash": "34ae297adb1b689f882919ba62fcfc380e81e6f0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 39,
+                    "id": "Q39"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P163": [
+              {
+                "snaktype": "value",
+                "property": "P163",
+                "hash": "6fbba77d503752979d57e0e6f6a91205e5bfa167",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 41,
+                    "id": "Q41"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P205",
+            "P163"
+          ],
           "id": "Q41$145e075b-4cc0-d4ae-6df0-0116aa0b6101",
           "rank": "normal"
         }
@@ -149,8 +187,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-16T14:40:20Z",
-    "cache_exported_at": "2026-03-16T14:41:43.398452Z",
+    "graph_fetched_at": "2026-03-18T22:04:05Z",
+    "cache_exported_at": "2026-03-18T22:36:30.929594Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

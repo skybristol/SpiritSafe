@@ -4,8 +4,8 @@
     "pageid": 100,
     "ns": 120,
     "title": "Item:Q43",
-    "lastrevid": 596,
-    "modified": "2026-03-14T14:09:16Z",
+    "lastrevid": 656,
+    "modified": "2026-03-18T22:01:54Z",
     "type": "item",
     "id": "Q43",
     "labels": {
@@ -43,47 +43,6 @@
           "rank": "normal"
         }
       ],
-      "P163": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P163",
-            "hash": "6fbba77d503752979d57e0e6f6a91205e5bfa167",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 41,
-                "id": "Q41"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q43$332a2fb0-4489-2ce9-f3ae-0a0cfc9a816e",
-          "rank": "normal"
-        }
-      ],
-      "P191": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P191",
-            "hash": "2b2aa248f180566bb63a0fc90d9978dac954ee43",
-            "datavalue": {
-              "value": {
-                "text": "use the value list as values for country statements",
-                "language": "mul"
-              },
-              "type": "monolingualtext"
-            },
-            "datatype": "monolingualtext"
-          },
-          "type": "statement",
-          "id": "Q43$8704e8c5-494e-0a57-6bac-208043829ad3",
-          "rank": "normal"
-        }
-      ],
       "P210": [
         {
           "mainsnak": {
@@ -112,8 +71,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T14:09:16Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "graph_fetched_at": "2026-03-18T22:01:54Z",
+    "cache_exported_at": "2026-03-18T22:36:30.929594Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
