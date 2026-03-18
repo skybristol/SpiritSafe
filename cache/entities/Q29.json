@@ -4,8 +4,8 @@
     "pageid": 86,
     "ns": 120,
     "title": "Item:Q29",
-    "lastrevid": 644,
-    "modified": "2026-03-17T20:35:46Z",
+    "lastrevid": 647,
+    "modified": "2026-03-18T13:25:19Z",
     "type": "item",
     "id": "Q29",
     "labels": {
@@ -86,11 +86,11 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P171",
-            "hash": "74c73cabd9aea98e937240072f68fc7c6035e607",
+            "hash": "9ca6e322a31b3db48d8c8038e53eb03f51837203",
             "datavalue": {
               "value": {
                 "text": "provide the internet address for a reference",
-                "language": "en"
+                "language": "mul"
               },
               "type": "monolingualtext"
             },
@@ -106,11 +106,11 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P170",
-            "hash": "086d5d7acfbe0f02111fa52af7bc22e008102a2a",
+            "hash": "3b21245ed5c8e9e6b2a28a8ddd2f767350250e80",
             "datavalue": {
               "value": {
                 "text": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement.",
-                "language": "en"
+                "language": "mul"
               },
               "type": "monolingualtext"
             },
@@ -149,8 +149,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-17T20:35:46Z",
-    "cache_exported_at": "2026-03-17T20:45:18.732421Z",
+    "graph_fetched_at": "2026-03-18T13:25:19Z",
+    "cache_exported_at": "2026-03-18T14:18:30.208894Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

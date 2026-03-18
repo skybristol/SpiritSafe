@@ -2,20 +2,12 @@
   "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
   "identification": {
     "labels": {
-      "es": {
-        "prompt": "nombre principal que la tribu utiliza para referirse a s\u00ed misma en ingl\u00e9s",
-        "guidance": "Utilice el nombre que la tribu emplea para referirse a s\u00ed misma como etiqueta principal siempre que sea posible. Ap\u00f3yese en los sitios web oficiales del gobierno tribal. D\u00e9 preferencia a la autodenominaci\u00f3n de la tribu sobre los nombres asignados por gobiernos externos."
-      },
       "mul": {
         "prompt": "primary name that the tribe uses to refer to itself in English",
         "guidance": "Use the name that the tribe uses in referring to itself as the primary label where possible. Rely on official tribal government websites. Prefer the tribe's self-designation over external government names."
       }
     },
     "descriptions": {
-      "es": {
-        "prompt": "descripci\u00f3n breve y distintiva para diferenciar esta tribu de otras",
-        "guidance": "Ejemplo: \u201ctribu nativa americana de personas cheroqui reconocida a nivel federal\u201d"
-      },
       "mul": {
         "prompt": "short, distinctive description to disambiguate this tribe from others",
         "guidance": "Example: \"federally recognized Native American tribe of Cherokee people\""
@@ -68,7 +60,7 @@
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "link to an item serving as a reference source for a statement",
               "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
             }
@@ -90,9 +82,7 @@
       },
       "messages": {
         "mul": {
-          "prompt": "number of tribal citizens/members when a reliable reference source can be cited"
-        },
-        "en": {
+          "prompt": "number of tribal citizens/members when a reliable reference source can be cited",
           "consequences_message": "Without a value, quantitative analysis of organizational size is unavailable and comparisons across entities cannot be made."
         }
       },
@@ -111,7 +101,7 @@
             "type": "url"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "provide the internet address for a reference",
               "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
             }
@@ -131,7 +121,7 @@
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "link to an item serving as a reference source for a statement",
               "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
             }
@@ -172,7 +162,7 @@
             "type": "url"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "provide the internet address for a reference",
               "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
             }
@@ -192,7 +182,7 @@
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "link to an item serving as a reference source for a statement",
               "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
             }
@@ -291,7 +281,7 @@
             "type": "url"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "provide the internet address for a reference",
               "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
             }
@@ -311,7 +301,7 @@
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "link to an item serving as a reference source for a statement",
               "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
             }
@@ -352,7 +342,7 @@
             "type": "url"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "provide the internet address for a reference",
               "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
             }
@@ -372,7 +362,7 @@
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "link to an item serving as a reference source for a statement",
               "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
             }
@@ -413,7 +403,7 @@
             "type": "url"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "provide the internet address for a reference",
               "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
             }
@@ -433,7 +423,7 @@
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "link to an item serving as a reference source for a statement",
               "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
             }
@@ -479,7 +469,7 @@
             "type": "url"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "provide the internet address for a reference",
               "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
             }
@@ -499,7 +489,7 @@
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "link to an item serving as a reference source for a statement",
               "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
             }
@@ -543,9 +533,7 @@
           "messages": {
             "mul": {
               "prompt": "enter the language used by the linked object",
-              "guidance": "A language designation, often used as a qualifier, is used to indicate the language a person or agent can expect to find on the other end of a link or for interpreting and reading a label or other statement"
-            },
-            "en": {
+              "guidance": "A language designation, often used as a qualifier, is used to indicate the language a person or agent can expect to find on the other end of a link or for interpreting and reading a label or other statement",
               "consequences_message": "Without a value, the linguistic context of the work or name is unknown, hindering multilingual discovery and disambiguation."
             }
           },
@@ -562,10 +550,12 @@
             }
           ],
           "value": {
-            "type": "url"
+            "type": "url",
+            "value_source": "statement_value",
+            "value_source_statement": "https://datadistillery.wikibase.cloud/entity/Q19"
           },
           "messages": {
-            "en": {
+            "mul": {
               "prompt": "provide the internet address for a reference",
               "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
             }
@@ -577,19 +567,12 @@
   ],
   "metadata": {
     "labels": {
-      "en": "Tribal Government in the United States",
-      "mul": "Tribal Government in the United States",
-      "es": "Gobierno tribal en los Estados Unidos"
+      "mul": "Tribal Government in the United States"
     },
-    "descriptions": {
-      "en": "GKC Entity Profile describing the content model for entities representing the governments of federally recognized Native American and Alaska Native Tribes in the United States",
-      "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
-    },
+    "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-17T20:45:20.179130Z",
+    "generated_at": "2026-03-18T14:18:31.333469Z",
     "languages": [
-      "en",
-      "es",
       "mul"
     ],
     "statement_count": 8,

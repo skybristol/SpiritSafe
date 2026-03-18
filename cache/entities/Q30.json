@@ -4,8 +4,8 @@
     "pageid": 87,
     "ns": 120,
     "title": "Item:Q30",
-    "lastrevid": 632,
-    "modified": "2026-03-14T15:13:11Z",
+    "lastrevid": 649,
+    "modified": "2026-03-18T13:25:38Z",
     "type": "item",
     "id": "Q30",
     "labels": {
@@ -86,11 +86,11 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P171",
-            "hash": "da76b5ad5d08923112b03bc52aadbf090b9b2e29",
+            "hash": "3e98ba183fc96f715b79aab09b11b64b5f283821",
             "datavalue": {
               "value": {
                 "text": "link to an item serving as a reference source for a statement",
-                "language": "en"
+                "language": "mul"
               },
               "type": "monolingualtext"
             },
@@ -106,11 +106,11 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P170",
-            "hash": "f336c823dd27e4be177ba7c19c447949793c5ae7",
+            "hash": "5b3a721a81d771b19aea1e676f541ab16aee0c4a",
             "datavalue": {
               "value": {
                 "text": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails.",
-                "language": "en"
+                "language": "mul"
               },
               "type": "monolingualtext"
             },
@@ -170,8 +170,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-14T15:13:11Z",
-    "cache_exported_at": "2026-03-14T23:51:50.412369Z",
+    "graph_fetched_at": "2026-03-18T13:25:38Z",
+    "cache_exported_at": "2026-03-18T14:18:30.208894Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
