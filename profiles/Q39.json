@@ -41,7 +41,48 @@
       },
       "max_count": null,
       "qualifiers": [],
-      "references": []
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "provide the internet address for a reference",
+              "guidance": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
+              "error_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "guidance": "Link to a Wikidata item that represents a report, document, or other type of reference material that provides evidence for the validity of a statement.",
+              "error_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        }
+      ]
     },
     {
       "entity": "https://datadistillery.wikibase.cloud/entity/Q41",
@@ -64,7 +105,48 @@
       },
       "max_count": 1,
       "qualifiers": [],
-      "references": []
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "guidance": "Link to a Wikidata item that represents a report, document, or other type of reference material that provides evidence for the validity of a statement.",
+              "error_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "provide the internet address for a reference",
+              "guidance": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
+              "error_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        }
+      ]
     },
     {
       "entity": "https://datadistillery.wikibase.cloud/entity/Q42",
@@ -91,7 +173,48 @@
       },
       "max_count": 1,
       "qualifiers": [],
-      "references": []
+      "references": [
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "label": "stated in",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P248"
+            }
+          ],
+          "value": {
+            "type": "wikibase-item"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "link to an item serving as a reference source for a statement",
+              "guidance": "Link to a Wikidata item that represents a report, document, or other type of reference material that provides evidence for the validity of a statement.",
+              "error_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
+            }
+          },
+          "max_count": null
+        },
+        {
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "label": "reference URL",
+          "io_map": [
+            {
+              "to": "http://www.wikidata.org/entity/P854"
+            }
+          ],
+          "value": {
+            "type": "url"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "provide the internet address for a reference",
+              "guidance": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
+              "error_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
+            }
+          },
+          "max_count": null
+        }
+      ]
     }
   ],
   "metadata": {
@@ -100,7 +223,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-19T17:30:49.047116Z",
+    "generated_at": "2026-03-19T19:55:50.588120Z",
     "languages": [
       "mul"
     ],
