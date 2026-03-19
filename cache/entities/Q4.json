@@ -4,8 +4,8 @@
     "pageid": 7,
     "ns": 120,
     "title": "Item:Q4",
-    "lastrevid": 666,
-    "modified": "2026-03-18T22:29:59Z",
+    "lastrevid": 815,
+    "modified": "2026-03-19T17:26:57Z",
     "type": "item",
     "id": "Q4",
     "labels": {
@@ -124,14 +124,6 @@
                 "datatype": "monolingualtext"
               }
             ],
-            "P182": [
-              {
-                "snaktype": "novalue",
-                "property": "P182",
-                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
-                "datatype": "quantity"
-              }
-            ],
             "P161": [
               {
                 "snaktype": "value",
@@ -147,29 +139,11 @@
                 },
                 "datatype": "wikibase-item"
               }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
             "P171",
-            "P182",
-            "P161",
-            "P211"
+            "P161"
           ],
           "id": "Q4$15014c9e-43a8-a3ba-7633-fdac71e024c3",
           "rank": "normal"
@@ -205,50 +179,10 @@
                 },
                 "datatype": "monolingualtext"
               }
-            ],
-            "P182": [
-              {
-                "snaktype": "novalue",
-                "property": "P182",
-                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
-                "datatype": "quantity"
-              }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
-            "P171",
-            "P182",
-            "P211"
+            "P171"
           ],
           "id": "Q4$3145ed71-44e8-04c3-37c1-fb67a60f3cc3",
           "rank": "normal"
@@ -285,19 +219,11 @@
                 "datatype": "monolingualtext"
               }
             ],
-            "P182": [
-              {
-                "snaktype": "novalue",
-                "property": "P182",
-                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
-                "datatype": "quantity"
-              }
-            ],
-            "P170": [
+            "P168": [
               {
                 "snaktype": "value",
-                "property": "P170",
-                "hash": "b25e9152658286e8afffc5b391087b2c4a1582d7",
+                "property": "P168",
+                "hash": "7572e5eb2278018b33fceeda2f7de9268f235756",
                 "datavalue": {
                   "value": {
                     "text": "providing a native label will help promote tribal sovereignty by helping to identify the tribe with the name tribal members use for themselves",
@@ -307,43 +233,11 @@
                 },
                 "datatype": "monolingualtext"
               }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
             "P171",
-            "P182",
-            "P170",
-            "P211"
+            "P168"
           ],
           "id": "Q4$700b22e7-4a17-e0f5-e1e7-55acc7eca428",
           "rank": "normal"
@@ -379,102 +273,10 @@
                 },
                 "datatype": "monolingualtext"
               }
-            ],
-            "P182": [
-              {
-                "snaktype": "value",
-                "property": "P182",
-                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
-                "datavalue": {
-                  "value": {
-                    "amount": "+1",
-                    "unit": "1"
-                  },
-                  "type": "quantity"
-                },
-                "datatype": "quantity"
-              }
-            ],
-            "P158": [
-              {
-                "snaktype": "value",
-                "property": "P158",
-                "hash": "c0bd9751ba1641dccc0de582596863122639ef0e",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 34,
-                    "id": "Q34"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P158",
-                "hash": "d1b68001d5e6edb68186eca3fab81c23b66e85d3",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 35,
-                    "id": "Q35"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P158",
-                "hash": "78c5c2fd57515fac2a114418e40fcb23baaf0b64",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 36,
-                    "id": "Q36"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
-            "P171",
-            "P182",
-            "P158",
-            "P211"
+            "P171"
           ],
           "id": "Q4$88445224-4c5c-b22b-e719-8cd4332b7b4d",
           "rank": "normal"
@@ -510,57 +312,10 @@
                 },
                 "datatype": "monolingualtext"
               }
-            ],
-            "P182": [
-              {
-                "snaktype": "value",
-                "property": "P182",
-                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
-                "datavalue": {
-                  "value": {
-                    "amount": "+1",
-                    "unit": "1"
-                  },
-                  "type": "quantity"
-                },
-                "datatype": "quantity"
-              }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
-            "P171",
-            "P182",
-            "P211"
+            "P171"
           ],
           "id": "Q4$f58b3c8c-4c84-a62b-4ed9-97c5173c3ce1",
           "rank": "normal"
@@ -596,50 +351,10 @@
                 },
                 "datatype": "monolingualtext"
               }
-            ],
-            "P182": [
-              {
-                "snaktype": "novalue",
-                "property": "P182",
-                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
-                "datatype": "quantity"
-              }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
-            "P171",
-            "P182",
-            "P211"
+            "P171"
           ],
           "id": "Q4$6a7b6901-49d0-bfd8-197b-bf20506c80c9",
           "rank": "normal"
@@ -675,74 +390,10 @@
                 },
                 "datatype": "monolingualtext"
               }
-            ],
-            "P182": [
-              {
-                "snaktype": "value",
-                "property": "P182",
-                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
-                "datavalue": {
-                  "value": {
-                    "amount": "+1",
-                    "unit": "1"
-                  },
-                  "type": "quantity"
-                },
-                "datatype": "quantity"
-              }
-            ],
-            "P211": [
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              },
-              {
-                "snaktype": "value",
-                "property": "P211",
-                "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 30,
-                    "id": "Q30"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
-            ],
-            "P161": [
-              {
-                "snaktype": "value",
-                "property": "P161",
-                "hash": "8334e13e4e8644964c5195cc5dbd1611f8090946",
-                "datavalue": {
-                  "value": {
-                    "entity-type": "item",
-                    "numeric-id": 39,
-                    "id": "Q39"
-                  },
-                  "type": "wikibase-entityid"
-                },
-                "datatype": "wikibase-item"
-              }
             ]
           },
           "qualifiers-order": [
-            "P171",
-            "P182",
-            "P211",
-            "P161"
+            "P171"
           ],
           "id": "Q4$cf2f9803-461e-4c26-a6ef-7d876f402d21",
           "rank": "normal"
@@ -764,21 +415,6 @@
           },
           "type": "statement",
           "qualifiers": {
-            "P182": [
-              {
-                "snaktype": "value",
-                "property": "P182",
-                "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
-                "datavalue": {
-                  "value": {
-                    "amount": "+1",
-                    "unit": "1"
-                  },
-                  "type": "quantity"
-                },
-                "datatype": "quantity"
-              }
-            ],
             "P171": [
               {
                 "snaktype": "value",
@@ -787,21 +423,6 @@
                 "datavalue": {
                   "value": {
                     "text": "enter the internet address for the tribal government",
-                    "language": "mul"
-                  },
-                  "type": "monolingualtext"
-                },
-                "datatype": "monolingualtext"
-              }
-            ],
-            "P170": [
-              {
-                "snaktype": "value",
-                "property": "P170",
-                "hash": "ea0f5b905400f07b5a49b89476f335f4876a999e",
-                "datavalue": {
-                  "value": {
-                    "text": "The website for the Tribe is often used as the primary reference source for many of the statements about the Tribal Government.",
                     "language": "mul"
                   },
                   "type": "monolingualtext"
@@ -824,29 +445,26 @@
                 "datatype": "monolingualtext"
               }
             ],
-            "P211": [
+            "P168": [
               {
                 "snaktype": "value",
-                "property": "P211",
-                "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+                "property": "P168",
+                "hash": "cac453b214db4b35a4f9325ec84c7654653f2c57",
                 "datavalue": {
                   "value": {
-                    "entity-type": "item",
-                    "numeric-id": 29,
-                    "id": "Q29"
+                    "text": "The website for the Tribe is often used as the primary reference source for many of the statements about the Tribal Government.",
+                    "language": "mul"
                   },
-                  "type": "wikibase-entityid"
+                  "type": "monolingualtext"
                 },
-                "datatype": "wikibase-item"
+                "datatype": "monolingualtext"
               }
             ]
           },
           "qualifiers-order": [
-            "P182",
             "P171",
-            "P170",
             "P169",
-            "P211"
+            "P168"
           ],
           "id": "Q4$7ff5316b-4bbc-10da-a128-1ce0695ca902",
           "rank": "normal"
@@ -1064,6 +682,106 @@
           "id": "Q4$87345dfe-4a8c-73bd-ce51-462cc823f8c3",
           "rank": "normal"
         }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P161": [
+              {
+                "snaktype": "value",
+                "property": "P161",
+                "hash": "08647475f986694c22e2aa83751cf64423fbd7ca",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 28,
+                    "id": "Q28"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P163": [
+              {
+                "snaktype": "value",
+                "property": "P163",
+                "hash": "52d9481f273a562f45e8a8262ba42b553d1085ba",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 16,
+                    "id": "Q16"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ],
+            "P171": [
+              {
+                "snaktype": "value",
+                "property": "P171",
+                "hash": "e7374a12c6e76e761a02f3c5929e6bf97bc6698b",
+                "datavalue": {
+                  "value": {
+                    "text": "Select one or more Federal Register notices that specifically identify the Tribe as a federally recognized entity",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ],
+            "P182": [
+              {
+                "snaktype": "novalue",
+                "property": "P182",
+                "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+                "datatype": "quantity"
+              }
+            ],
+            "P168": [
+              {
+                "snaktype": "value",
+                "property": "P168",
+                "hash": "2933f610a713c470c472bb4f0d476906cbca900b",
+                "datavalue": {
+                  "value": {
+                    "text": "Providing at least one reference to an official United States government source declaring federal recognition will create a firm basis for how this representation of the tribe is treated within the knowledge commons",
+                    "language": "mul"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P161",
+            "P163",
+            "P171",
+            "P182",
+            "P168"
+          ],
+          "id": "Q4$234b04f2-4767-0717-6420-cafeb3442887",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -1072,8 +790,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-18T22:29:59Z",
-    "cache_exported_at": "2026-03-18T22:36:30.929594Z",
+    "graph_fetched_at": "2026-03-19T17:26:57Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

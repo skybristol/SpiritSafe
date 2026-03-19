@@ -4,8 +4,8 @@
     "pageid": 89,
     "ns": 120,
     "title": "Item:Q32",
-    "lastrevid": 492,
-    "modified": "2026-03-12T22:24:51Z",
+    "lastrevid": 784,
+    "modified": "2026-03-19T17:17:13Z",
     "type": "item",
     "id": "Q32",
     "labels": {
@@ -101,12 +101,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "1580be535a44a33936378d11d8cd5b0737a23663",
+            "property": "P168",
+            "hash": "3b151e23813e8853cf1412e9b3dd6d685cef06af",
             "datavalue": {
               "value": {
                 "text": "Without a value, the entity's name in its original language is absent, limiting accurate cross-language identification.",
@@ -117,7 +117,80 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q32$487156DE-0ED9-4AEB-8279-3AA1B748CB0B",
+          "id": "Q32$a0e424f2-4f33-b611-6eb3-478e4a483572",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q32$02a20a3c-4ed8-ce46-21d3-3f75599fb8be",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "32da55b470a51ed75e60f2bdd072c3f731fdae89",
+            "datavalue": {
+              "value": {
+                "text": "Use and cite a reliable source that provides the native name or label for an entity in a native language.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q32$419b7310-44a6-86d7-580c-25e96182f5e9",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q32$a82abbcb-4f97-43e5-a8b3-daccb6a3032f",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q32$c6127bc7-455e-fd4e-a69e-e108f1cbb0f7",
           "rank": "normal"
         }
       ]
@@ -126,12 +199,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:17:13Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

@@ -4,8 +4,8 @@
     "pageid": 86,
     "ns": 120,
     "title": "Item:Q29",
-    "lastrevid": 665,
-    "modified": "2026-03-18T22:25:57Z",
+    "lastrevid": 715,
+    "modified": "2026-03-19T16:06:18Z",
     "type": "item",
     "id": "Q29",
     "labels": {
@@ -101,47 +101,6 @@
           "rank": "normal"
         }
       ],
-      "P170": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P170",
-            "hash": "3b21245ed5c8e9e6b2a28a8ddd2f767350250e80",
-            "datavalue": {
-              "value": {
-                "text": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement.",
-                "language": "mul"
-              },
-              "type": "monolingualtext"
-            },
-            "datatype": "monolingualtext"
-          },
-          "type": "statement",
-          "id": "Q29$906D0726-EDF5-498C-8096-630492738E7F",
-          "rank": "normal"
-        }
-      ],
-      "P213": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P213",
-            "hash": "f4516a6f5afef8a3a2e5f81a2a0663077e773018",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 19,
-                "id": "Q19"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q29$38246f0a-4b7e-42d2-3607-6d22761e9154",
-          "rank": "normal"
-        }
-      ],
       "P158": [
         {
           "mainsnak": {
@@ -162,6 +121,59 @@
           "id": "Q29$fb9e713c-41f9-556e-7f2b-2d2ccef9754e",
           "rank": "normal"
         }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "6d7e7cc7ffd814d413caf1a86c9411fa29842049",
+            "datavalue": {
+              "value": {
+                "text": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q29$2864ce0c-4964-80a9-5cf9-3e7b9ecde820",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "e99537b1796845028bfbfd5a69934cf0f0a3998e",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q29$d9c105e2-4d95-199a-b70a-0d26664b7bd7",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q29$6dd3dceb-4f9e-be45-ae87-043ca1226184",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -170,8 +182,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-18T22:25:57Z",
-    "cache_exported_at": "2026-03-18T22:36:30.929594Z",
+    "graph_fetched_at": "2026-03-19T16:06:18Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

@@ -4,8 +4,8 @@
     "pageid": 81,
     "ns": 120,
     "title": "Item:Q27",
-    "lastrevid": 664,
-    "modified": "2026-03-18T22:21:50Z",
+    "lastrevid": 782,
+    "modified": "2026-03-19T17:16:05Z",
     "type": "item",
     "id": "Q27",
     "labels": {
@@ -81,40 +81,6 @@
           "rank": "normal"
         }
       ],
-      "P202": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P202",
-            "hash": "8798f9dd28bb2ceb4d2fd9cba12fd50f90f0e9cb",
-            "datavalue": {
-              "value": "http://www.wikidata.org/entity/Q1860",
-              "type": "string"
-            },
-            "datatype": "url"
-          },
-          "type": "statement",
-          "qualifiers": {
-            "P203": [
-              {
-                "snaktype": "value",
-                "property": "P203",
-                "hash": "8b345edc4f8a37db18e8f418047716447522d450",
-                "datavalue": {
-                  "value": "English",
-                  "type": "string"
-                },
-                "datatype": "string"
-              }
-            ]
-          },
-          "qualifiers-order": [
-            "P203"
-          ],
-          "id": "Q27$5281a544-476b-71cb-e630-dbb1828e3df0",
-          "rank": "normal"
-        }
-      ],
       "P171": [
         {
           "mainsnak": {
@@ -135,26 +101,6 @@
           "rank": "normal"
         }
       ],
-      "P170": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P170",
-            "hash": "ad1c9bca7d779b9d68e6ef24dd315e6c8c12ae5e",
-            "datavalue": {
-              "value": {
-                "text": "Without a value, the linguistic context of the work or name is unknown, hindering multilingual discovery and disambiguation.",
-                "language": "mul"
-              },
-              "type": "monolingualtext"
-            },
-            "datatype": "monolingualtext"
-          },
-          "type": "statement",
-          "id": "Q27$0C0EE8A8-6D24-4EE2-B370-7495B18B1B49",
-          "rank": "normal"
-        }
-      ],
       "P161": [
         {
           "mainsnak": {
@@ -172,6 +118,36 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
+          "qualifiers": {
+            "P202": [
+              {
+                "snaktype": "value",
+                "property": "P202",
+                "hash": "8798f9dd28bb2ceb4d2fd9cba12fd50f90f0e9cb",
+                "datavalue": {
+                  "value": "http://www.wikidata.org/entity/Q1860",
+                  "type": "string"
+                },
+                "datatype": "url"
+              }
+            ],
+            "P203": [
+              {
+                "snaktype": "value",
+                "property": "P203",
+                "hash": "8b345edc4f8a37db18e8f418047716447522d450",
+                "datavalue": {
+                  "value": "English",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P202",
+            "P203"
+          ],
           "id": "Q27$71cba5c0-4cec-da26-a488-83e5e713048b",
           "rank": "normal"
         }
@@ -208,6 +184,66 @@
           "id": "Q27$8c488a6c-491a-9640-4cfe-cc5109e43bfb",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "5027ed382ee92aac7a7d3de6157c964cba512fd2",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the linguistic context of the work or name is unknown, hindering multilingual discovery and disambiguation.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q27$82486aaf-49e3-238b-3e95-d3158d51a011",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q27$c98bfc5d-43a2-94e4-c551-6fe47b5f9ed3",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q27$49854595-44a3-6c71-6bbc-a080ab5e11e8",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -216,8 +252,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-18T22:21:50Z",
-    "cache_exported_at": "2026-03-18T22:36:30.929594Z",
+    "graph_fetched_at": "2026-03-19T17:16:05Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

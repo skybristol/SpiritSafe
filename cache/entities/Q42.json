@@ -4,8 +4,8 @@
     "pageid": 99,
     "ns": 120,
     "title": "Item:Q42",
-    "lastrevid": 513,
-    "modified": "2026-03-12T22:28:39Z",
+    "lastrevid": 804,
+    "modified": "2026-03-19T17:22:55Z",
     "type": "item",
     "id": "Q42",
     "labels": {
@@ -101,12 +101,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "47bc60dee0b536377c9c020779751f2250778980",
+            "property": "P168",
+            "hash": "798ac7153aa3bae3b5427b8432ffe6bf0c4c01b4",
             "datavalue": {
               "value": {
                 "text": "Without a value, the geographic or legal scope of the statement is undefined, allowing it to be misapplied across unintended regions.",
@@ -117,7 +117,80 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q42$902EDBF5-D8E5-45B0-8E92-289B80DF2CD9",
+          "id": "Q42$378fce95-4034-7ab7-d04d-bee131efeefa",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q42$a1a7c874-4b30-cf69-e9f8-436c6dd5019e",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "d517cd2bc493f9a7e87d9f9f6580642f24c071e6",
+            "datavalue": {
+              "value": {
+                "text": "Link to the Wikidata item representing the jurisdiction such as a sovereign state which exercises authority over the subject item.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q42$3e935ab8-4c4f-59ea-4f6c-e1ade1ea6ae9",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q42$7e8337c9-4f5e-0277-431b-854846728f00",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q42$e73cc259-4ded-47c1-b8f0-cc4de7ec4270",
           "rank": "normal"
         }
       ]
@@ -126,12 +199,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:22:55Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

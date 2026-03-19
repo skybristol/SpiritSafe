@@ -4,8 +4,8 @@
     "pageid": 87,
     "ns": 120,
     "title": "Item:Q30",
-    "lastrevid": 661,
-    "modified": "2026-03-18T22:03:00Z",
+    "lastrevid": 719,
+    "modified": "2026-03-19T16:08:24Z",
     "type": "item",
     "id": "Q30",
     "labels": {
@@ -101,26 +101,6 @@
           "rank": "normal"
         }
       ],
-      "P170": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P170",
-            "hash": "5b3a721a81d771b19aea1e676f541ab16aee0c4a",
-            "datavalue": {
-              "value": {
-                "text": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails.",
-                "language": "mul"
-              },
-              "type": "monolingualtext"
-            },
-            "datatype": "monolingualtext"
-          },
-          "type": "statement",
-          "id": "Q30$16FD8FB2-7CB7-4428-B9A7-046F0BA31D46",
-          "rank": "normal"
-        }
-      ],
       "P161": [
         {
           "mainsnak": {
@@ -179,6 +159,59 @@
           "id": "Q30$7348be7e-4b5f-9651-1933-8db03a814e8e",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "5c034b3e369ebc20a475f8bbb62cb8a7bd4029ef",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q30$8f1b6c05-4933-b0a2-3190-b275ed32bbd0",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q30$9df5484b-484f-0173-d3b9-70602107c1a8",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "487f51a253c90485aaa37ea28386a9379a682827",
+            "datavalue": {
+              "value": {
+                "text": "Link to a Wikidata item that represents a report, document, or other type of reference material that provides evidence for the validity of a statement.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q30$f2f2409d-4fe2-cc91-4aae-707f60428a0f",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -187,8 +220,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-18T22:03:00Z",
-    "cache_exported_at": "2026-03-18T22:36:30.929594Z",
+    "graph_fetched_at": "2026-03-19T16:08:24Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

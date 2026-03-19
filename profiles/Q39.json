@@ -30,63 +30,18 @@
         }
       ],
       "value": {
-        "type": "wikibase-item",
-        "value_list": [
-          {
-            "item": "Q294414",
-            "itemLabel": "public office"
-          }
-        ]
+        "type": "wikibase-item"
       },
       "messages": {
         "mul": {
           "prompt": "the primary classification for the office (fixed to \"public office\" for this profile)",
-          "consequences_message": "Without a value, the item has no type classification, making it impossible to apply type-specific validation, constraints, or display logic."
+          "guidance": "The instance of statement classifies the item in a particular way as a specific type of thing within Wikidata. Each profile has guidance on how items are to be classified.",
+          "error_message": "Without a value, the item has no type classification, making it impossible to apply type-specific validation, constraints, or display logic."
         }
       },
       "max_count": null,
       "qualifiers": [],
-      "references": [
-        {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "label": "reference URL",
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P854"
-            }
-          ],
-          "value": {
-            "type": "url"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "provide the internet address for a reference",
-              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
-            }
-          },
-          "max_count": null
-        },
-        {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "label": "stated in",
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P248"
-            }
-          ],
-          "value": {
-            "type": "wikibase-item",
-            "value_list_reference": "cache/queries/Q28.json"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "link to an item serving as a reference source for a statement",
-              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
-            }
-          },
-          "max_count": null
-        }
-      ]
+      "references": []
     },
     {
       "entity": "https://datadistillery.wikibase.cloud/entity/Q41",
@@ -103,52 +58,13 @@
       "messages": {
         "mul": {
           "prompt": "the country where this office exists",
-          "consequences_message": "Without a value, national context is absent, preventing jurisdiction filtering, legal scoping, and geographic grouping."
+          "guidance": "Link to the Wikidata item for the country that the subject item is located in or associated with.",
+          "error_message": "Without a value, national context is absent, preventing jurisdiction filtering, legal scoping, and geographic grouping."
         }
       },
       "max_count": 1,
       "qualifiers": [],
-      "references": [
-        {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "label": "reference URL",
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P854"
-            }
-          ],
-          "value": {
-            "type": "url"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "provide the internet address for a reference",
-              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
-            }
-          },
-          "max_count": null
-        },
-        {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "label": "stated in",
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P248"
-            }
-          ],
-          "value": {
-            "type": "wikibase-item",
-            "value_list_reference": "cache/queries/Q28.json"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "link to an item serving as a reference source for a statement",
-              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
-            }
-          },
-          "max_count": null
-        }
-      ]
+      "references": []
     },
     {
       "entity": "https://datadistillery.wikibase.cloud/entity/Q42",
@@ -169,52 +85,13 @@
       "messages": {
         "mul": {
           "prompt": "the governmental jurisdiction this office administers",
-          "consequences_message": "Without a value, the geographic or legal scope of the statement is undefined, allowing it to be misapplied across unintended regions."
+          "guidance": "Link to the Wikidata item representing the jurisdiction such as a sovereign state which exercises authority over the subject item.",
+          "error_message": "Without a value, the geographic or legal scope of the statement is undefined, allowing it to be misapplied across unintended regions."
         }
       },
       "max_count": 1,
       "qualifiers": [],
-      "references": [
-        {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "label": "reference URL",
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P854"
-            }
-          ],
-          "value": {
-            "type": "url"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "provide the internet address for a reference",
-              "consequences_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
-            }
-          },
-          "max_count": null
-        },
-        {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "label": "stated in",
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P248"
-            }
-          ],
-          "value": {
-            "type": "wikibase-item",
-            "value_list_reference": "cache/queries/Q28.json"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "link to an item serving as a reference source for a statement",
-              "consequences_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
-            }
-          },
-          "max_count": null
-        }
-      ]
+      "references": []
     }
   ],
   "metadata": {
@@ -223,7 +100,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-18T22:36:32.668153Z",
+    "generated_at": "2026-03-19T17:30:49.047116Z",
     "languages": [
       "mul"
     ],
@@ -237,12 +114,6 @@
       }
     ],
     "value_list_graph": [
-      {
-        "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
-        "label": "Federal Register Notices Listing Tribes",
-        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
-        "cache_path": "cache/queries/Q28.json"
-      },
       {
         "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
         "label": "List of World Countries",

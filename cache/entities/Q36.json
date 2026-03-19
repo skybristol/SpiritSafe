@@ -4,8 +4,8 @@
     "pageid": 93,
     "ns": 120,
     "title": "Item:Q36",
-    "lastrevid": 526,
-    "modified": "2026-03-12T22:49:03Z",
+    "lastrevid": 794,
+    "modified": "2026-03-19T17:19:31Z",
     "type": "item",
     "id": "Q36",
     "labels": {
@@ -101,12 +101,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "3d5fdf6ab35bfdc11f69da1eeb0f16afde09695f",
+            "property": "P168",
+            "hash": "a53910bc3ec7f1fd4b1e7704408f29762f166d1f",
             "datavalue": {
               "value": {
                 "text": "Without a value, the entity cannot be placed on a map or included in spatial queries and proximity analyses.",
@@ -117,7 +117,40 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q36$89B6F218-C24A-45B5-AEEE-A6FEB9CDE3EF",
+          "id": "Q36$135921a3-43bf-8074-5161-0915c8d03175",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q36$5d5e9044-4fb0-24d0-9d35-eb6dadae6460",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "59cc8c64f15fae5a82d51863e6909cab79057685",
+            "datavalue": {
+              "value": {
+                "text": "Enter the geographic coordinates for the subject location in decimal degrees using the WGS84 coordinate reference system.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q36$c7822391-4e88-76c6-cae2-53934d3f3cf6",
           "rank": "normal"
         }
       ]
@@ -126,12 +159,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:19:31Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

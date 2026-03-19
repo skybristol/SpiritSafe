@@ -4,8 +4,8 @@
     "pageid": 92,
     "ns": 120,
     "title": "Item:Q35",
-    "lastrevid": 524,
-    "modified": "2026-03-12T22:48:46Z",
+    "lastrevid": 790,
+    "modified": "2026-03-19T17:18:51Z",
     "type": "item",
     "id": "Q35",
     "labels": {
@@ -101,12 +101,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "99b6f0b46a2e83e5718fd090bf4739039dd295b9",
+            "property": "P168",
+            "hash": "6cf0a8825d42f351a58f88623aa8cba0785987a4",
             "datavalue": {
               "value": {
                 "text": "Without a value, geographic sorting, regional filtering, and address completion workflows cannot function correctly.",
@@ -117,7 +117,80 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q35$BC106FFC-1E55-4357-BBAE-3AC024427674",
+          "id": "Q35$2db0b0d5-47a2-d831-c171-c34b46bdbea2",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q35$ec0900fd-4478-4399-6208-b385cb03094e",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "92147ef467d26fc19139f380e21178835f22fb29",
+            "datavalue": {
+              "value": {
+                "text": "Enter the postal or zip code associated with a location that can be used in coarse mapping and statistical analysis.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q35$81e70158-442e-a76c-b5c3-2b6797384131",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q35$fdc793e5-4182-89e7-210a-f760a4e919cc",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q35$919a215b-4e0f-ee3c-ac2d-49262fb7ba80",
           "rank": "normal"
         }
       ]
@@ -126,12 +199,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:18:51Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

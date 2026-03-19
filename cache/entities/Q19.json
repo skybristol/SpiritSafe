@@ -4,8 +4,8 @@
     "pageid": 54,
     "ns": 120,
     "title": "Item:Q19",
-    "lastrevid": 484,
-    "modified": "2026-03-12T22:22:31Z",
+    "lastrevid": 775,
+    "modified": "2026-03-19T17:12:52Z",
     "type": "item",
     "id": "Q19",
     "labels": {
@@ -122,12 +122,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "24182dbfaacddc8833e949d5541fea645c6c740b",
+            "property": "P168",
+            "hash": "6c0117e70f15e3ce9835a001701213c585169edc",
             "datavalue": {
               "value": {
                 "text": "Without a value, users and systems cannot locate the entity's authoritative online presence for verification or reference.",
@@ -138,7 +138,89 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q19$5F2D73D2-F780-4299-8CDF-877E3FA3EE45",
+          "id": "Q19$3b2c91cf-4502-8b49-2424-f40106ffd074",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "48ad53b7891abc56dcf14aff629754987130c4d5",
+            "datavalue": {
+              "value": {
+                "text": "An entity should generally have only a single official website statement, and a given official website should only apply to one entity.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q19$782e5fa8-4414-e10b-b4eb-49abb8615803",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P182",
+            "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+            "datavalue": {
+              "value": {
+                "amount": "+1",
+                "unit": "1"
+              },
+              "type": "quantity"
+            },
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q19$2a5a810d-48ce-d500-0753-9d644c896376",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P213": [
+              {
+                "snaktype": "value",
+                "property": "P213",
+                "hash": "f4516a6f5afef8a3a2e5f81a2a0663077e773018",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19,
+                    "id": "Q19"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P213"
+          ],
+          "id": "Q19$59952f30-480e-de40-ceca-c4731ef99f2e",
           "rank": "normal"
         }
       ]
@@ -147,12 +229,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:12:52Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

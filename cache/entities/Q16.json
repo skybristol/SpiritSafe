@@ -4,8 +4,8 @@
     "pageid": 48,
     "ns": 120,
     "title": "Item:Q16",
-    "lastrevid": 482,
-    "modified": "2026-03-12T20:45:38Z",
+    "lastrevid": 774,
+    "modified": "2026-03-19T17:11:39Z",
     "type": "item",
     "id": "Q16",
     "labels": {
@@ -112,12 +112,32 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P169": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "a32ecfcf00b85d1e36526458805615f966dc584d",
+            "property": "P169",
+            "hash": "3f62769f6cdfcb015eddc49f5fd38ebb0bcdab11",
+            "datavalue": {
+              "value": {
+                "text": "The instance of statement classifies the item in a particular way as a specific type of thing within Wikidata. Each profile has guidance on how items are to be classified.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q16$6a638e3c-48bc-6e78-ba15-3d9f7c83727a",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "733d5fe7b72c0faf8b58ef8a6e79ebabd3df2956",
             "datavalue": {
               "value": {
                 "text": "Without a value, the item has no type classification, making it impossible to apply type-specific validation, constraints, or display logic.",
@@ -128,7 +148,60 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q16$B2D236A2-96E2-4650-870A-5969B9907A2B",
+          "id": "Q16$446de55c-4b56-6957-233b-d8c0f7fae889",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q16$388f8360-47d8-c13d-7f6d-4f56f3b51f7d",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q16$ba84b9ff-42d8-78da-bca3-b80c1aacb17f",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q16$dbcd0cb9-4315-05d6-e7ac-ba84cb535c66",
           "rank": "normal"
         }
       ]
@@ -137,12 +210,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:11:39Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

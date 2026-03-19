@@ -4,8 +4,8 @@
     "pageid": 69,
     "ns": 120,
     "title": "Item:Q25",
-    "lastrevid": 532,
-    "modified": "2026-03-13T14:54:01Z",
+    "lastrevid": 708,
+    "modified": "2026-03-19T15:57:21Z",
     "type": "item",
     "id": "Q25",
     "labels": {
@@ -60,35 +60,15 @@
           "rank": "normal"
         }
       ],
-      "P170": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P170",
-            "hash": "36558b1636d1d104cadc2b6b45f710b2c23db56a",
-            "datavalue": {
-              "value": {
-                "text": "Without a value, the statement cannot be temporally situated, reducing its precision and usefulness in time-sensitive queries.",
-                "language": "en"
-              },
-              "type": "monolingualtext"
-            },
-            "datatype": "monolingualtext"
-          },
-          "type": "statement",
-          "id": "Q25$C1CBC6B5-95C8-40DD-ABFD-6D64E3F07124",
-          "rank": "normal"
-        }
-      ],
       "P171": [
         {
           "mainsnak": {
             "snaktype": "value",
             "property": "P171",
-            "hash": "29881c8ea91faf0d8849fa31fcbc88d1f97bf8c3",
+            "hash": "e4a7c38384f2ef1d560a455f6b00bc72e85dd15f",
             "datavalue": {
               "value": {
-                "text": "date that the statement quantity applies and can be referenced to",
+                "text": "date that the statement applies and can be referenced to",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -99,18 +79,59 @@
           "id": "Q25$b0a3794b-49c4-dc1d-c3d1-cc6399c2bcbe",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "f7210d4abf366bd48abfe28b922117ab52e1329e",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the statement cannot be temporally situated, reducing its precision and usefulness in time-sensitive queries.mu",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q25$bae32b7d-4420-15f3-739e-edc91c1a6a73",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "fee2bdace0bd024b41f4d7a6e546b090fe701b1d",
+            "datavalue": {
+              "value": {
+                "text": "Enter a date value that specifies a point in time to which the statement applies or is/was considered valid.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q25$e4dc7beb-4e87-087c-6097-0e21f2e66e2c",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T15:57:21Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

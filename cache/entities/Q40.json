@@ -4,8 +4,8 @@
     "pageid": 97,
     "ns": 120,
     "title": "Item:Q40",
-    "lastrevid": 502,
-    "modified": "2026-03-12T22:26:54Z",
+    "lastrevid": 812,
+    "modified": "2026-03-19T17:25:22Z",
     "type": "item",
     "id": "Q40",
     "labels": {
@@ -101,12 +101,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "f235250fc649428d9f8b6d0a224510b92572b282",
+            "property": "P168",
+            "hash": "a6fbf4fb0bacbe36a828ab6da25999209597ca7f",
             "datavalue": {
               "value": {
                 "text": "Without a value, the governing role associated with this entity is undefined, breaking political structure queries.",
@@ -117,7 +117,108 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q40$DD491BA0-FB08-4160-98D9-1E63BB26D45B",
+          "id": "Q40$1595a6de-4861-b92a-082a-67ce87b5ea7a",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P182",
+            "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+            "datavalue": {
+              "value": {
+                "amount": "+1",
+                "unit": "1"
+              },
+              "type": "quantity"
+            },
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q40$8e236985-4507-f232-5b08-3ed85f376bb0",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "9c399e731dbc0bf24a0a217a5639aacc510a7a14",
+            "datavalue": {
+              "value": {
+                "text": "Link to the Wikidata item representing the office held by the head of the subject government. Create a new item if necessary, using the available Entity Profile.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q40$f91588d1-4085-b8fd-edf4-dc6d55658c87",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q40$ff92e0a5-469d-a0c0-7cac-72bd3a6b8525",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q40$8ca410f1-45c2-bcc1-6dbc-31540a8f4170",
+          "rank": "normal"
+        }
+      ],
+      "P161": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P161",
+            "hash": "8334e13e4e8644964c5195cc5dbd1611f8090946",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 39,
+                "id": "Q39"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q40$7215a424-4019-d3e1-1dc4-fe74ef18d3d2",
           "rank": "normal"
         }
       ]
@@ -126,12 +227,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:25:22Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

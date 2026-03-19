@@ -4,8 +4,8 @@
     "pageid": 95,
     "ns": 120,
     "title": "Item:Q38",
-    "lastrevid": 499,
-    "modified": "2026-03-12T22:26:18Z",
+    "lastrevid": 798,
+    "modified": "2026-03-19T17:20:49Z",
     "type": "item",
     "id": "Q38",
     "labels": {
@@ -101,12 +101,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "a17cb388cc2662c104d0aa97b7b5ed18fe3db3e0",
+            "property": "P168",
+            "hash": "c7738421646e9952775922608a4860fa87b9ccaa",
             "datavalue": {
               "value": {
                 "text": "Without a value, visual identification of the entity in map or list contexts is missing, reducing recognizability.",
@@ -117,7 +117,40 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q38$C5B96A40-E010-4FEC-896A-09CB5AAB28D4",
+          "id": "Q38$65fe486a-49e9-a58e-d554-76d1d22c6243",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q38$5095d873-4fdf-0d4c-9988-1223957caefb",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "a90e461d629eaf9a4cd17108a2df770d42f68397",
+            "datavalue": {
+              "value": {
+                "text": "Ensure the flag image from Wikimedia Commons is sufficiently referenced to a reliable source.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q38$8f50ef22-4204-5535-6aa5-0525cb6597b2",
           "rank": "normal"
         }
       ]
@@ -126,12 +159,13 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "profile-entry",
-    "profile_entry_ids": [
-      "Q4"
-    ],
-    "graph_fetched_at": "2026-03-13T16:26:29.155444Z",
-    "cache_exported_at": "2026-03-13T16:26:31.136019Z",
-    "extractor": "gkc.wikibase.ontology.export_profile_graph_to_entity_cache"
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-19T17:20:49Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
   }
 }

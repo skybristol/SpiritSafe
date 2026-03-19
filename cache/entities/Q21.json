@@ -4,8 +4,8 @@
     "pageid": 56,
     "ns": 120,
     "title": "Item:Q21",
-    "lastrevid": 645,
-    "modified": "2026-03-18T13:24:43Z",
+    "lastrevid": 780,
+    "modified": "2026-03-19T17:15:33Z",
     "type": "item",
     "id": "Q21",
     "labels": {
@@ -122,12 +122,12 @@
           "rank": "normal"
         }
       ],
-      "P170": [
+      "P168": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P170",
-            "hash": "3a06de6a650cd1b8fe786f0f68504aabaf452586",
+            "property": "P168",
+            "hash": "85c2471d8639ecc53f9cf4cb8df5b7080b8b422d",
             "datavalue": {
               "value": {
                 "text": "Without a value, quantitative analysis of organizational size is unavailable and comparisons across entities cannot be made.",
@@ -138,7 +138,80 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q21$AF5C0278-8CC9-417C-B766-480D5E6F14A9",
+          "id": "Q21$fee71e21-43fb-bf28-5b56-4da395d73536",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "6f981d5d3c437bb6259b6c8207f8ef197fc78860",
+            "datavalue": {
+              "value": {
+                "text": "Enter the number of members qualified by a point in time and citing a reliable reference",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q21$ae5396e4-4ef6-2f3d-2cd3-f7dbbbae9294",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q21$5ec00aaa-43cd-5a0a-d0b3-ab6142305233",
+          "rank": "normal"
+        }
+      ],
+      "P211": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 30,
+                "id": "Q30"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q21$99480681-442e-8158-e956-0b6e53ee6ffe",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P211",
+            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 29,
+                "id": "Q29"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q21$e71c3a1d-4d15-5435-3609-8e7e4079610d",
           "rank": "normal"
         }
       ]
@@ -149,8 +222,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-18T13:24:43Z",
-    "cache_exported_at": "2026-03-18T14:18:30.208894Z",
+    "graph_fetched_at": "2026-03-19T17:15:33Z",
+    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
