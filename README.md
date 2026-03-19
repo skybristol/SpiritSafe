@@ -30,7 +30,8 @@ Top-level sections:
 
 ## Workflows
 
-- **Cache From Wikibase** (`cache-from-wikibase.yml`) - refreshes `cache/entities/` and exports `profiles/<QID>.json`.
+- **Cache from Wikibase** (`cache-from-wikibase.yml`) - refreshes `cache/entities/` from recent Wikibase updates and writes `cache/refresh/last_run_summary.json`.
+- **Cache Wikibase and Build Profiles** (`cache-wikibase-and-build-profiles.yml`) - refreshes `cache/entities/` and exports `profiles/<QID>.json` from the refreshed cache.
 - **Hydrate Value Lists** (`hydrate-value-lists.yml`) - exports `queries/<QID>.sparql` and hydrates `cache/queries/<QID>.json`.
 - **Build Manifest** (`build-manifest.yml`) - runs `gkc --json spiritsafe manifest build --source local --local-root .` and commits `cache/manifest.json` when changed.
 - **Validate Profile** (`validate-profile.yml`) - baseline structural checks for pull requests.
