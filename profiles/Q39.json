@@ -30,7 +30,13 @@
         }
       ],
       "value": {
-        "type": "wikibase-item"
+        "type": "wikibase-item",
+        "value_list": [
+          {
+            "item": "Q294414",
+            "itemLabel": "public office"
+          }
+        ]
       },
       "messages": {
         "mul": {
@@ -223,7 +229,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-19T19:55:50.588120Z",
+    "generated_at": "2026-03-19T21:40:55.717096Z",
     "languages": [
       "mul"
     ],
