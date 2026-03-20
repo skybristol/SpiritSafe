@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T14:19:32.864436Z",
+  "generated_at": "2026-03-20T13:24:43.861017Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -19,12 +19,6 @@
         }
       ],
       "value_list_graph": [
-        {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
-          "label": "Federal Register Notices Listing Tribes",
-          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "cache_path": "cache/queries/Q28.json"
-        },
         {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
           "label": "List of World Countries",
@@ -78,10 +72,11 @@
     }
   ],
   "entities": {
-    "count": 58,
+    "count": 53,
     "qids": [
       "P158",
       "P161",
+      "P163",
       "P192",
       "P193",
       "P195",
@@ -98,23 +93,18 @@
       "P209",
       "P210",
       "P211",
-      "P212",
       "P213",
       "P5",
       "Q1",
       "Q16",
       "Q19",
       "Q21",
-      "Q23",
-      "Q24",
       "Q25",
-      "Q26",
       "Q27",
       "Q28",
       "Q29",
       "Q3",
       "Q30",
-      "Q31",
       "Q32",
       "Q33",
       "Q34",
@@ -136,7 +126,6 @@
       "Q52",
       "Q54",
       "Q55",
-      "Q6",
       "Q7"
     ]
   },
