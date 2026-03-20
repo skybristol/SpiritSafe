@@ -120,7 +120,7 @@
             }
           ],
           "value": {
-            "type": null
+            "type": "time"
           },
           "messages": {
             "mul": {
@@ -587,7 +587,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-19T21:40:55.717794Z",
+    "generated_at": "2026-03-20T11:49:45.738566Z",
     "languages": [
       "mul"
     ],
