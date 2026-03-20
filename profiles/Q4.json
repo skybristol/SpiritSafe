@@ -49,26 +49,6 @@
       "qualifiers": [],
       "references": [
         {
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "label": "reference URL",
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P854"
-            }
-          ],
-          "value": {
-            "type": "url"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "provide the internet address for a reference",
-              "guidance": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
-              "error_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
-            }
-          },
-          "max_count": null
-        },
-        {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
           "io_map": [
@@ -587,7 +567,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-20T11:49:45.738566Z",
+    "generated_at": "2026-03-20T13:23:41.989262Z",
     "languages": [
       "mul"
     ],
