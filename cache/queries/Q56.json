@@ -3,8 +3,8 @@
     "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
     "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q56",
     "query": "queries/Q56.sparql",
-    "updated": "2026-03-21T19:24:54.698359Z",
-    "count": 563
+    "updated": "2026-03-21T20:13:32.096982Z",
+    "count": 564
   },
   "items": [
     {
@@ -2122,6 +2122,10 @@
     {
       "item": "http://www.wikidata.org/entity/Q105828635",
       "itemLabel": "United States Pharmacopeia unit"
+    },
+    {
+      "item": "1",
+      "itemLabel": "unitless"
     },
     {
       "item": "http://www.wikidata.org/entity/Q110993911",
