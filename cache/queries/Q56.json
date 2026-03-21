@@ -1,0 +1,2263 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q56",
+    "query": "queries/Q56.sparql",
+    "updated": "2026-03-21T19:24:54.698359Z",
+    "count": 563
+  },
+  "items": [
+    {
+      "item": "http://www.wikidata.org/entity/Q13583781",
+      "itemLabel": "A-weighting"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4669819",
+      "itemLabel": "absolute molar mass"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q28458703",
+      "itemLabel": "acceleration"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4672899",
+      "itemLabel": "accumulated thermal unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8182107",
+      "itemLabel": "Adamcova m\u00edra"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q381335",
+      "itemLabel": "aerobic threshold"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q381437",
+      "itemLabel": "aerodynamic diameter"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1723950",
+      "itemLabel": "alphabet"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4063874",
+      "itemLabel": "amagat"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30064054",
+      "itemLabel": "ampere per degree"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30064202",
+      "itemLabel": "ampere per radian"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30064318",
+      "itemLabel": "ampere-turn per inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30064324",
+      "itemLabel": "ampere-turn per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q834020",
+      "itemLabel": "angular frequency"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4764025",
+      "itemLabel": "angular momentum of light"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q740898",
+      "itemLabel": "angular resolution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4764999",
+      "itemLabel": "Animal unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4769688",
+      "itemLabel": "Annual fuel utilization efficiency"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q251537",
+      "itemLabel": "antenna gain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2256000",
+      "itemLabel": "API unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q95921287",
+      "itemLabel": "aranykorona"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16833590",
+      "itemLabel": "area under the curve"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19702860",
+      "itemLabel": "areal acceleration"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q143077",
+      "itemLabel": "areostationary orbit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25906188",
+      "itemLabel": "arid capacity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21652973",
+      "itemLabel": "attenuation coefficient"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19765979",
+      "itemLabel": "augmentation index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1965903",
+      "itemLabel": "author's sheet"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25972335",
+      "itemLabel": "Bacon number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q10859821",
+      "itemLabel": "Bag"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12533281",
+      "itemLabel": "ball"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12819297",
+      "itemLabel": "Ball"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107611142",
+      "itemLabel": "barn per electronvolt"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q808873",
+      "itemLabel": "Barrer"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2445779",
+      "itemLabel": "bedding modulus"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105840138",
+      "itemLabel": "Bethesda unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4911997",
+      "itemLabel": "billion cubic metres of natural gas"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q110652686",
+      "itemLabel": "bing"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2178908",
+      "itemLabel": "bioconcentration factor"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107821494",
+      "itemLabel": "bit per cubic metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107822428",
+      "itemLabel": "bit per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5733010",
+      "itemLabel": "bit per pixel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107824325",
+      "itemLabel": "bit per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1146944",
+      "itemLabel": "block"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q885409",
+      "itemLabel": "Bloom"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4936395",
+      "itemLabel": "Bodansky unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25325238",
+      "itemLabel": "brake horsepower per cubic centimeter"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30064611",
+      "itemLabel": "breath per minute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4962736",
+      "itemLabel": "Brewster"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q112670470",
+      "itemLabel": "brick"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4098585",
+      "itemLabel": "buckingham"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q13446392",
+      "itemLabel": "buffer capacity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104698659",
+      "itemLabel": "Butelj"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q20747554",
+      "itemLabel": "Byzantine units of measurement"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q13100559",
+      "itemLabel": "B\u00e9s"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q806091",
+      "itemLabel": "California postmile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q13424566",
+      "itemLabel": "calorific value"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1597271",
+      "itemLabel": "capacity utilization"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5477816",
+      "itemLabel": "car equivalent unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q337320",
+      "itemLabel": "carbohydrate counting"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138414292",
+      "itemLabel": "carbon dioxide equivalent mass"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4354760",
+      "itemLabel": "carbonate hardness"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3021257",
+      "itemLabel": "Cartier degree"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107132000",
+      "itemLabel": "cases per 100 million vehicle miles"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107132174",
+      "itemLabel": "cases per 100,000 flight hours"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107133215",
+      "itemLabel": "cases per 100,000 workers per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23893296",
+      "itemLabel": "cases per 100000 person-years"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106081532",
+      "itemLabel": "cases per million participant days"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23893259",
+      "itemLabel": "cases per person-year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17993626",
+      "itemLabel": "caudel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1051746",
+      "itemLabel": "Cavalleria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5058378",
+      "itemLabel": "Cellulase Unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1053453",
+      "itemLabel": "cent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130367563",
+      "itemLabel": "centesimal arcsecond"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130367371",
+      "itemLabel": "centigon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q284100",
+      "itemLabel": "centimorgan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q726627",
+      "itemLabel": "cetane number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1757819",
+      "itemLabel": "Charge carrier density"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126489841",
+      "itemLabel": "Charging rate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q51334090",
+      "itemLabel": "chemical weathering index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1098949",
+      "itemLabel": "clausius"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q954757",
+      "itemLabel": "colony-forming unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q96167300",
+      "itemLabel": "column"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2225285",
+      "itemLabel": "concrete compression strength"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q66061119",
+      "itemLabel": "contact area count"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3966569",
+      "itemLabel": "continuous spectrum"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5168807",
+      "itemLabel": "copper units of pressure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12234574",
+      "itemLabel": "cosmic density"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5176811",
+      "itemLabel": "count per litre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1810260",
+      "itemLabel": "coupled magnetic flux"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q96375616",
+      "itemLabel": "cover"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2849633",
+      "itemLabel": "craniofacial angle"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q658784",
+      "itemLabel": "critical density"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1140909",
+      "itemLabel": "Cronbach's alpha"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5189485",
+      "itemLabel": "crown closure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1869087",
+      "itemLabel": "crystal size distribution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q78336909",
+      "itemLabel": "cubic metre per kilogram square second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q57175652",
+      "itemLabel": "cubic metre per year per individual"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1106825",
+      "itemLabel": "cumulative incidence"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q64725760",
+      "itemLabel": "current United States dollar per gallon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1142730",
+      "itemLabel": "cycle threshold"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3884966",
+      "itemLabel": "cytherocentric orbit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q46123112",
+      "itemLabel": "DALY / 100000 population"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5211896",
+      "itemLabel": "damage per second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q45321645",
+      "itemLabel": "dang"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1165639",
+      "itemLabel": "daraf"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1165725",
+      "itemLabel": "darcy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1166886",
+      "itemLabel": "darwin"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q26869687",
+      "itemLabel": "dash"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1771950",
+      "itemLabel": "dBc"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q9200366",
+      "itemLabel": "dBd"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56342278",
+      "itemLabel": "dBi"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2399647",
+      "itemLabel": "dBZ"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23977060",
+      "itemLabel": "decibel relative to 1 picowatt"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2285395",
+      "itemLabel": "decibel watt"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130367481",
+      "itemLabel": "decigon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1207397",
+      "itemLabel": "decipol"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3021270",
+      "itemLabel": "degree centigrade"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1514559",
+      "itemLabel": "degree day"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23210616",
+      "itemLabel": "degree MacMichael"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1945974",
+      "itemLabel": "degree of concentration"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21948574",
+      "itemLabel": "degree of latitude on Earth"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21948577",
+      "itemLabel": "degree of longitude on Earth"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q119155966",
+      "itemLabel": "Degrees"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1184955",
+      "itemLabel": "delta-v"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137303430",
+      "itemLabel": "dessert spoon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2085434",
+      "itemLabel": "dGH"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114739578",
+      "itemLabel": "diadynamic current"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q343241",
+      "itemLabel": "dielectric strength"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q193933",
+      "itemLabel": "dioptre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5280760",
+      "itemLabel": "Dirichlet's energy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1230529",
+      "itemLabel": "divergence"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q740585",
+      "itemLabel": "Dobson unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3033936",
+      "itemLabel": "dollar"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5299480",
+      "itemLabel": "dots per centimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q305896",
+      "itemLabel": "dots per inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q110742003",
+      "itemLabel": "dots per pixel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2672316",
+      "itemLabel": "drop"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5309557",
+      "itemLabel": "Dry Sheep Equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q10478549",
+      "itemLabel": "D\u00e4cker"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5321406",
+      "itemLabel": "E-Government Unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q364886",
+      "itemLabel": "effective potential"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105478411",
+      "itemLabel": "Ehrlich unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19853532",
+      "itemLabel": "elastance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1236730",
+      "itemLabel": "electron temperature"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98635536",
+      "itemLabel": "electronvolt per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105840197",
+      "itemLabel": "ELISA unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5365798",
+      "itemLabel": "Elliptic flow"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q568761",
+      "itemLabel": "enantiomeric excess"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11379",
+      "itemLabel": "energy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109319904",
+      "itemLabel": "entropy unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2142347",
+      "itemLabel": "environmental factor"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1386162",
+      "itemLabel": "eotvos"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q256094",
+      "itemLabel": "equivalent conicity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114406538",
+      "itemLabel": "Equivalent continuous sound level"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1171041",
+      "itemLabel": "equivalent sound level"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6579586",
+      "itemLabel": "equivalent weight"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q28657331",
+      "itemLabel": "erg per second square centimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q225888",
+      "itemLabel": "erlang"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108112819",
+      "itemLabel": "euro per kilowatt hour"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108112891",
+      "itemLabel": "euro per megawatt hour"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q66778905",
+      "itemLabel": "exaflops"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107825716",
+      "itemLabel": "exbibit per cubic metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107825143",
+      "itemLabel": "exbibit per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107825584",
+      "itemLabel": "exbibit per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5420789",
+      "itemLabel": "expansion ratio"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1293885",
+      "itemLabel": "fibre year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1402691",
+      "itemLabel": "field capacity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q24613",
+      "itemLabel": "film speed"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25509036",
+      "itemLabel": "finsen"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11138882",
+      "itemLabel": "fjerding"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3073386",
+      "itemLabel": "Flashes Per Minute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5459058",
+      "itemLabel": "Flick"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113189098",
+      "itemLabel": "flight endurance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5459376",
+      "itemLabel": "Flik"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1530622",
+      "itemLabel": "floating-point operation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q188768",
+      "itemLabel": "FLOPS"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130551159",
+      "itemLabel": "Florentine temperature scale"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q27998984",
+      "itemLabel": "Forpet"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109377866",
+      "itemLabel": "forty-foot equivalent unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q122759241",
+      "itemLabel": "frame pacing"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q28000435",
+      "itemLabel": "francart"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5503695",
+      "itemLabel": "Friedman Unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1638137",
+      "itemLabel": "full load hour"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1543700",
+      "itemLabel": "full-time equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q854659",
+      "itemLabel": "gain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q178413",
+      "itemLabel": "gallon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5519131",
+      "itemLabel": "gallon per watt-hour"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114738940",
+      "itemLabel": "galvanic current"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3095011",
+      "itemLabel": "gamma"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12728794",
+      "itemLabel": "Gammil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1737958",
+      "itemLabel": "germination rate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q29864838",
+      "itemLabel": "Gibbs"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862762",
+      "itemLabel": "gibibit per cubic metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862736",
+      "itemLabel": "gibibit per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862746",
+      "itemLabel": "gibibit per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5558595",
+      "itemLabel": "gigaflops"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q135373020",
+      "itemLabel": "gigatexels per second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5570654",
+      "itemLabel": "Global Standard Stratigraphic Age"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q273924",
+      "itemLabel": "glycemic index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5593542",
+      "itemLabel": "grain per gallon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3564995",
+      "itemLabel": "gram atomic mass"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q57084839",
+      "itemLabel": "gram of carbon dioxide equivalent per kilometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114559346",
+      "itemLabel": "gram of carbon dioxide equivalent per kilowatt hour"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105828722",
+      "itemLabel": "gram percent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q116201250",
+      "itemLabel": "grams of CO\u2082 equivalent per person-kilometer"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104502005",
+      "itemLabel": "groove pitch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104519132",
+      "itemLabel": "groove width"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5610527",
+      "itemLabel": "gross ton mile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4588088",
+      "itemLabel": "Hartkorn"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q902555",
+      "itemLabel": "Hatta number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q85765969",
+      "itemLabel": "Hawking Index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5693253",
+      "itemLabel": "heat capacity rate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14524610",
+      "itemLabel": "Heating degree day"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q22908860",
+      "itemLabel": "helen"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q568855",
+      "itemLabel": "helicity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2448902",
+      "itemLabel": "hemoglobin value"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1606390",
+      "itemLabel": "Henry's Law constant"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2948600",
+      "itemLabel": "high-power field"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3561856",
+      "itemLabel": "homer"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106707206",
+      "itemLabel": "Hounsfield unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q29463526",
+      "itemLabel": "hour per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11976024",
+      "itemLabel": "Hubble length"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2031181",
+      "itemLabel": "Hubble's constant"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q31086089",
+      "itemLabel": "humus content"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1637469",
+      "itemLabel": "Hundred"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q32291",
+      "itemLabel": "hydrophilic-lipophilic balance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q71486",
+      "itemLabel": "instructions per second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q776862",
+      "itemLabel": "insulin index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q13732975",
+      "itemLabel": "interepidemic period"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2000486",
+      "itemLabel": "International Bittering Units scale"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1496383",
+      "itemLabel": "International System of Electrical and Magnetic Units"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q835916",
+      "itemLabel": "international unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4025831",
+      "itemLabel": "intracerebral pathogenicity index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15230792",
+      "itemLabel": "intrinsic brightness"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q136367545",
+      "itemLabel": "inverse energy density"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q73552274",
+      "itemLabel": "inverse square kilometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q539454",
+      "itemLabel": "IOPS"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130244233",
+      "itemLabel": "ISO 8791-2"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3080293",
+      "itemLabel": "isotope fractionation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q101435213",
+      "itemLabel": "jansky second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107710161",
+      "itemLabel": "joule per bit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q111494193",
+      "itemLabel": "joule per hertz mole"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1709783",
+      "itemLabel": "joule second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6296855",
+      "itemLabel": "Jow"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2408649",
+      "itemLabel": "JTU"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q92717607",
+      "itemLabel": "kelvin difference per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q84451486",
+      "itemLabel": "kelvin metre per watt"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16946002",
+      "itemLabel": "kesitah"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14741167",
+      "itemLabel": "kg coal equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862850",
+      "itemLabel": "kibibit per cubic metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862770",
+      "itemLabel": "kibibit per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862783",
+      "itemLabel": "kibibit per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q78053467",
+      "itemLabel": "kiloFLOPS"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q52710533",
+      "itemLabel": "kilogirl"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q93871856",
+      "itemLabel": "kilometre per litre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q80026587",
+      "itemLabel": "kilometre per second megaparsec"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2325476",
+      "itemLabel": "Kosten unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2400449",
+      "itemLabel": "Kovats retention index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105840191",
+      "itemLabel": "Kunkel unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2771020",
+      "itemLabel": "lacunarity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25451692",
+      "itemLabel": "lake percentage"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19895695",
+      "itemLabel": "lambda"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q910137",
+      "itemLabel": "lambda point"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1191684",
+      "itemLabel": "Land\u00e9 factor"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6508883",
+      "itemLabel": "leaf wetness"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2054322",
+      "itemLabel": "ligand cone angle"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113637465",
+      "itemLabel": "limit of flocculation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12407251",
+      "itemLabel": "line pairs per millimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2989817",
+      "itemLabel": "Lines per inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2995540",
+      "itemLabel": "liquid water content"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q369992",
+      "itemLabel": "literacy rate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q82440913",
+      "itemLabel": "litre per 100 kilometres"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q116063719",
+      "itemLabel": "litre per kilocalorie"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2523135",
+      "itemLabel": "Livestock grazing comparison"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1853154",
+      "itemLabel": "Living Planet Index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1870730",
+      "itemLabel": "Lot (fineness)"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105519264",
+      "itemLabel": "low-power field"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105840192",
+      "itemLabel": "Mac Lagan unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q69549352",
+      "itemLabel": "man-day"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106653943",
+      "itemLabel": "man-year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3357444",
+      "itemLabel": "mantal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1905557",
+      "itemLabel": "Martindale"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q874659",
+      "itemLabel": "mass-to-charge ratio"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6799778",
+      "itemLabel": "mbsf"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130284021",
+      "itemLabel": "mean radius"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862898",
+      "itemLabel": "mebibit per cubic metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862870",
+      "itemLabel": "mebibit per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107862884",
+      "itemLabel": "mebibit per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q66778809",
+      "itemLabel": "megaflops"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q949075",
+      "itemLabel": "megapixel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q136718229",
+      "itemLabel": "megatonne of carbon dioxide equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30748154",
+      "itemLabel": "megatonne of oil equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108858382",
+      "itemLabel": "mel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1755092",
+      "itemLabel": "melt flow index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17082773",
+      "itemLabel": "mem"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1924756",
+      "itemLabel": "metabolic equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21719454",
+      "itemLabel": "metre per cubic second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q92896481",
+      "itemLabel": "metre per kilogram"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18344097",
+      "itemLabel": "metre water equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130367483",
+      "itemLabel": "microgon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1390401",
+      "itemLabel": "micromort"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1931531",
+      "itemLabel": "micronaire"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q93868873",
+      "itemLabel": "miles per gallon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6858040",
+      "itemLabel": "milk equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130367482",
+      "itemLabel": "milligon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114559417",
+      "itemLabel": "milligrams per kilowatt hour"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q132778393",
+      "itemLabel": "Millions Barrels of Oil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q72303889",
+      "itemLabel": "MIPS"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1600314",
+      "itemLabel": "mired"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6881631",
+      "itemLabel": "Mithkal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q13860234",
+      "itemLabel": "modulus"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131411532",
+      "itemLabel": "Moisture regain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q36384",
+      "itemLabel": "molar equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q65956693",
+      "itemLabel": "molar equivalents per litre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q55579393",
+      "itemLabel": "molecular sequence identity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6895982",
+      "itemLabel": "molecular weight cut-off"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130394076",
+      "itemLabel": "momentum density"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q135395055",
+      "itemLabel": "morgan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q63973505",
+      "itemLabel": "morgen feet"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11339872",
+      "itemLabel": "mouse unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q117660929",
+      "itemLabel": "MWp"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12248389",
+      "itemLabel": "Nasamah"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1977731",
+      "itemLabel": "Nephelometric Turbidity Unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q87049028",
+      "itemLabel": "newton second per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q29463499",
+      "itemLabel": "nights per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3247759",
+      "itemLabel": "normal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108858416",
+      "itemLabel": "noy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56297898",
+      "itemLabel": "nuclear reaction rate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q614132",
+      "itemLabel": "number needed to treat"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7069572",
+      "itemLabel": "number needed to vaccinate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q193423",
+      "itemLabel": "octane rating"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2270252",
+      "itemLabel": "octave band"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113044646",
+      "itemLabel": "octon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q674173",
+      "itemLabel": "okta"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q845833",
+      "itemLabel": "olf"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q48998991",
+      "itemLabel": "one-third octave"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18564568",
+      "itemLabel": "optical permeability"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q125726941",
+      "itemLabel": "order"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2652700",
+      "itemLabel": "osmole"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7115956",
+      "itemLabel": "oxygen permeability"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q900522",
+      "itemLabel": "ozone depletion potential"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1069725",
+      "itemLabel": "page"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2519988",
+      "itemLabel": "parachor"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q134696401",
+      "itemLabel": "parallel universe"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7136979",
+      "itemLabel": "Pari"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25661",
+      "itemLabel": "parity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1956359",
+      "itemLabel": "partial pressure value"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q729222",
+      "itemLabel": "passenger car equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7142596",
+      "itemLabel": "passenger miles per gallon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q62603280",
+      "itemLabel": "passenger per month"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q62603273",
+      "itemLabel": "passenger per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q62017288",
+      "itemLabel": "passengers per day"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124334688",
+      "itemLabel": "passengers per hour"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4346600",
+      "itemLabel": "passengers per hour per direction"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7142617",
+      "itemLabel": "Passeree"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q120169992",
+      "itemLabel": "pasteurization unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107970230",
+      "itemLabel": "pebibit per cubic metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107970215",
+      "itemLabel": "pebibit per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107970224",
+      "itemLabel": "pebibit per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5510152",
+      "itemLabel": "Penalty in Minutes"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7164593",
+      "itemLabel": "penrig"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q111010600",
+      "itemLabel": "people/km\u00b2"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109337616",
+      "itemLabel": "per 100 electronvolt"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q136353473",
+      "itemLabel": "per lane per direction"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q116486875",
+      "itemLabel": "per mole per second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q51031760",
+      "itemLabel": "percentage per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105828600",
+      "itemLabel": "peripheral vascular resistance unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7169176",
+      "itemLabel": "perm"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108913970",
+      "itemLabel": "person per square kilometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108914485",
+      "itemLabel": "person per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109448508",
+      "itemLabel": "person-sievert"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q20508519",
+      "itemLabel": "person-year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56556397",
+      "itemLabel": "Persoz hardness"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q66778863",
+      "itemLabel": "petaflops"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q781545",
+      "itemLabel": "phon"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105491373",
+      "itemLabel": "Pipa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q355198",
+      "itemLabel": "pixel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109371891",
+      "itemLabel": "pixels per degree"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7398951",
+      "itemLabel": "pixels per inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7201692",
+      "itemLabel": "plaque-forming unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3393320",
+      "itemLabel": "point"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113561827",
+      "itemLabel": "Polgrosch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2017154",
+      "itemLabel": "population balance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2105114",
+      "itemLabel": "portion"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q112659472",
+      "itemLabel": "potential vorticity unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23210627",
+      "itemLabel": "Preece"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7245301",
+      "itemLabel": "printer point"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21154419",
+      "itemLabel": "prism dioptre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137395046",
+      "itemLabel": "probabilistic bit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2634309",
+      "itemLabel": "productivity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14397063",
+      "itemLabel": "Prony"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4742312",
+      "itemLabel": "proof"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2071519",
+      "itemLabel": "proper acceleration"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2295378",
+      "itemLabel": "proportional limit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7251490",
+      "itemLabel": "protein nitrogen unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2115796",
+      "itemLabel": "pseudotensor"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7265671",
+      "itemLabel": "Q value"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q129609",
+      "itemLabel": "Q10"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56326023",
+      "itemLabel": "QO\u2082"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105527791",
+      "itemLabel": "quantum"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4218495",
+      "itemLabel": "quantum capacitance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7269027",
+      "itemLabel": "quantum correlation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6671143",
+      "itemLabel": "quarter"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131966422",
+      "itemLabel": "quarter-millimeters"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3927858",
+      "itemLabel": "Quinaria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2300171",
+      "itemLabel": "qutrit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3361425",
+      "itemLabel": "R-value"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25384713",
+      "itemLabel": "RAC Horsepower"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12332718",
+      "itemLabel": "Radarmile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18326689",
+      "itemLabel": "Radiative acceleration"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2114702",
+      "itemLabel": "rate equation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12142893",
+      "itemLabel": "rate of liquid flow"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q851202",
+      "itemLabel": "rating sound level"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106623462",
+      "itemLabel": "reciprocal month"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107378429",
+      "itemLabel": "reciprocal square inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106623447",
+      "itemLabel": "reciprocal week"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q102129764",
+      "itemLabel": "reciprocal year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q87473209",
+      "itemLabel": "reference sound power"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109455347",
+      "itemLabel": "relative dentin abrasivity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12775200",
+      "itemLabel": "relative molecular mass"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7312194",
+      "itemLabel": "Removal Units"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12049995",
+      "itemLabel": "resolution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2908602",
+      "itemLabel": "retarded time"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2146903",
+      "itemLabel": "revision soul"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q120998772",
+      "itemLabel": "revolution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q206037",
+      "itemLabel": "revolutions per minute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15843029",
+      "itemLabel": "Rose"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q38623562",
+      "itemLabel": "rounds per minute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1201",
+      "itemLabel": "Saarland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2252280",
+      "itemLabel": "sabin"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7415435",
+      "itemLabel": "Sana lamjel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56868027",
+      "itemLabel": "satoshi per byte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q844596",
+      "itemLabel": "Saybolt universal second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3475441",
+      "itemLabel": "Schmerber"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3951942",
+      "itemLabel": "Schoenus"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7435308",
+      "itemLabel": "score"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3347700",
+      "itemLabel": "screen line"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3798224",
+      "itemLabel": "seasonal energy efficiency ratio"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1481983",
+      "itemLabel": "seismic moment"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138495499",
+      "itemLabel": "shake"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q13583542",
+      "itemLabel": "shearing"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7510935",
+      "itemLabel": "Siemens mercury unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q890478",
+      "itemLabel": "signature"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138495485",
+      "itemLabel": "snatch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11879776",
+      "itemLabel": "snow water equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7548564",
+      "itemLabel": "Snowden"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4430129",
+      "itemLabel": "sokha"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18379097",
+      "itemLabel": "solar flux unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q843877",
+      "itemLabel": "solar luminosity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25381178",
+      "itemLabel": "solar mass per day"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25378712",
+      "itemLabel": "solar mass per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q849279",
+      "itemLabel": "solar neutrino unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q676380",
+      "itemLabel": "sone"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2623005",
+      "itemLabel": "spacetime interval"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2560447",
+      "itemLabel": "speaker coverage angle"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3725293",
+      "itemLabel": "Specific orbital energy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1540011",
+      "itemLabel": "specific storage"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q58887091",
+      "itemLabel": "specific yield"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2133472",
+      "itemLabel": "spectral flatness"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q10807178",
+      "itemLabel": "spectrum"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2308409",
+      "itemLabel": "speech interference level"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2111",
+      "itemLabel": "speed of light in vacuum"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q120998638",
+      "itemLabel": "spin"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86724024",
+      "itemLabel": "splash"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104434313",
+      "itemLabel": "sprig"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q57306331",
+      "itemLabel": "square centimetre per gram"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86897783",
+      "itemLabel": "square pascal second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12718600",
+      "itemLabel": "Stabel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q100552562",
+      "itemLabel": "stallung"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q88871689",
+      "itemLabel": "standard amount-of-substance concentration"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q89410027",
+      "itemLabel": "standard molality"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q9193068",
+      "itemLabel": "standard pressure"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131531578",
+      "itemLabel": "star formation rate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7604345",
+      "itemLabel": "stationary orbit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56293228",
+      "itemLabel": "Steek"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4352352",
+      "itemLabel": "step"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3879428",
+      "itemLabel": "steric number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q859031",
+      "itemLabel": "stimulus"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12056477",
+      "itemLabel": "storativity"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2222612",
+      "itemLabel": "strength of ships"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7624780",
+      "itemLabel": "strontium unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137178171",
+      "itemLabel": "sunspot number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7645974",
+      "itemLabel": "surface feet per minute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124618544",
+      "itemLabel": "Surface imperfections"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2266148",
+      "itemLabel": "surface resistance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1557150",
+      "itemLabel": "swath width"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12564523",
+      "itemLabel": "Tanap"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107970256",
+      "itemLabel": "tebibit per cubic metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107970235",
+      "itemLabel": "tebibit per metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107970266",
+      "itemLabel": "tebibit per square metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q66778234",
+      "itemLabel": "teraflops"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7705818",
+      "itemLabel": "test weight"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q10823623",
+      "itemLabel": "TEX"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1091257",
+      "itemLabel": "tex"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11894439",
+      "itemLabel": "thermal death point"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3983325",
+      "itemLabel": "Thermal death time"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7783044",
+      "itemLabel": "thermal dose unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3990757",
+      "itemLabel": "thomson"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q117313182",
+      "itemLabel": "thread count"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105840158",
+      "itemLabel": "Todd unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7813025",
+      "itemLabel": "tog"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138633461",
+      "itemLabel": "tokens per second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1414202",
+      "itemLabel": "ton of coal equivalent"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137553645",
+      "itemLabel": "tonne per day"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108270163",
+      "itemLabel": "tonne per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1434630",
+      "itemLabel": "tonne-kilometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99863234",
+      "itemLabel": "tonnes per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3822160",
+      "itemLabel": "torsion constant"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7828091",
+      "itemLabel": "total acid number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q10689334",
+      "itemLabel": "Total Competitiveness Weights"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7830165",
+      "itemLabel": "townsend"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1149618",
+      "itemLabel": "toxic equivalency factor"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7833739",
+      "itemLabel": "Transactions per second"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7833972",
+      "itemLabel": "transepidermal water loss"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q133796439",
+      "itemLabel": "transistors per square millimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q132856618",
+      "itemLabel": "translational temperature"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q96623401",
+      "itemLabel": "Transonychial water loss"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q55431053",
+      "itemLabel": "trillion cells per litre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q732442",
+      "itemLabel": "tug"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q946868",
+      "itemLabel": "Tumen"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7857400",
+      "itemLabel": "Twaddell scale"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1255598",
+      "itemLabel": "twist of a shaft"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7858484",
+      "itemLabel": "twists per inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1899871",
+      "itemLabel": "unit of alcohol"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1520014",
+      "itemLabel": "unit of volume of cereal grain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q130220071",
+      "itemLabel": "unit per month"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q48461588",
+      "itemLabel": "unit per year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105828635",
+      "itemLabel": "United States Pharmacopeia unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q110993911",
+      "itemLabel": "unnumbered page of plates"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q634888",
+      "itemLabel": "vector group"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q64876327",
+      "itemLabel": "vertical separation"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4227664",
+      "itemLabel": "vibrational speed"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19915205",
+      "itemLabel": "visus"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q48731856",
+      "itemLabel": "vitasti"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7907501",
+      "itemLabel": "vRPM"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11514879",
+      "itemLabel": "warmth index"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1148989",
+      "itemLabel": "water balance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11548444",
+      "itemLabel": "water resistance"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q889790",
+      "itemLabel": "water retention curve"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1929025",
+      "itemLabel": "Watt Peak"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21395834",
+      "itemLabel": "watt per square metre kelvin to the fourth power"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98974322",
+      "itemLabel": "watt year per square metre kilogram"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7982038",
+      "itemLabel": "Welsh units"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25344574",
+      "itemLabel": "Whey"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17121302",
+      "itemLabel": "Wigner\u2013Seitz radius"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106966702",
+      "itemLabel": "Wikimedia pageview"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q25379209",
+      "itemLabel": "Windisch\u2013Kolbach unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2277190",
+      "itemLabel": "Wolf number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105828601",
+      "itemLabel": "Wood unit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1757079",
+      "itemLabel": "word size"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q569389",
+      "itemLabel": "words per minute"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2916348",
+      "itemLabel": "x-height"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q924148",
+      "itemLabel": "yank"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2487631",
+      "itemLabel": "yarn number"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2852035",
+      "itemLabel": "years of potential life lost"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3926325",
+      "itemLabel": "Yule's Q"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4917977",
+      "itemLabel": "Zakat al-Fitr"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q189623",
+      "itemLabel": "zenithal hourly rate"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q88008792",
+      "itemLabel": "zero point of the Celsius temperature"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q66778951",
+      "itemLabel": "zettaflops"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18408196",
+      "itemLabel": "zobnitsa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q255119",
+      "itemLabel": "\u00c4nderungsrate"
+    }
+  ]
+}
