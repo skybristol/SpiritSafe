@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q59",
+    "query": "queries/Q59.sparql",
+    "updated": "2026-03-21T20:58:08.382500Z",
+    "count": 15
+  },
+  "items": [
+    {
+      "item": "5",
+      "itemLabel": "10 Kiloyears (10^4 years)"
+    },
+    {
+      "item": "2",
+      "itemLabel": "10 Megayears (10^7 years)"
+    },
+    {
+      "item": "4",
+      "itemLabel": "100 Kiloyears (10^5 years)"
+    },
+    {
+      "item": "1",
+      "itemLabel": "100 Megayears (10^8 years)"
+    },
+    {
+      "item": "7",
+      "itemLabel": "century"
+    },
+    {
+      "item": "11",
+      "itemLabel": "day"
+    },
+    {
+      "item": "8",
+      "itemLabel": "decade"
+    },
+    {
+      "item": "0",
+      "itemLabel": "Gigayear (10^9 years)"
+    },
+    {
+      "item": "12",
+      "itemLabel": "hour"
+    },
+    {
+      "item": "3",
+      "itemLabel": "Megayear (10^6 years)"
+    },
+    {
+      "item": "6",
+      "itemLabel": "millennium"
+    },
+    {
+      "item": "13",
+      "itemLabel": "minute"
+    },
+    {
+      "item": "10",
+      "itemLabel": "month"
+    },
+    {
+      "item": "14",
+      "itemLabel": "second"
+    },
+    {
+      "item": "9",
+      "itemLabel": "year"
+    }
+  ]
+}
