@@ -34,19 +34,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install "git+https://github.com/skybristol/gkc.git@main"
 
-      - name: Build cache manifest
+      - name: Build cache manifest and entity index
         run: |
           mkdir -p cache
           gkc --json spiritsafe manifest build --source local --local-root .
 
-      - name: Commit and push manifest update
+      - name: Commit and push manifest and entity index update
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cache/manifest.json
+          git add cache/manifest.json cache/entity_index.json
           if git diff --cached --quiet; then
-            echo "No manifest changes to commit"
+            echo "No manifest or entity index changes to commit"
           else
-            git commit -m "chore: rebuild cache manifest [skip ci]"
+            git commit -m "chore: rebuild cache manifest and entity index [skip ci]"
             git push origin "HEAD:${{ inputs.target_ref }}"
           fi

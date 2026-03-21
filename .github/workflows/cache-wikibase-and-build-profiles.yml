@@ -69,7 +69,7 @@ jobs:
             --summary-output cache/refresh/last_run_summary.json \
             --output profiles
 
-      - name: Build cache manifest
+      - name: Build cache manifest and entity index
         run: |
           mkdir -p cache
           gkc --json spiritsafe manifest build --source local --local-root .
@@ -78,9 +78,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cache/entities cache/refresh/last_run_summary.json profiles cache/manifest.json
+          git add cache/entities cache/refresh/last_run_summary.json profiles cache/manifest.json cache/entity_index.json
           if git diff --cached --quiet; then
-            echo "No cache, profile, or manifest changes to commit"
+            echo "No cache, profile, manifest, or entity index changes to commit"
           else
             git commit -m "chore: refresh Wikibase cache and export profiles [skip ci]"
             git push origin "HEAD:${{ inputs.target_ref }}"
