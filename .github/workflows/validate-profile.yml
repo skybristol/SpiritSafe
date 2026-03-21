@@ -115,6 +115,83 @@ jobs:
           print("SPARQL validation passed")
           PY
 
+      - name: Validate JSON profile schema sanity
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          profile_files = sorted(Path("profiles").glob("*.json"))
+          if not profile_files:
+            print("No JSON profiles found under profiles/*.json; skipping sanity check")
+            sys.exit(0)
+
+          has_new_model = False
+          errors = []
+
+          for profile_file in profile_files:
+            try:
+              data = json.loads(profile_file.read_text(encoding="utf-8"))
+            except Exception as exc:
+              errors.append(f"{profile_file}: invalid JSON: {exc}")
+              continue
+
+            if "id" in data or "name_identifier" in data:
+              has_new_model = True
+
+            # Always enforce baseline JSON profile shape.
+            for required_key in ("statements", "metadata"):
+              if required_key not in data:
+                errors.append(f"{profile_file}: missing top-level key '{required_key}'")
+
+          if not has_new_model:
+            print(
+              "JSON sanity: legacy profile shape detected (no top-level id/name_identifier yet). "
+              "Baseline checks passed; strict new-model checks will activate automatically once regenerated profiles are committed."
+            )
+          else:
+            print("JSON sanity: new-model profile fields detected, enforcing strict checks")
+            for profile_file in profile_files:
+              data = json.loads(profile_file.read_text(encoding="utf-8"))
+
+              profile_id = data.get("id")
+              if not isinstance(profile_id, str) or not profile_id.startswith("http"):
+                errors.append(f"{profile_file}: top-level id must be an HTTP URI")
+
+              profile_name_identifier = data.get("name_identifier")
+              if not isinstance(profile_name_identifier, str) or not profile_name_identifier.strip():
+                errors.append(f"{profile_file}: missing non-empty top-level name_identifier")
+
+              statements = data.get("statements", [])
+              if not isinstance(statements, list):
+                errors.append(f"{profile_file}: statements must be a list")
+                continue
+
+              for idx, statement in enumerate(statements):
+                if not isinstance(statement, dict):
+                  errors.append(f"{profile_file}: statements[{idx}] must be an object")
+                  continue
+                statement_id = statement.get("id")
+                if not isinstance(statement_id, str) or not statement_id.startswith("http"):
+                  errors.append(
+                    f"{profile_file}: statements[{idx}] id must be an HTTP URI"
+                  )
+                statement_name_identifier = statement.get("name_identifier")
+                if not isinstance(statement_name_identifier, str) or not statement_name_identifier.strip():
+                  errors.append(
+                    f"{profile_file}: statements[{idx}] missing non-empty name_identifier"
+                  )
+
+          if errors:
+            for error in errors:
+              print(f"ERROR {error}")
+            print(f"JSON profile sanity check failed with {len(errors)} issue(s)")
+            sys.exit(1)
+
+          print("JSON profile sanity check passed")
+          PY
+
   summary:
     name: Validation Summary
     runs-on: ubuntu-latest
