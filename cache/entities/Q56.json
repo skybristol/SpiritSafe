@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q56",
+  "entity": {
+    "pageid": 129,
+    "ns": 120,
+    "title": "Item:Q56",
+    "lastrevid": 864,
+    "modified": "2026-03-21T19:12:46Z",
+    "type": "item",
+    "id": "Q56",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Units of Measure"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "value list for primary Wikidata units used in quantity statements"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q56$f358fb5c-4668-3ea6-ed17-a166b75f8c00",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "59026adc74b590321fd79ab996c1ba28a7f60d81",
+            "datavalue": {
+              "value": "UnitsOfMeasure",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q56$60c317ff-476d-a4c3-61af-0bbe59ad7efb",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-21T19:12:46Z",
+    "cache_exported_at": "2026-03-21T19:15:15.037481Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
