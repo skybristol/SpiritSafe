@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T20:50:48.747241Z",
+  "generated_at": "2026-03-21T22:08:01.500334Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -175,6 +175,14 @@
     {
       "qid": "Q56",
       "path": "queries/Q56.sparql"
+    },
+    {
+      "qid": "Q59",
+      "path": "queries/Q59.sparql"
+    },
+    {
+      "qid": "Q60",
+      "path": "queries/Q60.sparql"
     }
   ],
   "value_lists": [
@@ -219,6 +227,20 @@
       "label": "Units of Measure",
       "path": "cache/queries/Q56.json",
       "item_count": 564
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
+      "qid": "Q59",
+      "label": "Time Precision Values",
+      "path": "cache/queries/Q59.json",
+      "item_count": 15
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q60",
+      "qid": "Q60",
+      "label": "Coordinate Precision Values",
+      "path": "cache/queries/Q60.json",
+      "item_count": 8
     }
   ]
 }
