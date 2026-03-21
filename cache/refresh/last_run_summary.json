@@ -2,94 +2,106 @@
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
     "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/cache/entities",
-    "since": "2026-03-20T11:48:44.598780Z",
-    "next_since": "2026-03-20T23:32:43Z",
+    "since": "2026-03-21T15:03:28.246030Z",
+    "next_since": "2026-03-21T15:04:28.246030Z",
     "overlap_seconds": 60
   },
   "summary": {
-    "changed_count": 36,
+    "changed_count": 0,
     "ignored_count": 0,
-    "refreshed_count": 36,
+    "refreshed_count": 0,
     "deleted_count": 0,
     "missing_count": 0
   },
-  "changed_ids": [
-    "P192",
-    "P193",
-    "P195",
-    "P196",
-    "P197",
-    "P198",
-    "P199",
-    "P200",
-    "P201",
-    "P206",
-    "P207",
-    "P208",
-    "P209",
-    "P214",
-    "Q16",
-    "Q19",
-    "Q21",
-    "Q25",
-    "Q27",
-    "Q28",
-    "Q29",
-    "Q30",
-    "Q32",
-    "Q33",
-    "Q34",
-    "Q35",
-    "Q36",
-    "Q37",
-    "Q38",
-    "Q39",
-    "Q4",
-    "Q40",
-    "Q41",
-    "Q42",
-    "Q43",
-    "Q51"
-  ],
+  "changed_ids": [],
   "ignored_ids": [],
-  "refreshed_ids": [
-    "P192",
-    "P193",
-    "P195",
-    "P196",
-    "P197",
-    "P198",
-    "P199",
-    "P200",
-    "P201",
-    "P206",
-    "P207",
-    "P208",
-    "P209",
-    "P214",
-    "Q16",
-    "Q19",
-    "Q21",
-    "Q25",
-    "Q27",
-    "Q28",
-    "Q29",
-    "Q30",
-    "Q32",
-    "Q33",
-    "Q34",
-    "Q35",
-    "Q36",
-    "Q37",
-    "Q38",
-    "Q39",
-    "Q4",
-    "Q40",
-    "Q41",
-    "Q42",
-    "Q43",
-    "Q51"
-  ],
+  "refreshed_ids": [],
   "deleted_ids": [],
-  "missing_ids": []
+  "missing_ids": [],
+  "profile_export": {
+    "summary": {
+      "requested_count": 0,
+      "written_count": 2,
+      "skipped_count": 0,
+      "failure_count": 0,
+      "language_filtered_count": 2
+    },
+    "requested_profile_ids": [],
+    "written_ids": [
+      "Q39",
+      "Q4"
+    ],
+    "skipped_ids": [],
+    "failures": [],
+    "language_filtering": [
+      {
+        "profile_id": "Q39",
+        "excluded_languages": [
+          {
+            "language": "en",
+            "missing_paths": [
+              "identification.aliases.en.prompt",
+              "identification.descriptions.en.prompt",
+              "identification.labels.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q16.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q29.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q30.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q41.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q42.messages.en.prompt"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "Q4",
+        "excluded_languages": [
+          {
+            "language": "en",
+            "missing_paths": [
+              "identification.aliases.en.prompt",
+              "identification.descriptions.en.prompt",
+              "identification.labels.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q16.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q19.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q21.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q25.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q27.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q29.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q30.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q32.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q33.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q34.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q35.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q36.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q37.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q38.messages.en.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q40.messages.en.prompt"
+            ]
+          },
+          {
+            "language": "es",
+            "missing_paths": [
+              "identification.aliases.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q16.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q19.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q21.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q25.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q27.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q29.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q30.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q32.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q33.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q34.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q35.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q36.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q37.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q38.messages.es.prompt",
+              "statement:https://datadistillery.wikibase.cloud/entity/Q40.messages.es.prompt"
+            ]
+          }
+        ]
+      }
+    ],
+    "output_dir": "/home/runner/work/SpiritSafe/SpiritSafe/profiles"
+  }
 }

@@ -1,4 +1,6 @@
 {
+  "id": "https://datadistillery.wikibase.cloud/entity/Q39",
+  "name_identifier": "OfficeHeldByHeadOfGovernment",
   "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
   "identification": {
     "labels": {
@@ -22,6 +24,8 @@
   },
   "statements": [
     {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q16",
+      "name_identifier": "instance_of",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q16",
       "label": "instance of",
       "io_map": [
@@ -49,6 +53,8 @@
       "qualifiers": [],
       "references": [
         {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
           "io_map": [
@@ -69,6 +75,8 @@
           "max_count": null
         },
         {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
           "io_map": [
@@ -91,6 +99,8 @@
       ]
     },
     {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q41",
+      "name_identifier": "country",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q41",
       "label": "country",
       "io_map": [
@@ -113,6 +123,8 @@
       "qualifiers": [],
       "references": [
         {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
           "io_map": [
@@ -133,6 +145,8 @@
           "max_count": null
         },
         {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
           "io_map": [
@@ -155,6 +169,8 @@
       ]
     },
     {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q42",
+      "name_identifier": "applies_to_jurisdiction",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q42",
       "label": "applies to jurisdiction",
       "io_map": [
@@ -181,6 +197,8 @@
       "qualifiers": [],
       "references": [
         {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q30",
+          "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
           "io_map": [
@@ -201,6 +219,8 @@
           "max_count": null
         },
         {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q29",
+          "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
           "io_map": [
@@ -229,31 +249,37 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-20T13:23:41.988571Z",
+    "generated_at": "2026-03-21T17:57:53.168292Z",
     "languages": [
       "mul"
     ],
     "statement_count": 3,
     "profile_graph": [
       {
+        "id": "https://datadistillery.wikibase.cloud/entity/Q4",
         "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
         "label": "Tribal Government in the United States",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
-        "linkage_type": "P161"
+        "linkage_type": "P161",
+        "name_identifier": "TribalGovernmentInTheUnitedStates"
       }
     ],
     "value_list_graph": [
       {
+        "id": "https://datadistillery.wikibase.cloud/entity/Q43",
         "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
         "label": "List of World Countries",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q41",
-        "cache_path": "cache/queries/Q43.json"
+        "cache_path": "cache/queries/Q43.json",
+        "name_identifier": "ListOfWorldCountries"
       },
       {
+        "id": "https://datadistillery.wikibase.cloud/entity/Q4",
         "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
         "label": "Tribal Government in the United States",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
-        "cache_path": "cache/queries/Q4.json"
+        "cache_path": "cache/queries/Q4.json",
+        "name_identifier": "TribalGovernmentInTheUnitedStates"
       }
     ],
     "exported_from": "https://datadistillery.wikibase.cloud/entity/Q39"
