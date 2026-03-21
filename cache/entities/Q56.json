@@ -68,7 +68,7 @@
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
     "graph_fetched_at": "2026-03-21T19:12:46Z",
-    "cache_exported_at": "2026-03-21T19:15:15.037481Z",
+    "cache_exported_at": "2026-03-21T19:52:40.803880Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

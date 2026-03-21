@@ -1,0 +1,60 @@
+{
+  "entity_id": "Q58",
+  "entity": {
+    "pageid": 132,
+    "ns": 120,
+    "title": "Item:Q58",
+    "lastrevid": 880,
+    "modified": "2026-03-21T19:47:50Z",
+    "type": "item",
+    "id": "Q58",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Wikibase Statement Modifier"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "specialized type of statement used to modify the configuration of values such as units of measure and precision"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q58$d7bd23b4-4593-5731-e5e8-6bdcc0eb83f6",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-21T19:47:50Z",
+    "cache_exported_at": "2026-03-21T19:52:40.803880Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
