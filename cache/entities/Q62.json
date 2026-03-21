@@ -1,0 +1,210 @@
+{
+  "entity_id": "Q62",
+  "entity": {
+    "pageid": 138,
+    "ns": 120,
+    "title": "Item:Q62",
+    "lastrevid": 910,
+    "modified": "2026-03-21T20:36:50Z",
+    "type": "item",
+    "id": "Q62",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "coordinate precision"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "specialized qualifier/modifier used to set the globe-coordinate precision value for Wikibase data representations; generally set dynamically through coercion code"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q62$f1763497-4c21-6ad9-dffa-0e49cc802505",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "a6486322872fdd2584bd884e7a8a5865bf3af693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 58,
+                "id": "Q58"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q62$832069a4-4a17-24e3-99db-4f9b0a836c5b",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "67b1b1d8e1ef979c4d7382e579796d266438d571",
+            "datavalue": {
+              "value": "coordinate_precision",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q62$1a1a7463-46eb-c0da-0592-9032ebb5f48c",
+          "rank": "normal"
+        }
+      ],
+      "P161": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P161",
+            "hash": "bc758cb271f261067b77c0bca9ec876169abe961",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 60,
+                "id": "Q60"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q62$ead6ea39-41a9-c02f-dbda-210c1403ca12",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P182",
+            "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+            "datavalue": {
+              "value": {
+                "amount": "+1",
+                "unit": "1"
+              },
+              "type": "quantity"
+            },
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q62$39e51dd2-4500-9f06-1a89-d1603d2f0fba",
+          "rank": "normal"
+        }
+      ],
+      "P194": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P194",
+            "hash": "ceb8c7830df251fd82756932b52c3d95f9a92668",
+            "datatype": "wikibase-property"
+          },
+          "type": "statement",
+          "id": "Q62$310544f0-4838-002d-fc34-129875a95eee",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "2cc733159c737d06beb9e8320b3434f9ff90e8a0",
+            "datavalue": {
+              "value": {
+                "text": "set the coordinate precision value for the globe-coordinate statement",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q62$7fed4c54-4cea-8c60-38ce-e6dc78ef4522",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "8a10625dd84f44301a4b4cbc2665a15813072d59",
+            "datavalue": {
+              "value": {
+                "text": "Coordinate precision values will be computed dynamically in most cases",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q62$e4cc04e6-468c-382a-630c-33f5c57d9f1a",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "5da8822b22c4ff73ff8d92cacae7d05c9c205789",
+            "datavalue": {
+              "value": {
+                "text": "Statements with globe-coordinate values must include a precision value or they will be rejected when submitted to a Wikibase instance",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q62$21802602-4d2d-cbfb-7cf2-37645d6fe74a",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-21T20:36:50Z",
+    "cache_exported_at": "2026-03-21T20:40:25.158965Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
