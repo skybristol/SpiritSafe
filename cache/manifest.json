@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T20:04:22.372269Z",
+  "generated_at": "2026-03-21T20:41:29.573489Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -86,7 +86,7 @@
     }
   ],
   "entities": {
-    "count": 57,
+    "count": 61,
     "qids": [
       "P158",
       "P161",
@@ -144,6 +144,10 @@
       "Q56",
       "Q57",
       "Q58",
+      "Q59",
+      "Q60",
+      "Q61",
+      "Q62",
       "Q7"
     ]
   },
@@ -214,7 +218,7 @@
       "qid": "Q56",
       "label": "Units of Measure",
       "path": "cache/queries/Q56.json",
-      "item_count": 563
+      "item_count": 564
     }
   ]
 }
