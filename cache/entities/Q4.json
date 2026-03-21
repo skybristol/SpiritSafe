@@ -4,8 +4,8 @@
     "pageid": 7,
     "ns": 120,
     "title": "Item:Q4",
-    "lastrevid": 822,
-    "modified": "2026-03-19T18:45:31Z",
+    "lastrevid": 857,
+    "modified": "2026-03-20T23:30:20Z",
     "type": "item",
     "id": "Q4",
     "labels": {
@@ -773,6 +773,23 @@
           "id": "Q4$234b04f2-4767-0717-6420-cafeb3442887",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "e24970b1fcab185bed3b34393e46d6eac6ef0f54",
+            "datavalue": {
+              "value": "TribalGovernmentInTheUnitedStates",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q4$CE64D06E-E416-48E6-B2A5-E4A28A145500",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -781,8 +798,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-19T18:45:31Z",
-    "cache_exported_at": "2026-03-19T19:55:49.272893Z",
+    "graph_fetched_at": "2026-03-20T23:30:20Z",
+    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

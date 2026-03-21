@@ -4,8 +4,8 @@
     "pageid": 100,
     "ns": 120,
     "title": "Item:Q43",
-    "lastrevid": 656,
-    "modified": "2026-03-18T22:01:54Z",
+    "lastrevid": 860,
+    "modified": "2026-03-20T23:32:26Z",
     "type": "item",
     "id": "Q43",
     "labels": {
@@ -63,6 +63,23 @@
           "id": "Q43$b252d4de-467c-5ae5-4fce-e9d0829e4d5d",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "b0ee54eb37c9551e5aaeee414bd24e9446242ccb",
+            "datavalue": {
+              "value": "ListOfWorldCountries",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q43$6cb3e1a5-4014-cc7b-f625-fb05bcf8b1dd",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -71,8 +88,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-18T22:01:54Z",
-    "cache_exported_at": "2026-03-18T22:36:30.929594Z",
+    "graph_fetched_at": "2026-03-20T23:32:26Z",
+    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

@@ -1,0 +1,64 @@
+{
+  "entity_id": "P214",
+  "entity": {
+    "pageid": 128,
+    "ns": 122,
+    "title": "Property:P214",
+    "lastrevid": 826,
+    "modified": "2026-03-20T21:54:02Z",
+    "type": "property",
+    "datatype": "string",
+    "id": "P214",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "name identifier"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "name identifier"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "human-readable identifier for entities in this Wikibase used as a unique identifier in the JSON translations used by and within the SpiritSafe and gkc software package"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "676553b9266a81903fd754b304e11fdd9c0a589e",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 49,
+                "id": "Q49"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P214$38e6149b-4875-336c-a5b7-075ee459c80f",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-20T21:54:02Z",
+    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

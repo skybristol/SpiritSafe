@@ -4,8 +4,8 @@
     "pageid": 96,
     "ns": 120,
     "title": "Item:Q39",
-    "lastrevid": 821,
-    "modified": "2026-03-19T17:29:03Z",
+    "lastrevid": 858,
+    "modified": "2026-03-20T23:30:21Z",
     "type": "item",
     "id": "Q39",
     "labels": {
@@ -391,6 +391,23 @@
           "id": "Q39$797caa00-44f5-7c5a-b70d-bca7e3b4ee62",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "299ff13ebcc7ac01bb68652786d56b5f9ad4596d",
+            "datavalue": {
+              "value": "OfficeHeldByHeadOfGovernment",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q39$601B3684-42E3-4FD4-9225-FB02839088E3",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -399,8 +416,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-19T17:29:03Z",
-    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "graph_fetched_at": "2026-03-20T23:30:21Z",
+    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

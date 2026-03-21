@@ -4,8 +4,8 @@
     "pageid": 98,
     "ns": 120,
     "title": "Item:Q41",
-    "lastrevid": 819,
-    "modified": "2026-03-19T17:28:36Z",
+    "lastrevid": 855,
+    "modified": "2026-03-20T23:27:11Z",
     "type": "item",
     "id": "Q41",
     "labels": {
@@ -214,6 +214,23 @@
           "id": "Q41$819a9ca8-4080-571f-aded-899b88d0997b",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "351b653c4830dace98152e14ddebcb51f84a89d3",
+            "datavalue": {
+              "value": "country",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q41$7EEC549C-77BA-42DD-8657-E1CE5ED9F9C4",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -222,8 +239,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-19T17:28:36Z",
-    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "graph_fetched_at": "2026-03-20T23:27:11Z",
+    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

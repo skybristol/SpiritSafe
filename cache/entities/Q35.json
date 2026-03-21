@@ -4,8 +4,8 @@
     "pageid": 92,
     "ns": 120,
     "title": "Item:Q35",
-    "lastrevid": 790,
-    "modified": "2026-03-19T17:18:51Z",
+    "lastrevid": 850,
+    "modified": "2026-03-20T23:27:05Z",
     "type": "item",
     "id": "Q35",
     "labels": {
@@ -193,6 +193,23 @@
           "id": "Q35$919a215b-4e0f-ee3c-ac2d-49262fb7ba80",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "fb9e494f93d0c21e1231ab6375b972f2334c34bd",
+            "datavalue": {
+              "value": "postal_code",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q35$DBB5580C-95F8-4648-AFFE-57566DB293F1",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -201,8 +218,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-19T17:18:51Z",
-    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "graph_fetched_at": "2026-03-20T23:27:05Z",
+    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

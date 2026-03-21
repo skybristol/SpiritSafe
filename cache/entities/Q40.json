@@ -4,8 +4,8 @@
     "pageid": 97,
     "ns": 120,
     "title": "Item:Q40",
-    "lastrevid": 812,
-    "modified": "2026-03-19T17:25:22Z",
+    "lastrevid": 854,
+    "modified": "2026-03-20T23:27:10Z",
     "type": "item",
     "id": "Q40",
     "labels": {
@@ -221,6 +221,23 @@
           "id": "Q40$7215a424-4019-d3e1-1dc4-fe74ef18d3d2",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "cd95bb254851d74de2cb36c2c5d3e9015d69c24b",
+            "datavalue": {
+              "value": "office_held_by_head_of_government",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q40$8A8C1218-8807-4921-85C5-80998911116B",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -229,8 +246,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-19T17:25:22Z",
-    "cache_exported_at": "2026-03-19T17:30:47.823507Z",
+    "graph_fetched_at": "2026-03-20T23:27:10Z",
+    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
