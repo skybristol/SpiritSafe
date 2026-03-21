@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T19:19:07.806657Z",
+  "generated_at": "2026-03-21T20:04:22.372269Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -86,7 +86,7 @@
     }
   ],
   "entities": {
-    "count": 55,
+    "count": 57,
     "qids": [
       "P158",
       "P161",
@@ -142,6 +142,8 @@
       "Q54",
       "Q55",
       "Q56",
+      "Q57",
+      "Q58",
       "Q7"
     ]
   },
@@ -165,6 +167,10 @@
     {
       "qid": "Q51",
       "path": "queries/Q51.sparql"
+    },
+    {
+      "qid": "Q56",
+      "path": "queries/Q56.sparql"
     }
   ],
   "value_lists": [
@@ -180,7 +186,7 @@
       "qid": "Q39",
       "label": "Office Held by Head of Government",
       "path": "cache/queries/Q39.json",
-      "item_count": 26921
+      "item_count": 26596
     },
     {
       "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
@@ -202,6 +208,13 @@
       "label": "List of Human Languages",
       "path": "cache/queries/Q51.json",
       "item_count": 265
+    },
+    {
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
+      "qid": "Q56",
+      "label": "Units of Measure",
+      "path": "cache/queries/Q56.json",
+      "item_count": 563
     }
   ]
 }
