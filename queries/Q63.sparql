@@ -1,0 +1,13 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?itemLabel ?dbname ?domain 
+WHERE {
+  ?item wdt:P1800 ?dbname ;
+        rdfs:label ?itemLabel ;
+        wdt:P856 ?url .
+  FILTER(LANG(?itemLabel) = "en")
+  BIND(STRAFTER(STR(?url), "://") AS ?noProtocol)
+  BIND(STRBEFORE(?noProtocol, "/") AS ?domain)
+}
