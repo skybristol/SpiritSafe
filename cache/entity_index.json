@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-21T22:08:01.505973Z",
+  "generated_at": "2026-03-27T11:14:33.513102Z",
   "source": "https://github.com/skybristol/SpiritSafe",
-  "entity_count": 61,
+  "entity_count": 62,
   "class_count": 9,
   "entities": {
     "P158": {
@@ -1598,6 +1598,26 @@
         "derives_default_value_from": []
       }
     },
+    "Q63": {
+      "id": "Q63",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q63",
+      "label": "List of Wikimedia Sites",
+      "name_identifier": "ListOfWikimediaSites",
+      "classes": [
+        "Q7"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
     "Q7": {
       "id": "Q7",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q7",
@@ -1675,7 +1695,8 @@
       "Q51",
       "Q56",
       "Q59",
-      "Q60"
+      "Q60",
+      "Q63"
     ],
     "Q3": [
       "Q39",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T22:08:01.500334Z",
+  "generated_at": "2026-03-27T11:14:33.507554Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -67,6 +67,22 @@
           "name_identifier": "FederalRegisterNoticesListingTribes"
         },
         {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q56",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
+          "label": "Units of Measure",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q57",
+          "cache_path": "cache/queries/Q56.json",
+          "name_identifier": "UnitsOfMeasure"
+        },
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q59",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
+          "label": "Time Precision Values",
+          "via_statement": "https://datadistillery.wikibase.cloud/entity/Q61",
+          "cache_path": "cache/queries/Q59.json",
+          "name_identifier": "TimePrecisionValues"
+        },
+        {
           "id": "https://datadistillery.wikibase.cloud/entity/Q39",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
           "label": "Office Held by Head of Government",
@@ -86,7 +102,7 @@
     }
   ],
   "entities": {
-    "count": 61,
+    "count": 62,
     "qids": [
       "P158",
       "P161",
@@ -148,6 +164,7 @@
       "Q60",
       "Q61",
       "Q62",
+      "Q63",
       "Q7"
     ]
   },

@@ -28,6 +28,9 @@
       "name_identifier": "instance_of",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q16",
       "label": "instance of",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P31"
@@ -57,6 +60,9 @@
           "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P248"
@@ -82,6 +88,9 @@
       "name_identifier": "member_count",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q21",
       "label": "member count",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P2124"
@@ -104,6 +113,9 @@
           "name_identifier": "point_in_time",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q25",
           "label": "point in time",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P585"
@@ -120,6 +132,29 @@
             }
           },
           "max_count": null
+        },
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q57",
+          "name_identifier": "units",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q57",
+          "label": "units",
+          "entity_classes": [
+            "Q5",
+            "Q58"
+          ],
+          "io_map": [],
+          "value": {
+            "type": "wikibase-item",
+            "value_list_reference": "cache/queries/Q56.json"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "enter or select the units of measure for the statement value",
+              "guidance": "Link to the Wikidata item that best represents the units of measure for the statement value",
+              "error_message": "Failure to provide a specific units of measure for a statement value will result in the setting of \"unitless\" for this case"
+            }
+          },
+          "max_count": 1
         }
       ],
       "references": [
@@ -128,6 +163,9 @@
           "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P248"
@@ -150,6 +188,9 @@
           "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P854"
@@ -174,6 +215,9 @@
       "name_identifier": "native_label",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q32",
       "label": "native label",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P1705"
@@ -197,6 +241,9 @@
           "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P248"
@@ -219,6 +266,9 @@
           "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P854"
@@ -243,6 +293,9 @@
       "name_identifier": "headquarters_location",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q33",
       "label": "headquarters location",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P159"
@@ -265,6 +318,9 @@
           "name_identifier": "postal_code",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q35",
           "label": "postal code",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P281"
@@ -287,6 +343,9 @@
           "name_identifier": "street_address",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q34",
           "label": "street address",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P6375"
@@ -309,6 +368,9 @@
           "name_identifier": "coordinate_location",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q36",
           "label": "coordinate location",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P625"
@@ -333,6 +395,9 @@
           "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P248"
@@ -355,6 +420,9 @@
           "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P854"
@@ -379,6 +447,9 @@
       "name_identifier": "inception",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q37",
       "label": "inception",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P571"
@@ -395,13 +466,40 @@
         }
       },
       "max_count": null,
-      "qualifiers": [],
+      "qualifiers": [
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q61",
+          "name_identifier": "datetime_precision",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q61",
+          "label": "datetime precision",
+          "entity_classes": [
+            "Q5",
+            "Q58"
+          ],
+          "io_map": [],
+          "value": {
+            "type": null,
+            "value_list_reference": "cache/queries/Q59.json"
+          },
+          "messages": {
+            "mul": {
+              "prompt": "set the time precision value for the datetime statement",
+              "guidance": "Time precision values will be computed dynamically in most cases",
+              "error_message": "Statements with time values must include a precision value or they will be rejected when submitted to a Wikibase instance"
+            }
+          },
+          "max_count": 1
+        }
+      ],
       "references": [
         {
           "id": "https://datadistillery.wikibase.cloud/entity/Q30",
           "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P248"
@@ -424,6 +522,9 @@
           "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P854"
@@ -448,6 +549,9 @@
       "name_identifier": "flag_image",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q38",
       "label": "flag image",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P41"
@@ -472,6 +576,9 @@
       "name_identifier": "office_held_by_head_of_government",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q40",
       "label": "office held by head of government",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P1313"
@@ -500,6 +607,9 @@
           "name_identifier": "stated_in",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
           "label": "stated in",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P248"
@@ -522,6 +632,9 @@
           "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P854"
@@ -546,6 +659,9 @@
       "name_identifier": "official_website",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q19",
       "label": "official website",
+      "entity_classes": [
+        "Q5"
+      ],
       "io_map": [
         {
           "to": "http://www.wikidata.org/entity/P856"
@@ -568,6 +684,9 @@
           "name_identifier": "language_of_work_or_name",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q27",
           "label": "language of work or name",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P407"
@@ -593,6 +712,9 @@
           "name_identifier": "reference_URL",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
           "label": "reference URL",
+          "entity_classes": [
+            "Q5"
+          ],
           "io_map": [
             {
               "to": "http://www.wikidata.org/entity/P854"
@@ -619,7 +741,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-21T17:57:53.169044Z",
+    "generated_at": "2026-03-27T11:14:32.522268Z",
     "languages": [
       "mul"
     ],
@@ -642,6 +764,22 @@
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
         "cache_path": "cache/queries/Q28.json",
         "name_identifier": "FederalRegisterNoticesListingTribes"
+      },
+      {
+        "id": "https://datadistillery.wikibase.cloud/entity/Q56",
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
+        "label": "Units of Measure",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q57",
+        "cache_path": "cache/queries/Q56.json",
+        "name_identifier": "UnitsOfMeasure"
+      },
+      {
+        "id": "https://datadistillery.wikibase.cloud/entity/Q59",
+        "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
+        "label": "Time Precision Values",
+        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q61",
+        "cache_path": "cache/queries/Q59.json",
+        "name_identifier": "TimePrecisionValues"
       },
       {
         "id": "https://datadistillery.wikibase.cloud/entity/Q39",
