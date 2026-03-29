@@ -276,7 +276,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-27T11:14:32.521354Z",
+    "generated_at": "2026-03-29T22:09:36.496664Z",
     "languages": [
       "mul"
     ],
@@ -309,6 +309,75 @@
         "name_identifier": "TribalGovernmentInTheUnitedStates"
       }
     ],
+    "linkage_index": {
+      "outbound_by_statement": {
+        "https://datadistillery.wikibase.cloud/entity/Q16": {
+          "wikidata_properties": [
+            "P31"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q29": {
+          "wikidata_properties": [
+            "P854"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q30": {
+          "wikidata_properties": [
+            "P248"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q41": {
+          "wikidata_properties": [
+            "P17"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q42": {
+          "wikidata_properties": [
+            "P1001"
+          ],
+          "target_profiles": [
+            "https://datadistillery.wikibase.cloud/entity/Q4"
+          ]
+        }
+      },
+      "inbound_by_wikidata_property": {
+        "P1001": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
+            "target_profile": "https://datadistillery.wikibase.cloud/entity/Q4"
+          }
+        ],
+        "P17": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q41"
+          }
+        ],
+        "P248": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q30"
+          }
+        ],
+        "P31": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q16"
+          }
+        ],
+        "P854": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q29"
+          }
+        ]
+      }
+    },
     "exported_from": "https://datadistillery.wikibase.cloud/entity/Q39"
   }
 }

@@ -741,7 +741,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-27T11:14:32.522268Z",
+    "generated_at": "2026-03-29T22:09:36.497401Z",
     "languages": [
       "mul"
     ],
@@ -798,6 +798,195 @@
         "name_identifier": "ListOfHumanLanguages"
       }
     ],
+    "linkage_index": {
+      "outbound_by_statement": {
+        "https://datadistillery.wikibase.cloud/entity/Q16": {
+          "wikidata_properties": [
+            "P31"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q19": {
+          "wikidata_properties": [
+            "P856"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q21": {
+          "wikidata_properties": [
+            "P2124"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q25": {
+          "wikidata_properties": [
+            "P585"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q27": {
+          "wikidata_properties": [
+            "P407"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q29": {
+          "wikidata_properties": [
+            "P854"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q30": {
+          "wikidata_properties": [
+            "P248"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q32": {
+          "wikidata_properties": [
+            "P1705"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q33": {
+          "wikidata_properties": [
+            "P159"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q34": {
+          "wikidata_properties": [
+            "P6375"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q35": {
+          "wikidata_properties": [
+            "P281"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q36": {
+          "wikidata_properties": [
+            "P625"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q37": {
+          "wikidata_properties": [
+            "P571"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q38": {
+          "wikidata_properties": [
+            "P41"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q40": {
+          "wikidata_properties": [
+            "P1313"
+          ],
+          "target_profiles": [
+            "https://datadistillery.wikibase.cloud/entity/Q39"
+          ]
+        }
+      },
+      "inbound_by_wikidata_property": {
+        "P1313": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
+            "target_profile": "https://datadistillery.wikibase.cloud/entity/Q39"
+          }
+        ],
+        "P159": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q33"
+          }
+        ],
+        "P1705": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q32"
+          }
+        ],
+        "P2124": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q21"
+          }
+        ],
+        "P248": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q30"
+          }
+        ],
+        "P281": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q35"
+          }
+        ],
+        "P31": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q16"
+          }
+        ],
+        "P407": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q27"
+          }
+        ],
+        "P41": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q38"
+          }
+        ],
+        "P571": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q37"
+          }
+        ],
+        "P585": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q25"
+          }
+        ],
+        "P625": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q36"
+          }
+        ],
+        "P6375": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q34"
+          }
+        ],
+        "P854": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q29"
+          }
+        ],
+        "P856": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q4",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q19"
+          }
+        ]
+      }
+    },
     "exported_from": "https://datadistillery.wikibase.cloud/entity/Q4"
   }
 }
