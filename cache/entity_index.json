@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T22:09:37.374008Z",
+  "generated_at": "2026-03-31T17:34:03.143564Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "entity_count": 61,
   "class_count": 9,
@@ -531,14 +531,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }
@@ -609,14 +602,7 @@
             "target": "Q57"
           }
         ],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }
@@ -676,14 +662,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [
           {
             "target": "Q51"
@@ -825,14 +804,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }
@@ -870,14 +842,7 @@
             "target": "Q36"
           }
         ],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }
@@ -905,14 +870,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }
@@ -940,14 +898,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }
@@ -1011,14 +962,7 @@
             "target": "Q61"
           }
         ],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }
@@ -1161,14 +1105,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [
           {
             "target": "Q39"
@@ -1200,14 +1137,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [
           {
             "target": "Q43"
@@ -1239,14 +1169,7 @@
       "links": {
         "statements": [],
         "qualifiers": [],
-        "references": [
-          {
-            "target": "Q29"
-          },
-          {
-            "target": "Q30"
-          }
-        ],
+        "references": [],
         "values": [],
         "derives_default_value_from": []
       }

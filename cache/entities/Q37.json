@@ -4,8 +4,8 @@
     "pageid": 94,
     "ns": 120,
     "title": "Item:Q37",
-    "lastrevid": 912,
-    "modified": "2026-03-21T20:38:45Z",
+    "lastrevid": 938,
+    "modified": "2026-03-31T17:31:24Z",
     "type": "item",
     "id": "Q37",
     "labels": {
@@ -154,46 +154,6 @@
           "rank": "normal"
         }
       ],
-      "P211": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P211",
-            "hash": "a6a477fedc0fd5f3fb0612278f5bec5a9029b1f8",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 30,
-                "id": "Q30"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q37$334add9b-42c9-7463-eb71-14f512993992",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P211",
-            "hash": "d27d98427f70e42c9a10547d617d3d3e2135922b",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 29,
-                "id": "Q29"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q37$14a032e4-4c25-a697-dd00-4fe7ec460c98",
-          "rank": "normal"
-        }
-      ],
       "P214": [
         {
           "mainsnak": {
@@ -239,8 +199,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-21T20:38:45Z",
-    "cache_exported_at": "2026-03-21T20:40:25.158965Z",
+    "graph_fetched_at": "2026-03-31T17:31:24Z",
+    "cache_exported_at": "2026-03-31T17:34:00.992758Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

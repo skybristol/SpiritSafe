@@ -54,58 +54,7 @@
       },
       "max_count": null,
       "qualifiers": [],
-      "references": [
-        {
-          "id": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "name_identifier": "reference_URL",
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "label": "reference URL",
-          "entity_classes": [
-            "Q5"
-          ],
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P854"
-            }
-          ],
-          "value": {
-            "type": "url"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "provide the internet address for a reference",
-              "guidance": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
-              "error_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
-            }
-          },
-          "max_count": null
-        },
-        {
-          "id": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "name_identifier": "stated_in",
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "label": "stated in",
-          "entity_classes": [
-            "Q5"
-          ],
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P248"
-            }
-          ],
-          "value": {
-            "type": "wikibase-item"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "link to an item serving as a reference source for a statement",
-              "guidance": "Link to a Wikidata item that represents a report, document, or other type of reference material that provides evidence for the validity of a statement.",
-              "error_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
-            }
-          },
-          "max_count": null
-        }
-      ]
+      "references": []
     },
     {
       "id": "https://datadistillery.wikibase.cloud/entity/Q41",
@@ -133,58 +82,7 @@
       },
       "max_count": 1,
       "qualifiers": [],
-      "references": [
-        {
-          "id": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "name_identifier": "stated_in",
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "label": "stated in",
-          "entity_classes": [
-            "Q5"
-          ],
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P248"
-            }
-          ],
-          "value": {
-            "type": "wikibase-item"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "link to an item serving as a reference source for a statement",
-              "guidance": "Link to a Wikidata item that represents a report, document, or other type of reference material that provides evidence for the validity of a statement.",
-              "error_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
-            }
-          },
-          "max_count": null
-        },
-        {
-          "id": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "name_identifier": "reference_URL",
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "label": "reference URL",
-          "entity_classes": [
-            "Q5"
-          ],
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P854"
-            }
-          ],
-          "value": {
-            "type": "url"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "provide the internet address for a reference",
-              "guidance": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
-              "error_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
-            }
-          },
-          "max_count": null
-        }
-      ]
+      "references": []
     },
     {
       "id": "https://datadistillery.wikibase.cloud/entity/Q42",
@@ -216,58 +114,7 @@
       },
       "max_count": 1,
       "qualifiers": [],
-      "references": [
-        {
-          "id": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "name_identifier": "stated_in",
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "label": "stated in",
-          "entity_classes": [
-            "Q5"
-          ],
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P248"
-            }
-          ],
-          "value": {
-            "type": "wikibase-item"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "link to an item serving as a reference source for a statement",
-              "guidance": "Link to a Wikidata item that represents a report, document, or other type of reference material that provides evidence for the validity of a statement.",
-              "error_message": "Without a value, the source publication or resource for a claim is unidentified, weakening citation quality and audit trails."
-            }
-          },
-          "max_count": null
-        },
-        {
-          "id": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "name_identifier": "reference_URL",
-          "entity": "https://datadistillery.wikibase.cloud/entity/Q29",
-          "label": "reference URL",
-          "entity_classes": [
-            "Q5"
-          ],
-          "io_map": [
-            {
-              "to": "http://www.wikidata.org/entity/P854"
-            }
-          ],
-          "value": {
-            "type": "url"
-          },
-          "messages": {
-            "mul": {
-              "prompt": "provide the internet address for a reference",
-              "guidance": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
-              "error_message": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement."
-            }
-          },
-          "max_count": null
-        }
-      ]
+      "references": []
     }
   ],
   "metadata": {
@@ -276,7 +123,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-03-29T22:09:36.496664Z",
+    "generated_at": "2026-03-31T17:34:02.178406Z",
     "languages": [
       "mul"
     ],
@@ -317,18 +164,6 @@
           ],
           "target_profiles": []
         },
-        "https://datadistillery.wikibase.cloud/entity/Q29": {
-          "wikidata_properties": [
-            "P854"
-          ],
-          "target_profiles": []
-        },
-        "https://datadistillery.wikibase.cloud/entity/Q30": {
-          "wikidata_properties": [
-            "P248"
-          ],
-          "target_profiles": []
-        },
         "https://datadistillery.wikibase.cloud/entity/Q41": {
           "wikidata_properties": [
             "P17"
@@ -358,22 +193,10 @@
             "source_statement": "https://datadistillery.wikibase.cloud/entity/Q41"
           }
         ],
-        "P248": [
-          {
-            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
-            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q30"
-          }
-        ],
         "P31": [
           {
             "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
             "source_statement": "https://datadistillery.wikibase.cloud/entity/Q16"
-          }
-        ],
-        "P854": [
-          {
-            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q39",
-            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q29"
           }
         ]
       }

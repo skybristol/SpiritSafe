@@ -2,29 +2,46 @@
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
     "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/cache/entities",
-    "since": "2026-03-21T20:48:56.062478Z",
-    "next_since": "2026-03-27T18:54:27Z",
+    "since": "2026-03-29T22:08:35.434585Z",
+    "next_since": "2026-03-31T17:32:45Z",
     "overlap_seconds": 60
   },
   "summary": {
-    "changed_count": 2,
+    "changed_count": 11,
     "ignored_count": 0,
-    "refreshed_count": 1,
+    "refreshed_count": 11,
     "deleted_count": 0,
-    "missing_count": 1
+    "missing_count": 0
   },
   "changed_ids": [
-    "Q25",
-    "Q63"
+    "Q16",
+    "Q21",
+    "Q27",
+    "Q32",
+    "Q33",
+    "Q34",
+    "Q35",
+    "Q37",
+    "Q40",
+    "Q41",
+    "Q42"
   ],
   "ignored_ids": [],
   "refreshed_ids": [
-    "Q25"
+    "Q16",
+    "Q21",
+    "Q27",
+    "Q32",
+    "Q33",
+    "Q34",
+    "Q35",
+    "Q37",
+    "Q40",
+    "Q41",
+    "Q42"
   ],
   "deleted_ids": [],
-  "missing_ids": [
-    "Q63"
-  ],
+  "missing_ids": [],
   "profile_export": {
     "summary": {
       "requested_count": 0,
@@ -51,8 +68,6 @@
               "identification.descriptions.en.prompt",
               "identification.labels.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q16.messages.en.prompt",
-              "statement:https://datadistillery.wikibase.cloud/entity/Q29.messages.en.prompt",
-              "statement:https://datadistillery.wikibase.cloud/entity/Q30.messages.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q41.messages.en.prompt",
               "statement:https://datadistillery.wikibase.cloud/entity/Q42.messages.en.prompt"
             ]
