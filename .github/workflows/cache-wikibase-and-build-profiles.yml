@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir -p cache/refresh
           if [ -n "$INPUT_API_URL" ]; then
-            gkc wikibase check-for-revisions \
+            gkc mash cache-wikibase-revisions \
               --api-url "$INPUT_API_URL" \
               --cache-dir cache/entities \
               --ignore-id Q1 \
@@ -53,7 +53,7 @@ jobs:
               --ignore-id P2 \
               --output cache/refresh/last_run_summary.json
           else
-            gkc wikibase check-for-revisions \
+            gkc mash cache-wikibase-revisions \
               --cache-dir cache/entities \
               --ignore-id Q1 \
               --ignore-id P1 \
