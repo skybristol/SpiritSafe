@@ -4,8 +4,8 @@
     "pageid": 63,
     "ns": 122,
     "title": "Property:P190",
-    "lastrevid": 372,
-    "modified": "2026-03-11T14:40:32Z",
+    "lastrevid": 1062,
+    "modified": "2026-04-02T19:02:19Z",
     "type": "property",
     "datatype": "monolingualtext",
     "id": "P190",
@@ -21,7 +21,14 @@
         "value": "short guidance statement provided as instructions for creating aliases for a GKC Entity"
       }
     },
-    "aliases": {},
+    "aliases": {
+      "en": [
+        {
+          "language": "en",
+          "value": "_alias_prompt"
+        }
+      ]
+    },
     "claims": {
       "P1": [
         {
@@ -43,16 +50,33 @@
           "id": "P190$8fe75b4b-46ff-b0bd-b78f-4dbb2ad9b2c6",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "4aee1e9450f22efedd03cb7a562bcaafcfefc309",
+            "datavalue": {
+              "value": "_alias_prompt",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "P190$F8D0B5D0-F088-49F0-9F7B-5E1D8CE060D3",
+          "rank": "normal"
+        }
       ]
     }
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-11T14:40:32Z",
-    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-02T19:02:19Z",
+    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

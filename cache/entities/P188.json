@@ -4,8 +4,8 @@
     "pageid": 61,
     "ns": 122,
     "title": "Property:P188",
-    "lastrevid": 370,
-    "modified": "2026-03-11T14:39:49Z",
+    "lastrevid": 1058,
+    "modified": "2026-04-02T19:02:17Z",
     "type": "property",
     "datatype": "monolingualtext",
     "id": "P188",
@@ -21,7 +21,14 @@
         "value": "short guidance statement provided as instructions for creating labels for a GKC Entity"
       }
     },
-    "aliases": {},
+    "aliases": {
+      "en": [
+        {
+          "language": "en",
+          "value": "_label_prompt"
+        }
+      ]
+    },
     "claims": {
       "P1": [
         {
@@ -43,16 +50,33 @@
           "id": "P188$03e7c493-4906-de2d-44c5-3e76bb4783f3",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "15d9d3261c4d450b0a8eeeb1556453e1653f696c",
+            "datavalue": {
+              "value": "_label_prompt",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "P188$3793707F-11C9-4DD3-9CAF-E306F5CDFE84",
+          "rank": "normal"
+        }
       ]
     }
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-11T14:39:49Z",
-    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-02T19:02:17Z",
+    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null
