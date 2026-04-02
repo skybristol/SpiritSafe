@@ -60,9 +60,6 @@ jobs:
 
           ARGS=(
             --cache-dir cache/entities
-            --ignore-id Q1
-            --ignore-id P1
-            --ignore-id P2
             --output cache/refresh/full_sync_result.json
           )
 
