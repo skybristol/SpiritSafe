@@ -83,6 +83,13 @@ jobs:
 
           gkc --json profile value-lists hydrate "${ARGS[@]}"
 
+      - name: Write run summary
+        if: always()
+        run: |
+          if [ -d queries ] || [ -d cache/queries ]; then
+            python3 -c 'import os, pathlib; query_count = len(list(pathlib.Path("queries").glob("*.sparql"))) if pathlib.Path("queries").exists() else 0; cache_count = len(list(pathlib.Path("cache/queries").glob("*.json"))) if pathlib.Path("cache/queries").exists() else 0; md = "## Hydrate Value Lists Run Summary\n\n| Field | Value |\n| --- | --- |\n"; md += f"| API URL override | `{os.environ.get(\"INPUT_API_URL\", \"\")}` |\n"; md += f"| SPARQL endpoint override | `{os.environ.get(\"INPUT_SPARQL_ENDPOINT\", \"\")}` |\n"; md += f"| Page size | `{os.environ.get(\"INPUT_PAGE_SIZE\", \"\")}` |\n"; md += f"| Value list QID | `{os.environ.get(\"INPUT_VALUE_LIST_QID\", \"\")}` |\n"; md += f"| Query files | `{query_count}` |\n"; md += f"| Cache files | `{cache_count}` |\n"; summary_path = pathlib.Path(os.environ["GITHUB_STEP_SUMMARY"]); summary_path.write_text(summary_path.read_text() + md if summary_path.exists() else md)'
+          fi
+
       - name: Commit and push value-list query/cache updates
         run: |
           git config user.name "github-actions[bot]"
