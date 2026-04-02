@@ -1,14 +1,54 @@
 {
-  "generated_at": "2026-03-31T17:34:03.143564Z",
+  "generated_at": "2026-04-02T23:30:41.235153Z",
   "source": "https://github.com/skybristol/SpiritSafe",
-  "entity_count": 61,
-  "class_count": 9,
+  "entity_count": 83,
+  "class_count": 11,
   "entities": {
+    "P1": {
+      "id": "P1",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P1",
+      "label": "instance of",
+      "name_identifier": null,
+      "classes": [
+        "Q46"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P157": {
+      "id": "P157",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P157",
+      "label": "has statement",
+      "name_identifier": "_has_statement",
+      "classes": [
+        "Q49"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
     "P158": {
       "id": "P158",
       "entity": "https://datadistillery.wikibase.cloud/entity/P158",
       "label": "has qualifier",
-      "name_identifier": null,
+      "name_identifier": "_has_qualifier",
       "classes": [
         "Q49"
       ],
@@ -28,7 +68,7 @@
       "id": "P161",
       "entity": "https://datadistillery.wikibase.cloud/entity/P161",
       "label": "has value",
-      "name_identifier": null,
+      "name_identifier": "_has_value",
       "classes": [
         "Q49"
       ],
@@ -48,9 +88,209 @@
       "id": "P163",
       "entity": "https://datadistillery.wikibase.cloud/entity/P163",
       "label": "applies to statement",
-      "name_identifier": null,
+      "name_identifier": "_applies_to_statement",
       "classes": [
         "Q49"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P168": {
+      "id": "P168",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P168",
+      "label": "error message",
+      "name_identifier": "_error_message",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P169": {
+      "id": "P169",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P169",
+      "label": "statement guidance",
+      "name_identifier": "_statement_guidance",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P171": {
+      "id": "P171",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P171",
+      "label": "statement prompt",
+      "name_identifier": "_statement_prompt",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P182": {
+      "id": "P182",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P182",
+      "label": "max count",
+      "name_identifier": "_max_count",
+      "classes": [
+        "Q49"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P185": {
+      "id": "P185",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P185",
+      "label": "label guidance",
+      "name_identifier": "_label_guidance",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P186": {
+      "id": "P186",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P186",
+      "label": "description guidance",
+      "name_identifier": "_description_guidance",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P187": {
+      "id": "P187",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P187",
+      "label": "alias guidance",
+      "name_identifier": "_alias_guidance",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P188": {
+      "id": "P188",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P188",
+      "label": "label prompt",
+      "name_identifier": "_label_prompt",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P189": {
+      "id": "P189",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P189",
+      "label": "description prompt",
+      "name_identifier": "_description_prompt",
+      "classes": [
+        "Q45"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P190": {
+      "id": "P190",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P190",
+      "label": "alias prompt",
+      "name_identifier": "_alias_prompt",
+      "classes": [
+        "Q45"
       ],
       "value_type": null,
       "io_map": [],
@@ -68,7 +308,7 @@
       "id": "P192",
       "entity": "https://datadistillery.wikibase.cloud/entity/P192",
       "label": "time",
-      "name_identifier": "time",
+      "name_identifier": "_time",
       "classes": [
         "Q44"
       ],
@@ -92,7 +332,7 @@
       "id": "P193",
       "entity": "https://datadistillery.wikibase.cloud/entity/P193",
       "label": "wikibase-item",
-      "name_identifier": "wikibase-item",
+      "name_identifier": "_wikibase-item",
       "classes": [
         "Q44"
       ],
@@ -112,11 +352,31 @@
         "derives_default_value_from": []
       }
     },
+    "P194": {
+      "id": "P194",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P194",
+      "label": "statement type",
+      "name_identifier": "_statement_type",
+      "classes": [
+        "Q49"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
     "P195": {
       "id": "P195",
       "entity": "https://datadistillery.wikibase.cloud/entity/P195",
       "label": "url",
-      "name_identifier": "url",
+      "name_identifier": "_url",
       "classes": [
         "Q44"
       ],
@@ -140,7 +400,7 @@
       "id": "P196",
       "entity": "https://datadistillery.wikibase.cloud/entity/P196",
       "label": "commonsMedia",
-      "name_identifier": "commonsMedia",
+      "name_identifier": "_commonsMedia",
       "classes": [
         "Q44"
       ],
@@ -164,7 +424,7 @@
       "id": "P197",
       "entity": "https://datadistillery.wikibase.cloud/entity/P197",
       "label": "external-id",
-      "name_identifier": "external-id",
+      "name_identifier": "_external-id",
       "classes": [
         "Q44"
       ],
@@ -188,7 +448,7 @@
       "id": "P198",
       "entity": "https://datadistillery.wikibase.cloud/entity/P198",
       "label": "globe-coordinate",
-      "name_identifier": "globe-coordinate",
+      "name_identifier": "_globe-coordinate",
       "classes": [
         "Q44"
       ],
@@ -212,7 +472,7 @@
       "id": "P199",
       "entity": "https://datadistillery.wikibase.cloud/entity/P199",
       "label": "monolingualtext",
-      "name_identifier": "monolingualtext",
+      "name_identifier": "_monolingualtext",
       "classes": [
         "Q44"
       ],
@@ -232,11 +492,31 @@
         "derives_default_value_from": []
       }
     },
+    "P2": {
+      "id": "P2",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P2",
+      "label": "subclass of",
+      "name_identifier": null,
+      "classes": [
+        "Q46"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
     "P200": {
       "id": "P200",
       "entity": "https://datadistillery.wikibase.cloud/entity/P200",
       "label": "quantity",
-      "name_identifier": "quantity",
+      "name_identifier": "_quantity",
       "classes": [
         "Q44"
       ],
@@ -260,7 +540,7 @@
       "id": "P201",
       "entity": "https://datadistillery.wikibase.cloud/entity/P201",
       "label": "string",
-      "name_identifier": "string",
+      "name_identifier": "_string",
       "classes": [
         "Q44"
       ],
@@ -284,7 +564,47 @@
       "id": "P202",
       "entity": "https://datadistillery.wikibase.cloud/entity/P202",
       "label": "default value",
-      "name_identifier": null,
+      "name_identifier": "_default_value",
+      "classes": [
+        "Q49"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P203": {
+      "id": "P203",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P203",
+      "label": "default label",
+      "name_identifier": "_default_label",
+      "classes": [
+        "Q49"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P205": {
+      "id": "P205",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P205",
+      "label": "applies to profile",
+      "name_identifier": "_applies_to_profile",
       "classes": [
         "Q49"
       ],
@@ -304,7 +624,7 @@
       "id": "P206",
       "entity": "https://datadistillery.wikibase.cloud/entity/P206",
       "label": "geo-shape",
-      "name_identifier": "geo-shape",
+      "name_identifier": "_geo-shape",
       "classes": [
         "Q44"
       ],
@@ -328,7 +648,7 @@
       "id": "P207",
       "entity": "https://datadistillery.wikibase.cloud/entity/P207",
       "label": "math",
-      "name_identifier": "math",
+      "name_identifier": "_math",
       "classes": [
         "Q44"
       ],
@@ -352,14 +672,18 @@
       "id": "P208",
       "entity": "https://datadistillery.wikibase.cloud/entity/P208",
       "label": "musical-notation",
-      "name_identifier": "musical-notation",
+      "name_identifier": "_musical-notation",
       "classes": [
         "Q44"
       ],
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "This field requires musical notation encoded in a supported format (MusicXML or LilyPond). Enter a valid notation snippet rather than plain text or a link."
+        }
+      },
       "links": {
         "statements": [],
         "qualifiers": [],
@@ -372,7 +696,7 @@
       "id": "P209",
       "entity": "https://datadistillery.wikibase.cloud/entity/P209",
       "label": "tabular-data",
-      "name_identifier": "tabular-data",
+      "name_identifier": "_tabular-data",
       "classes": [
         "Q44"
       ],
@@ -396,7 +720,7 @@
       "id": "P210",
       "entity": "https://datadistillery.wikibase.cloud/entity/P210",
       "label": "refresh policy",
-      "name_identifier": null,
+      "name_identifier": "_refresh_policy",
       "classes": [
         "Q49"
       ],
@@ -416,7 +740,7 @@
       "id": "P211",
       "entity": "https://datadistillery.wikibase.cloud/entity/P211",
       "label": "has reference",
-      "name_identifier": null,
+      "name_identifier": "_has_reference",
       "classes": [],
       "value_type": null,
       "io_map": [],
@@ -434,7 +758,7 @@
       "id": "P213",
       "entity": "https://datadistillery.wikibase.cloud/entity/P213",
       "label": "derives default value from",
-      "name_identifier": null,
+      "name_identifier": "_derives_default_value_from",
       "classes": [
         "Q49"
       ],
@@ -454,9 +778,29 @@
       "id": "P214",
       "entity": "https://datadistillery.wikibase.cloud/entity/P214",
       "label": "name identifier",
-      "name_identifier": null,
+      "name_identifier": "_name_identifier",
       "classes": [
         "Q49"
+      ],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "P3": {
+      "id": "P3",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P3",
+      "label": "see also",
+      "name_identifier": "_see_also",
+      "classes": [
+        "Q48"
       ],
       "value_type": null,
       "io_map": [],
@@ -474,7 +818,7 @@
       "id": "P5",
       "entity": "https://datadistillery.wikibase.cloud/entity/P5",
       "label": "same as",
-      "name_identifier": null,
+      "name_identifier": "_same_as",
       "classes": [
         "Q48"
       ],
@@ -495,6 +839,24 @@
       "entity": "https://datadistillery.wikibase.cloud/entity/Q1",
       "label": "entity",
       "name_identifier": null,
+      "classes": [],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "Q12": {
+      "id": "Q12",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q12",
+      "label": "GKC Refresh Policy",
+      "name_identifier": "_refresh_policy",
       "classes": [],
       "value_type": null,
       "io_map": [],
@@ -682,7 +1044,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The reference being edited requires a valid link to one of the Federal Register notices from the United States government that lists officially recognized Native American Tribes."
+        }
+      },
       "links": {
         "statements": [],
         "qualifiers": [],
@@ -727,7 +1093,7 @@
       "id": "Q3",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q3",
       "label": "GKC Entity Profile",
-      "name_identifier": null,
+      "name_identifier": "_entity_profile",
       "classes": [],
       "value_type": null,
       "io_map": [],
@@ -1007,7 +1373,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The statement being edited requires a valid link to a Wikidata item representing a public office. Please select from the list or consult the underlying query for additional context."
+        }
+      },
       "links": {
         "statements": [
           {
@@ -1038,7 +1408,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The statement being edited requires a valid link to one of the federally recognized Native American tribes in the United States. Please select from the list provided or consult the query source for more context."
+        }
+      },
       "links": {
         "statements": [
           {
@@ -1185,7 +1559,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The statement being edited requires a valid link to a Wikidata item representing a world country. Please select from the list provided or consult the query source for more context."
+        }
+      },
       "links": {
         "statements": [],
         "qualifiers": [],
@@ -1198,6 +1576,42 @@
       "id": "Q44",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q44",
       "label": "Wikibase Property Template",
+      "name_identifier": "_wikibase_property_template",
+      "classes": [],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "Q45": {
+      "id": "Q45",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q45",
+      "label": "GKC Data Curation Help Text Property",
+      "name_identifier": null,
+      "classes": [],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "Q46": {
+      "id": "Q46",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q46",
+      "label": "Data Distillery Wikibase Organizational Property",
       "name_identifier": null,
       "classes": [],
       "value_type": null,
@@ -1230,11 +1644,47 @@
         "derives_default_value_from": []
       }
     },
+    "Q48": {
+      "id": "Q48",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q48",
+      "label": "GKC External Relationship Property",
+      "name_identifier": null,
+      "classes": [],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
+    "Q49": {
+      "id": "Q49",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q49",
+      "label": "GKC Entity Profile Ontology Property",
+      "name_identifier": null,
+      "classes": [],
+      "value_type": null,
+      "io_map": [],
+      "max_count": null,
+      "messages": {},
+      "links": {
+        "statements": [],
+        "qualifiers": [],
+        "references": [],
+        "values": [],
+        "derives_default_value_from": []
+      }
+    },
     "Q5": {
       "id": "Q5",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q5",
       "label": "GKC Entity Statement",
-      "name_identifier": null,
+      "name_identifier": "_entity_statement",
       "classes": [],
       "value_type": null,
       "io_map": [],
@@ -1252,7 +1702,7 @@
       "id": "Q50",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q50",
       "label": "manual refresh",
-      "name_identifier": null,
+      "name_identifier": "_manual_refresh_policy",
       "classes": [
         "Q12"
       ],
@@ -1279,7 +1729,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The statement being edited requires a valid link to a Wikidata item representing a human language. Please select from the list provided or consult the query source for more context."
+        }
+      },
       "links": {
         "statements": [],
         "qualifiers": [],
@@ -1361,7 +1815,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The quantity value requires a qualifier linking to a Wikidata item representing a unit of measure. Please select from the list provided or consult the query source for more context."
+        }
+      },
       "links": {
         "statements": [],
         "qualifiers": [],
@@ -1405,7 +1863,7 @@
       "id": "Q58",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q58",
       "label": "Wikibase Statement Modifier",
-      "name_identifier": null,
+      "name_identifier": "_wikibase_statement_modifier",
       "classes": [],
       "value_type": null,
       "io_map": [],
@@ -1430,7 +1888,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The time value provided requires a qualifier specifying the precision (e.g., year, month, day, etc.). Please select from the list provided or consult the query source for more context."
+        }
+      },
       "links": {
         "statements": [],
         "qualifiers": [],
@@ -1450,7 +1912,11 @@
       "value_type": null,
       "io_map": [],
       "max_count": null,
-      "messages": {},
+      "messages": {
+        "mul": {
+          "error_message": "The geographic coordinates provided require a precision qualifier. Please select from the list provided or consult the query source for more context."
+        }
+      },
       "links": {
         "statements": [],
         "qualifiers": [],
@@ -1525,7 +1991,7 @@
       "id": "Q7",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q7",
       "label": "GKC Value List",
-      "name_identifier": null,
+      "name_identifier": "_value_list",
       "classes": [],
       "value_type": null,
       "io_map": [],
@@ -1541,14 +2007,34 @@
     }
   },
   "class_index": {
+    "Q46": [
+      "P1",
+      "P2"
+    ],
     "Q49": [
+      "P157",
       "P158",
       "P161",
       "P163",
+      "P182",
+      "P194",
       "P202",
+      "P203",
+      "P205",
       "P210",
       "P213",
       "P214"
+    ],
+    "Q45": [
+      "P168",
+      "P169",
+      "P171",
+      "P185",
+      "P186",
+      "P187",
+      "P188",
+      "P189",
+      "P190"
     ],
     "Q44": [
       "P192",
@@ -1566,6 +2052,7 @@
       "P209"
     ],
     "Q48": [
+      "P3",
       "P5"
     ],
     "Q5": [
