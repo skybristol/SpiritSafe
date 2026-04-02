@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
+    "api_url_source": "runtime_config",
+    "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/cache/entities",
+    "run_mode": "full_sync_baseline",
+    "started_at": "2026-04-02T16:02:14.945617Z",
+    "completed_at": "2026-04-02T16:02:15.498712Z",
+    "duration_seconds": 0.553095,
+    "batch_size_requested": 50,
+    "batch_size_effective": 50,
+    "batch_fallback_count": 0,
+    "batch_fallback_first_error": null
+  },
+  "summary": {
+    "discovered_count": 0,
+    "hydrated_count": 0,
+    "tombstone_count": 0,
+    "redirect_count": 0,
+    "failed_count": 0
+  },
+  "hydrated_ids": [],
+  "tombstone_ids": [],
+  "redirect_ids": [],
+  "failed_ids": []
+}
