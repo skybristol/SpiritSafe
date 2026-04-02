@@ -1,0 +1,101 @@
+name: Full-Sync Wikibase Cache
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_ref:
+        description: Branch or tag to sync and commit into
+        required: false
+        type: string
+        default: main
+      api_url:
+        description: Optional Wikibase API URL override
+        required: false
+        type: string
+        default: ""
+      items_only:
+        description: Discover and cache items (Q-entities) only
+        required: false
+        type: boolean
+        default: false
+      properties_only:
+        description: Discover and cache properties (P-entities) only
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  full-sync-wikibase:
+    name: Full-Sync Wikibase Cache
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout SpiritSafe target ref
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.target_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install gkc CLI
+        run: |
+          python -m pip install --upgrade pip
+          pip install "git+https://github.com/skybristol/gkc.git@main"
+
+      - name: Full-sync entity cache from Wikibase
+        env:
+          DD_WB_API_URL: ${{ inputs.api_url }}
+          INPUT_API_URL: ${{ inputs.api_url }}
+          INPUT_ITEMS_ONLY: ${{ inputs.items_only }}
+          INPUT_PROPERTIES_ONLY: ${{ inputs.properties_only }}
+        run: |
+          mkdir -p cache/entities cache/refresh
+
+          ARGS=(
+            --cache-dir cache/entities
+            --ignore-id Q1
+            --ignore-id P1
+            --ignore-id P2
+            --output cache/refresh/full_sync_result.json
+          )
+
+          if [ -n "$INPUT_API_URL" ]; then
+            ARGS+=(--api-url "$INPUT_API_URL")
+          fi
+
+          if [ "$INPUT_ITEMS_ONLY" = "true" ]; then
+            ARGS+=(--items-only)
+          fi
+
+          if [ "$INPUT_PROPERTIES_ONLY" = "true" ]; then
+            ARGS+=(--properties-only)
+          fi
+
+          gkc mash full-sync-wikibase "${ARGS[@]}"
+
+      - name: Upload full-sync result artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: full-sync-result
+          path: cache/refresh/full_sync_result.json
+          retention-days: 30
+
+      - name: Commit and push cache updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cache/entities cache/refresh/full_sync_result.json
+          if git diff --cached --quiet; then
+            echo "No cache changes to commit"
+          else
+            git commit -m "chore: full-sync Wikibase cache baseline [skip ci]"
+            git push origin "HEAD:${{ inputs.target_ref }}"
+          fi
