@@ -1,0 +1,60 @@
+{
+  "entity_id": "Q12",
+  "entity": {
+    "pageid": 18,
+    "ns": 120,
+    "title": "Item:Q12",
+    "lastrevid": 34,
+    "modified": "2026-03-06T23:01:28Z",
+    "type": "item",
+    "id": "Q12",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "GKC Refresh Policy"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "refresh cadence term used for SPARQL-backed lookup hydration"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q12$FC1C9C09-04B3-43EC-A61F-B0D8F837AE27",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-06T23:01:28Z",
+    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

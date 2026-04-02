@@ -4,8 +4,8 @@
     "pageid": 96,
     "ns": 120,
     "title": "Item:Q39",
-    "lastrevid": 858,
-    "modified": "2026-03-20T23:30:21Z",
+    "lastrevid": 949,
+    "modified": "2026-04-02T12:02:40Z",
     "type": "item",
     "id": "Q39",
     "labels": {
@@ -408,17 +408,37 @@
           "id": "Q39$601B3684-42E3-4FD4-9225-FB02839088E3",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "cbdcdd3c372b9b54bbccf52ff7aa4d3bf7c9c058",
+            "datavalue": {
+              "value": {
+                "text": "The statement being edited requires a valid link to a Wikidata item representing a public office. Please select from the list or consult the underlying query for additional context.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q39$a8185514-4554-6c51-7eab-c43c4c58a446",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
+    "workflow_mode": "full_sync_baseline",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-20T23:30:21Z",
-    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "graph_fetched_at": "2026-04-02T12:02:40Z",
+    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

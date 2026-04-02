@@ -1,0 +1,60 @@
+{
+  "entity_id": "P182",
+  "entity": {
+    "pageid": 49,
+    "ns": 122,
+    "title": "Property:P182",
+    "lastrevid": 443,
+    "modified": "2026-03-12T14:03:54Z",
+    "type": "property",
+    "datatype": "quantity",
+    "id": "P182",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "max count"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "qualifier used to specify the maximum number of instances allowed for a statement of a particular type on an item"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "676553b9266a81903fd754b304e11fdd9c0a589e",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 49,
+                "id": "Q49"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P182$0e926ddb-4656-0f56-9d6a-8ce0e867b055",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-12T14:03:54Z",
+    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

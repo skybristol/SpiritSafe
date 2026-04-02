@@ -4,8 +4,8 @@
     "pageid": 84,
     "ns": 120,
     "title": "Item:Q28",
-    "lastrevid": 859,
-    "modified": "2026-03-20T23:32:00Z",
+    "lastrevid": 948,
+    "modified": "2026-04-02T12:01:19Z",
     "type": "item",
     "id": "Q28",
     "labels": {
@@ -80,17 +80,37 @@
           "id": "Q28$b6e31b41-4373-f51a-340d-3637783cf003",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "589a82881c23e83938ace1cc57e83a3f89751c54",
+            "datavalue": {
+              "value": {
+                "text": "The reference being edited requires a valid link to one of the Federal Register notices from the United States government that lists officially recognized Native American Tribes.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q28$506f3ee9-4e01-1103-436e-428009508924",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
+    "workflow_mode": "full_sync_baseline",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-20T23:32:00Z",
-    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "graph_fetched_at": "2026-04-02T12:01:19Z",
+    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

@@ -4,8 +4,8 @@
     "pageid": 108,
     "ns": 122,
     "title": "Property:P208",
-    "lastrevid": 838,
-    "modified": "2026-03-20T23:18:16Z",
+    "lastrevid": 960,
+    "modified": "2026-04-02T12:15:44Z",
     "type": "property",
     "datatype": "musical-notation",
     "id": "P208",
@@ -64,16 +64,36 @@
           "id": "P208$4152D256-443F-460F-AA0D-670309B2783C",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "5c0303a713ea8b46053b600a0b5a239ffc80c45f",
+            "datavalue": {
+              "value": {
+                "text": "This field requires musical notation encoded in a supported format (MusicXML or LilyPond). Enter a valid notation snippet rather than plain text or a link.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "P208$a7b0dd93-4bfd-fb46-a5e5-46b28e948237",
+          "rank": "normal"
+        }
       ]
     }
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
+    "workflow_mode": "full_sync_baseline",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-20T23:18:16Z",
-    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "graph_fetched_at": "2026-04-02T12:15:44Z",
+    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

@@ -4,8 +4,8 @@
     "pageid": 7,
     "ns": 120,
     "title": "Item:Q4",
-    "lastrevid": 857,
-    "modified": "2026-03-20T23:30:20Z",
+    "lastrevid": 946,
+    "modified": "2026-04-02T12:00:06Z",
     "type": "item",
     "id": "Q4",
     "labels": {
@@ -790,17 +790,37 @@
           "id": "Q4$CE64D06E-E416-48E6-B2A5-E4A28A145500",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "10db023a0eeacd90512e6eb70940d9f83cd49148",
+            "datavalue": {
+              "value": {
+                "text": "The statement being edited requires a valid link to one of the federally recognized Native American tribes in the United States. Please select from the list provided or consult the query source for more context.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q4$36125b4a-4952-5d41-103c-aa007b0b3a86",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
+    "workflow_mode": "full_sync_baseline",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-20T23:30:20Z",
-    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "graph_fetched_at": "2026-04-02T12:00:06Z",
+    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

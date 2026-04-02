@@ -4,8 +4,8 @@
     "pageid": 117,
     "ns": 120,
     "title": "Item:Q51",
-    "lastrevid": 861,
-    "modified": "2026-03-20T23:32:43Z",
+    "lastrevid": 953,
+    "modified": "2026-04-02T12:04:27Z",
     "type": "item",
     "id": "Q51",
     "labels": {
@@ -80,17 +80,37 @@
           "id": "Q51$b67458bb-47dd-3e2c-ac1b-746776db6cba",
           "rank": "normal"
         }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "02a1b73a6a419df5cee7c0cf3ec2a25ca1522c79",
+            "datavalue": {
+              "value": {
+                "text": "The statement being edited requires a valid link to a Wikidata item representing a human language. Please select from the list provided or consult the query source for more context.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q51$a4b63c8f-4773-5bf7-d470-6773522bf735",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "recentchanges",
+    "workflow_mode": "full_sync_baseline",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-20T23:32:43Z",
-    "cache_exported_at": "2026-03-21T15:04:28.246030Z",
-    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "graph_fetched_at": "2026-04-02T12:04:27Z",
+    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null
