@@ -1,0 +1,9 @@
+meta_wikibase:
+  id: datadistillery-wikibase
+  label: Data Distillery Wikibase
+  api_url: https://datadistillery.wikibase.cloud/w/api.php
+  sparql_endpoint: https://datadistillery.wikibase.cloud/query/sparql
+
+  semantic_conventions:
+    name_identifier_property_id: P214
+    internal_name_identifier_prefix: "_"
