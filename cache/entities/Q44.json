@@ -4,20 +4,20 @@
     "pageid": 104,
     "ns": 120,
     "title": "Item:Q44",
-    "lastrevid": 1108,
-    "modified": "2026-04-02T20:17:05Z",
+    "lastrevid": 1181,
+    "modified": "2026-04-03T23:19:02Z",
     "type": "item",
     "id": "Q44",
     "labels": {
       "en": {
         "language": "en",
-        "value": "Wikibase Property Template"
+        "value": "Wikibase Statement Type"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "property used as a template for creating properties of a particular type"
+        "value": "classification for items used in statement type claims that specify the type of information that can be created"
       }
     },
     "aliases": {},
@@ -48,9 +48,9 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "10d8fe9ca1267caddaf7d23b6f46f87de077f4ff",
+            "hash": "08c1ad918c9e9300ea37f1a136ad6787591b417d",
             "datavalue": {
-              "value": "_wikibase_property_template",
+              "value": "_wikibase_statement_type",
               "type": "string"
             },
             "datatype": "string"
@@ -67,8 +67,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T20:17:05Z",
-    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "graph_fetched_at": "2026-04-03T23:19:02Z",
+    "cache_exported_at": "2026-04-03T23:19:48.979976Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

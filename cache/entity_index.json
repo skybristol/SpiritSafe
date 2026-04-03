@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T21:54:18.222512Z",
+  "generated_at": "2026-04-03T23:19:50.918101Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "entity_count": 83,
   "class_count": 11,
@@ -1265,8 +1265,8 @@
     "Q44": {
       "id": "Q44",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q44",
-      "label": "Wikibase Property Template",
-      "name_identifier": "_wikibase_property_template",
+      "label": "Wikibase Statement Type",
+      "name_identifier": "_wikibase_statement_type",
       "classes": [],
       "value_type": null,
       "io_map": [],
