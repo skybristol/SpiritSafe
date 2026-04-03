@@ -1,10 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-04-03T13:57:27.878807Z",
-    "property_count": 36,
-    "item_count": 7
+    "generated_at": "2026-04-03T22:06:05.014722Z",
+    "property_count": 25,
+    "item_count": 20
   },
   "entities": {
+    "_instance_of": {
+      "id": "P1",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P1",
+      "datatype": "wikibase-item"
+    },
     "_has_statement": {
       "id": "P157",
       "entity": "https://datadistillery.wikibase.cloud/entity/P157",
@@ -75,56 +80,6 @@
       "entity": "https://datadistillery.wikibase.cloud/entity/P190",
       "datatype": "monolingualtext"
     },
-    "_time": {
-      "id": "P192",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P192",
-      "datatype": "time"
-    },
-    "_wikibase-item": {
-      "id": "P193",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P193",
-      "datatype": "wikibase-item"
-    },
-    "_statement_type": {
-      "id": "P194",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P194",
-      "datatype": "wikibase-property"
-    },
-    "_url": {
-      "id": "P195",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P195",
-      "datatype": "url"
-    },
-    "_commonsMedia": {
-      "id": "P196",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P196",
-      "datatype": "commonsMedia"
-    },
-    "_external-id": {
-      "id": "P197",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P197",
-      "datatype": "external-id"
-    },
-    "_globe-coordinate": {
-      "id": "P198",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P198",
-      "datatype": "globe-coordinate"
-    },
-    "_monolingualtext": {
-      "id": "P199",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P199",
-      "datatype": "monolingualtext"
-    },
-    "_quantity": {
-      "id": "P200",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P200",
-      "datatype": "quantity"
-    },
-    "_string": {
-      "id": "P201",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P201",
-      "datatype": "string"
-    },
     "_default_value": {
       "id": "P202",
       "entity": "https://datadistillery.wikibase.cloud/entity/P202",
@@ -140,29 +95,10 @@
       "entity": "https://datadistillery.wikibase.cloud/entity/P205",
       "datatype": "wikibase-item"
     },
-    "_geo-shape": {
-      "id": "P206",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P206",
-      "datatype": "geo-shape"
-    },
-    "_math": {
-      "id": "P207",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P207",
-      "datatype": "math"
-    },
-    "_musical-notation": {
-      "id": "P208",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P208",
-      "datatype": "musical-notation"
-    },
-    "_tabular-data": {
-      "id": "P209",
-      "entity": "https://datadistillery.wikibase.cloud/entity/P209",
-      "datatype": "tabular-data"
-    },
     "_refresh_policy": {
-      "id": "Q12",
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q12"
+      "id": "P210",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P210",
+      "datatype": "wikibase-item"
     },
     "_has_reference": {
       "id": "P211",
@@ -179,6 +115,11 @@
       "entity": "https://datadistillery.wikibase.cloud/entity/P214",
       "datatype": "string"
     },
+    "_statement_type": {
+      "id": "P215",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P215",
+      "datatype": "wikibase-item"
+    },
     "_see_also": {
       "id": "P3",
       "entity": "https://datadistillery.wikibase.cloud/entity/P3",
@@ -188,6 +129,10 @@
       "id": "P5",
       "entity": "https://datadistillery.wikibase.cloud/entity/P5",
       "datatype": "url"
+    },
+    "_value_list_refresh_policy": {
+      "id": "Q12",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q12"
     },
     "_entity_profile": {
       "id": "Q3",
@@ -209,9 +154,61 @@
       "id": "Q58",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q58"
     },
+    "_time": {
+      "id": "Q64",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q64"
+    },
+    "_wikibase-item": {
+      "id": "Q65",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q65"
+    },
+    "_url": {
+      "id": "Q66",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q66"
+    },
+    "_commonsMedia": {
+      "id": "Q67",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q67"
+    },
+    "_external-id": {
+      "id": "Q68",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q68"
+    },
+    "_globe-coordinate": {
+      "id": "Q69",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q69"
+    },
     "_value_list": {
       "id": "Q7",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q7"
+    },
+    "_monolingualtext": {
+      "id": "Q70",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q70"
+    },
+    "_quantity": {
+      "id": "Q71",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q71"
+    },
+    "_string": {
+      "id": "Q72",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q72"
+    },
+    "_geo-shape": {
+      "id": "Q73",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q73"
+    },
+    "_math": {
+      "id": "Q74",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q74"
+    },
+    "_musical-notation": {
+      "id": "Q75",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q75"
+    },
+    "_tabular-data": {
+      "id": "Q76",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q76"
     }
   }
 }
