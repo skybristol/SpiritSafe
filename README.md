@@ -36,7 +36,7 @@ Top-level sections:
 - **Cache Wikibase and Build Profiles** (`cache-wikibase-and-build-profiles.yml`) - refreshes `cache/entities/` and exports `profiles/<QID>.json` from the refreshed cache.
 - **Hydrate Value Lists** (`hydrate-value-lists.yml`) - exports `queries/<QID>.sparql` and hydrates `cache/queries/<QID>.json`.
 - **Build Manifest** (`build-manifest.yml`) - runs `gkc --json spiritsafe manifest build --source local --local-root .` and commits `cache/manifest.json` when changed.
-- **Build Semantic Anchors** (`build-semantic-anchors.yml`) - runs `gkc --json spiritsafe semantic-anchors build --source local --local-root .` and commits `cache/config/semantic_anchors.json` when changed.
+- **Build Semantic Anchors** (`build-semantic-anchors.yml`) - runs `gkc --json spiritsafe semantic-anchors build --source local --local-root . --output config/semantic_anchors.json` and commits the configured output path when changed.
 - **Validate Profile** (`validate-profile.yml`) - baseline structural checks for pull requests.
 - **PR Auto-Merge** (`pr-automerge.yml`) - squash auto-merge for eligible pull requests.
 
@@ -48,13 +48,15 @@ Do not hand-edit generated artifacts. Update source Wikibase content or run work
 
 The primary authored integration config is `config/dd-wikibase.yaml`.
 
+`config/semantic_anchors.json` is a generated artifact produced by the semantic-anchor workflow.
+
 ## Runtime Integration
 
 The `gkc` package consumes:
 
 - `profiles/<QID>.json` for profile structure and packet scaffolding.
 - `cache/queries/<QID>.json` for allowed-item lists.
-- `cache/config/semantic_anchors.json` for semantic name-to-entity lookup.
+- `config/semantic_anchors.json` for semantic name-to-entity lookup.
 - `cache/manifest.json` for registry/discovery tooling.
 
 Packet assembly is manifest-independent and loads profile JSON directly.
