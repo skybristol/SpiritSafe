@@ -8,6 +8,11 @@ on:
         required: false
         type: string
         default: main
+      output_path:
+        description: Output path for the semantic anchor artifact inside SpiritSafe
+        required: false
+        type: string
+        default: config/semantic_anchors.json
 
 permissions:
   contents: write
@@ -36,14 +41,17 @@ jobs:
 
       - name: Build semantic anchor artifact
         run: |
-          mkdir -p cache/config
-          gkc --json spiritsafe semantic-anchors build --source local --local-root .
+          mkdir -p "$(dirname "${{ inputs.output_path }}")"
+          gkc --json spiritsafe semantic-anchors build \
+            --source local \
+            --local-root . \
+            --output "${{ inputs.output_path }}"
 
       - name: Commit and push semantic anchor update
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cache/config/semantic_anchors.json
+          git add "${{ inputs.output_path }}"
           if git diff --cached --quiet; then
             echo "No semantic anchor changes to commit"
           else
