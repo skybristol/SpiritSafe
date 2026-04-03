@@ -37,7 +37,7 @@
         }
       ],
       "value": {
-        "type": "wikibase-item",
+        "type": null,
         "value_list": [
           {
             "item": "Q294414",
@@ -70,7 +70,7 @@
         }
       ],
       "value": {
-        "type": "wikibase-item",
+        "type": null,
         "value_list_reference": "cache/queries/Q43.json"
       },
       "messages": {
@@ -98,7 +98,7 @@
         }
       ],
       "value": {
-        "type": "wikibase-item",
+        "type": null,
         "profile": {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
           "label": "Tribal Government in the United States"
@@ -123,7 +123,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-04-02T23:30:40.363480Z",
+    "generated_at": "2026-04-03T21:54:17.359784Z",
     "languages": [
       "mul"
     ],

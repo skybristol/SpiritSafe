@@ -1,35 +1,34 @@
 {
-  "entity_id": "P195",
+  "entity_id": "Q73",
   "entity": {
-    "pageid": 73,
-    "ns": 122,
-    "title": "Property:P195",
-    "lastrevid": 1070,
-    "modified": "2026-04-02T19:02:24Z",
-    "type": "property",
-    "datatype": "url",
-    "id": "P195",
+    "pageid": 150,
+    "ns": 120,
+    "title": "Item:Q73",
+    "lastrevid": 1125,
+    "modified": "2026-04-03T21:26:07Z",
+    "type": "item",
+    "id": "Q73",
     "labels": {
       "en": {
         "language": "en",
-        "value": "url"
+        "value": "geo-shape"
       },
       "mul": {
         "language": "mul",
-        "value": "url"
+        "value": "geo-shape"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "URL property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+        "value": "geographic shape property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
       }
     },
     "aliases": {
       "en": [
         {
           "language": "en",
-          "value": "_url"
+          "value": "_geo-shape"
         }
       ]
     },
@@ -51,7 +50,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "P195$06562e69-4d09-8056-4731-75096b58186d",
+          "id": "Q73$1346B35D-574D-4207-A7DD-64EB6325A426",
           "rank": "normal"
         }
       ],
@@ -60,10 +59,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "fba7d0e7f48e5515529302017c842d74d4608657",
+            "hash": "a9e5875e44e4f44b8077fa63dd1f33793b5ea61e",
             "datavalue": {
               "value": {
-                "text": "Enter a complete URL starting with http:// or https://.",
+                "text": "Provide a valid Commons Data namespace geo-shape reference.",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -71,7 +70,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "P195$7E353EAD-EA59-4575-94D6-DC0911AC6BDA",
+          "id": "Q73$91529596-C543-4083-A9C4-B9B793DDDA87",
           "rank": "normal"
         }
       ],
@@ -80,26 +79,27 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "f53b949c9c0e571993171fa9b343eb6754d4c104",
+            "hash": "ce3c5b51dc124caaa70ed477f739e2edd7b28e3a",
             "datavalue": {
-              "value": "_url",
+              "value": "_geo-shape",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "P195$B8EAA2BA-2B23-4D98-9476-E46149460D79",
+          "id": "Q73$BD224873-5E63-452D-9852-7AFDDD2FD41D",
           "rank": "normal"
         }
       ]
-    }
+    },
+    "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T19:02:24Z",
-    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "graph_fetched_at": "2026-04-03T21:26:07Z",
+    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

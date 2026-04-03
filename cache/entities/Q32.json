@@ -4,8 +4,8 @@
     "pageid": 89,
     "ns": 120,
     "title": "Item:Q32",
-    "lastrevid": 930,
-    "modified": "2026-03-31T17:30:31Z",
+    "lastrevid": 1151,
+    "modified": "2026-04-03T21:35:42Z",
     "type": "item",
     "id": "Q32",
     "labels": {
@@ -57,27 +57,6 @@
           },
           "type": "statement",
           "id": "Q32$5fd07333-4512-f2f9-aab9-780c25a8ae69",
-          "rank": "normal"
-        }
-      ],
-      "P194": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P194",
-            "hash": "c2749c6486f78a29835281789a8902ba4d89eaf4",
-            "datavalue": {
-              "value": {
-                "entity-type": "property",
-                "numeric-id": 199,
-                "id": "P199"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-property"
-          },
-          "type": "statement",
-          "id": "Q32$c63d1b9e-415c-63fd-3daa-8d32208b8afe",
           "rank": "normal"
         }
       ],
@@ -170,17 +149,38 @@
           "id": "Q32$7E3A8628-8FC8-497D-9DF2-8FA238EE9880",
           "rank": "normal"
         }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "eeda19b27ce516aa51dda2b7c7ebc11301ff23ed",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 70,
+                "id": "Q70"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q32$bb03f256-4f67-747c-2070-2e0f9433e051",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-31T17:30:31Z",
-    "cache_exported_at": "2026-04-02T16:32:59.290452Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-03T21:35:42Z",
+    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

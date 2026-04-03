@@ -1,35 +1,34 @@
 {
-  "entity_id": "P208",
+  "entity_id": "Q64",
   "entity": {
-    "pageid": 108,
-    "ns": 122,
-    "title": "Property:P208",
-    "lastrevid": 1094,
-    "modified": "2026-04-02T19:02:39Z",
-    "type": "property",
-    "datatype": "musical-notation",
-    "id": "P208",
+    "pageid": 141,
+    "ns": 120,
+    "title": "Item:Q64",
+    "lastrevid": 1116,
+    "modified": "2026-04-03T21:25:57Z",
+    "type": "item",
+    "id": "Q64",
     "labels": {
       "en": {
         "language": "en",
-        "value": "musical-notation"
+        "value": "time"
       },
       "mul": {
         "language": "mul",
-        "value": "musical-notation"
+        "value": "time"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "musical notation property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+        "value": "date/time property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
       }
     },
     "aliases": {
       "en": [
         {
           "language": "en",
-          "value": "_musical-notation"
+          "value": "_time"
         }
       ]
     },
@@ -51,7 +50,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "P208$3e342ddf-49e6-ae40-989c-44e49fc42b49",
+          "id": "Q64$4EABC5CC-4284-4549-84D0-1FE4606981F2",
           "rank": "normal"
         }
       ],
@@ -60,10 +59,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "5c0303a713ea8b46053b600a0b5a239ffc80c45f",
+            "hash": "712ff0187098ecc91633388ed72f9bbc787e48e5",
             "datavalue": {
               "value": {
-                "text": "This field requires musical notation encoded in a supported format (MusicXML or LilyPond). Enter a valid notation snippet rather than plain text or a link.",
+                "text": "Enter a valid date/time value (for example: 2024-01-31 or +2024-01-31T00:00:00Z).",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -71,7 +70,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "P208$a7b0dd93-4bfd-fb46-a5e5-46b28e948237",
+          "id": "Q64$110269EE-2739-423E-9218-1850B3DA329A",
           "rank": "normal"
         }
       ],
@@ -80,26 +79,42 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "2f6c76d0e247d7566f1401918167a7b73e0f6e47",
+            "hash": "70b968d88ae8ce0d65b62ceb5fb0e6e5bab7d488",
             "datavalue": {
-              "value": "_musical-notation",
+              "value": "_time",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "P208$14A1B054-B45B-42C7-B703-78F5E3FC75CB",
+          "id": "Q64$BD3D8008-BBCA-4AB4-A3F6-6C0D7A663D02",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "70b968d88ae8ce0d65b62ceb5fb0e6e5bab7d488",
+            "datavalue": {
+              "value": "_time",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q64$CB69096C-DF57-47AA-8037-9F7FBF4B4E24",
           "rank": "normal"
         }
       ]
-    }
+    },
+    "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T19:02:39Z",
-    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "graph_fetched_at": "2026-04-03T21:25:57Z",
+    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

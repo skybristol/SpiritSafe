@@ -37,7 +37,7 @@
         }
       ],
       "value": {
-        "type": "wikibase-item",
+        "type": null,
         "value_list": [
           {
             "item": "Q7840353",
@@ -69,7 +69,7 @@
             }
           ],
           "value": {
-            "type": "wikibase-item",
+            "type": null,
             "value_list_reference": "cache/queries/Q28.json"
           },
           "messages": {
@@ -97,7 +97,7 @@
         }
       ],
       "value": {
-        "type": "quantity"
+        "type": null
       },
       "messages": {
         "mul": {
@@ -122,7 +122,7 @@
             }
           ],
           "value": {
-            "type": "time"
+            "type": null
           },
           "messages": {
             "mul": {
@@ -144,7 +144,7 @@
           ],
           "io_map": [],
           "value": {
-            "type": "wikibase-item",
+            "type": null,
             "value_list_reference": "cache/queries/Q56.json"
           },
           "messages": {
@@ -173,7 +173,7 @@
         }
       ],
       "value": {
-        "type": "monolingualtext"
+        "type": null
       },
       "messages": {
         "mul": {
@@ -200,7 +200,7 @@
         }
       ],
       "value": {
-        "type": "wikibase-item"
+        "type": null
       },
       "messages": {
         "mul": {
@@ -225,7 +225,7 @@
             }
           ],
           "value": {
-            "type": "string"
+            "type": null
           },
           "messages": {
             "mul": {
@@ -250,7 +250,7 @@
             }
           ],
           "value": {
-            "type": "monolingualtext"
+            "type": null
           },
           "messages": {
             "mul": {
@@ -275,7 +275,7 @@
             }
           ],
           "value": {
-            "type": "globe-coordinate"
+            "type": null
           },
           "messages": {
             "mul": {
@@ -303,7 +303,7 @@
         }
       ],
       "value": {
-        "type": "time"
+        "type": null
       },
       "messages": {
         "mul": {
@@ -354,7 +354,7 @@
         }
       ],
       "value": {
-        "type": "commonsMedia"
+        "type": null
       },
       "messages": {
         "mul": {
@@ -381,7 +381,7 @@
         }
       ],
       "value": {
-        "type": "wikibase-item",
+        "type": null,
         "profile": {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
           "label": "Office Held by Head of Government"
@@ -413,7 +413,7 @@
         }
       ],
       "value": {
-        "type": "url"
+        "type": null
       },
       "messages": {
         "mul": {
@@ -438,7 +438,7 @@
             }
           ],
           "value": {
-            "type": "wikibase-item",
+            "type": null,
             "value_list_reference": "cache/queries/Q51.json"
           },
           "messages": {
@@ -466,7 +466,7 @@
             }
           ],
           "value": {
-            "type": "url"
+            "type": null
           },
           "messages": {
             "mul": {
@@ -486,7 +486,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-04-02T23:30:40.364115Z",
+    "generated_at": "2026-04-03T21:54:17.360415Z",
     "languages": [
       "mul"
     ],

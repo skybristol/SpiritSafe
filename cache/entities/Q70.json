@@ -1,35 +1,34 @@
 {
-  "entity_id": "P209",
+  "entity_id": "Q70",
   "entity": {
-    "pageid": 109,
-    "ns": 122,
-    "title": "Property:P209",
-    "lastrevid": 1096,
-    "modified": "2026-04-02T19:02:40Z",
-    "type": "property",
-    "datatype": "tabular-data",
-    "id": "P209",
+    "pageid": 147,
+    "ns": 120,
+    "title": "Item:Q70",
+    "lastrevid": 1122,
+    "modified": "2026-04-03T21:26:03Z",
+    "type": "item",
+    "id": "Q70",
     "labels": {
       "en": {
         "language": "en",
-        "value": "tabular-data"
+        "value": "monolingualtext"
       },
       "mul": {
         "language": "mul",
-        "value": "tabular-data"
+        "value": "monolingualtext"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "tabular data property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+        "value": "monolingual text property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
       }
     },
     "aliases": {
       "en": [
         {
           "language": "en",
-          "value": "_tabular-data"
+          "value": "_monolingualtext"
         }
       ]
     },
@@ -51,7 +50,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "P209$7635c9a0-44d8-aadd-826e-08089f89dec7",
+          "id": "Q70$653E5593-577A-45D2-8F1C-A0409C8B31B6",
           "rank": "normal"
         }
       ],
@@ -60,10 +59,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "4fa5cc2a7c91982752ca1a5dec679e7bc078885e",
+            "hash": "afbd75d1a1bc509118fc0e3f08474eb283cf93ef",
             "datavalue": {
               "value": {
-                "text": "Provide a valid Commons Data namespace tabular-data reference.",
+                "text": "Enter text and choose the correct language code.",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -71,7 +70,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "P209$BFEF3451-7D39-458C-A618-B1B83AF3721D",
+          "id": "Q70$2F478C34-1CA5-46F6-809A-7796C5C42E5A",
           "rank": "normal"
         }
       ],
@@ -80,26 +79,27 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "33c187da2cffe0335ad45efd23ddbd18fe144323",
+            "hash": "d9258db55f54bb2ae5df42fcb143645b10860dff",
             "datavalue": {
-              "value": "_tabular-data",
+              "value": "_monolingualtext",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "P209$A46A0CE3-0F6E-49C9-8BD7-43DF0E270C20",
+          "id": "Q70$525DBA90-8393-42F3-8CE8-F8791C67704C",
           "rank": "normal"
         }
       ]
-    }
+    },
+    "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T19:02:40Z",
-    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "graph_fetched_at": "2026-04-03T21:26:03Z",
+    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

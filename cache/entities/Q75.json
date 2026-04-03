@@ -1,35 +1,34 @@
 {
-  "entity_id": "P198",
+  "entity_id": "Q75",
   "entity": {
-    "pageid": 76,
-    "ns": 122,
-    "title": "Property:P198",
-    "lastrevid": 1076,
-    "modified": "2026-04-02T19:02:28Z",
-    "type": "property",
-    "datatype": "globe-coordinate",
-    "id": "P198",
+    "pageid": 152,
+    "ns": 120,
+    "title": "Item:Q75",
+    "lastrevid": 1127,
+    "modified": "2026-04-03T21:26:09Z",
+    "type": "item",
+    "id": "Q75",
     "labels": {
       "en": {
         "language": "en",
-        "value": "globe-coordinate"
+        "value": "musical-notation"
       },
       "mul": {
         "language": "mul",
-        "value": "globe-coordinate"
+        "value": "musical-notation"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "geographic coordinates property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+        "value": "musical notation property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
       }
     },
     "aliases": {
       "en": [
         {
           "language": "en",
-          "value": "_globe-coordinate"
+          "value": "_musical-notation"
         }
       ]
     },
@@ -51,7 +50,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "P198$e2bff535-4d2d-6ab5-c1f2-fc912d57e2e4",
+          "id": "Q75$FA431BAE-A1AB-40E4-8FD5-5842BF3F9E56",
           "rank": "normal"
         }
       ],
@@ -60,10 +59,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "2c0a41465bfa0ff9bbb59395938ff1e673c6f904",
+            "hash": "5c0303a713ea8b46053b600a0b5a239ffc80c45f",
             "datavalue": {
               "value": {
-                "text": "Enter valid latitude and longitude coordinates.",
+                "text": "This field requires musical notation encoded in a supported format (MusicXML or LilyPond). Enter a valid notation snippet rather than plain text or a link.",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -71,7 +70,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "P198$1CE842B0-667D-4407-B772-97F91E89059C",
+          "id": "Q75$92726637-E6E1-44D5-BD77-11A673C034A8",
           "rank": "normal"
         }
       ],
@@ -80,26 +79,27 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "260cd1e2e0bc40fc1b27c5eeea028fcf7e828363",
+            "hash": "2f6c76d0e247d7566f1401918167a7b73e0f6e47",
             "datavalue": {
-              "value": "_globe-coordinate",
+              "value": "_musical-notation",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "P198$B4BA0E5B-8222-470C-8B99-C7DDD34090CB",
+          "id": "Q75$C8D61DAA-9BBB-456C-AB07-12CF0CC4C477",
           "rank": "normal"
         }
       ]
-    }
+    },
+    "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T19:02:28Z",
-    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "graph_fetched_at": "2026-04-03T21:26:09Z",
+    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

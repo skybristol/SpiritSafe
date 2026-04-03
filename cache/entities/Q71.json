@@ -1,35 +1,34 @@
 {
-  "entity_id": "P192",
+  "entity_id": "Q71",
   "entity": {
-    "pageid": 70,
-    "ns": 122,
-    "title": "Property:P192",
-    "lastrevid": 1064,
-    "modified": "2026-04-02T19:02:21Z",
-    "type": "property",
-    "datatype": "time",
-    "id": "P192",
+    "pageid": 148,
+    "ns": 120,
+    "title": "Item:Q71",
+    "lastrevid": 1123,
+    "modified": "2026-04-03T21:26:05Z",
+    "type": "item",
+    "id": "Q71",
     "labels": {
       "en": {
         "language": "en",
-        "value": "time"
+        "value": "quantity"
       },
       "mul": {
         "language": "mul",
-        "value": "time"
+        "value": "quantity"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "date/time property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+        "value": "quantity property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
       }
     },
     "aliases": {
       "en": [
         {
           "language": "en",
-          "value": "_time"
+          "value": "_quantity"
         }
       ]
     },
@@ -51,7 +50,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "P192$3cde9f57-460c-3ddf-14de-1e876317f18e",
+          "id": "Q71$E981ED03-6BFA-4BE1-98B3-951651D49238",
           "rank": "normal"
         }
       ],
@@ -60,10 +59,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "712ff0187098ecc91633388ed72f9bbc787e48e5",
+            "hash": "35ccb0476dff999cea326e4f205de71b3156dcd9",
             "datavalue": {
               "value": {
-                "text": "Enter a valid date/time value (for example: 2024-01-31 or +2024-01-31T00:00:00Z).",
+                "text": "Enter a numeric value; include unit only when required.",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -71,7 +70,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "P192$5682F64B-79A9-4C2D-A6F4-C201424619B6",
+          "id": "Q71$EBEF4E65-A63A-46AC-83AB-C53B417BBF90",
           "rank": "normal"
         }
       ],
@@ -80,41 +79,27 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "70b968d88ae8ce0d65b62ceb5fb0e6e5bab7d488",
+            "hash": "f76cf14eebcbd36c7378daba738e0c24812b9b95",
             "datavalue": {
-              "value": "_time",
+              "value": "_quantity",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "P192$99A88DC0-C2AE-424F-BBA8-4A6A4D76BC5C",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P214",
-            "hash": "70b968d88ae8ce0d65b62ceb5fb0e6e5bab7d488",
-            "datavalue": {
-              "value": "_time",
-              "type": "string"
-            },
-            "datatype": "string"
-          },
-          "type": "statement",
-          "id": "P192$93CBDE87-4969-4BFF-98FD-DCA18089669D",
+          "id": "Q71$1646E319-BDDE-4103-842A-1678FC458979",
           "rank": "normal"
         }
       ]
-    }
+    },
+    "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T19:02:21Z",
-    "cache_exported_at": "2026-04-02T23:24:20.477125Z",
+    "graph_fetched_at": "2026-04-03T21:26:05Z",
+    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
