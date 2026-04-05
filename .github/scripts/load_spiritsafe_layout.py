@@ -4,15 +4,15 @@ import yaml
 
 
 DEFAULTS = {
-    "entities": "cache/entities",
-    "profiles": "profiles",
-    "value_list_queries": "queries",
-    "value_list_cache": "cache/queries",
+    "entities": "still/entities",
+    "profiles": "still/profiles",
+    "value_list_queries": "still/value_lists/queries",
+    "value_list_cache": "still/value_lists/cache",
     "semantic_anchors": "config/semantic_anchors.json",
-    "logs": "cache/refresh",
-    "wikimedia_sites": "cache/config/wikimedia_sites.json",
-    "manifest": "cache/manifest.json",
-    "entity_index": "cache/entity_index.json",
+    "logs": "still/logs",
+    "wikimedia_sites": "partners/wikimedia_sites.json",
+    "manifest": "still/manifest.json",
+    "entity_index": "still/entity_index.json",
 }
 
 

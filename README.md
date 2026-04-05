@@ -14,7 +14,7 @@ It stores version-controlled Data Distillery Wikibase-derived artifacts that the
 - `still/value_lists/cache/` - hydrated value-list JSON keyed by QID.
 - `still/manifest.json` - URI-keyed artifact index built from current SpiritSafe artifacts.
 - `still/entity_index.json` - normalized entity index built from cached entities.
-- `still/refresh/` - cache refresh summaries from refresh workflows.
+- `still/logs/` - workflow summaries and sync logs.
 - `partners/` - generated partner-facing artifacts that are not part of the core materialized runtime set.
 - `partners/wikimedia_sites.json` - Wikimedia sitelink source artifact.
 
@@ -35,7 +35,7 @@ Top-level sections:
 
 ## Workflows
 
-- **Cache from Wikibase** (`cache-from-wikibase.yml`) - refreshes `still/entities/` from recent Wikibase updates and writes `still/refresh/last_run_summary.json`.
+- **Cache from Wikibase** (`cache-from-wikibase.yml`) - refreshes `still/entities/` from recent Wikibase updates and writes `still/logs/last_run_summary.json`.
 - **Cache Wikibase and Build Profiles** (`cache-wikibase-and-build-profiles.yml`) - refreshes `still/entities/` and exports `still/profiles/<QID>.json` from the refreshed cache.
 - **Hydrate Value Lists** (`hydrate-value-lists.yml`) - exports `still/value_lists/queries/<QID>.sparql` and hydrates `still/value_lists/cache/<QID>.json`.
 - **Build Manifest** (`build-manifest.yml`) - runs `gkc --json spiritsafe manifest build --source local --local-root .` and commits `still/manifest.json` and `still/entity_index.json` when changed.

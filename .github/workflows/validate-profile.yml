@@ -37,7 +37,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml
 
-      - name: Validate YAML syntax
+      - name: Validate config YAML syntax
         run: |
           python - <<'PY'
           import sys
@@ -45,14 +45,14 @@ jobs:
           import yaml
 
           errors = []
-          for profile_file in Path("profiles").rglob("profile.yaml"):
+          for yaml_file in Path("config").rglob("*.y*ml"):
             try:
-              with open(profile_file, "r", encoding="utf-8") as f:
+              with open(yaml_file, "r", encoding="utf-8") as f:
                 yaml.safe_load(f)
-              print(f"OK {profile_file}")
+              print(f"OK {yaml_file}")
             except yaml.YAMLError as e:
-              errors.append(f"{profile_file}: {e}")
-              print(f"ERROR {profile_file}: {e}")
+              errors.append(f"{yaml_file}: {e}")
+              print(f"ERROR {yaml_file}: {e}")
 
           if errors:
             print(f"YAML validation failed for {len(errors)} file(s)")
@@ -102,6 +102,10 @@ jobs:
             wikimedia_sites = paths.get("wikimedia_sites", "")
             if isinstance(wikimedia_sites, str) and not wikimedia_sites.startswith("partners/"):
               errors.append("spiritsafe.paths.wikimedia_sites must live under partners/")
+
+            logs = paths.get("logs", "")
+            if isinstance(logs, str) and not logs.startswith("still/logs"):
+              errors.append("spiritsafe.paths.logs must live under still/logs")
 
           if errors:
             print(f"SpiritSafe layout contract check failed for {len(errors)} issue(s)")
