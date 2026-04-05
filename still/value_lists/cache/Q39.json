@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q39",
+    "query_id": "Q39",
+    "query_sparql": "PREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel WHERE {\n  ?item wdt:P31/wdt:P279* wd:Q294414 ;\n        rdfs:label ?itemLabel .\n  FILTER(LANG(?itemLabel) = \"en\")\n}\n",
+    "query_hash": "4ec40848291dbc49022936e93f07c2c61bdd35193c54f51054e72cbe0f2a287f",
+    "updated": "2026-04-05T16:51:05.019431Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}

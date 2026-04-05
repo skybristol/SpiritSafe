@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q56",
+    "query_id": "Q56",
+    "query_sparql": "PREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel WHERE {\n  {\n    BIND(\"1\" AS ?item)\n    BIND(\"unitless\"@en AS ?itemLabel)\n  }\n  UNION\n  {\n    VALUES ?class {\n      wd:Q47574      # unit of measurement\n      wd:Q107715     # SI unit\n    }\n    ?item wdt:P31 ?class ;\n          rdfs:label ?itemLabel .\n    FILTER(LANG(?itemLabel) = \"en\")\n  }\n}\nORDER BY ?itemLabel\n",
+    "query_hash": "c681c788fdaaac6f9c242cb43b0027fed1ff8477596b69a7ed5f7f3be88e60f1",
+    "updated": "2026-04-05T16:51:06.540309Z",
+    "count": 1,
+    "columns": [
+      "item",
+      "itemLabel"
+    ]
+  },
+  "items": [
+    {
+      "item": "1",
+      "itemLabel": "unitless"
+    }
+  ]
+}

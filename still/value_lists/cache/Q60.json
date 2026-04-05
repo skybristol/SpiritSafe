@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q60",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q60",
+    "query_id": "Q60",
+    "query_sparql": "# Globe-Coordinate Precision value list\n# Static enumeration of coordinate precision levels in decimal degrees.\n# Fermenter should cast selected item to float for coordinate.precision.\n\nSELECT ?item ?itemLabel WHERE {\n  VALUES (?item ?itemLabel) {\n    (\"10\"       \"10 degrees\"@en)\n    (\"1\"        \"1 degree (~111 km)\"@en)\n    (\"0.1\"      \"0.1 degree (~11 km)\"@en)\n    (\"0.01667\"  \"1 arcminute (~1.85 km)\"@en)\n    (\"0.00278\"  \"10 arcseconds (~300 m)\"@en)\n    (\"0.000278\" \"1 arcsecond (~30 m)\"@en)\n    (\"0.0001\"   \"0.0001 degree (~11 m)\"@en)\n    (\"0.00001\"  \"0.00001 degree (~1 m)\"@en)\n  }\n}\n",
+    "query_hash": "a1384e038c6b5f2057790448aca4030c605903aac1420e5a2da0dd88b2e83d34",
+    "updated": "2026-04-05T16:51:07.197057Z",
+    "count": 8,
+    "columns": [
+      "item",
+      "itemLabel"
+    ]
+  },
+  "items": [
+    {
+      "item": "0.00001",
+      "itemLabel": "0.00001 degree (~1 m)"
+    },
+    {
+      "item": "0.0001",
+      "itemLabel": "0.0001 degree (~11 m)"
+    },
+    {
+      "item": "0.1",
+      "itemLabel": "0.1 degree (~11 km)"
+    },
+    {
+      "item": "0.01667",
+      "itemLabel": "1 arcminute (~1.85 km)"
+    },
+    {
+      "item": "0.000278",
+      "itemLabel": "1 arcsecond (~30 m)"
+    },
+    {
+      "item": "1",
+      "itemLabel": "1 degree (~111 km)"
+    },
+    {
+      "item": "0.00278",
+      "itemLabel": "10 arcseconds (~300 m)"
+    },
+    {
+      "item": "10",
+      "itemLabel": "10 degrees"
+    }
+  ]
+}

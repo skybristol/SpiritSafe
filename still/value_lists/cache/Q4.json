@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q4",
+    "query_id": "Q4",
+    "query_sparql": "PREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel WHERE {\n  ?item wdt:P31 wd:Q7840353 ;\n        rdfs:label ?itemLabel .\n  FILTER(LANG(?itemLabel) = \"en\")\n}\n",
+    "query_hash": "edd5f282aff236d0c7794b9fe906f6f198834d24e016106db7cee33789f3063a",
+    "updated": "2026-04-05T16:51:05.354099Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}

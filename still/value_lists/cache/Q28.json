@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q28",
+    "query_id": "Q28",
+    "query_sparql": "# Purpose: reference \"stated in\" candidates for federally recognized tribe assertions.\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel\nWHERE {\n  ?item wdt:P31 wd:Q121840925 ;\n        wdt:P50 wd:Q1010563 ;\n        rdfs:label ?itemLabel .\n  FILTER(LANG(?itemLabel) = \"en\")\n}\nORDER BY ?itemLabel\n",
+    "query_hash": "609bbdebdc47de8475b73d53fe0668e8197b1a9aefb7eb4b2e6e6a89eb7a0b45",
+    "updated": "2026-04-05T16:51:04.676338Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}
