@@ -32,18 +32,26 @@ jobs:
       - name: Install gkc CLI
         run: |
           python -m pip install --upgrade pip
+          pip install pyyaml
           pip install "git+https://github.com/skybristol/gkc.git@main"
+
+      - name: Resolve SpiritSafe layout paths
+        run: python .github/scripts/load_spiritsafe_layout.py >> "$GITHUB_ENV"
 
       - name: Build cache manifest and entity index
         run: |
-          mkdir -p cache
+          mkdir -p "$(dirname "$SPIRITSAFE_MANIFEST_PATH")" "$(dirname "$SPIRITSAFE_ENTITY_INDEX_PATH")"
           gkc --json spiritsafe manifest build --source local --local-root .
+
+      - name: Remove legacy manifest outputs
+        run: |
+          rm -f cache/manifest.json cache/entity_index.json
 
       - name: Commit and push manifest and entity index update
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cache/manifest.json cache/entity_index.json
+          git add -A -- "$SPIRITSAFE_MANIFEST_PATH" "$SPIRITSAFE_ENTITY_INDEX_PATH" cache/manifest.json cache/entity_index.json
           if git diff --cached --quiet; then
             echo "No manifest or entity index changes to commit"
           else

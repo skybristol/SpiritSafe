@@ -7,17 +7,20 @@ It stores version-controlled Data Distillery Wikibase-derived artifacts that the
 ## Directory Structure
 
 - `config/` - curated source configuration for the meta-wikibase integration contract.
-- `profiles/` - JSON Entity Profiles keyed by QID (`profiles/<QID>.json`).
-- `queries/` - SPARQL files keyed by value-list QID (`queries/<QID>.sparql`).
-- `cache/entities/` - cached Wikibase entity JSON used as profile/value-list substrate.
-- `cache/queries/` - hydrated value-list JSON keyed by QID (`cache/queries/<QID>.json`).
-- `cache/config/` - generated configuration artifacts built from curated config and cached entities.
-- `cache/manifest.json` - URI-keyed artifact index built from current SpiritSafe artifacts.
-- `cache/refresh/` - cache refresh summaries from refresh workflows.
+- `still/` - materialized SpiritSafe artifacts consumed by `gkc`.
+- `still/entities/` - cached Wikibase entity JSON used as profile/value-list substrate.
+- `still/profiles/` - JSON Entity Profiles keyed by QID (`still/profiles/<QID>.json`).
+- `still/value_lists/queries/` - SPARQL files keyed by value-list QID.
+- `still/value_lists/cache/` - hydrated value-list JSON keyed by QID.
+- `still/manifest.json` - URI-keyed artifact index built from current SpiritSafe artifacts.
+- `still/entity_index.json` - normalized entity index built from cached entities.
+- `still/refresh/` - cache refresh summaries from refresh workflows.
+- `partners/` - generated partner-facing artifacts that are not part of the core materialized runtime set.
+- `partners/wikimedia_sites.json` - Wikimedia sitelink source artifact.
 
 ## Manifest Design
 
-`cache/manifest.json` is a build artifact index, not a runtime dependency for packet assembly.
+`still/manifest.json` is a build artifact index, not a runtime dependency for packet assembly.
 
 Top-level sections:
 
@@ -32,17 +35,17 @@ Top-level sections:
 
 ## Workflows
 
-- **Cache from Wikibase** (`cache-from-wikibase.yml`) - refreshes `cache/entities/` from recent Wikibase updates and writes `cache/refresh/last_run_summary.json`.
-- **Cache Wikibase and Build Profiles** (`cache-wikibase-and-build-profiles.yml`) - refreshes `cache/entities/` and exports `profiles/<QID>.json` from the refreshed cache.
-- **Hydrate Value Lists** (`hydrate-value-lists.yml`) - exports `queries/<QID>.sparql` and hydrates `cache/queries/<QID>.json`.
-- **Build Manifest** (`build-manifest.yml`) - runs `gkc --json spiritsafe manifest build --source local --local-root .` and commits `cache/manifest.json` when changed.
+- **Cache from Wikibase** (`cache-from-wikibase.yml`) - refreshes `still/entities/` from recent Wikibase updates and writes `still/refresh/last_run_summary.json`.
+- **Cache Wikibase and Build Profiles** (`cache-wikibase-and-build-profiles.yml`) - refreshes `still/entities/` and exports `still/profiles/<QID>.json` from the refreshed cache.
+- **Hydrate Value Lists** (`hydrate-value-lists.yml`) - exports `still/value_lists/queries/<QID>.sparql` and hydrates `still/value_lists/cache/<QID>.json`.
+- **Build Manifest** (`build-manifest.yml`) - runs `gkc --json spiritsafe manifest build --source local --local-root .` and commits `still/manifest.json` and `still/entity_index.json` when changed.
 - **Build Semantic Anchors** (`build-semantic-anchors.yml`) - runs `gkc --json spiritsafe semantic-anchors build --source local --local-root . --output config/semantic_anchors.json` and commits the configured output path when changed.
 - **Validate Profile** (`validate-profile.yml`) - baseline structural checks for pull requests.
 - **PR Auto-Merge** (`pr-automerge.yml`) - squash auto-merge for eligible pull requests.
 
 ## Artifact Authorship
 
-Files under `profiles/`, `queries/`, `cache/entities/`, `cache/queries/`, `cache/config/`, and `cache/manifest.json` are generated artifacts.
+Files under `still/`, `partners/`, and `config/semantic_anchors.json` are generated artifacts unless explicitly noted otherwise.
 
 Do not hand-edit generated artifacts. Update source Wikibase content or run workflows.
 
@@ -54,9 +57,9 @@ The primary authored integration config is `config/dd-wikibase.yaml`.
 
 The `gkc` package consumes:
 
-- `profiles/<QID>.json` for profile structure and packet scaffolding.
-- `cache/queries/<QID>.json` for allowed-item lists.
+- `still/profiles/<QID>.json` for profile structure and packet scaffolding.
+- `still/value_lists/cache/<QID>.json` for allowed-item lists.
 - `config/semantic_anchors.json` for semantic name-to-entity lookup.
-- `cache/manifest.json` for registry/discovery tooling.
+- `still/manifest.json` for registry/discovery tooling.
 
 Packet assembly is manifest-independent and loads profile JSON directly.
