@@ -96,8 +96,7 @@ jobs:
 
       - name: Remove legacy value-list artifacts
         run: |
-          rm -rf cache/queries
-          find queries -maxdepth 1 -type f -name '*.sparql' -delete || true
+          rm -rf cache profiles queries
 
       - name: Commit and push value-list query/cache updates
         run: |

@@ -68,8 +68,7 @@ jobs:
 
       - name: Remove legacy cache outputs
         run: |
-          rm -rf cache/entities
-          rm -f cache/refresh/last_run_summary.json
+          rm -rf cache profiles queries
 
       - name: Commit and push cache updates
         run: |

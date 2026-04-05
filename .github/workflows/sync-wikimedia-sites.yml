@@ -79,7 +79,7 @@ jobs:
           gkc --json spiritsafe sitelinks sync-wikimedia-sites "${ARGS[@]}"
 
       - name: Remove legacy partner artifact path
-        run: rm -f cache/config/wikimedia_sites.json
+        run: rm -rf cache profiles queries
 
       - name: Commit and push artifact updates
         run: |

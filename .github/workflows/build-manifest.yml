@@ -45,7 +45,7 @@ jobs:
 
       - name: Remove legacy manifest outputs
         run: |
-          rm -f cache/manifest.json cache/entity_index.json
+          rm -rf cache profiles queries
 
       - name: Commit and push manifest and entity index update
         run: |
