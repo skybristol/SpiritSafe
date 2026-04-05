@@ -7,7 +7,7 @@ on:
         description: Branch or tag to refresh and commit into
         required: false
         type: string
-        default: main
+        default: ""
       api_url:
         description: Optional Wikibase API URL override
         required: false
@@ -26,7 +26,7 @@ jobs:
       - name: Checkout SpiritSafe target ref
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.target_ref }}
+          ref: ${{ inputs.target_ref || github.ref_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
@@ -37,39 +37,48 @@ jobs:
       - name: Install gkc CLI
         run: |
           python -m pip install --upgrade pip
+          pip install pyyaml
           pip install "git+https://github.com/skybristol/gkc.git@main"
+
+      - name: Resolve SpiritSafe layout paths
+        run: python .github/scripts/load_spiritsafe_layout.py >> "$GITHUB_ENV"
 
       - name: Refresh entity cache from recentchanges
         env:
           INPUT_API_URL: ${{ inputs.api_url }}
         run: |
-          mkdir -p cache/refresh
+          mkdir -p "$SPIRITSAFE_ENTITIES_PATH" "$SPIRITSAFE_LOGS_PATH"
           if [ -n "$INPUT_API_URL" ]; then
             gkc mash cache-wikibase-revisions \
               --api-url "$INPUT_API_URL" \
-              --cache-dir cache/entities \
-              --output cache/refresh/last_run_summary.json
+              --cache-dir "$SPIRITSAFE_ENTITIES_PATH" \
+              --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
           else
             gkc mash cache-wikibase-revisions \
-              --cache-dir cache/entities \
-              --output cache/refresh/last_run_summary.json
+              --cache-dir "$SPIRITSAFE_ENTITIES_PATH" \
+              --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
           fi
 
       - name: Write run summary
         if: always()
         run: |
-          if [ -f cache/refresh/last_run_summary.json ]; then
-            python3 -c 'import json, os, pathlib; data = json.loads(pathlib.Path("cache/refresh/last_run_summary.json").read_text()); meta = data.get("metadata", {}); summ = data.get("summary", {}); lines = ["## Cache from Wikibase Run Summary", "", "| Field | Value |", "| --- | --- |", "| API URL | `{}` |".format(meta.get("api_url", "")), "| Since | `{}` |".format(meta.get("since", "")), "| Next since | `{}` |".format(meta.get("next_since", "")), "| Changed | `{}` |".format(summ.get("changed_count", 0)), "| Refreshed | `{}` |".format(summ.get("refreshed_count", 0)), "| Deleted | `{}` |".format(summ.get("deleted_count", 0)), "| Ignored | `{}` |".format(summ.get("ignored_count", 0))]; summary_path = pathlib.Path(os.environ["GITHUB_STEP_SUMMARY"]); existing = summary_path.read_text() if summary_path.exists() else ""; summary_path.write_text(existing + "\n".join(lines) + "\n")'
+          if [ -f "$SPIRITSAFE_LOGS_PATH/last_run_summary.json" ]; then
+            python3 -c 'import json, os, pathlib; log_path = pathlib.Path(os.environ["SPIRITSAFE_LOGS_PATH"]) / "last_run_summary.json"; data = json.loads(log_path.read_text()); meta = data.get("metadata", {}); summ = data.get("summary", {}); lines = ["## Cache from Wikibase Run Summary", "", "| Field | Value |", "| --- | --- |", "| API URL | `{}` |".format(meta.get("api_url", "")), "| Since | `{}` |".format(meta.get("since", "")), "| Next since | `{}` |".format(meta.get("next_since", "")), "| Changed | `{}` |".format(summ.get("changed_count", 0)), "| Refreshed | `{}` |".format(summ.get("refreshed_count", 0)), "| Deleted | `{}` |".format(summ.get("deleted_count", 0)), "| Ignored | `{}` |".format(summ.get("ignored_count", 0))]; summary_path = pathlib.Path(os.environ["GITHUB_STEP_SUMMARY"]); existing = summary_path.read_text() if summary_path.exists() else ""; summary_path.write_text(existing + "\n".join(lines) + "\n")'
           fi
+
+      - name: Remove legacy cache outputs
+        run: |
+          rm -rf cache/entities
+          rm -f cache/refresh/last_run_summary.json
 
       - name: Commit and push cache updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cache/entities cache/refresh/last_run_summary.json
+          git add -A -- .
           if git diff --cached --quiet; then
             echo "No cache changes to commit"
           else
             git commit -m "chore: refresh Wikibase cache [skip ci]"
-            git push origin "HEAD:${{ inputs.target_ref }}"
+            git push origin "HEAD:${{ inputs.target_ref || github.ref_name }}"
           fi

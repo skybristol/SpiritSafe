@@ -1,0 +1,125 @@
+{
+  "entity_id": "Q67",
+  "entity": {
+    "pageid": 144,
+    "ns": 120,
+    "title": "Item:Q67",
+    "lastrevid": 1190,
+    "modified": "2026-04-04T12:50:41Z",
+    "type": "item",
+    "id": "Q67",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "commonsMedia"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "commonsMedia"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "Commons media file property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+      }
+    },
+    "aliases": {
+      "en": [
+        {
+          "language": "en",
+          "value": "_commonsMedia"
+        }
+      ]
+    },
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "0c325a3f049c99e6891bf8ce55878d9356d58693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 44,
+                "id": "Q44"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q67$9CC61562-B7CB-44BC-ADBF-224507B733AC",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "02c4cca853a6c69e428f7856c31d13f5e8a430c1",
+            "datavalue": {
+              "value": {
+                "text": "Provide a valid Wikimedia Commons file name (for example: Example.jpg).",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q67$C3A242EB-12CB-4EAA-88EE-372EA0A7DA59",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "57c0933c32110eb5b606f4939af8c9b32b74a411",
+            "datavalue": {
+              "value": "_commonsMedia",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q67$6FE7F01A-4B15-4EC9-90BF-A727DFA924D8",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "c607e1c5d5e493175782185ca88308177f249e47",
+            "datavalue": {
+              "value": "http://wikiba.se/ontology#CommonsMedia",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q67$f65a6d48-4052-df8a-47a2-c74e43289584",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-04T12:50:41Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

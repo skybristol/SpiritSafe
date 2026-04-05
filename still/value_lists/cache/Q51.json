@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q51",
+    "query_id": "Q51",
+    "query_sparql": "# Purpose: list languages for \"language of work or name\" claims\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel\nWHERE {\n  VALUES ?target { wd:Q17376908 wd:Q2092812 }\n  ?item wdt:P31/wdt:P279 ?target ;\n        rdfs:label ?itemLabel ;\n\t\twdt:P219 ?iso_code .\n  FILTER(LANG(?itemLabel) = \"en\")\n}\n",
+    "query_hash": "9e63b15cd0bde37f8caf1412b00d17280e39c4a9c43451c7ea63a18571e67323",
+    "updated": "2026-04-05T16:51:06.209456Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}

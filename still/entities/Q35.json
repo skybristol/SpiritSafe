@@ -1,0 +1,188 @@
+{
+  "entity_id": "Q35",
+  "entity": {
+    "pageid": 92,
+    "ns": 120,
+    "title": "Item:Q35",
+    "lastrevid": 1157,
+    "modified": "2026-04-03T21:36:45Z",
+    "type": "item",
+    "id": "Q35",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "postal code"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "postal code for a location"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q35$a840e5ab-4255-8e1d-f909-c0d7269b2618",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "228c504ade71073a276a70ceabbddf68607fab83",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P281",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q35$ba4ef75a-416b-c2d4-4388-49a2e51123cb",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "4db87938a969f37d65db812262e7f4184696e21e",
+            "datavalue": {
+              "value": {
+                "text": "enter the postal code for the subject item or address",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q35$aa2b27e9-407e-d9e2-3d1f-39b0742bcc14",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "6cf0a8825d42f351a58f88623aa8cba0785987a4",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, geographic sorting, regional filtering, and address completion workflows cannot function correctly.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q35$2db0b0d5-47a2-d831-c171-c34b46bdbea2",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q35$ec0900fd-4478-4399-6208-b385cb03094e",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "92147ef467d26fc19139f380e21178835f22fb29",
+            "datavalue": {
+              "value": {
+                "text": "Enter the postal or zip code associated with a location that can be used in coarse mapping and statistical analysis.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q35$81e70158-442e-a76c-b5c3-2b6797384131",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "fb9e494f93d0c21e1231ab6375b972f2334c34bd",
+            "datavalue": {
+              "value": "postal_code",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q35$DBB5580C-95F8-4648-AFFE-57566DB293F1",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "6ac2aaf34d967079f2613a144117bf4ccf4358d1",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 72,
+                "id": "Q72"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q35$16c183d7-420c-0c64-03fa-a4735b4448e4",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T21:36:45Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

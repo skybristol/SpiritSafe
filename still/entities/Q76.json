@@ -1,0 +1,125 @@
+{
+  "entity_id": "Q76",
+  "entity": {
+    "pageid": 153,
+    "ns": 120,
+    "title": "Item:Q76",
+    "lastrevid": 1196,
+    "modified": "2026-04-04T12:55:23Z",
+    "type": "item",
+    "id": "Q76",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "tabular-data"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "tabular-data"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "tabular data property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+      }
+    },
+    "aliases": {
+      "en": [
+        {
+          "language": "en",
+          "value": "_tabular-data"
+        }
+      ]
+    },
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "0c325a3f049c99e6891bf8ce55878d9356d58693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 44,
+                "id": "Q44"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q76$4DCA0A5E-6CFC-4D1F-8095-166A68A63131",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "4fa5cc2a7c91982752ca1a5dec679e7bc078885e",
+            "datavalue": {
+              "value": {
+                "text": "Provide a valid Commons Data namespace tabular-data reference.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q76$165AE0BD-891B-4D8F-98B3-05601FE6BEE4",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "33c187da2cffe0335ad45efd23ddbd18fe144323",
+            "datavalue": {
+              "value": "_tabular-data",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q76$A4A2E1A3-28E8-4719-9291-6219CF24CF01",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "2cb41ef9cc3dbf1d82c77b253b7f20f79e4dbd5e",
+            "datavalue": {
+              "value": "http://wikiba.se/ontology#TabularData",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q76$1e82997d-45c3-d0e6-a0b1-a91c6a4a10b8",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-04T12:55:23Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "entity_id": "Q73",
+  "entity": {
+    "pageid": 150,
+    "ns": 120,
+    "title": "Item:Q73",
+    "lastrevid": 1193,
+    "modified": "2026-04-04T12:53:53Z",
+    "type": "item",
+    "id": "Q73",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "geo-shape"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "geo-shape"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "geographic shape property template used to set a data type for a statement, reference, or qualifier and any additional specifications"
+      }
+    },
+    "aliases": {
+      "en": [
+        {
+          "language": "en",
+          "value": "_geo-shape"
+        }
+      ]
+    },
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "0c325a3f049c99e6891bf8ce55878d9356d58693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 44,
+                "id": "Q44"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q73$1346B35D-574D-4207-A7DD-64EB6325A426",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "a9e5875e44e4f44b8077fa63dd1f33793b5ea61e",
+            "datavalue": {
+              "value": {
+                "text": "Provide a valid Commons Data namespace geo-shape reference.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q73$91529596-C543-4083-A9C4-B9B793DDDA87",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "ce3c5b51dc124caaa70ed477f739e2edd7b28e3a",
+            "datavalue": {
+              "value": "_geo-shape",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q73$BD224873-5E63-452D-9852-7AFDDD2FD41D",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "d45734f9a5381be54b102750a4b9c7d88c439ee8",
+            "datavalue": {
+              "value": "http://wikiba.se/ontology#GeoShape",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q73$744c9ffd-412e-5534-0ec4-dfbcf14f1700",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-04T12:53:53Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

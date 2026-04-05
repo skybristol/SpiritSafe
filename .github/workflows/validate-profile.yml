@@ -5,15 +5,17 @@ on:
     branches:
       - main
     paths:
-      - 'profiles/**'
-      - 'queries/**'
+      - 'config/**'
+      - 'still/**'
+      - 'partners/**'
       - '.github/workflows/validate-profile.yml'
   push:
     branches:
       - main
     paths:
-      - 'profiles/**'
-      - 'queries/**'
+      - 'config/**'
+      - 'still/**'
+      - 'partners/**'
       - '.github/workflows/validate-profile.yml'
 
 jobs:
@@ -59,31 +61,53 @@ jobs:
           print("YAML validation passed")
           PY
 
-      - name: Check profile package shape
+      - name: Validate SpiritSafe layout contract
         run: |
           python - <<'PY'
+          import yaml
           import sys
           from pathlib import Path
 
+          config_path = Path("config/dd-wikibase.yaml")
           errors = []
-          profiles_root = Path("profiles")
-          if profiles_root.exists():
-            for profile_dir in profiles_root.iterdir():
-              if profile_dir.is_dir():
-                required_files = ["profile.yaml", "metadata.yaml", "README.md", "CHANGELOG.md"]
-                for req_file in required_files:
-                  file_path = profile_dir / req_file
-                  if not file_path.exists():
-                    errors.append(f"{profile_dir.name} missing {req_file}")
-                    print(f"ERROR {profile_dir.name}: Missing {req_file}")
-                  else:
-                    print(f"OK {profile_dir.name}/{req_file}")
+
+          if not config_path.exists():
+            errors.append("config/dd-wikibase.yaml missing")
+          else:
+            config = yaml.safe_load(config_path.read_text(encoding="utf-8")) or {}
+            spiritsafe = config.get("spiritsafe") or {}
+            paths = spiritsafe.get("paths") or {}
+            required_keys = [
+              "entities",
+              "profiles",
+              "value_list_queries",
+              "value_list_cache",
+              "semantic_anchors",
+              "logs",
+              "wikimedia_sites",
+              "manifest",
+              "entity_index",
+            ]
+            for key in required_keys:
+              value = paths.get(key)
+              if not isinstance(value, str) or not value.strip():
+                errors.append(f"spiritsafe.paths.{key} missing or empty")
+              else:
+                print(f"OK spiritsafe.paths.{key}={value}")
+
+            semantic_anchors = paths.get("semantic_anchors", "")
+            if isinstance(semantic_anchors, str) and not semantic_anchors.startswith("config/"):
+              errors.append("spiritsafe.paths.semantic_anchors must stay under config/")
+
+            wikimedia_sites = paths.get("wikimedia_sites", "")
+            if isinstance(wikimedia_sites, str) and not wikimedia_sites.startswith("partners/"):
+              errors.append("spiritsafe.paths.wikimedia_sites must live under partners/")
 
           if errors:
-            print(f"Profile package shape check failed for {len(errors)} issue(s)")
+            print(f"SpiritSafe layout contract check failed for {len(errors)} issue(s)")
             sys.exit(1)
 
-          print("Profile package shape check passed")
+          print("SpiritSafe layout contract check passed")
           PY
 
       - name: Validate SPARQL query syntax
@@ -93,7 +117,7 @@ jobs:
           from pathlib import Path
 
           errors = []
-          for root in [Path("profiles"), Path("queries")]:
+          for root in [Path("still/value_lists/queries")]:
             for sparql_file in root.rglob("*.sparql"):
               try:
                 with open(sparql_file, "r", encoding="utf-8") as f:
@@ -122,9 +146,9 @@ jobs:
           import sys
           from pathlib import Path
 
-          profile_files = sorted(Path("profiles").glob("*.json"))
+          profile_files = sorted(Path("still/profiles").glob("*.json"))
           if not profile_files:
-            print("No JSON profiles found under profiles/*.json; skipping sanity check")
+            print("No JSON profiles found under still/profiles/*.json; skipping sanity check")
             sys.exit(0)
 
           has_new_model = False

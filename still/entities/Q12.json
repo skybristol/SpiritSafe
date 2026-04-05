@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q12",
+  "entity": {
+    "pageid": 18,
+    "ns": 120,
+    "title": "Item:Q12",
+    "lastrevid": 1115,
+    "modified": "2026-04-03T16:32:38Z",
+    "type": "item",
+    "id": "Q12",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "GKC Refresh Policy"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "refresh cadence term used for SPARQL-backed lookup hydration"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q12$FC1C9C09-04B3-43EC-A61F-B0D8F837AE27",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "9057aae3a9717d7a8706aa6bb5424ace45a463a3",
+            "datavalue": {
+              "value": "_value_list_refresh_policy",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q12$1ea37f3d-40d5-2f43-0695-f78fa0f5989d",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T16:32:38Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

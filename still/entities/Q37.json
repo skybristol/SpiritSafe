@@ -1,0 +1,209 @@
+{
+  "entity_id": "Q37",
+  "entity": {
+    "pageid": 94,
+    "ns": 120,
+    "title": "Item:Q37",
+    "lastrevid": 1161,
+    "modified": "2026-04-03T21:37:30Z",
+    "type": "item",
+    "id": "Q37",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "inception"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "time when an entity begins to exist"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q37$d46c56fb-4c24-8406-1ed1-c6945ec1aa5a",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "fb681dbf342d7e51cab5a41c9ee57c835d67facf",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P571",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q37$55c8e3ea-4d3e-dbb6-e8ff-2d57503ad061",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "a97f8e500c2f99a235a08acf2f41f8bbcc818bb5",
+            "datavalue": {
+              "value": {
+                "text": "enter the date that the subject entity began to exist",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q37$4ba613d2-4e94-6df9-332e-e29c0996c3b2",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "b871a3841350a9abd2caaf222b7c7e11fcd03ef4",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the founding or creation date is unknown, making chronological ordering and timeline display impossible.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q37$bd5cb29a-41b2-dec8-c427-c555b7ae0d8a",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q37$00765e16-4778-24b7-7596-6f7ee004a736",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "f4dcf1512162ac7511474eb51d8895962f47a1b7",
+            "datavalue": {
+              "value": {
+                "text": "Enter the date that the subject item came into existence or was established, citing a reliable reference.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q37$82702cb4-4827-dc5a-f138-4b2e141c33cc",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "030c4eb0ac0dbb2a4008eba6531bbd1ce53b2a3a",
+            "datavalue": {
+              "value": "inception",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q37$F8B02AE2-413E-48BD-8FEA-0F4927FE8D7C",
+          "rank": "normal"
+        }
+      ],
+      "P158": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P158",
+            "hash": "d7a42d8f65237dfafd60315fe3c144ae81eacffe",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 61,
+                "id": "Q61"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q37$a1de8e7a-4542-e25c-a6b7-8cca80f939c2",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "ae3662f6f26107150110aab92b969c9e9f00b1f1",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 64,
+                "id": "Q64"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q37$5aa8020e-4423-bb72-7a3c-1602bba3083f",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T21:37:30Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

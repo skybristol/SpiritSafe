@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q3",
+  "entity": {
+    "pageid": 6,
+    "ns": 120,
+    "title": "Item:Q3",
+    "lastrevid": 1105,
+    "modified": "2026-04-02T20:13:51Z",
+    "type": "item",
+    "id": "Q3",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "GKC Entity Profile"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "formal specification for the content model used to build, validate, and organize GKC Entities"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q3$bcada215-45e9-7544-9d7e-1069d0de5f8e",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "14fdf5b44ea0ce8b4ca5f7da4249c821549bd307",
+            "datavalue": {
+              "value": "_entity_profile",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q3$a6afac5e-4fe2-99a6-5c6f-2e9065389714",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-02T20:13:51Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "entity_id": "Q36",
+  "entity": {
+    "pageid": 93,
+    "ns": 120,
+    "title": "Item:Q36",
+    "lastrevid": 1159,
+    "modified": "2026-04-03T21:37:09Z",
+    "type": "item",
+    "id": "Q36",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "coordinate location"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "geocoordinates of the subject. For Earth, please note that only the WGS84 geodetic datum is currently supported"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q36$0290ff94-4d34-d589-aa9c-2cc9e4dba37b",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "13e9316d5a473b287aac7933d8b9c67e58260d08",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P625",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q36$a7dce213-41ce-fcea-af4c-d0189c96b638",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "926d61abec6a2db8329d5d61ce4a113e973dc4d0",
+            "datavalue": {
+              "value": {
+                "text": "provide the coordinates for the subject location",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q36$37db9ffc-43ba-6294-875f-0a6014ebfd7a",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "a53910bc3ec7f1fd4b1e7704408f29762f166d1f",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the entity cannot be placed on a map or included in spatial queries and proximity analyses.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q36$135921a3-43bf-8074-5161-0915c8d03175",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q36$5d5e9044-4fb0-24d0-9d35-eb6dadae6460",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "59cc8c64f15fae5a82d51863e6909cab79057685",
+            "datavalue": {
+              "value": {
+                "text": "Enter the geographic coordinates for the subject location in decimal degrees using the WGS84 coordinate reference system.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q36$c7822391-4e88-76c6-cae2-53934d3f3cf6",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "98b7c51c8322a6b87ed0aff350cb245228a54b01",
+            "datavalue": {
+              "value": "coordinate_location",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q36$B0DDAACA-D13C-4291-8CB3-F6E4C0AAFF82",
+          "rank": "normal"
+        }
+      ],
+      "P158": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P158",
+            "hash": "0c7ef50f20ad2f24a82dce088fc1e7efd33c4eba",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 62,
+                "id": "Q62"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q36$a06d44c1-443b-4bf0-247e-ecc23775b32e",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "2e587148f23162bfe57ab1e3b0e03007e7f43550",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 69,
+                "id": "Q69"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q36$b6b33964-492e-7877-1443-05faf04656dc",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T21:37:09Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

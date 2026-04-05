@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q50",
+  "entity": {
+    "pageid": 116,
+    "ns": 120,
+    "title": "Item:Q50",
+    "lastrevid": 1111,
+    "modified": "2026-04-02T20:19:54Z",
+    "type": "item",
+    "id": "Q50",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "manual refresh"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "refresh policy where something is only refreshed manually and not on a schedule"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "c0c1db9ea5b3e85ca6e210fd8e665c9356fd60b5",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 12,
+                "id": "Q12"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q50$a91bc860-43e2-0a25-d0a4-08c4e849b4b1",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "9f1daaf9aece3594dcfed2b3050159ea95aae951",
+            "datavalue": {
+              "value": "_manual_refresh_policy",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q50$a7b66bc5-486d-abed-589e-504bdd2742eb",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-02T20:19:54Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "entity_id": "Q16",
+  "entity": {
+    "pageid": 48,
+    "ns": 120,
+    "title": "Item:Q16",
+    "lastrevid": 1137,
+    "modified": "2026-04-03T21:31:44Z",
+    "type": "item",
+    "id": "Q16",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "instance of"
+      },
+      "mul": {
+        "language": "mul",
+        "value": "instance of"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "primary classification property used in Wikidata for declaring the type of item"
+      }
+    },
+    "aliases": {
+      "en": [
+        {
+          "language": "en",
+          "value": "instance_of"
+        }
+      ]
+    },
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q16$dbd7ead2-4965-fd55-240b-05c4728d10fe",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "7eac90c2101d3415b618d689c17e26576d517f7d",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P31",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q16$d81df90f-4532-d461-3ff2-13e24de3718c",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "ccac4deeb1e0dcc7fd9ff6163e345020ab7ed854",
+            "datavalue": {
+              "value": {
+                "text": "enter or choose the type of entity",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q16$fbaae2e3-456e-9831-a9dc-5715c472d858",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "3f62769f6cdfcb015eddc49f5fd38ebb0bcdab11",
+            "datavalue": {
+              "value": {
+                "text": "The instance of statement classifies the item in a particular way as a specific type of thing within Wikidata. Each profile has guidance on how items are to be classified.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q16$6a638e3c-48bc-6e78-ba15-3d9f7c83727a",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "733d5fe7b72c0faf8b58ef8a6e79ebabd3df2956",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the item has no type classification, making it impossible to apply type-specific validation, constraints, or display logic.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q16$446de55c-4b56-6957-233b-d8c0f7fae889",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q16$388f8360-47d8-c13d-7f6d-4f56f3b51f7d",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "664c293edfeb750eb7c9e985fc3349ca7b925c84",
+            "datavalue": {
+              "value": "instance_of",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q16$0C106023-B1B4-4C21-9210-0F83AB69F9F0",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "3b320390fdf1ca77a56409f4a89d1659ef2c3e7d",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 65,
+                "id": "Q65"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q16$34e1609c-46e0-3034-d04a-d561dd906ac8",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T21:31:44Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

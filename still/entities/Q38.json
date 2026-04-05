@@ -1,0 +1,188 @@
+{
+  "entity_id": "Q38",
+  "entity": {
+    "pageid": 95,
+    "ns": 120,
+    "title": "Item:Q38",
+    "lastrevid": 1163,
+    "modified": "2026-04-03T21:37:52Z",
+    "type": "item",
+    "id": "Q38",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "flag image"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "link to image in Wikimedia Commons for a flag used by an entity"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q38$2d231973-4640-1036-926d-fc5ca83384f7",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "6633bfc8d0453e168170a412a71cbda8c1aff72c",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P41",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q38$8a8997f7-4f10-88db-a6f8-4b1bfe60447b",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "2507789e0594d71bc6b96a418df761d7cc4a71b0",
+            "datavalue": {
+              "value": {
+                "text": "link to a Wikimedia Commons file depicting a flag used by the subject item",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q38$79978fe9-4f7d-4b1f-0876-0ff08890b9e3",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "c7738421646e9952775922608a4860fa87b9ccaa",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, visual identification of the entity in map or list contexts is missing, reducing recognizability.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q38$65fe486a-49e9-a58e-d554-76d1d22c6243",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q38$5095d873-4fdf-0d4c-9988-1223957caefb",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "a90e461d629eaf9a4cd17108a2df770d42f68397",
+            "datavalue": {
+              "value": {
+                "text": "Ensure the flag image from Wikimedia Commons is sufficiently referenced to a reliable source.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q38$8f50ef22-4204-5535-6aa5-0525cb6597b2",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "3660d699d57908c4a57a61d297e7f014764fad9c",
+            "datavalue": {
+              "value": "flag_image",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q38$3F9C0F24-E7E2-46C9-B8A4-1A1A43A6820A",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "b839c12d9faa99ad4f0c2404df17b8e4befae722",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 67,
+                "id": "Q67"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q38$1d05bd05-45c6-6c4f-0628-50ff1827b0a2",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T21:37:52Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
