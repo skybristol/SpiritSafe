@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T12:08:10.175550Z",
-    "property_count": 25,
+    "generated_at": "2026-04-05T12:41:36.021057Z",
+    "property_count": 26,
     "item_count": 21
   },
   "entities": {
@@ -79,6 +79,11 @@
       "id": "P190",
       "entity": "https://datadistillery.wikibase.cloud/entity/P190",
       "datatype": "monolingualtext"
+    },
+    "_subclass_of": {
+      "id": "P2",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P2",
+      "datatype": "wikibase-item"
     },
     "_default_value": {
       "id": "P202",
