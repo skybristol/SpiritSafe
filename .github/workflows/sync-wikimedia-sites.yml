@@ -85,7 +85,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A -- "$SPIRITSAFE_WIKIMEDIA_SITES_PATH" cache/config/wikimedia_sites.json
+          git add -A -- .
           if git diff --cached --quiet; then
             echo "No Wikimedia sites artifact changes to commit"
           else
