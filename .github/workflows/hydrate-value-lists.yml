@@ -7,7 +7,7 @@ on:
         description: Branch or tag to hydrate and commit into
         required: false
         type: string
-        default: main
+        default: ""
       api_url:
         description: Optional Wikibase API URL override
         required: false
@@ -41,7 +41,7 @@ jobs:
       - name: Checkout SpiritSafe target ref
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.target_ref }}
+          ref: ${{ inputs.target_ref || github.ref_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
