@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T23:19:50.911595Z",
+  "generated_at": "2026-04-05T16:47:54.221477Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "profiles": [
     {
@@ -26,7 +26,7 @@
           "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
           "label": "List of World Countries",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q41",
-          "cache_path": "cache/queries/Q43.json",
+          "value_list_id": "Q43",
           "name_identifier": "ListOfWorldCountries"
         },
         {
@@ -34,7 +34,7 @@
           "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
           "label": "Tribal Government in the United States",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
-          "cache_path": "cache/queries/Q4.json",
+          "value_list_id": "Q4",
           "name_identifier": "TribalGovernmentInTheUnitedStates"
         }
       ]
@@ -63,7 +63,7 @@
           "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
           "label": "Federal Register Notices Listing Tribes",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
-          "cache_path": "cache/queries/Q28.json",
+          "value_list_id": "Q28",
           "name_identifier": "FederalRegisterNoticesListingTribes"
         },
         {
@@ -71,7 +71,7 @@
           "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
           "label": "Units of Measure",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q57",
-          "cache_path": "cache/queries/Q56.json",
+          "value_list_id": "Q56",
           "name_identifier": "UnitsOfMeasure"
         },
         {
@@ -79,7 +79,7 @@
           "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
           "label": "Time Precision Values",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q61",
-          "cache_path": "cache/queries/Q59.json",
+          "value_list_id": "Q59",
           "name_identifier": "TimePrecisionValues"
         },
         {
@@ -87,7 +87,7 @@
           "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
           "label": "Office Held by Head of Government",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
-          "cache_path": "cache/queries/Q39.json",
+          "value_list_id": "Q39",
           "name_identifier": "OfficeHeldByHeadOfGovernment"
         },
         {
@@ -95,7 +95,7 @@
           "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
           "label": "List of Human Languages",
           "via_statement": "https://datadistillery.wikibase.cloud/entity/Q27",
-          "cache_path": "cache/queries/Q51.json",
+          "value_list_id": "Q51",
           "name_identifier": "ListOfHumanLanguages"
         }
       ]
@@ -189,96 +189,6 @@
       "Q76"
     ]
   },
-  "queries": [
-    {
-      "qid": "Q28",
-      "path": "queries/Q28.sparql"
-    },
-    {
-      "qid": "Q39",
-      "path": "queries/Q39.sparql"
-    },
-    {
-      "qid": "Q4",
-      "path": "queries/Q4.sparql"
-    },
-    {
-      "qid": "Q43",
-      "path": "queries/Q43.sparql"
-    },
-    {
-      "qid": "Q51",
-      "path": "queries/Q51.sparql"
-    },
-    {
-      "qid": "Q56",
-      "path": "queries/Q56.sparql"
-    },
-    {
-      "qid": "Q59",
-      "path": "queries/Q59.sparql"
-    },
-    {
-      "qid": "Q60",
-      "path": "queries/Q60.sparql"
-    }
-  ],
-  "value_lists": [
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
-      "qid": "Q28",
-      "label": "Federal Register Notices Listing Tribes",
-      "path": "cache/queries/Q28.json",
-      "item_count": 27
-    },
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
-      "qid": "Q39",
-      "label": "Office Held by Head of Government",
-      "path": "cache/queries/Q39.json",
-      "item_count": 26596
-    },
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
-      "qid": "Q4",
-      "label": "Tribal Government in the United States",
-      "path": "cache/queries/Q4.json",
-      "item_count": 573
-    },
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
-      "qid": "Q43",
-      "label": "List of World Countries",
-      "path": "cache/queries/Q43.json",
-      "item_count": 222
-    },
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
-      "qid": "Q51",
-      "label": "List of Human Languages",
-      "path": "cache/queries/Q51.json",
-      "item_count": 265
-    },
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
-      "qid": "Q56",
-      "label": "Units of Measure",
-      "path": "cache/queries/Q56.json",
-      "item_count": 564
-    },
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
-      "qid": "Q59",
-      "label": "Time Precision Values",
-      "path": "cache/queries/Q59.json",
-      "item_count": 15
-    },
-    {
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q60",
-      "qid": "Q60",
-      "label": "Coordinate Precision Values",
-      "path": "cache/queries/Q60.json",
-      "item_count": 8
-    }
-  ]
+  "queries": [],
+  "value_lists": []
 }

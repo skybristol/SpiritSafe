@@ -37,7 +37,7 @@
         }
       ],
       "value": {
-        "type": null,
+        "type": "wikibase-item",
         "value_list": [
           {
             "item": "Q7840353",
@@ -69,8 +69,8 @@
             }
           ],
           "value": {
-            "type": null,
-            "value_list_reference": "cache/queries/Q28.json"
+            "type": "wikibase-item",
+            "value_list_id": "Q28"
           },
           "messages": {
             "mul": {
@@ -97,7 +97,7 @@
         }
       ],
       "value": {
-        "type": null
+        "type": "quantity"
       },
       "messages": {
         "mul": {
@@ -122,7 +122,7 @@
             }
           ],
           "value": {
-            "type": null
+            "type": "time"
           },
           "messages": {
             "mul": {
@@ -144,8 +144,8 @@
           ],
           "io_map": [],
           "value": {
-            "type": null,
-            "value_list_reference": "cache/queries/Q56.json"
+            "type": "wikibase-item",
+            "value_list_id": "Q56"
           },
           "messages": {
             "mul": {
@@ -173,7 +173,7 @@
         }
       ],
       "value": {
-        "type": null
+        "type": "monolingualtext"
       },
       "messages": {
         "mul": {
@@ -200,7 +200,7 @@
         }
       ],
       "value": {
-        "type": null
+        "type": "wikibase-item"
       },
       "messages": {
         "mul": {
@@ -225,7 +225,7 @@
             }
           ],
           "value": {
-            "type": null
+            "type": "string"
           },
           "messages": {
             "mul": {
@@ -250,7 +250,7 @@
             }
           ],
           "value": {
-            "type": null
+            "type": "monolingualtext"
           },
           "messages": {
             "mul": {
@@ -275,7 +275,7 @@
             }
           ],
           "value": {
-            "type": null
+            "type": "globe-coordinate"
           },
           "messages": {
             "mul": {
@@ -303,7 +303,7 @@
         }
       ],
       "value": {
-        "type": null
+        "type": "time"
       },
       "messages": {
         "mul": {
@@ -326,7 +326,7 @@
           "io_map": [],
           "value": {
             "type": null,
-            "value_list_reference": "cache/queries/Q59.json"
+            "value_list_id": "Q59"
           },
           "messages": {
             "mul": {
@@ -354,7 +354,7 @@
         }
       ],
       "value": {
-        "type": null
+        "type": "commonsMedia"
       },
       "messages": {
         "mul": {
@@ -381,12 +381,12 @@
         }
       ],
       "value": {
-        "type": null,
+        "type": "wikibase-item",
         "profile": {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
           "label": "Office Held by Head of Government"
         },
-        "value_list_reference": "cache/queries/Q39.json"
+        "value_list_id": "Q39"
       },
       "messages": {
         "mul": {
@@ -413,7 +413,7 @@
         }
       ],
       "value": {
-        "type": null
+        "type": "url"
       },
       "messages": {
         "mul": {
@@ -438,8 +438,8 @@
             }
           ],
           "value": {
-            "type": null,
-            "value_list_reference": "cache/queries/Q51.json"
+            "type": "wikibase-item",
+            "value_list_id": "Q51"
           },
           "messages": {
             "mul": {
@@ -466,7 +466,7 @@
             }
           ],
           "value": {
-            "type": null
+            "type": "url"
           },
           "messages": {
             "mul": {
@@ -486,7 +486,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-04-03T23:19:50.064767Z",
+    "generated_at": "2026-04-05T16:47:53.368912Z",
     "languages": [
       "mul"
     ],
@@ -507,7 +507,7 @@
         "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
         "label": "Federal Register Notices Listing Tribes",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
-        "cache_path": "cache/queries/Q28.json",
+        "value_list_id": "Q28",
         "name_identifier": "FederalRegisterNoticesListingTribes"
       },
       {
@@ -515,7 +515,7 @@
         "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
         "label": "Units of Measure",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q57",
-        "cache_path": "cache/queries/Q56.json",
+        "value_list_id": "Q56",
         "name_identifier": "UnitsOfMeasure"
       },
       {
@@ -523,7 +523,7 @@
         "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
         "label": "Time Precision Values",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q61",
-        "cache_path": "cache/queries/Q59.json",
+        "value_list_id": "Q59",
         "name_identifier": "TimePrecisionValues"
       },
       {
@@ -531,7 +531,7 @@
         "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
         "label": "Office Held by Head of Government",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
-        "cache_path": "cache/queries/Q39.json",
+        "value_list_id": "Q39",
         "name_identifier": "OfficeHeldByHeadOfGovernment"
       },
       {
@@ -539,7 +539,7 @@
         "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
         "label": "List of Human Languages",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q27",
-        "cache_path": "cache/queries/Q51.json",
+        "value_list_id": "Q51",
         "name_identifier": "ListOfHumanLanguages"
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T23:19:50.918101Z",
+  "generated_at": "2026-04-05T16:47:54.257240Z",
   "source": "https://github.com/skybristol/SpiritSafe",
   "entity_count": 83,
   "class_count": 11,
@@ -308,7 +308,7 @@
       "id": "P2",
       "entity": "https://datadistillery.wikibase.cloud/entity/P2",
       "label": "subclass of",
-      "name_identifier": null,
+      "name_identifier": "_subclass_of",
       "classes": [
         "Q46"
       ],
@@ -528,7 +528,7 @@
       "id": "Q1",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q1",
       "label": "entity",
-      "name_identifier": null,
+      "name_identifier": "_entity",
       "classes": [],
       "value_type": null,
       "io_map": [],
@@ -568,7 +568,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [
         "http://www.wikidata.org/entity/P31"
       ],
@@ -596,7 +596,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q66",
       "io_map": [
         "http://www.wikidata.org/entity/P856"
       ],
@@ -632,7 +632,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q71",
       "io_map": [
         "http://www.wikidata.org/entity/P2124"
       ],
@@ -667,7 +667,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q64",
       "io_map": [
         "http://www.wikidata.org/entity/P585"
       ],
@@ -699,7 +699,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [
         "http://www.wikidata.org/entity/P407"
       ],
@@ -755,7 +755,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q66",
       "io_map": [
         "http://www.wikidata.org/entity/P854"
       ],
@@ -805,7 +805,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [
         "http://www.wikidata.org/entity/P248"
       ],
@@ -845,7 +845,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q70",
       "io_map": [
         "http://www.wikidata.org/entity/P1705"
       ],
@@ -873,7 +873,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [
         "http://www.wikidata.org/entity/P159"
       ],
@@ -911,7 +911,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q70",
       "io_map": [
         "http://www.wikidata.org/entity/P6375"
       ],
@@ -939,7 +939,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q72",
       "io_map": [
         "http://www.wikidata.org/entity/P281"
       ],
@@ -967,7 +967,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q69",
       "io_map": [
         "http://www.wikidata.org/entity/P625"
       ],
@@ -999,7 +999,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q64",
       "io_map": [
         "http://www.wikidata.org/entity/P571"
       ],
@@ -1031,7 +1031,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q67",
       "io_map": [
         "http://www.wikidata.org/entity/P41"
       ],
@@ -1154,7 +1154,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [
         "http://www.wikidata.org/entity/P1313"
       ],
@@ -1186,7 +1186,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [
         "http://www.wikidata.org/entity/P17"
       ],
@@ -1218,7 +1218,7 @@
       "classes": [
         "Q5"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [
         "http://www.wikidata.org/entity/P1001"
       ],
@@ -1527,7 +1527,7 @@
         "Q5",
         "Q58"
       ],
-      "value_type": null,
+      "value_type": "Q65",
       "io_map": [],
       "max_count": 1,
       "messages": {
@@ -1686,7 +1686,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#Time"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1710,7 +1712,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#WikibaseItem"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1734,7 +1738,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#Url"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1758,7 +1764,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#CommonsMedia"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1782,7 +1790,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#WikibaseExternalId"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1806,7 +1816,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#Globecoordinate"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1848,7 +1860,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#Monolingualtext"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1872,7 +1886,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#Quantity"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1896,7 +1912,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#String"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1920,7 +1938,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#GeoShape"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1944,7 +1964,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#Math"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1968,7 +1990,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#MusicalNotation"
+      ],
       "max_count": null,
       "messages": {
         "mul": {
@@ -1992,7 +2016,9 @@
         "Q44"
       ],
       "value_type": null,
-      "io_map": [],
+      "io_map": [
+        "http://wikiba.se/ontology#TabularData"
+      ],
       "max_count": null,
       "messages": {
         "mul": {

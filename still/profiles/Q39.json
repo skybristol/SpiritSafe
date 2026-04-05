@@ -37,7 +37,7 @@
         }
       ],
       "value": {
-        "type": null,
+        "type": "wikibase-item",
         "value_list": [
           {
             "item": "Q294414",
@@ -70,8 +70,8 @@
         }
       ],
       "value": {
-        "type": null,
-        "value_list_reference": "cache/queries/Q43.json"
+        "type": "wikibase-item",
+        "value_list_id": "Q43"
       },
       "messages": {
         "mul": {
@@ -98,12 +98,12 @@
         }
       ],
       "value": {
-        "type": null,
+        "type": "wikibase-item",
         "profile": {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
           "label": "Tribal Government in the United States"
         },
-        "value_list_reference": "cache/queries/Q4.json"
+        "value_list_id": "Q4"
       },
       "messages": {
         "mul": {
@@ -123,7 +123,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-04-03T23:19:50.064152Z",
+    "generated_at": "2026-04-05T16:47:53.368303Z",
     "languages": [
       "mul"
     ],
@@ -144,7 +144,7 @@
         "entity": "https://datadistillery.wikibase.cloud/entity/Q43",
         "label": "List of World Countries",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q41",
-        "cache_path": "cache/queries/Q43.json",
+        "value_list_id": "Q43",
         "name_identifier": "ListOfWorldCountries"
       },
       {
@@ -152,7 +152,7 @@
         "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
         "label": "Tribal Government in the United States",
         "via_statement": "https://datadistillery.wikibase.cloud/entity/Q42",
-        "cache_path": "cache/queries/Q4.json",
+        "value_list_id": "Q4",
         "name_identifier": "TribalGovernmentInTheUnitedStates"
       }
     ],
