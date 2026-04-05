@@ -4,8 +4,8 @@
     "pageid": 141,
     "ns": 120,
     "title": "Item:Q64",
-    "lastrevid": 1116,
-    "modified": "2026-04-03T21:25:57Z",
+    "lastrevid": 1189,
+    "modified": "2026-04-04T12:50:09Z",
     "type": "item",
     "id": "Q64",
     "labels": {
@@ -105,6 +105,23 @@
           "id": "Q64$CB69096C-DF57-47AA-8037-9F7FBF4B4E24",
           "rank": "normal"
         }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "573f5eb8c3c1bdc1821da004812bf6480f216040",
+            "datavalue": {
+              "value": "http://wikiba.se/ontology#Time",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q64$eb6c1303-424f-1535-869a-accda066655f",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -113,8 +130,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-03T21:25:57Z",
-    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
+    "graph_fetched_at": "2026-04-04T12:50:09Z",
+    "cache_exported_at": "2026-04-05T12:40:49.428563Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

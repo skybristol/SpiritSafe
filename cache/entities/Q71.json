@@ -4,8 +4,8 @@
     "pageid": 148,
     "ns": 120,
     "title": "Item:Q71",
-    "lastrevid": 1123,
-    "modified": "2026-04-03T21:26:05Z",
+    "lastrevid": 1188,
+    "modified": "2026-04-04T12:45:06Z",
     "type": "item",
     "id": "Q71",
     "labels": {
@@ -90,6 +90,23 @@
           "id": "Q71$1646E319-BDDE-4103-842A-1678FC458979",
           "rank": "normal"
         }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "24a3ffac74b623dc677a412660ad2b991d39fd0d",
+            "datavalue": {
+              "value": "http://wikiba.se/ontology#Quantity",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q71$7ce69ab5-4cf4-05c2-d02d-d8f619b8baf8",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -98,8 +115,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-03T21:26:05Z",
-    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
+    "graph_fetched_at": "2026-04-04T12:45:06Z",
+    "cache_exported_at": "2026-04-05T12:40:49.428563Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

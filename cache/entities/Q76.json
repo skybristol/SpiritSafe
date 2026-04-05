@@ -4,8 +4,8 @@
     "pageid": 153,
     "ns": 120,
     "title": "Item:Q76",
-    "lastrevid": 1128,
-    "modified": "2026-04-03T21:26:10Z",
+    "lastrevid": 1196,
+    "modified": "2026-04-04T12:55:23Z",
     "type": "item",
     "id": "Q76",
     "labels": {
@@ -90,6 +90,23 @@
           "id": "Q76$A4A2E1A3-28E8-4719-9291-6219CF24CF01",
           "rank": "normal"
         }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "2cb41ef9cc3dbf1d82c77b253b7f20f79e4dbd5e",
+            "datavalue": {
+              "value": "http://wikiba.se/ontology#TabularData",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q76$1e82997d-45c3-d0e6-a0b1-a91c6a4a10b8",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -98,8 +115,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-03T21:26:10Z",
-    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
+    "graph_fetched_at": "2026-04-04T12:55:23Z",
+    "cache_exported_at": "2026-04-05T12:40:49.428563Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

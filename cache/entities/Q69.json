@@ -4,8 +4,8 @@
     "pageid": 146,
     "ns": 120,
     "title": "Item:Q69",
-    "lastrevid": 1121,
-    "modified": "2026-04-03T21:26:02Z",
+    "lastrevid": 1192,
+    "modified": "2026-04-04T12:53:25Z",
     "type": "item",
     "id": "Q69",
     "labels": {
@@ -90,6 +90,23 @@
           "id": "Q69$B3EE2820-0293-4F27-98FD-E1B9F7BCE60E",
           "rank": "normal"
         }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "c6cea8ba7c6b1015a577929f0406541a7d6161d1",
+            "datavalue": {
+              "value": "http://wikiba.se/ontology#Globecoordinate",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q69$f8e2e112-48bf-0d6d-560d-cab3d449e2ac",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -98,8 +115,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-03T21:26:02Z",
-    "cache_exported_at": "2026-04-03T21:54:14.354676Z",
+    "graph_fetched_at": "2026-04-04T12:53:25Z",
+    "cache_exported_at": "2026-04-05T12:40:49.428563Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
