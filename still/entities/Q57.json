@@ -1,0 +1,244 @@
+{
+  "entity_id": "Q57",
+  "entity": {
+    "pageid": 131,
+    "ns": 120,
+    "title": "Item:Q57",
+    "lastrevid": 1171,
+    "modified": "2026-04-03T21:39:38Z",
+    "type": "item",
+    "id": "Q57",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "units"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "units of measure for quantity statements; a modifier in Wikibase but simplified into the qualifier model for GKC implementation"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q57$422856bc-4eb0-fb50-5e2f-b3554b56a9d3",
+          "rank": "normal"
+        },
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "a6486322872fdd2584bd884e7a8a5865bf3af693",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 58,
+                "id": "Q58"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q57$5a3a0a99-4da2-1c60-5c9c-d6d6908c4dff",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "64dbe7da1ef67f878047b71b55f5bd4bd4b70f9d",
+            "datavalue": {
+              "value": "units",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q57$f997dc19-42bd-9709-2355-7b0fb79d7ba8",
+          "rank": "normal"
+        }
+      ],
+      "P161": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P161",
+            "hash": "39c88b1df64134d9cb00183e04baacfec1e756b7",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 56,
+                "id": "Q56"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "qualifiers": {
+            "P203": [
+              {
+                "snaktype": "value",
+                "property": "P203",
+                "hash": "238f5143cf84a82306a9ba37eb55b3ed622721a4",
+                "datavalue": {
+                  "value": "unitless",
+                  "type": "string"
+                },
+                "datatype": "string"
+              }
+            ],
+            "P202": [
+              {
+                "snaktype": "novalue",
+                "property": "P202",
+                "hash": "67a0979e69e4c8de4c744d3a9ccdc12f0da8c2ad",
+                "datatype": "url"
+              }
+            ]
+          },
+          "qualifiers-order": [
+            "P203",
+            "P202"
+          ],
+          "id": "Q57$37751aa4-43a8-3323-07ef-e22ee57a2eba",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "e9e304dcfe866c28badc817eeae6aa6e7448db4b",
+            "datavalue": {
+              "value": {
+                "text": "enter or select the units of measure for the statement value",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q57$301d598d-4a66-2608-b8fe-7672e835d68c",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "20dad7cd3081641dc88aa3d368a896ae120a9e30",
+            "datavalue": {
+              "value": {
+                "text": "Link to the Wikidata item that best represents the units of measure for the statement value",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q57$a06557fc-4a9d-f9f2-7ed2-d8efed7947b8",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "e4137804b5d7034d9e289b6140dbecc9fc545ff3",
+            "datavalue": {
+              "value": {
+                "text": "Failure to provide a specific units of measure for a statement value will result in the setting of \"unitless\" for this case",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q57$01d91c87-4d78-fe80-be39-c5ba6670a3d4",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P182",
+            "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
+            "datavalue": {
+              "value": {
+                "amount": "+1",
+                "unit": "1"
+              },
+              "type": "quantity"
+            },
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q57$246aa315-4295-fa9c-bb0f-65baf1aa3dc0",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "3b320390fdf1ca77a56409f4a89d1659ef2c3e7d",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 65,
+                "id": "Q65"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q57$ac5f1609-47ec-69cd-d089-b2451fc08f5e",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T21:39:38Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

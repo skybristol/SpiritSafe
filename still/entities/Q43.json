@@ -1,0 +1,118 @@
+{
+  "entity_id": "Q43",
+  "entity": {
+    "pageid": 100,
+    "ns": 120,
+    "title": "Item:Q43",
+    "lastrevid": 951,
+    "modified": "2026-04-02T12:03:38Z",
+    "type": "item",
+    "id": "Q43",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "List of World Countries"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "SPARQL query returning list of countries of the world for country statements in items"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q43$5743129c-4ade-8ef3-68a4-149a72a27771",
+          "rank": "normal"
+        }
+      ],
+      "P210": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P210",
+            "hash": "468b9e8c300dd89e298220dc761adb98d6f5e359",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 50,
+                "id": "Q50"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q43$b252d4de-467c-5ae5-4fce-e9d0829e4d5d",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "b0ee54eb37c9551e5aaeee414bd24e9446242ccb",
+            "datavalue": {
+              "value": "ListOfWorldCountries",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q43$6cb3e1a5-4014-cc7b-f625-fb05bcf8b1dd",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "75733e9ad0d5fcbaca5a195040f4763d52295d32",
+            "datavalue": {
+              "value": {
+                "text": "The statement being edited requires a valid link to a Wikidata item representing a world country. Please select from the list provided or consult the query source for more context.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q43$3fb2c4a8-49e5-352c-787b-2fdba98ab387",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-02T12:03:38Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

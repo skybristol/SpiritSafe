@@ -1,0 +1,97 @@
+{
+  "entity_id": "Q60",
+  "entity": {
+    "pageid": 135,
+    "ns": 120,
+    "title": "Item:Q60",
+    "lastrevid": 956,
+    "modified": "2026-04-02T12:07:55Z",
+    "type": "item",
+    "id": "Q60",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Coordinate Precision Values"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "value list of time precision values and labels for use in setting globe-coordinate precision qualifiers/modifiers"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q60$0c59e8a5-4b14-0bc8-f7fc-4ebcad219a09",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "32469e902abc81a25632ea4d5bfb3b7c51d3695c",
+            "datavalue": {
+              "value": "CoordinatePrecisionValues",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q60$214f011a-49ac-4d06-ca7d-6e436bbaa03d",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "ac2e0b27511e84f5bb8ed1227f2a617c5b33674e",
+            "datavalue": {
+              "value": {
+                "text": "The geographic coordinates provided require a precision qualifier. Please select from the list provided or consult the query source for more context.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q60$ccd5c2d1-478f-7b0d-0f41-89a9ab3ab031",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-02T12:07:55Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

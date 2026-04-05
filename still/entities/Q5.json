@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q5",
+  "entity": {
+    "pageid": 11,
+    "ns": 120,
+    "title": "Item:Q5",
+    "lastrevid": 1106,
+    "modified": "2026-04-02T20:14:18Z",
+    "type": "item",
+    "id": "Q5",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "GKC Entity Statement"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "a statement used to define a characteristic of or facts about a GKC Entity"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q5$5ca9a9d2-4d78-1afc-45c2-c76110feb1eb",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "18f0936ed09d9a9dae2676baab602815d2357eca",
+            "datavalue": {
+              "value": "_entity_statement",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q5$6df29431-40bd-d3ad-7f8e-de398eda2c8c",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-02T20:14:18Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

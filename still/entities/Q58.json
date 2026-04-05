@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q58",
+  "entity": {
+    "pageid": 132,
+    "ns": 120,
+    "title": "Item:Q58",
+    "lastrevid": 1112,
+    "modified": "2026-04-02T20:20:54Z",
+    "type": "item",
+    "id": "Q58",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Wikibase Statement Modifier"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "specialized type of statement used to modify the configuration of values such as units of measure and precision"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q58$d7bd23b4-4593-5731-e5e8-6bdcc0eb83f6",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "b31e5e15138254773c00d2ac1f08ad40c4efe359",
+            "datavalue": {
+              "value": "_wikibase_statement_modifier",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q58$6a04cbff-42b1-868c-133d-2e7dd4af494e",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-02T20:20:54Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

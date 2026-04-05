@@ -1,0 +1,209 @@
+{
+  "entity_id": "Q29",
+  "entity": {
+    "pageid": 86,
+    "ns": 120,
+    "title": "Item:Q29",
+    "lastrevid": 1147,
+    "modified": "2026-04-03T21:34:51Z",
+    "type": "item",
+    "id": "Q29",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "reference URL"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "used for Internet URLs as references"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q29$5545ac57-48ed-e153-199d-792628e6d910",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "624b7efea7c9550c57720b9e4815a71e1a2f6c47",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P854",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q29$58b60307-4266-1c1b-b2d4-b2865823c6e5",
+          "rank": "normal"
+        }
+      ],
+      "P171": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P171",
+            "hash": "9ca6e322a31b3db48d8c8038e53eb03f51837203",
+            "datavalue": {
+              "value": {
+                "text": "provide the internet address for a reference",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q29$d9690bdb-4333-5391-3b60-811fa2555037",
+          "rank": "normal"
+        }
+      ],
+      "P158": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P158",
+            "hash": "e17c5f7fdbaf9a19bcd0c29158b4caa75e83ac7e",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 27,
+                "id": "Q27"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q29$fb9e713c-41f9-556e-7f2b-2d2ccef9754e",
+          "rank": "normal"
+        }
+      ],
+      "P169": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P169",
+            "hash": "6d7e7cc7ffd814d413caf1a86c9411fa29842049",
+            "datavalue": {
+              "value": {
+                "text": "Use a website reference to a source that directly supports or provides evidence for a statement. You must include a language qualifier so that users know what language to expect from the site.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q29$2864ce0c-4964-80a9-5cf9-3e7b9ecde820",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "e99537b1796845028bfbfd5a69934cf0f0a3998e",
+            "datavalue": {
+              "value": {
+                "text": "Without a value, the claim lacks a sourcing link, reducing verifiability and trustworthiness of the associated statement.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q29$d9c105e2-4d95-199a-b70a-0d26664b7bd7",
+          "rank": "normal"
+        }
+      ],
+      "P182": [
+        {
+          "mainsnak": {
+            "snaktype": "novalue",
+            "property": "P182",
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
+            "datatype": "quantity"
+          },
+          "type": "statement",
+          "id": "Q29$6dd3dceb-4f9e-be45-ae87-043ca1226184",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "19820a3be11d729b2abaef120149dffae08abc4e",
+            "datavalue": {
+              "value": "reference_URL",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q29$4217DA46-EDC2-414F-9F81-78A8731F4CD8",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "4eac74a3fba32006f6800c81452e600d1454fb5b",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 66,
+                "id": "Q66"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q29$6dc13202-4d6f-d74f-defb-5bd0252e90e2",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-03T21:34:51Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

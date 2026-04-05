@@ -1,0 +1,97 @@
+{
+  "entity_id": "Q59",
+  "entity": {
+    "pageid": 133,
+    "ns": 120,
+    "title": "Item:Q59",
+    "lastrevid": 955,
+    "modified": "2026-04-02T12:07:06Z",
+    "type": "item",
+    "id": "Q59",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Time Precision Values"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "value list of time precision numerical values and labels for use in setting time precision qualifiers/modifiers"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q59$8a87eb17-4886-4610-53d7-d0a13bb22c24",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "71847d95f2a13856aea9eb2c3af2a8037619f0e2",
+            "datavalue": {
+              "value": "TimePrecisionValues",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q59$b8137d4b-4d2b-a332-6692-739a1ed67c78",
+          "rank": "normal"
+        }
+      ],
+      "P168": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P168",
+            "hash": "8fa0b07e5985499d7bca813f187a76d1673c6c83",
+            "datavalue": {
+              "value": {
+                "text": "The time value provided requires a qualifier specifying the precision (e.g., year, month, day, etc.). Please select from the list provided or consult the query source for more context.",
+                "language": "mul"
+              },
+              "type": "monolingualtext"
+            },
+            "datatype": "monolingualtext"
+          },
+          "type": "statement",
+          "id": "Q59$79b0d3a9-4813-db21-93b3-d8f1b3d13c36",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-02T12:07:06Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

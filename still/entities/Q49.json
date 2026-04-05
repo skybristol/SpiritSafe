@@ -1,0 +1,60 @@
+{
+  "entity_id": "Q49",
+  "entity": {
+    "pageid": 113,
+    "ns": 120,
+    "title": "Item:Q49",
+    "lastrevid": 436,
+    "modified": "2026-03-12T14:01:22Z",
+    "type": "item",
+    "id": "Q49",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "GKC Entity Profile Ontology Property"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "property that makes up part of the GKC Entity Profile organizational structure"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "5aa2790f00d0566e350921d987bf7a10b2407aa3",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 47,
+                "id": "Q47"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q49$3e619060-4926-efd6-420b-76643e130142",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "full_sync_baseline",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-03-12T14:01:22Z",
+    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
+    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
