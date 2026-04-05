@@ -94,5 +94,5 @@ jobs:
             echo "No cache, profile, manifest, or entity index changes to commit"
           else
             git commit -m "chore: refresh Wikibase cache and export profiles [skip ci]"
-            git push origin "HEAD:${{ inputs.target_ref }}"
+            git push origin "HEAD:${{ inputs.target_ref || github.ref_name }}"
           fi

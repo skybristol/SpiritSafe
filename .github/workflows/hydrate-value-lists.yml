@@ -108,5 +108,5 @@ jobs:
             echo "No value-list query or cache changes to commit"
           else
             git commit -m "chore: hydrate value-list queries and caches [skip ci]"
-            git push origin "HEAD:${{ inputs.target_ref }}"
+            git push origin "HEAD:${{ inputs.target_ref || github.ref_name }}"
           fi

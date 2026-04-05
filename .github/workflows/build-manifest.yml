@@ -56,5 +56,5 @@ jobs:
             echo "No manifest or entity index changes to commit"
           else
             git commit -m "chore: rebuild cache manifest and entity index [skip ci]"
-            git push origin "HEAD:${{ inputs.target_ref }}"
+            git push origin "HEAD:${{ inputs.target_ref || github.ref_name }}"
           fi

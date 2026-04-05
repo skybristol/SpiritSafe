@@ -90,5 +90,5 @@ jobs:
             echo "No Wikimedia sites artifact changes to commit"
           else
             git commit -m "chore: sync wikimedia sites artifact [skip ci]"
-            git push origin "HEAD:${{ inputs.target_ref || 'main' }}"
+            git push origin "HEAD:${{ inputs.target_ref || github.ref_name }}"
           fi
