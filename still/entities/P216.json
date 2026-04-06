@@ -1,0 +1,77 @@
+{
+  "entity_id": "P216",
+  "entity": {
+    "pageid": 155,
+    "ns": 122,
+    "title": "Property:P216",
+    "lastrevid": 1200,
+    "modified": "2026-04-06T18:47:31Z",
+    "type": "property",
+    "datatype": "url",
+    "id": "P216",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "has fixed value"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "specifies a URL to a resolvable identity in a partner system (e.g., Wikidata) that will serve as the fixed value for a statement"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "676553b9266a81903fd754b304e11fdd9c0a589e",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 49,
+                "id": "Q49"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P216$a1661f93-4789-9e2e-e6a6-6047f8386ac4",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "28da53d2e78972ba43362b493bd232236d628d8c",
+            "datavalue": {
+              "value": "_has_fixed_value",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "P216$f99df25c-4fcd-35b8-4d5b-17d2b6f8d30a",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-06T18:47:31Z",
+    "cache_exported_at": "2026-04-06T18:53:54.986358Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
