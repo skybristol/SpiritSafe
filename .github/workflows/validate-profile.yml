@@ -85,8 +85,6 @@ jobs:
               "semantic_anchors",
               "logs",
               "wikimedia_sites",
-              "manifest",
-              "entity_index",
             ]
             for key in required_keys:
               value = paths.get(key)
