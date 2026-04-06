@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at": "2026-04-05T16:49:15.322794Z",
-    "property_count": 26,
+    "generated_at": "2026-04-06T18:54:42.322936Z",
+    "property_count": 28,
     "item_count": 21
   },
   "entities": {
@@ -124,6 +124,16 @@
       "id": "P215",
       "entity": "https://datadistillery.wikibase.cloud/entity/P215",
       "datatype": "wikibase-item"
+    },
+    "_has_fixed_value": {
+      "id": "P216",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P216",
+      "datatype": "url"
+    },
+    "_has_fixed_value_label": {
+      "id": "P217",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P217",
+      "datatype": "string"
     },
     "_see_also": {
       "id": "P3",
