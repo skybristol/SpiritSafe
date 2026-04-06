@@ -11,8 +11,6 @@ DEFAULTS = {
     "semantic_anchors": "config/semantic_anchors.json",
     "logs": "still/logs",
     "wikimedia_sites": "partners/wikimedia_sites.json",
-    "manifest": "still/manifest.json",
-    "entity_index": "still/entity_index.json",
 }
 
 
@@ -38,8 +36,6 @@ def main() -> None:
     print(f"SPIRITSAFE_SEMANTIC_ANCHORS_PATH={paths['semantic_anchors']}")
     print(f"SPIRITSAFE_LOGS_PATH={paths['logs']}")
     print(f"SPIRITSAFE_WIKIMEDIA_SITES_PATH={paths['wikimedia_sites']}")
-    print(f"SPIRITSAFE_MANIFEST_PATH={paths['manifest']}")
-    print(f"SPIRITSAFE_ENTITY_INDEX_PATH={paths['entity_index']}")
 
 
 if __name__ == "__main__":

@@ -67,11 +67,6 @@ jobs:
             --summary-output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json" \
             --output "$SPIRITSAFE_PROFILES_PATH"
 
-      - name: Build cache manifest and entity index
-        run: |
-          mkdir -p "$(dirname "$SPIRITSAFE_MANIFEST_PATH")" "$(dirname "$SPIRITSAFE_ENTITY_INDEX_PATH")"
-          gkc --json spiritsafe manifest build --source local --local-root .
-
       - name: Write run summary
         if: always()
         run: |
@@ -89,7 +84,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A -- .
           if git diff --cached --quiet; then
-            echo "No cache, profile, manifest, or entity index changes to commit"
+            echo "No cache or profile changes to commit"
           else
             git commit -m "chore: refresh Wikibase cache and export profiles [skip ci]"
             git push origin "HEAD:${{ inputs.target_ref || github.ref_name }}"
