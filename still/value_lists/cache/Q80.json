@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q80",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q80",
+    "query_id": "Q80",
+    "query_sparql": "# Purpose: value list for copyright status statements\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel\nWHERE {\n  ?item wdt:P31 wd:Q50424085 ;\n        rdfs:label ?itemLabel .\n  FILTER(LANG(?itemLabel) = \"en\")\n  FILTER NOT EXISTS {\n    ?item wdt:P31 wd:Q21286738 .\n  }\n}\n",
+    "query_hash": "084331e3c5ad73724b2cd367f82b95547c5fe653f438bae7eafba8166011e209",
+    "updated": "2026-04-09T20:44:59.710691Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}
