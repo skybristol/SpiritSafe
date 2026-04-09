@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T18:54:42.322936Z",
-    "property_count": 28,
-    "item_count": 21
+    "generated_at": "2026-04-09T20:32:37.182962Z",
+    "property_count": 29,
+    "item_count": 25
   },
   "entities": {
     "_instance_of": {
@@ -135,6 +135,11 @@
       "entity": "https://datadistillery.wikibase.cloud/entity/P217",
       "datatype": "string"
     },
+    "_regex": {
+      "id": "P218",
+      "entity": "https://datadistillery.wikibase.cloud/entity/P218",
+      "datatype": "string"
+    },
     "_see_also": {
       "id": "P3",
       "entity": "https://datadistillery.wikibase.cloud/entity/P3",
@@ -228,6 +233,22 @@
     "_tabular-data": {
       "id": "Q76",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q76"
+    },
+    "_commons_sdc_statement": {
+      "id": "Q77",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q77"
+    },
+    "_format_specification": {
+      "id": "Q84",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q84"
+    },
+    "_iana_media_type": {
+      "id": "Q85",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q85"
+    },
+    "_checksum_format": {
+      "id": "Q94",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q94"
     }
   }
 }
