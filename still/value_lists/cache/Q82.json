@@ -5,9 +5,1625 @@
     "query_id": "Q82",
     "query_sparql": "# Purpose: value list for copyright license statements\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel\nWHERE {\n  ?item wdt:P31/wdt:P279 wd:Q77205602 ; # instance or subclass of copyright license\n        rdfs:label ?itemLabel .\n  FILTER(LANG(?itemLabel) = \"en\")\n  FILTER NOT EXISTS {\n    ?item wdt:P31 wd:Q21286738 .\n  }\n}\n",
     "query_hash": "b91c5c1b7a98b8358524a4d61103bbd1a61333a72868747994aae53d696c2cf0",
-    "updated": "2026-04-09T20:42:21.280228Z",
-    "count": 0,
-    "columns": []
+    "updated": "2026-04-09T21:06:32.607122Z",
+    "count": 403,
+    "columns": [
+      "item",
+      "itemLabel"
+    ]
   },
-  "items": []
+  "items": [
+    {
+      "item": "http://www.wikidata.org/entity/Q101001302",
+      "itemLabel": "\"Creative Commons\" Relax-Attribution Share-Alike Semi-Noncommercial 3.0 Unported"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18517294",
+      "itemLabel": "2-clause BSD License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18491847",
+      "itemLabel": "3-clause BSD License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21503790",
+      "itemLabel": "4-clause BSD License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q27017230",
+      "itemLabel": "Affero General Public License, version 1.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q54571707",
+      "itemLabel": "Affero General Public License, version 1.0 or later"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q54365943",
+      "itemLabel": "Affero General Public License, version 2.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q979794",
+      "itemLabel": "Aladdin Free Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123560899",
+      "itemLabel": "Alexa Teacher Model License Agreement"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113161167",
+      "itemLabel": "Anti-Capitalist Software License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q616526",
+      "itemLabel": "Apache License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q10249",
+      "itemLabel": "Beerware"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4918693",
+      "itemLabel": "BitTorrent Open Source License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q121359647",
+      "itemLabel": "Business Source License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1100998",
+      "itemLabel": "Client access license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5140041",
+      "itemLabel": "Code Project Open License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1116195",
+      "itemLabel": "Common Public Attribution License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q115739433",
+      "itemLabel": "Community Data License Agreement \u2013 Permissive, Version 2.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114756497",
+      "itemLabel": "Copyright-Only Dedication or Public Domain Certification"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6905323",
+      "itemLabel": "Creative Commons Attribution"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q26259495",
+      "itemLabel": "Creative Commons Attribution  3.0 IGO"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q125536842",
+      "itemLabel": "Creative Commons Attribution - NoDerivs 3.0 Intergovernmental Organization"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75446635",
+      "itemLabel": "Creative Commons Attribution 1.0 Finland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30942811",
+      "itemLabel": "Creative Commons Attribution 1.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75446609",
+      "itemLabel": "Creative Commons Attribution 1.0 Israel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75445499",
+      "itemLabel": "Creative Commons Attribution 1.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75452310",
+      "itemLabel": "Creative Commons Attribution 2.0 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75450165",
+      "itemLabel": "Creative Commons Attribution 2.0 Austria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75457467",
+      "itemLabel": "Creative Commons Attribution 2.0 Belgium"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75457506",
+      "itemLabel": "Creative Commons Attribution 2.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75460106",
+      "itemLabel": "Creative Commons Attribution 2.0 Canada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75460149",
+      "itemLabel": "Creative Commons Attribution 2.0 Chile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75474094",
+      "itemLabel": "Creative Commons Attribution 2.0 Croatia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75470422",
+      "itemLabel": "Creative Commons Attribution 2.0 France"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19125117",
+      "itemLabel": "Creative Commons Attribution 2.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75466259",
+      "itemLabel": "Creative Commons Attribution 2.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75475677",
+      "itemLabel": "Creative Commons Attribution 2.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75477775",
+      "itemLabel": "Creative Commons Attribution 2.0 Japan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75476747",
+      "itemLabel": "Creative Commons Attribution 2.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75486069",
+      "itemLabel": "Creative Commons Attribution 2.0 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75488238",
+      "itemLabel": "Creative Commons Attribution 2.0 South Africa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q44282633",
+      "itemLabel": "Creative Commons Attribution 2.0 South Korea"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75470365",
+      "itemLabel": "Creative Commons Attribution 2.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75487055",
+      "itemLabel": "Creative Commons Attribution 2.0 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q63241773",
+      "itemLabel": "Creative Commons Attribution 2.0 UK: England & Wales"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75894680",
+      "itemLabel": "Creative Commons Attribution 2.1 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q26116436",
+      "itemLabel": "Creative Commons Attribution 2.1 Japan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75894644",
+      "itemLabel": "Creative Commons Attribution 2.1 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75491630",
+      "itemLabel": "Creative Commons Attribution 2.5 Argentina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75494411",
+      "itemLabel": "Creative Commons Attribution 2.5 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75501683",
+      "itemLabel": "Creative Commons Attribution 2.5 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75500112",
+      "itemLabel": "Creative Commons Attribution 2.5 Bulgaria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75504835",
+      "itemLabel": "Creative Commons Attribution 2.5 Canada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75434631",
+      "itemLabel": "Creative Commons Attribution 2.5 China Mainland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75663969",
+      "itemLabel": "Creative Commons Attribution 2.5 Columbia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75706881",
+      "itemLabel": "Creative Commons Attribution 2.5 Croatia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75665696",
+      "itemLabel": "Creative Commons Attribution 2.5 Denmark"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18810333",
+      "itemLabel": "Creative Commons Attribution 2.5 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75759387",
+      "itemLabel": "Creative Commons Attribution 2.5 Hungary"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75443434",
+      "itemLabel": "Creative Commons Attribution 2.5 India"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75759731",
+      "itemLabel": "Creative Commons Attribution 2.5 Israel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75760479",
+      "itemLabel": "Creative Commons Attribution 2.5 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75761383",
+      "itemLabel": "Creative Commons Attribution 2.5 Macedonia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75762784",
+      "itemLabel": "Creative Commons Attribution 2.5 Malaysia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75761779",
+      "itemLabel": "Creative Commons Attribution 2.5 Malta"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75762418",
+      "itemLabel": "Creative Commons Attribution 2.5 Mexico"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75763101",
+      "itemLabel": "Creative Commons Attribution 2.5 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75764151",
+      "itemLabel": "Creative Commons Attribution 2.5 Peru"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75764470",
+      "itemLabel": "Creative Commons Attribution 2.5 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75764895",
+      "itemLabel": "Creative Commons Attribution 2.5 Portugal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75766316",
+      "itemLabel": "Creative Commons Attribution 2.5 Slovenia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75767606",
+      "itemLabel": "Creative Commons Attribution 2.5 South Africa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75705948",
+      "itemLabel": "Creative Commons Attribution 2.5 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q27940776",
+      "itemLabel": "Creative Commons Attribution 2.5 Sweden"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75506669",
+      "itemLabel": "Creative Commons Attribution 2.5 Switzerland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75767185",
+      "itemLabel": "Creative Commons Attribution 2.5 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75765287",
+      "itemLabel": "Creative Commons Attribution 2.5 UK: Scotland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q52555753",
+      "itemLabel": "Creative Commons Attribution 3.0 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75768706",
+      "itemLabel": "Creative Commons Attribution 3.0 Austria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75770766",
+      "itemLabel": "Creative Commons Attribution 3.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75771874",
+      "itemLabel": "Creative Commons Attribution 3.0 Chile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75779562",
+      "itemLabel": "Creative Commons Attribution 3.0 China Mainland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75789929",
+      "itemLabel": "Creative Commons Attribution 3.0 Costa Rica"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75776014",
+      "itemLabel": "Creative Commons Attribution 3.0 Croatia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q67918154",
+      "itemLabel": "Creative Commons Attribution 3.0 Czech Republic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75850366",
+      "itemLabel": "Creative Commons Attribution 3.0 Ecuador"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75850832",
+      "itemLabel": "Creative Commons Attribution 3.0 Egypt"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75850813",
+      "itemLabel": "Creative Commons Attribution 3.0 Estonia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75775714",
+      "itemLabel": "Creative Commons Attribution 3.0 France"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q62619894",
+      "itemLabel": "Creative Commons Attribution 3.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75851799",
+      "itemLabel": "Creative Commons Attribution 3.0 Greece"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75852313",
+      "itemLabel": "Creative Commons Attribution 3.0 Guatemala"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75779905",
+      "itemLabel": "Creative Commons Attribution 3.0 Hong Kong"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75852938",
+      "itemLabel": "Creative Commons Attribution 3.0 Ireland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75776487",
+      "itemLabel": "Creative Commons Attribution 3.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75853187",
+      "itemLabel": "Creative Commons Attribution 3.0 Luxembourg"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q53859967",
+      "itemLabel": "Creative Commons Attribution 3.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75853514",
+      "itemLabel": "Creative Commons Attribution 3.0 New Zealand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75853549",
+      "itemLabel": "Creative Commons Attribution 3.0 Norway"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75856699",
+      "itemLabel": "Creative Commons Attribution 3.0 Philippines"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75777688",
+      "itemLabel": "Creative Commons Attribution 3.0 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75854323",
+      "itemLabel": "Creative Commons Attribution 3.0 Portugal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75857518",
+      "itemLabel": "Creative Commons Attribution 3.0 Puerto Rico"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75858169",
+      "itemLabel": "Creative Commons Attribution 3.0 Romania"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75859019",
+      "itemLabel": "Creative Commons Attribution 3.0 Serbia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75859751",
+      "itemLabel": "Creative Commons Attribution 3.0 Singapore"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q76631753",
+      "itemLabel": "Creative Commons Attribution 3.0 South Africa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75775133",
+      "itemLabel": "Creative Commons Attribution 3.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75771320",
+      "itemLabel": "Creative Commons Attribution 3.0 Switzerland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75778801",
+      "itemLabel": "Creative Commons Attribution 3.0 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75866892",
+      "itemLabel": "Creative Commons Attribution 3.0 Thailand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75882470",
+      "itemLabel": "Creative Commons Attribution 3.0 Uganda"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18810143",
+      "itemLabel": "Creative Commons Attribution 3.0 United States"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14947546",
+      "itemLabel": "Creative Commons Attribution 3.0 Unported"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75889409",
+      "itemLabel": "Creative Commons Attribution 3.0 Vietnam"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q20007257",
+      "itemLabel": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138642028",
+      "itemLabel": "Creative Commons Attribution International License version 4.0 or later"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138711013",
+      "itemLabel": "Creative Commons Attribution Unported License version 3.0 or later"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6999319",
+      "itemLabel": "Creative Commons Attribution-NoDerivatives"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47008966",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 1.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q35254645",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 2.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123571084",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 2.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q63241854",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 2.0 UK: England & Wales"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18810338",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 2.5 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123571083",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 2.5 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108002236",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 3.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123571082",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 3.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114357983",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 3.0 New Zealand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128099698",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 3.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105699164",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 3.0 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q117719644",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 3.0 United States"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18810160",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 3.0 Unported"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q36795408",
+      "itemLabel": "Creative Commons Attribution-NoDerivs 4.0 International"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47008926",
+      "itemLabel": "Creative Commons Attribution-NoDerivs-NonCommercial 1.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6936496",
+      "itemLabel": "Creative Commons Attribution-NonCommercial"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128099328",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 1.0 Finland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q44283370",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 1.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q44128984",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123571081",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q129979397",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q115767805",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.0 UK: England & Wales"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107673639",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.1 Japan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127455616",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.5 Argentina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19113746",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.5 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123571080",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 2.5 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127428489",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127603827",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Austria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128303838",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126361823",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Chile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108002180",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123570742",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126285519",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114357962",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 New Zealand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126287985",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q80230469",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127690374",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 United States"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18810331",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 3.0 Unported"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q34179348",
+      "itemLabel": "Creative Commons Attribution-NonCommercial 4.0 International"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6937225",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivatives"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q96200688",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 United States"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q24082749",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128098982",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104708274",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 France"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47008927",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56299316",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 UK: England & Wales"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q84436292",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126498623",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Canada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128099154",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Colombia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19068204",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q115767959",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 India"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q111701057",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Israel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127867974",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Peru"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q42172282",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Portugal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77660706",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q111013874",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q102768546",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Costa Rica"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127428357",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Costa Rica"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q23006354",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 France"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108002189",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q76448905",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 IGO"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126392122",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114357910",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 New Zealand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q117384132",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77554954",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19125045",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6998997",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47008954",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 1.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q94507369",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q28050835",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q119146646",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123571079",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q58041147",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Korea"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q63241094",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128123345",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Argentina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128997592",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114068320",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 China Mainland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19068212",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q120881603",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Israel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q65096132",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126392145",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q96473808",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Switzerland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127428473",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q113630051",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 China Mainland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q124393765",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Czech Republic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105295756",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q105658155",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Ireland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108103640",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123571078",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q114357929",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 New Zealand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q126361781",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q129161350",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Switzerland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q110354772",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q107464247",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15643954",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q42553662",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q127603808",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlike Colombia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q106453388",
+      "itemLabel": "Creative Commons Attribution-NonCommercial-ShareAlive 3.0 IGO"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99239269",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Argentina"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99239530",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99239977",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99239903",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Bulgaria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240158",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 China Mainland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240246",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Colombia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240535",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Croatia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240336",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Denmark"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240684",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 India"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240616",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Israel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99437988",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Macedonia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438269",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Malaysia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438077",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Malta"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438138",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Mexico"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438515",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Peru"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438743",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Portugal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438751",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Slovenia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438757",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 South Africa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240437",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99240068",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Switzerland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438755",
+      "itemLabel": "Creative Commons Attribution-Share Alike 2.5 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98755369",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99458406",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 China Mainland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99459365",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Croatia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99458819",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Ecuador"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99457707",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Greece"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99459010",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Guatemala"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99459076",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Hong Kong"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438798",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 New Zealand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460006",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Philippines"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460272",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Portugal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460154",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Puerto Rico"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98755344",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Serbia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460356",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Singapore"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99457378",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Switzerland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98960995",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460411",
+      "itemLabel": "Creative Commons Attribution-Share Alike 3.0 Thailand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6905942",
+      "itemLabel": "Creative Commons Attribution-ShareAlike"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q76767348",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 1.0 Finland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47001652",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 1.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q76769447",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 1.0 Israel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77014037",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 1.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77131257",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77021108",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Austria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77132386",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Belgium"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77133402",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Brazil"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77135172",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Canada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77136299",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Chile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77361415",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Croatia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77355872",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 France"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19068220",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77143083",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77362254",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77363039",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Japan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q44282641",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Korea"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77363856",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77364488",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77365530",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 South Africa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77352646",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77364872",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 Taiwan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77365183",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.0 UK: England & Wales"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77366066",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.1 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77367349",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.1 Japan"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77366576",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.1 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q24331618",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 Canada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19113751",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 Generic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98755330",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 Hungary"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98929925",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18199175",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98755337",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q15914252",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 Sweden"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99438747",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 2.5 UK: Scotland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86239208",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Australia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q80837139",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Austria"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99457535",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Chile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99458659",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Costa Rica"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98755321",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Czech Republic"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86239559",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Estonia"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86240326",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 France"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q42716613",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Germany"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56292840",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 IGO"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99459488",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Ireland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98755364",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Italy"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86240624",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Luxembourg"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18195572",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Netherlands"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q63340742",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Norway"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q80837607",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Poland"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86241082",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Romania"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460515",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 South Africa"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q86239991",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Spain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460475",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Uganda"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18810341",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 United States"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q14946043",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Unported"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99460484",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 3.0 Vietnam"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18199165",
+      "itemLabel": "Creative Commons Attribution-ShareAlike 4.0 International"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6938433",
+      "itemLabel": "Creative Commons CC0 License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q26913038",
+      "itemLabel": "Creative Commons Sampling Plus 1.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q75209430",
+      "itemLabel": "Creative Commons ShareAlike 1.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q112752396",
+      "itemLabel": "dotstokyo PD release"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17229293",
+      "itemLabel": "doujin mark"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17011832",
+      "itemLabel": "Eiffel Forum License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q104835286",
+      "itemLabel": "Elastic License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108322579",
+      "itemLabel": "Elsevier user license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q725920",
+      "itemLabel": "end-user license agreement"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q27096218",
+      "itemLabel": "EPICS Open License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3731857",
+      "itemLabel": "Erlang Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5460320",
+      "itemLabel": "Flora License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5477987",
+      "itemLabel": "Frameworx License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47524122",
+      "itemLabel": "Fraunhofer FDK AAC Codec Library for Android license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1444631",
+      "itemLabel": "freemium"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5551105",
+      "itemLabel": "German Free Software License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q122352816",
+      "itemLabel": "Giant Penis License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1486114",
+      "itemLabel": "GNAT Modified General Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q27020062",
+      "itemLabel": "GNU Affero General Public License, version 3.0 or later"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5604760",
+      "itemLabel": "Greenware"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3756289",
+      "itemLabel": "gSOAP Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q5637395",
+      "itemLabel": "Hacktivismo Enhanced-Source Software License Agreement"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q65463196",
+      "itemLabel": "Hamilton Laboratories software license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3139999",
+      "itemLabel": "Honest Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q112817130",
+      "itemLabel": "hpo license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6043507",
+      "itemLabel": "Intel Open Source License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16566743",
+      "itemLabel": "Italian Open Data License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47524112",
+      "itemLabel": "JasPer License Version 2.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q6165015",
+      "itemLabel": "Java Research License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q125312814",
+      "itemLabel": "JSON license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98341313",
+      "itemLabel": "Kopimi"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q122950724",
+      "itemLabel": "Licence Amicale"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131939104",
+      "itemLabel": "Llama 2 Community License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q123561541",
+      "itemLabel": "Llama 2 Community License Agreement"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131939065",
+      "itemLabel": "Llama 3.1 Community License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131939054",
+      "itemLabel": "Llama 3.2 Community License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131939124",
+      "itemLabel": "Llama 3.3 Community License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q115053236",
+      "itemLabel": "LLVM Exceptions"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q120462029",
+      "itemLabel": "McAfee Royalty Free Software License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131939088",
+      "itemLabel": "Meta Llama 3 Community License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q57487793",
+      "itemLabel": "Mexico City Open Government License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q119206310",
+      "itemLabel": "Microsoft Limited Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q67538600",
+      "itemLabel": "MIT No Attribution License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q38365796",
+      "itemLabel": "MITRE Collaborative Virtual Workspace License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q26737738",
+      "itemLabel": "Mozilla Public License, version 1.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q58337120",
+      "itemLabel": "Non-Commercial Government Licence 2.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q18632926",
+      "itemLabel": "Norwegian Licence for Open Government Data 1.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q100534948",
+      "itemLabel": "Oireachtas (Open Data) PSI Licence"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q30940585",
+      "itemLabel": "Open Data Commons Attribution License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131361013",
+      "itemLabel": "Open Data License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1224853",
+      "itemLabel": "Open Database License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4045888",
+      "itemLabel": "Open Directory License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q47001673",
+      "itemLabel": "Open Government Data License Taiwan 1.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q128085370",
+      "itemLabel": "Open Government Data License Thailand"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17016921",
+      "itemLabel": "Open Government Licence"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109791912",
+      "itemLabel": "Open Government Licence - Alberta"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q56419952",
+      "itemLabel": "Open Government Licence - Canada"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3238028",
+      "itemLabel": "Open Licence"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q82682924",
+      "itemLabel": "Open Parliament Licence"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1412537",
+      "itemLabel": "Open Publication License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q28554579",
+      "itemLabel": "Open Web Foundation Agreement, Version 0.9"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q138856016",
+      "itemLabel": "Pimcore Open Core License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q492916",
+      "itemLabel": "Public Documentation License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q24273512",
+      "itemLabel": "Public Domain Dedication and License v1.0 Esquiress Lyndsey Watson Copyright Dockets copyright \u00a9 ls"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7257361",
+      "itemLabel": "Public Domain Mark 1.0 Universal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1396282",
+      "itemLabel": "Q Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q134822334",
+      "itemLabel": "R74n Content License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7300815",
+      "itemLabel": "RealNetworks Public Source License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7302458",
+      "itemLabel": "Reciprocal Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q98592850",
+      "itemLabel": "released into the public domain by the copyright holder"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7332330",
+      "itemLabel": "Ricoh Source Code Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q58531884",
+      "itemLabel": "Server Side Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q185534",
+      "itemLabel": "shareware"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q136328265",
+      "itemLabel": "SIMply license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7391010",
+      "itemLabel": "SLUC"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3976707",
+      "itemLabel": "SugarCRM Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7638252",
+      "itemLabel": "Sun Community Source License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q635577",
+      "itemLabel": "Sun Industry Standards Source License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7659488",
+      "itemLabel": "Sybase Open Watcom Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q9361521",
+      "itemLabel": "trial"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q108516050",
+      "itemLabel": "Ubuntu font licence"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q21659044",
+      "itemLabel": "Unlicense"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q43338605",
+      "itemLabel": "Vim license"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q4016359",
+      "itemLabel": "volume licensing"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q152481",
+      "itemLabel": "WTFPL"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137850008",
+      "itemLabel": "WTFPL Version 1.0"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q137849433",
+      "itemLabel": "WTFPL Version 2"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8041726",
+      "itemLabel": "XCore Open Source License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q100375790",
+      "itemLabel": "XFree86 License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q16948289",
+      "itemLabel": "Yahoo! Public License"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q48271011",
+      "itemLabel": "Zero-clause BSD License"
+    }
+  ]
 }

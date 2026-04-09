@@ -5,9 +5,81 @@
     "query_id": "Q90",
     "query_sparql": "# Purpose: value list from data size property constraint allowed items\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\n\nSELECT ?item ?itemLabel WHERE {\n  VALUES ?property { wd:P3575 }   # data size\n  ?property p:P2302 ?constraintStatement .\n  ?constraintStatement ps:P2302 wd:Q21514353 .   # allowed units constraint\n  ?constraintStatement pq:P2305 ?item . # item of property constraint\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\n",
     "query_hash": "1c8c2cf7c482b9e92d194875146eb71f6f2c7e2f6adabe06b6493bbd1044bdb4",
-    "updated": "2026-04-09T20:37:31.716823Z",
-    "count": 0,
-    "columns": []
+    "updated": "2026-04-09T21:06:33.003305Z",
+    "count": 17,
+    "columns": [
+      "item",
+      "itemLabel"
+    ]
   },
-  "items": []
+  "items": [
+    {
+      "item": "http://www.wikidata.org/entity/Q8805",
+      "itemLabel": "bit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1146944",
+      "itemLabel": "block"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q8799",
+      "itemLabel": "byte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79765",
+      "itemLabel": "gibibyte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79738",
+      "itemLabel": "gigabyte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79756",
+      "itemLabel": "kibibyte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79726",
+      "itemLabel": "kilobyte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79758",
+      "itemLabel": "mebibyte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79735",
+      "itemLabel": "megabyte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q949075",
+      "itemLabel": "megapixel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1410440",
+      "itemLabel": "parameter"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1413083",
+      "itemLabel": "parameter"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3926538",
+      "itemLabel": "quad"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q2470517",
+      "itemLabel": "record"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q942695",
+      "itemLabel": "source lines of code"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79769",
+      "itemLabel": "tebibyte"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q79741",
+      "itemLabel": "terabyte"
+    }
+  ]
 }

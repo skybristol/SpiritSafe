@@ -5,9 +5,105 @@
     "query_id": "Q88",
     "query_sparql": "# Purpose: value list from width property constraint allowed items\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\n\nSELECT ?item ?itemLabel WHERE {\n  VALUES ?property { wd:P2049 }   # width\n  ?property p:P2302 ?constraintStatement .\n  ?constraintStatement ps:P2302 wd:Q21514353 .   # allowed units constraint\n  ?constraintStatement pq:P2305 ?item . # item of property constraint\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\n",
     "query_hash": "2c7adf0dac36fd174c417d12a3c18842be69213a9ddba1d81f310a13bad6cf5f",
-    "updated": "2026-04-09T20:39:53.265066Z",
-    "count": 0,
-    "columns": []
+    "updated": "2026-04-09T21:06:32.752969Z",
+    "count": 23,
+    "columns": [
+      "item",
+      "itemLabel"
+    ]
   },
-  "items": []
+  "items": [
+    {
+      "item": "http://www.wikidata.org/entity/Q8805",
+      "itemLabel": "bit"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q174728",
+      "itemLabel": "centimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q769996",
+      "itemLabel": "cicero"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q848856",
+      "itemLabel": "decametre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q200323",
+      "itemLabel": "decimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1334525",
+      "itemLabel": "em"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q820906",
+      "itemLabel": "en"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3710",
+      "itemLabel": "foot"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q844338",
+      "itemLabel": "hectometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q218593",
+      "itemLabel": "inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q828224",
+      "itemLabel": "kilometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q531",
+      "itemLabel": "light-year"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11573",
+      "itemLabel": "metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q253276",
+      "itemLabel": "mile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q174789",
+      "itemLabel": "millimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q178674",
+      "itemLabel": "nanometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q93318",
+      "itemLabel": "nautical mile"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q12129",
+      "itemLabel": "parsec"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1134891",
+      "itemLabel": "pica"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q355198",
+      "itemLabel": "pixel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q70280567",
+      "itemLabel": "Prussian foot"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7673190",
+      "itemLabel": "table cell"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q482798",
+      "itemLabel": "yard"
+    }
+  ]
 }

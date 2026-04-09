@@ -5,9 +5,53 @@
     "query_id": "Q87",
     "query_sparql": "# Purpose: value list from height property constraint allowed items\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\n\nSELECT ?item ?itemLabel WHERE {\n  VALUES ?property { wd:P2048 }   # height\n  ?property p:P2302 ?constraintStatement .\n  ?constraintStatement ps:P2302 wd:Q21514353 .   # allowed units constraint\n  ?constraintStatement pq:P2305 ?item . # item of property constraint\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\n",
     "query_hash": "00b9ad2ac96ee5634311f5c8de345cd549780190a2b84c10c563f811565e70e3",
-    "updated": "2026-04-09T20:41:23.416886Z",
-    "count": 0,
-    "columns": []
+    "updated": "2026-04-09T21:06:32.675259Z",
+    "count": 10,
+    "columns": [
+      "item",
+      "itemLabel"
+    ]
   },
-  "items": []
+  "items": [
+    {
+      "item": "http://www.wikidata.org/entity/Q174728",
+      "itemLabel": "centimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3241972",
+      "itemLabel": "character"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q3710",
+      "itemLabel": "foot"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q218593",
+      "itemLabel": "inch"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q828224",
+      "itemLabel": "kilometre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q11573",
+      "itemLabel": "metre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q174789",
+      "itemLabel": "millimetre"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q355198",
+      "itemLabel": "pixel"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q831691",
+      "itemLabel": "storey"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q7673190",
+      "itemLabel": "table cell"
+    }
+  ]
 }

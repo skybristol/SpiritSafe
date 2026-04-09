@@ -5,9 +5,77 @@
     "query_id": "Q80",
     "query_sparql": "# Purpose: value list for copyright status statements\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel\nWHERE {\n  ?item wdt:P31 wd:Q50424085 ;\n        rdfs:label ?itemLabel .\n  FILTER(LANG(?itemLabel) = \"en\")\n  FILTER NOT EXISTS {\n    ?item wdt:P31 wd:Q21286738 .\n  }\n}\n",
     "query_hash": "084331e3c5ad73724b2cd367f82b95547c5fe653f438bae7eafba8166011e209",
-    "updated": "2026-04-09T20:44:59.710691Z",
-    "count": 0,
-    "columns": []
+    "updated": "2026-04-09T21:06:32.446203Z",
+    "count": 16,
+    "columns": [
+      "item",
+      "itemLabel"
+    ]
   },
-  "items": []
+  "items": [
+    {
+      "item": "http://www.wikidata.org/entity/Q109332052",
+      "itemLabel": "copylefted"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q29941035",
+      "itemLabel": "copyright not renewed"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q905768",
+      "itemLabel": "copyright status of works by the federal government of the United States"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q50423863",
+      "itemLabel": "copyrighted"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q88088423",
+      "itemLabel": "copyrighted, dedicated to the public domain by copyright holder"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q61005058",
+      "itemLabel": "ineligible for copyright protection"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q139041128",
+      "itemLabel": "licensed under Creative Commons"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q77406753",
+      "itemLabel": "no copyright because created by a non-human animal"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q99263261",
+      "itemLabel": "no known copyright restrictions"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q1546053",
+      "itemLabel": "orphan work"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q19652",
+      "itemLabel": "public domain"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q50551851",
+      "itemLabel": "public domain as not covered by copyright law"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q50552069",
+      "itemLabel": "public domain due to expiry of copyright"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q131607614",
+      "itemLabel": "public domain in India"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q109311368",
+      "itemLabel": "Public domain in Mexico"
+    },
+    {
+      "item": "http://www.wikidata.org/entity/Q17000688",
+      "itemLabel": "public domain in the United States"
+    }
+  ]
 }
