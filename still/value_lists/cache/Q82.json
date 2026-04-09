@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q82",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q82",
+    "query_id": "Q82",
+    "query_sparql": "# Purpose: value list for copyright license statements\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?item ?itemLabel\nWHERE {\n  ?item wdt:P31/wdt:P279 wd:Q77205602 ; # instance or subclass of copyright license\n        rdfs:label ?itemLabel .\n  FILTER(LANG(?itemLabel) = \"en\")\n  FILTER NOT EXISTS {\n    ?item wdt:P31 wd:Q21286738 .\n  }\n}\n",
+    "query_hash": "b91c5c1b7a98b8358524a4d61103bbd1a61333a72868747994aae53d696c2cf0",
+    "updated": "2026-04-09T20:42:21.280228Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}
