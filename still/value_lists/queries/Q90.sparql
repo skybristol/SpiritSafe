@@ -1,0 +1,13 @@
+# Purpose: value list from data size property constraint allowed items
+# Expected vars: ?item ?itemLabel
+
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?item ?itemLabel WHERE {
+  VALUES ?property { wd:P3575 }   # data size
+  ?property p:P2302 ?constraintStatement .
+  ?constraintStatement ps:P2302 wd:Q21514353 .   # allowed units constraint
+  ?constraintStatement pq:P2305 ?item . # item of property constraint
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}

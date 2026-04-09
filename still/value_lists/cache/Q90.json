@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q90",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q90",
+    "query_id": "Q90",
+    "query_sparql": "# Purpose: value list from data size property constraint allowed items\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\n\nSELECT ?item ?itemLabel WHERE {\n  VALUES ?property { wd:P3575 }   # data size\n  ?property p:P2302 ?constraintStatement .\n  ?constraintStatement ps:P2302 wd:Q21514353 .   # allowed units constraint\n  ?constraintStatement pq:P2305 ?item . # item of property constraint\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\n",
+    "query_hash": "1c8c2cf7c482b9e92d194875146eb71f6f2c7e2f6adabe06b6493bbd1044bdb4",
+    "updated": "2026-04-09T20:37:31.716823Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}
