@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T20:32:37.182962Z",
+    "generated_at": "2026-04-09T21:51:40.681790Z",
     "property_count": 29,
     "item_count": 25
   },
@@ -234,10 +234,6 @@
       "id": "Q76",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q76"
     },
-    "_commons_sdc_statement": {
-      "id": "Q77",
-      "entity": "https://datadistillery.wikibase.cloud/entity/Q77"
-    },
     "_format_specification": {
       "id": "Q84",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q84"
@@ -249,6 +245,10 @@
     "_checksum_format": {
       "id": "Q94",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q94"
+    },
+    "_commons_media_object": {
+      "id": "Q96",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q96"
     }
   }
 }
