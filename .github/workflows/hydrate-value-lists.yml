@@ -17,14 +17,14 @@ on:
         description: Optional SPARQL endpoint URL override
         required: false
         type: string
-        default: ""
+        default: "https://query.wikidata.org/sparql"
       page_size:
         description: SPARQL page size used for hydration
         required: false
         type: string
         default: "1000"
       value_list_qid:
-        description: Optional QID of a single value list to hydrate (e.g. Q56). Leave blank to hydrate all value lists.
+        description: Optional QID or comma-delimited list of QIDs to hydrate (e.g. Q56 or Q56,Q57). Leave blank to hydrate all value lists.
         required: false
         type: string
         default: ""
@@ -77,12 +77,16 @@ jobs:
             ARGS+=(--api-url "$INPUT_API_URL")
           fi
 
-          if [ -n "$INPUT_SPARQL_ENDPOINT" ]; then
-            ARGS+=(--endpoint "$INPUT_SPARQL_ENDPOINT")
-          fi
+          ARGS+=(--endpoint "$INPUT_SPARQL_ENDPOINT")
 
           if [ -n "$INPUT_VALUE_LIST_QID" ]; then
-            ARGS+=(--value-list-id "$INPUT_VALUE_LIST_QID")
+            IFS=',' read -r -a VALUE_LIST_IDS <<< "$INPUT_VALUE_LIST_QID"
+            for raw_id in "${VALUE_LIST_IDS[@]}"; do
+              value_list_id="$(printf '%s' "$raw_id" | xargs)"
+              if [ -n "$value_list_id" ]; then
+                ARGS+=(--value-list-id "$value_list_id")
+              fi
+            done
           fi
 
           gkc --json profile value-lists hydrate "${ARGS[@]}"
