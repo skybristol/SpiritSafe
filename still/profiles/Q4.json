@@ -289,8 +289,7 @@
       "entity": "https://datadistillery.wikibase.cloud/entity/Q37",
       "label": "inception",
       "entity_classes": [
-        "Q5",
-        "Q77"
+        "Q5"
       ],
       "io_map": [
         {
@@ -481,7 +480,7 @@
     },
     "descriptions": {},
     "aliases": {},
-    "generated_at": "2026-04-09T20:31:37.098163Z",
+    "generated_at": "2026-04-09T21:50:28.275027Z",
     "languages": [
       "mul"
     ],

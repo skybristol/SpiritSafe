@@ -2,83 +2,57 @@
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
     "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/still/entities",
-    "since": "2026-04-06T18:52:54.986358Z",
-    "next_since": "2026-04-09T20:30:23Z",
+    "since": "2026-04-09T20:30:29.583797Z",
+    "next_since": "2026-04-09T21:43:19Z",
     "overlap_seconds": 60
   },
   "summary": {
-    "changed_count": 26,
+    "changed_count": 12,
     "ignored_count": 0,
-    "refreshed_count": 25,
-    "deleted_count": 0,
+    "refreshed_count": 11,
+    "deleted_count": 1,
     "missing_count": 1
   },
   "changed_ids": [
-    "P218",
-    "Q16",
     "Q37",
-    "Q55",
-    "Q57",
-    "Q61",
-    "Q62",
     "Q77",
     "Q78",
     "Q79",
-    "Q80",
     "Q81",
-    "Q82",
     "Q83",
-    "Q84",
-    "Q85",
     "Q86",
-    "Q87",
-    "Q88",
     "Q89",
-    "Q90",
     "Q91",
     "Q92",
-    "Q93",
-    "Q94",
-    "Q95"
+    "Q95",
+    "Q96"
   ],
   "ignored_ids": [],
   "refreshed_ids": [
-    "P218",
-    "Q16",
     "Q37",
-    "Q57",
-    "Q61",
-    "Q62",
-    "Q77",
     "Q78",
     "Q79",
-    "Q80",
     "Q81",
-    "Q82",
     "Q83",
-    "Q84",
-    "Q85",
     "Q86",
-    "Q87",
-    "Q88",
     "Q89",
-    "Q90",
     "Q91",
     "Q92",
-    "Q93",
-    "Q94",
-    "Q95"
+    "Q95",
+    "Q96"
   ],
-  "deleted_ids": [],
+  "deleted_ids": [
+    "Q77"
+  ],
   "missing_ids": [
-    "Q55"
+    "Q77"
   ],
   "profile_export": {
     "summary": {
       "requested_count": 0,
       "written_count": 2,
-      "skipped_count": 0,
-      "failure_count": 0,
+      "skipped_count": 1,
+      "failure_count": 1,
       "language_filtered_count": 2
     },
     "requested_profile_ids": [],
@@ -86,8 +60,24 @@
       "Q39",
       "Q4"
     ],
-    "skipped_ids": [],
-    "failures": [],
+    "skipped_ids": [
+      "Q96"
+    ],
+    "failures": [
+      {
+        "profile_id": "Q96",
+        "code": "mul_language_coverage_failed",
+        "message": "Profile 'Q96' failed required mul language coverage: identification.aliases.mul.prompt, identification.descriptions.mul.prompt, metadata.labels.mul, statement:https://datadistillery.wikibase.cloud/entity/Q87.messages.mul.prompt, statement:https://datadistillery.wikibase.cloud/entity/Q88.messages.mul.prompt, statement:https://datadistillery.wikibase.cloud/entity/Q90.messages.mul.prompt",
+        "missing_paths": [
+          "identification.aliases.mul.prompt",
+          "identification.descriptions.mul.prompt",
+          "metadata.labels.mul",
+          "statement:https://datadistillery.wikibase.cloud/entity/Q87.messages.mul.prompt",
+          "statement:https://datadistillery.wikibase.cloud/entity/Q88.messages.mul.prompt",
+          "statement:https://datadistillery.wikibase.cloud/entity/Q90.messages.mul.prompt"
+        ]
+      }
+    ],
     "language_filtering": [
       {
         "profile_id": "Q39",
