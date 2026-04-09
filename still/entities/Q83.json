@@ -1,23 +1,23 @@
 {
-  "entity_id": "Q61",
+  "entity_id": "Q83",
   "entity": {
-    "pageid": 137,
+    "pageid": 165,
     "ns": 120,
-    "title": "Item:Q61",
-    "lastrevid": 1344,
-    "modified": "2026-04-09T12:53:01Z",
+    "title": "Item:Q83",
+    "lastrevid": 1272,
+    "modified": "2026-04-08T13:39:48Z",
     "type": "item",
-    "id": "Q61",
+    "id": "Q83",
     "labels": {
       "en": {
         "language": "en",
-        "value": "datetime precision"
+        "value": "media type"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "specialized qualifier/modifier used to set the time precision value for Wikibase data representations; generally set dynamically through coercion code"
+        "value": "IANA-registered identifier for a file type"
       }
     },
     "aliases": {},
@@ -27,38 +27,19 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P1",
-            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "hash": "40a223935432133dfaa34ebe6bcabaf4ac2de4f8",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 5,
-                "id": "Q5"
+                "numeric-id": 77,
+                "id": "Q77"
               },
               "type": "wikibase-entityid"
             },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q61$1c9f31ff-4162-6dac-463a-ec700ba31041",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P1",
-            "hash": "a6486322872fdd2584bd884e7a8a5865bf3af693",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 58,
-                "id": "Q58"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q61$674b1044-40ea-c482-c471-512caa9106aa",
+          "id": "Q83$eae05412-4747-629d-ae07-cdb2700e3826",
           "rank": "normal"
         }
       ],
@@ -67,36 +48,15 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "4153afd11ee06a33635c1cbf8bb75e4acd815b48",
+            "hash": "9b51d22a17a5a65b0d688b9a5d409288484880d8",
             "datavalue": {
-              "value": "datetime_precision",
+              "value": "media_type",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "Q61$1a26adb5-4d12-fbcc-f516-af08c317b9e7",
-          "rank": "normal"
-        }
-      ],
-      "P161": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P161",
-            "hash": "316d34edd7eb516e53de38b103fff2bd40e6ddc9",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 59,
-                "id": "Q59"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q61$c81babfd-404e-0a02-f020-5ac8b3bc72fe",
+          "id": "Q83$2e980e8e-402a-5214-e9f7-426fcb01009e",
           "rank": "normal"
         }
       ],
@@ -116,7 +76,45 @@
             "datatype": "quantity"
           },
           "type": "statement",
-          "id": "Q61$154e5cec-4532-a959-077b-ee57d1c3c63c",
+          "id": "Q83$92c794e1-4403-bdd1-c10a-8f541140c309",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "6ac2aaf34d967079f2613a144117bf4ccf4358d1",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 72,
+                "id": "Q72"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q83$c3263dbf-4b0f-75c7-fa64-8ad031c16fb5",
+          "rank": "normal"
+        }
+      ],
+      "P5": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P5",
+            "hash": "2943ad30f3fe2a98ce20887186401d9d48e1d2b5",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P1163",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q83$1c1260f8-4fdc-9470-6e4a-0c782cedc020",
           "rank": "normal"
         }
       ],
@@ -125,10 +123,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P171",
-            "hash": "d9eecceaa7cbf23bf80495beaca2a30733ae8151",
+            "hash": "00116983a294a6e2b4c5df86259583676e3c4fe6",
             "datavalue": {
               "value": {
-                "text": "set the time precision value for the datetime statement",
+                "text": "specify the media type for the subject media object using an approved value from IANA",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -136,7 +134,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$db854fcd-4dd1-3bba-230c-98929e1c5b0c",
+          "id": "Q83$659513b8-4c76-5949-24b9-d36fd502102e",
           "rank": "normal"
         }
       ],
@@ -145,10 +143,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P169",
-            "hash": "4d19d9081c9fb7ee1b2e5aa51181ef816a8d019a",
+            "hash": "c3c8fb52137b277dc3f0ff18b53903ed62c11b95",
             "datavalue": {
               "value": {
-                "text": "Time precision values will be computed dynamically in most cases",
+                "text": "Provide the official file object type from the Internet Assigned Numbers Authority",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -156,7 +154,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$0877e170-431b-a712-6d7e-dc8436e5e5b4",
+          "id": "Q83$3be0c67c-474e-771d-9516-05b5fdb6e653",
           "rank": "normal"
         }
       ],
@@ -165,10 +163,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "4beed20105d4a171161e39c381660923c17fe90a",
+            "hash": "0cf972954cfe82d6f95fab9f96ceea8fc529e34e",
             "datavalue": {
               "value": {
-                "text": "Statements with time values must include a precision value or they will be rejected when submitted to a Wikibase instance",
+                "text": "Failure to include a media type string may result in an inability for certain applications to use the information in the most efficient way",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -176,33 +174,28 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$517f041d-4608-a078-e1b8-ca18888027d3",
+          "id": "Q83$6179ae41-4d17-0e61-e067-eb9a1338c54d",
           "rank": "normal"
         }
       ],
-      "P215": [
+      "P161": [
         {
           "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P215",
-            "hash": "c0b4a1c1b7da0bc5b9ccb92b0be6c51b15628519",
+            "snaktype": "value",
+            "property": "P161",
+            "hash": "09c4aeb9c5ba0240ae5e9b52f7fb0cc2d4917177",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 85,
+                "id": "Q85"
+              },
+              "type": "wikibase-entityid"
+            },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q61$c5bebe1b-4913-f136-0ab7-5ead7e1eff09",
-          "rank": "normal"
-        }
-      ],
-      "P5": [
-        {
-          "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P5",
-            "hash": "6ee46c6e25606f949a870c84ae6694be8b5d4a02",
-            "datatype": "url"
-          },
-          "type": "statement",
-          "id": "Q61$29104485-41c6-314c-e58c-3fcb361257b1",
+          "id": "Q83$bad5c4ac-417d-423f-7598-f5e4f8be4501",
           "rank": "normal"
         }
       ]
@@ -213,7 +206,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-09T12:53:01Z",
+    "graph_fetched_at": "2026-04-08T13:39:48Z",
     "cache_exported_at": "2026-04-09T20:31:29.583797Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",

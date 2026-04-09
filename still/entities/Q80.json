@@ -1,0 +1,98 @@
+{
+  "entity_id": "Q80",
+  "entity": {
+    "pageid": 160,
+    "ns": 120,
+    "title": "Item:Q80",
+    "lastrevid": 1252,
+    "modified": "2026-04-08T13:24:29Z",
+    "type": "item",
+    "id": "Q80",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "List of Copyright Status Values"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "value list of valid copyright status values from Wikidata"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q80$5eb82f5b-4a7c-c261-9597-1b5d3484fe14",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "acc8dbfee89a727a84b7c6d2562e9d4e7298f07d",
+            "datavalue": {
+              "value": "CopyrightStatusValues",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q80$0c09e919-480b-c884-e513-975fb1aaefb5",
+          "rank": "normal"
+        }
+      ],
+      "P210": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P210",
+            "hash": "468b9e8c300dd89e298220dc761adb98d6f5e359",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 50,
+                "id": "Q50"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q80$d2fdb4b2-45ae-930e-8be3-947da9d435d8",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-08T13:24:29Z",
+    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

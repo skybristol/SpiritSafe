@@ -1,0 +1,77 @@
+{
+  "entity_id": "P218",
+  "entity": {
+    "pageid": 168,
+    "ns": 122,
+    "title": "Property:P218",
+    "lastrevid": 1354,
+    "modified": "2026-04-09T20:06:43Z",
+    "type": "property",
+    "datatype": "string",
+    "id": "P218",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "format as a regular expression"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "regex describing the format or shape of a value in PCRE syntax"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "676553b9266a81903fd754b304e11fdd9c0a589e",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 49,
+                "id": "Q49"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "P218$f068f40e-409a-8d66-8c3d-2d2a6a8c7d48",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "7093ec4920d4d3fc9f8b1b67cf2c9b607ba33328",
+            "datavalue": {
+              "value": "_regex",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "P218$0950c473-46ed-2fc2-aab9-b3379024101a",
+          "rank": "normal"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-09T20:06:43Z",
+    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

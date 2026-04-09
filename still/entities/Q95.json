@@ -1,23 +1,23 @@
 {
-  "entity_id": "Q61",
+  "entity_id": "Q95",
   "entity": {
-    "pageid": 137,
+    "pageid": 181,
     "ns": 120,
-    "title": "Item:Q61",
-    "lastrevid": 1344,
-    "modified": "2026-04-09T12:53:01Z",
+    "title": "Item:Q95",
+    "lastrevid": 1365,
+    "modified": "2026-04-09T20:30:23Z",
     "type": "item",
-    "id": "Q61",
+    "id": "Q95",
     "labels": {
       "en": {
         "language": "en",
-        "value": "datetime precision"
+        "value": "coordinates of the point of view"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "specialized qualifier/modifier used to set the time precision value for Wikibase data representations; generally set dynamically through coercion code"
+        "value": "point from which the scene depicted by the element is seen (element can be a photo, a painting, etc.)"
       }
     },
     "aliases": {},
@@ -27,38 +27,19 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P1",
-            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "hash": "40a223935432133dfaa34ebe6bcabaf4ac2de4f8",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 5,
-                "id": "Q5"
+                "numeric-id": 77,
+                "id": "Q77"
               },
               "type": "wikibase-entityid"
             },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q61$1c9f31ff-4162-6dac-463a-ec700ba31041",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P1",
-            "hash": "a6486322872fdd2584bd884e7a8a5865bf3af693",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 58,
-                "id": "Q58"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q61$674b1044-40ea-c482-c471-512caa9106aa",
+          "id": "Q95$d126d02a-4928-1a20-54b2-4e44cf9dfce7",
           "rank": "normal"
         }
       ],
@@ -67,36 +48,32 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "4153afd11ee06a33635c1cbf8bb75e4acd815b48",
+            "hash": "04f5cda0e62a168575a31b434f5fed1be61078db",
             "datavalue": {
-              "value": "datetime_precision",
+              "value": "coordinates_of_the_point_of_view",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "Q61$1a26adb5-4d12-fbcc-f516-af08c317b9e7",
+          "id": "Q95$a5cb189d-4226-a00e-c2b9-3da210726b97",
           "rank": "normal"
         }
       ],
-      "P161": [
+      "P5": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P161",
-            "hash": "316d34edd7eb516e53de38b103fff2bd40e6ddc9",
+            "property": "P5",
+            "hash": "acc494461ee659a0053b326bf1e7d9877a52e22f",
             "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 59,
-                "id": "Q59"
-              },
-              "type": "wikibase-entityid"
+              "value": "http://www.wikidata.org/entity/P1259",
+              "type": "string"
             },
-            "datatype": "wikibase-item"
+            "datatype": "url"
           },
           "type": "statement",
-          "id": "Q61$c81babfd-404e-0a02-f020-5ac8b3bc72fe",
+          "id": "Q95$9b6c46a1-4117-5304-d549-86ceedcc8130",
           "rank": "normal"
         }
       ],
@@ -116,7 +93,49 @@
             "datatype": "quantity"
           },
           "type": "statement",
-          "id": "Q61$154e5cec-4532-a959-077b-ee57d1c3c63c",
+          "id": "Q95$6c4cad55-47db-7193-b6be-73669d63a35d",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "2e587148f23162bfe57ab1e3b0e03007e7f43550",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 69,
+                "id": "Q69"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q95$633f2116-44be-84e8-359e-7307d900018b",
+          "rank": "normal"
+        }
+      ],
+      "P158": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P158",
+            "hash": "0c7ef50f20ad2f24a82dce088fc1e7efd33c4eba",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 62,
+                "id": "Q62"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q95$ab20921c-4220-adc6-4901-17fd28472f24",
           "rank": "normal"
         }
       ],
@@ -125,10 +144,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P171",
-            "hash": "d9eecceaa7cbf23bf80495beaca2a30733ae8151",
+            "hash": "dcb957c7dfc9b19a80a6fae0b31461a2783f2593",
             "datavalue": {
               "value": {
-                "text": "set the time precision value for the datetime statement",
+                "text": "provide the coordinates from which the subject entity was observed or captured in a media object",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -136,7 +155,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$db854fcd-4dd1-3bba-230c-98929e1c5b0c",
+          "id": "Q95$6b850835-4da6-fe3e-3d80-bf08850dc808",
           "rank": "normal"
         }
       ],
@@ -145,10 +164,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P169",
-            "hash": "4d19d9081c9fb7ee1b2e5aa51181ef816a8d019a",
+            "hash": "6e71ab2f8204ab86c7aa28113084698556916345",
             "datavalue": {
               "value": {
-                "text": "Time precision values will be computed dynamically in most cases",
+                "text": "Record the coordinates for a point on earth where an image was recorded or created",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -156,7 +175,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$0877e170-431b-a712-6d7e-dc8436e5e5b4",
+          "id": "Q95$6851973a-41af-4157-4313-6415248cc52f",
           "rank": "normal"
         }
       ],
@@ -165,10 +184,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "4beed20105d4a171161e39c381660923c17fe90a",
+            "hash": "f8a24cd91baeb5561f7286fbefd7b389f1b0ebdf",
             "datavalue": {
               "value": {
-                "text": "Statements with time values must include a precision value or they will be rejected when submitted to a Wikibase instance",
+                "text": "Failure to provide the point of view location may result in reduced usability for the subject item",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -176,33 +195,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$517f041d-4608-a078-e1b8-ca18888027d3",
-          "rank": "normal"
-        }
-      ],
-      "P215": [
-        {
-          "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P215",
-            "hash": "c0b4a1c1b7da0bc5b9ccb92b0be6c51b15628519",
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q61$c5bebe1b-4913-f136-0ab7-5ead7e1eff09",
-          "rank": "normal"
-        }
-      ],
-      "P5": [
-        {
-          "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P5",
-            "hash": "6ee46c6e25606f949a870c84ae6694be8b5d4a02",
-            "datatype": "url"
-          },
-          "type": "statement",
-          "id": "Q61$29104485-41c6-314c-e58c-3fcb361257b1",
+          "id": "Q95$ce307389-44e8-128c-434b-2f2c03e3939c",
           "rank": "normal"
         }
       ]
@@ -213,7 +206,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-09T12:53:01Z",
+    "graph_fetched_at": "2026-04-09T20:30:23Z",
     "cache_exported_at": "2026-04-09T20:31:29.583797Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",

@@ -1,0 +1,98 @@
+{
+  "entity_id": "Q87",
+  "entity": {
+    "pageid": 170,
+    "ns": 120,
+    "title": "Item:Q87",
+    "lastrevid": 1287,
+    "modified": "2026-04-08T14:01:49Z",
+    "type": "item",
+    "id": "Q87",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "List of Units for Height"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "list of units for height statements pulled from property constraints"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q87$cc602518-49e5-8039-e193-a025efcef45f",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "27d30da7c2654d9cd1e9b7fa268c092a151fd17d",
+            "datavalue": {
+              "value": "ListOfUnitsForHeight",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q87$51b16fb8-46d3-5513-e359-b16a54eaf542",
+          "rank": "normal"
+        }
+      ],
+      "P210": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P210",
+            "hash": "468b9e8c300dd89e298220dc761adb98d6f5e359",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 50,
+                "id": "Q50"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q87$1ff6a921-4ecf-9d05-a08b-3621f1106742",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-08T14:01:49Z",
+    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

@@ -4,8 +4,8 @@
     "pageid": 48,
     "ns": 120,
     "title": "Item:Q16",
-    "lastrevid": 1137,
-    "modified": "2026-04-03T21:31:44Z",
+    "lastrevid": 1210,
+    "modified": "2026-04-08T12:54:11Z",
     "type": "item",
     "id": "Q16",
     "labels": {
@@ -187,11 +187,11 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-03T21:31:44Z",
-    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-08T12:54:11Z",
+    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

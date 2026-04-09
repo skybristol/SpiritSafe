@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q77",
+  "entity": {
+    "pageid": 157,
+    "ns": 120,
+    "title": "Item:Q77",
+    "lastrevid": 1208,
+    "modified": "2026-04-08T12:52:24Z",
+    "type": "item",
+    "id": "Q77",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Wikimedia Commons Structured Data Statement"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "a statement connected with a Wikidata property that is used in the structured data content portion of the Wikimedia Commons schema"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "44c11d9ab91c8c3cf203033599eebcb8d1be97ce",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 5,
+                "id": "Q5"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q77$3925148f-4e60-f244-6c7a-a2fe7ac73e28",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "89d45f5fcf8659485fd35d24733c394c1cfc0af2",
+            "datavalue": {
+              "value": "_commons_sdc_statement",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q77$e651dc8b-4001-b384-c81c-98f8b1fcca85",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-08T12:52:24Z",
+    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

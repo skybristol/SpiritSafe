@@ -1,23 +1,23 @@
 {
-  "entity_id": "Q61",
+  "entity_id": "Q86",
   "entity": {
-    "pageid": 137,
+    "pageid": 169,
     "ns": 120,
-    "title": "Item:Q61",
-    "lastrevid": 1344,
-    "modified": "2026-04-09T12:53:01Z",
+    "title": "Item:Q86",
+    "lastrevid": 1346,
+    "modified": "2026-04-09T12:54:20Z",
     "type": "item",
-    "id": "Q61",
+    "id": "Q86",
     "labels": {
       "en": {
         "language": "en",
-        "value": "datetime precision"
+        "value": "height"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "specialized qualifier/modifier used to set the time precision value for Wikibase data representations; generally set dynamically through coercion code"
+        "value": "vertical length of an entity"
       }
     },
     "aliases": {},
@@ -27,38 +27,19 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P1",
-            "hash": "601c8e56a2a3394f27cfcb24eb1f95a3f8d68633",
+            "hash": "40a223935432133dfaa34ebe6bcabaf4ac2de4f8",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 5,
-                "id": "Q5"
+                "numeric-id": 77,
+                "id": "Q77"
               },
               "type": "wikibase-entityid"
             },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q61$1c9f31ff-4162-6dac-463a-ec700ba31041",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P1",
-            "hash": "a6486322872fdd2584bd884e7a8a5865bf3af693",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 58,
-                "id": "Q58"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q61$674b1044-40ea-c482-c471-512caa9106aa",
+          "id": "Q86$9550f515-48e4-023d-c141-90a5fe53b95b",
           "rank": "normal"
         }
       ],
@@ -67,56 +48,49 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "4153afd11ee06a33635c1cbf8bb75e4acd815b48",
+            "hash": "6517d307d91d21b96ffd2c1da5df3e22f1df2bd7",
             "datavalue": {
-              "value": "datetime_precision",
+              "value": "height",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "Q61$1a26adb5-4d12-fbcc-f516-af08c317b9e7",
+          "id": "Q86$944ba4d6-4b0c-f1cf-d78b-d4d9bdb6e207",
           "rank": "normal"
         }
       ],
-      "P161": [
+      "P215": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P161",
-            "hash": "316d34edd7eb516e53de38b103fff2bd40e6ddc9",
+            "property": "P215",
+            "hash": "39abd6df3dcf22a2cbcf0d25e6a7822f9ae573a1",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 59,
-                "id": "Q59"
+                "numeric-id": 71,
+                "id": "Q71"
               },
               "type": "wikibase-entityid"
             },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q61$c81babfd-404e-0a02-f020-5ac8b3bc72fe",
+          "id": "Q86$0e7f3e91-4aaa-6409-deac-a662d92943ad",
           "rank": "normal"
         }
       ],
       "P182": [
         {
           "mainsnak": {
-            "snaktype": "value",
+            "snaktype": "novalue",
             "property": "P182",
-            "hash": "22e50d81f3ce958b247749307c918fa7baf4afff",
-            "datavalue": {
-              "value": {
-                "amount": "+1",
-                "unit": "1"
-              },
-              "type": "quantity"
-            },
+            "hash": "4436923329e78cf07628dac0a727ad8a47031dc7",
             "datatype": "quantity"
           },
           "type": "statement",
-          "id": "Q61$154e5cec-4532-a959-077b-ee57d1c3c63c",
+          "id": "Q86$11886cdb-49af-3629-1f41-99918a966434",
           "rank": "normal"
         }
       ],
@@ -125,10 +99,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P171",
-            "hash": "d9eecceaa7cbf23bf80495beaca2a30733ae8151",
+            "hash": "6cd74adf9bcfa43a60ca41689b8b6a2fd7ae059f",
             "datavalue": {
               "value": {
-                "text": "set the time precision value for the datetime statement",
+                "text": "enter a value for height of the subject item",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -136,7 +110,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$db854fcd-4dd1-3bba-230c-98929e1c5b0c",
+          "id": "Q86$f7f49c8e-4865-32d1-de32-6858192f2b37",
           "rank": "normal"
         }
       ],
@@ -145,10 +119,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P169",
-            "hash": "4d19d9081c9fb7ee1b2e5aa51181ef816a8d019a",
+            "hash": "c22d86e2396c895eaf14438464ce4c70a64a845a",
             "datavalue": {
               "value": {
-                "text": "Time precision values will be computed dynamically in most cases",
+                "text": "Enter a value for the height of the subject and specify an appropriate unit of measure",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -156,7 +130,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$0877e170-431b-a712-6d7e-dc8436e5e5b4",
+          "id": "Q86$25a23ccd-43e7-10af-82fe-caa16f3cb0ff",
           "rank": "normal"
         }
       ],
@@ -165,10 +139,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "4beed20105d4a171161e39c381660923c17fe90a",
+            "hash": "3c94c4d20dbf0773207073a62dbf7a70a71a2fc0",
             "datavalue": {
               "value": {
-                "text": "Statements with time values must include a precision value or they will be rejected when submitted to a Wikibase instance",
+                "text": "Failure to provide a height measurement with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -176,33 +150,45 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$517f041d-4608-a078-e1b8-ca18888027d3",
+          "id": "Q86$2c044058-4aee-b849-2304-e713c5adeb2d",
           "rank": "normal"
         }
       ],
-      "P215": [
+      "P158": [
         {
           "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P215",
-            "hash": "c0b4a1c1b7da0bc5b9ccb92b0be6c51b15628519",
+            "snaktype": "value",
+            "property": "P158",
+            "hash": "fd8c098d58d1948205e347d202d198d3c12f5f40",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 87,
+                "id": "Q87"
+              },
+              "type": "wikibase-entityid"
+            },
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q61$c5bebe1b-4913-f136-0ab7-5ead7e1eff09",
+          "id": "Q86$92571d4d-422b-f6ea-fb9f-3104b1508c9c",
           "rank": "normal"
         }
       ],
       "P5": [
         {
           "mainsnak": {
-            "snaktype": "novalue",
+            "snaktype": "value",
             "property": "P5",
-            "hash": "6ee46c6e25606f949a870c84ae6694be8b5d4a02",
+            "hash": "8b2866f1d99c124bce78e95c0c484c9e3b917764",
+            "datavalue": {
+              "value": "http://www.wikidata.org/entity/P2048",
+              "type": "string"
+            },
             "datatype": "url"
           },
           "type": "statement",
-          "id": "Q61$29104485-41c6-314c-e58c-3fcb361257b1",
+          "id": "Q86$e5d85850-4ed6-9fe0-cb3c-046c66d7ad22",
           "rank": "normal"
         }
       ]
@@ -213,7 +199,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-09T12:53:01Z",
+    "graph_fetched_at": "2026-04-09T12:54:20Z",
     "cache_exported_at": "2026-04-09T20:31:29.583797Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",

@@ -1,23 +1,23 @@
 {
-  "entity_id": "Q61",
+  "entity_id": "Q93",
   "entity": {
-    "pageid": 137,
+    "pageid": 179,
     "ns": 120,
-    "title": "Item:Q61",
-    "lastrevid": 1344,
-    "modified": "2026-04-09T12:53:01Z",
+    "title": "Item:Q93",
+    "lastrevid": 1340,
+    "modified": "2026-04-09T12:45:32Z",
     "type": "item",
-    "id": "Q61",
+    "id": "Q93",
     "labels": {
       "en": {
         "language": "en",
-        "value": "datetime precision"
+        "value": "determination method or standard"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "specialized qualifier/modifier used to set the time precision value for Wikibase data representations; generally set dynamically through coercion code"
+        "value": "how a value is determined, or the standard by which it is declared"
       }
     },
     "aliases": {},
@@ -39,26 +39,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q61$1c9f31ff-4162-6dac-463a-ec700ba31041",
-          "rank": "normal"
-        },
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P1",
-            "hash": "a6486322872fdd2584bd884e7a8a5865bf3af693",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 58,
-                "id": "Q58"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q61$674b1044-40ea-c482-c471-512caa9106aa",
+          "id": "Q93$ab63666f-4f30-28c4-79b1-53d6a5538beb",
           "rank": "normal"
         }
       ],
@@ -67,36 +48,32 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "4153afd11ee06a33635c1cbf8bb75e4acd815b48",
+            "hash": "79db3c695e68cf7de1e2f3a1ebbbe3a5e665791f",
             "datavalue": {
-              "value": "datetime_precision",
+              "value": "determination_method",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "Q61$1a26adb5-4d12-fbcc-f516-af08c317b9e7",
+          "id": "Q93$81dd4f69-436f-6c84-04ba-a1345859d506",
           "rank": "normal"
         }
       ],
-      "P161": [
+      "P5": [
         {
           "mainsnak": {
             "snaktype": "value",
-            "property": "P161",
-            "hash": "316d34edd7eb516e53de38b103fff2bd40e6ddc9",
+            "property": "P5",
+            "hash": "86ca47af1343ba013cdb14e21a3d3c090b8e0f83",
             "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 59,
-                "id": "Q59"
-              },
-              "type": "wikibase-entityid"
+              "value": "http://www.wikidata.org/entity/P459",
+              "type": "string"
             },
-            "datatype": "wikibase-item"
+            "datatype": "url"
           },
           "type": "statement",
-          "id": "Q61$c81babfd-404e-0a02-f020-5ac8b3bc72fe",
+          "id": "Q93$50f24bc3-4bc6-0582-7f5d-e13004e819e6",
           "rank": "normal"
         }
       ],
@@ -116,7 +93,28 @@
             "datatype": "quantity"
           },
           "type": "statement",
-          "id": "Q61$154e5cec-4532-a959-077b-ee57d1c3c63c",
+          "id": "Q93$6ae7d2fb-449b-f555-d0ce-706853162f71",
+          "rank": "normal"
+        }
+      ],
+      "P215": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P215",
+            "hash": "3b320390fdf1ca77a56409f4a89d1659ef2c3e7d",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 65,
+                "id": "Q65"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q93$d952104b-455d-9470-ee80-f291495bc762",
           "rank": "normal"
         }
       ],
@@ -125,10 +123,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P171",
-            "hash": "d9eecceaa7cbf23bf80495beaca2a30733ae8151",
+            "hash": "7c3eed5905215846f19743b9194d89886b947ac7",
             "datavalue": {
               "value": {
-                "text": "set the time precision value for the datetime statement",
+                "text": "link to the Wikidata item that represents the method or technique used to determine the value of the subject statement",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -136,7 +134,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$db854fcd-4dd1-3bba-230c-98929e1c5b0c",
+          "id": "Q93$6d470614-425d-83a4-27e4-8f0424e0030b",
           "rank": "normal"
         }
       ],
@@ -145,10 +143,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P169",
-            "hash": "4d19d9081c9fb7ee1b2e5aa51181ef816a8d019a",
+            "hash": "e5dddbf04bbb57b9798433a603c8c3e619eef0ce",
             "datavalue": {
               "value": {
-                "text": "Time precision values will be computed dynamically in most cases",
+                "text": "Choose a Wikidata item representing a method, technique, or standard that was used to produce or derive the subject statement's value",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -156,7 +154,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$0877e170-431b-a712-6d7e-dc8436e5e5b4",
+          "id": "Q93$1de4feb6-4a32-a3fd-d83c-74c4aef7bec6",
           "rank": "normal"
         }
       ],
@@ -165,10 +163,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "4beed20105d4a171161e39c381660923c17fe90a",
+            "hash": "042fd446f3c1dd63393519aa8586fd09e251db99",
             "datavalue": {
               "value": {
-                "text": "Statements with time values must include a precision value or they will be rejected when submitted to a Wikibase instance",
+                "text": "Failure to specify the determination method may result in an inability to use the associated information effectively",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -176,33 +174,7 @@
             "datatype": "monolingualtext"
           },
           "type": "statement",
-          "id": "Q61$517f041d-4608-a078-e1b8-ca18888027d3",
-          "rank": "normal"
-        }
-      ],
-      "P215": [
-        {
-          "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P215",
-            "hash": "c0b4a1c1b7da0bc5b9ccb92b0be6c51b15628519",
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q61$c5bebe1b-4913-f136-0ab7-5ead7e1eff09",
-          "rank": "normal"
-        }
-      ],
-      "P5": [
-        {
-          "mainsnak": {
-            "snaktype": "novalue",
-            "property": "P5",
-            "hash": "6ee46c6e25606f949a870c84ae6694be8b5d4a02",
-            "datatype": "url"
-          },
-          "type": "statement",
-          "id": "Q61$29104485-41c6-314c-e58c-3fcb361257b1",
+          "id": "Q93$06994040-419e-699c-4fb6-806ecf3832fa",
           "rank": "normal"
         }
       ]
@@ -213,7 +185,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-09T12:53:01Z",
+    "graph_fetched_at": "2026-04-09T12:45:32Z",
     "cache_exported_at": "2026-04-09T20:31:29.583797Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",

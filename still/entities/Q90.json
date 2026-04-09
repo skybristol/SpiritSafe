@@ -1,0 +1,98 @@
+{
+  "entity_id": "Q90",
+  "entity": {
+    "pageid": 175,
+    "ns": 120,
+    "title": "Item:Q90",
+    "lastrevid": 1310,
+    "modified": "2026-04-08T14:12:24Z",
+    "type": "item",
+    "id": "Q90",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "List of Units for Data Size"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "list of units for data size statements pulled from Wikidata property constraint"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P1": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P1",
+            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 7,
+                "id": "Q7"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q90$faaf8520-4daf-9338-4743-d04859c43288",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "fd5f14d8a81d7149de6b997c8bba0e28b308af8c",
+            "datavalue": {
+              "value": "ListOfUnitsForDataSize",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q90$8b6fd373-4f1e-297a-4c6b-3f1799074159",
+          "rank": "normal"
+        }
+      ],
+      "P210": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P210",
+            "hash": "468b9e8c300dd89e298220dc761adb98d6f5e359",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 50,
+                "id": "Q50"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q90$053d3830-49e5-5da4-84fc-9e1a5b7541e8",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-08T14:12:24Z",
+    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}

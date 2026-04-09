@@ -1,0 +1,77 @@
+{
+  "entity_id": "Q84",
+  "entity": {
+    "pageid": 166,
+    "ns": 120,
+    "title": "Item:Q84",
+    "lastrevid": 1267,
+    "modified": "2026-04-08T13:36:09Z",
+    "type": "item",
+    "id": "Q84",
+    "labels": {
+      "en": {
+        "language": "en",
+        "value": "Format Specification"
+      }
+    },
+    "descriptions": {
+      "en": {
+        "language": "en",
+        "value": "items in this class contain specific format constraints or specifications for string values"
+      }
+    },
+    "aliases": {},
+    "claims": {
+      "P2": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P2",
+            "hash": "a32497b849d1964f21897e84ee8e80317d84992f",
+            "datavalue": {
+              "value": {
+                "entity-type": "item",
+                "numeric-id": 1,
+                "id": "Q1"
+              },
+              "type": "wikibase-entityid"
+            },
+            "datatype": "wikibase-item"
+          },
+          "type": "statement",
+          "id": "Q84$3583c8b9-4a1f-72dd-741a-b1d8a2b58831",
+          "rank": "normal"
+        }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "65e01734fbd22dc0a7c4474b95be9bfc2249398f",
+            "datavalue": {
+              "value": "_format_specification",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q84$0fb1cea4-4af3-ae2d-f51c-ce33cc9811bf",
+          "rank": "normal"
+        }
+      ]
+    },
+    "sitelinks": {}
+  },
+  "metadata": {
+    "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
+    "workflow_mode": "recentchanges",
+    "profile_entry_ids": [],
+    "graph_fetched_at": "2026-04-08T13:36:09Z",
+    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
+    "extractor_version": "0.1.0",
+    "source_branch": null,
+    "source_commit": null
+  }
+}
