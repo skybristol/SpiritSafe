@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "entity": "https://datadistillery.wikibase.cloud/entity/Q88",
+    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q88",
+    "query_id": "Q88",
+    "query_sparql": "# Purpose: value list from width property constraint allowed items\n# Expected vars: ?item ?itemLabel\n\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX wdt: <http://www.wikidata.org/prop/direct/>\n\nSELECT ?item ?itemLabel WHERE {\n  VALUES ?property { wd:P2049 }   # width\n  ?property p:P2302 ?constraintStatement .\n  ?constraintStatement ps:P2302 wd:Q21514353 .   # allowed units constraint\n  ?constraintStatement pq:P2305 ?item . # item of property constraint\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n}\n",
+    "query_hash": "2c7adf0dac36fd174c417d12a3c18842be69213a9ddba1d81f310a13bad6cf5f",
+    "updated": "2026-04-09T20:39:53.265066Z",
+    "count": 0,
+    "columns": []
+  },
+  "items": []
+}
