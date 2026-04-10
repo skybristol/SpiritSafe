@@ -4,8 +4,8 @@
     "pageid": 177,
     "ns": 120,
     "title": "Item:Q91",
-    "lastrevid": 1374,
-    "modified": "2026-04-09T21:37:32Z",
+    "lastrevid": 1398,
+    "modified": "2026-04-10T13:48:33Z",
     "type": "item",
     "id": "Q91",
     "labels": {
@@ -48,9 +48,9 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "ae17c03bf6cf706771af29a745299ef3705dcfc9",
+            "hash": "c13724860d0a1e9abd7132c9e0e46e9dbdd5bc9f",
             "datavalue": {
-              "value": "data_size",
+              "value": "_data_size",
               "type": "string"
             },
             "datatype": "string"
@@ -199,8 +199,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-09T21:37:32Z",
-    "cache_exported_at": "2026-04-09T21:50:26.548918Z",
+    "graph_fetched_at": "2026-04-10T13:48:33Z",
+    "cache_exported_at": "2026-04-10T17:18:43.374827Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

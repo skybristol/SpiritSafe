@@ -4,13 +4,17 @@
     "pageid": 182,
     "ns": 120,
     "title": "Item:Q96",
-    "lastrevid": 1390,
-    "modified": "2026-04-09T21:43:19Z",
+    "lastrevid": 1401,
+    "modified": "2026-04-10T14:14:53Z",
     "type": "item",
     "id": "Q96",
     "labels": {
       "en": {
         "language": "en",
+        "value": "Commons Media Object"
+      },
+      "mul": {
+        "language": "mul",
         "value": "Commons Media Object"
       }
     },
@@ -299,8 +303,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-09T21:43:19Z",
-    "cache_exported_at": "2026-04-09T21:50:26.548918Z",
+    "graph_fetched_at": "2026-04-10T14:14:53Z",
+    "cache_exported_at": "2026-04-10T17:18:43.374827Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
