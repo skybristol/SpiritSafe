@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T21:51:40.681790Z",
+    "generated_at": "2026-04-10T17:20:27.460172Z",
     "property_count": 29,
-    "item_count": 25
+    "item_count": 36
   },
   "entities": {
     "_instance_of": {
@@ -162,6 +162,10 @@
       "id": "Q3",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q3"
     },
+    "_inception": {
+      "id": "Q37",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q37"
+    },
     "_wikibase_statement_type": {
       "id": "Q44",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q44"
@@ -177,6 +181,10 @@
     "_wikibase_statement_modifier": {
       "id": "Q58",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q58"
+    },
+    "_coordinate_precision": {
+      "id": "Q62",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q62"
     },
     "_time": {
       "id": "Q64",
@@ -234,6 +242,22 @@
       "id": "Q76",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q76"
     },
+    "_depicts": {
+      "id": "Q78",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q78"
+    },
+    "_copyright_status": {
+      "id": "Q79",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q79"
+    },
+    "_copyright_license": {
+      "id": "Q81",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q81"
+    },
+    "_media_type": {
+      "id": "Q83",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q83"
+    },
     "_format_specification": {
       "id": "Q84",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q84"
@@ -242,9 +266,29 @@
       "id": "Q85",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q85"
     },
+    "_height": {
+      "id": "Q86",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q86"
+    },
+    "_width": {
+      "id": "Q89",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q89"
+    },
+    "_data_size": {
+      "id": "Q91",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q91"
+    },
+    "_checksum": {
+      "id": "Q92",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q92"
+    },
     "_checksum_format": {
       "id": "Q94",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q94"
+    },
+    "_coordinates_of_the_point_of_view": {
+      "id": "Q95",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q95"
     },
     "_commons_media_object": {
       "id": "Q96",
