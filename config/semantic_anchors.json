@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T14:32:17.117248Z",
+    "generated_at": "2026-04-12T15:09:52.979946Z",
     "contract_digest": "fba41edd7c253fd527974aca2ea096b028942b85c58427f39dfbb40f9a1ced78",
     "property_count": 29,
-    "item_count": 36
+    "item_count": 42
   },
   "entities": {
     "_alias_guidance": {
@@ -1337,7 +1337,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "Q60"
+                    "id": "_coordinate_precision_values"
                   }
                 }
               },
@@ -1440,7 +1440,7 @@
       }
     },
     "_coordinate_precision_values": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q60",
       "kind": "item",
       "required": {
         "type": "item",
@@ -1507,13 +1507,77 @@
           ]
         }
       },
-      "resolved": null,
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Coordinate Precision Values"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "value list of time precision values and labels for use in setting globe-coordinate precision qualifiers/modifiers"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_embedded_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_error_message": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_error_message",
+                "datavalue": {
+                  "type": "monolingualtext",
+                  "value": {
+                    "text": "The geographic coordinates provided require a precision qualifier. Please select from the list provided or consult the query source for more context.",
+                    "language": "mul"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_coordinate_precision_values"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "anchor_id_missing"
+            "severity": "warning",
+            "code": "claims"
           }
         ]
       }
@@ -2062,7 +2126,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "Q82"
+                    "id": "_copyright_license_values"
                   }
                 }
               },
@@ -2186,17 +2250,12 @@
         }
       },
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_copyright_license_values": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q82",
       "kind": "item",
       "required": {
         "type": "item",
@@ -2263,13 +2322,77 @@
           ]
         }
       },
-      "resolved": null,
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of Copyright Licenses"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "list of copyright license values from Wikidata for use in copyright license statements"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_copyright_license_values"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "anchor_id_missing"
+            "severity": "warning",
+            "code": "claims"
           }
         ]
       }
@@ -2482,7 +2605,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "Q80"
+                    "id": "_copyright_status_values"
                   }
                 }
               },
@@ -2606,17 +2729,12 @@
         }
       },
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_copyright_status_values": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q80",
       "kind": "item",
       "required": {
         "type": "item",
@@ -2683,13 +2801,77 @@
           ]
         }
       },
-      "resolved": null,
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of Copyright Status Values"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "value list of valid copyright status values from Wikidata"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_copyright_status_values"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "anchor_id_missing"
+            "severity": "warning",
+            "code": "claims"
           }
         ]
       }
@@ -2902,7 +3084,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "Q90"
+                    "id": "_data_size_units"
                   }
                 }
               },
@@ -3019,7 +3201,7 @@
       }
     },
     "_data_size_units": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q90",
       "kind": "item",
       "required": {
         "type": "item",
@@ -3086,13 +3268,77 @@
           ]
         }
       },
-      "resolved": null,
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of Units for Data Size"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "list of units for data size statements pulled from Wikidata property constraint"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_data_size_units"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "anchor_id_missing"
+            "severity": "warning",
+            "code": "claims"
           }
         ]
       }
@@ -5619,7 +5865,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "Q87"
+                    "id": "_height_units"
                   }
                 }
               },
@@ -5736,7 +5982,7 @@
       }
     },
     "_height_units": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q87",
       "kind": "item",
       "required": {
         "type": "item",
@@ -5803,13 +6049,77 @@
           ]
         }
       },
-      "resolved": null,
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of Units for Height"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "list of units for height statements pulled from property constraints"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_height_units"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "anchor_id_missing"
+            "severity": "warning",
+            "code": "claims"
           }
         ]
       }
@@ -8901,7 +9211,7 @@
       }
     },
     "_time_precision_values": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q59",
       "kind": "item",
       "required": {
         "type": "item",
@@ -8968,13 +9278,77 @@
           ]
         }
       },
-      "resolved": null,
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Time Precision Values"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "value list of time precision numerical values and labels for use in setting time precision qualifiers/modifiers"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_embedded_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_error_message": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_error_message",
+                "datavalue": {
+                  "type": "monolingualtext",
+                  "value": {
+                    "text": "The time value provided requires a qualifier specifying the precision (e.g., year, month, day, etc.). Please select from the list provided or consult the query source for more context.",
+                    "language": "mul"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_time_precision_values"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "anchor_id_missing"
+            "severity": "warning",
+            "code": "claims"
           }
         ]
       }
@@ -9131,7 +9505,7 @@
       }
     },
     "_value_list": {
-      "id": "https://datadistillery.wikibase.cloud/entity/Q7",
+      "id": null,
       "kind": "item",
       "required": {
         "type": "item",
@@ -9181,57 +9555,15 @@
           ]
         }
       },
-      "resolved": {
-        "type": "item",
-        "labels": {
-          "en": {
-            "language": "en",
-            "value": "GKC Value List"
-          }
-        },
-        "descriptions": {
-          "en": {
-            "language": "en",
-            "value": "list of values to be used for a statement, qualifier, or reference requiring specified values"
-          }
-        },
-        "claims": {
-          "_subclass_of": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_subclass_of",
-                "datavalue": {
-                  "type": "wikibase-entityid",
-                  "value": {
-                    "entity-type": "item",
-                    "id": "_entity"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_name_identifier": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_name_identifier",
-                "datavalue": {
-                  "type": "string",
-                  "value": "_value_list"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ]
-        }
-      },
+      "resolved": null,
       "validation": {
-        "status": "valid",
-        "notices": []
+        "status": "error",
+        "notices": [
+          {
+            "severity": "error",
+            "code": "anchor_id_missing"
+          }
+        ]
       }
     },
     "_value_list_refresh_policy": {
@@ -9546,7 +9878,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "Q88"
+                    "id": "_width_units"
                   }
                 }
               },
@@ -9663,7 +9995,7 @@
       }
     },
     "_width_units": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q88",
       "kind": "item",
       "required": {
         "type": "item",
@@ -9730,13 +10062,77 @@
           ]
         }
       },
-      "resolved": null,
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of Units for Width"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "list of units for width statements pulled from Wikidata property constraints"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_width_units"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "anchor_id_missing"
+            "severity": "warning",
+            "code": "claims"
           }
         ]
       }
@@ -10074,12 +10470,12 @@
   },
   "validation": {
     "status": "error",
-    "checked_at": "2026-04-12T14:32:17.276926Z",
+    "checked_at": "2026-04-12T15:09:53.141308Z",
     "required_anchor_count": 73,
     "matched_anchor_count": 73,
     "evaluated_anchor_count": 73,
-    "error_count": 16,
-    "warning_count": 51,
+    "error_count": 8,
+    "warning_count": 58,
     "freshness_checked": false,
     "freshness_match": null
   }
