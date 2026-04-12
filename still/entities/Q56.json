@@ -4,8 +4,8 @@
     "pageid": 129,
     "ns": 120,
     "title": "Item:Q56",
-    "lastrevid": 954,
-    "modified": "2026-04-02T12:05:32Z",
+    "lastrevid": 1444,
+    "modified": "2026-04-12T15:01:18Z",
     "type": "item",
     "id": "Q56",
     "labels": {
@@ -48,9 +48,9 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "59026adc74b590321fd79ab996c1ba28a7f60d81",
+            "hash": "3ffa91fc12022835f19cf99343df7c80bdec77dd",
             "datavalue": {
-              "value": "UnitsOfMeasure",
+              "value": "_units_of_measure",
               "type": "string"
             },
             "datatype": "string"
@@ -85,11 +85,11 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T12:05:32Z",
-    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-12T15:01:18Z",
+    "cache_exported_at": "2026-04-12T15:09:03.909260Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

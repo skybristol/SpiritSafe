@@ -4,8 +4,8 @@
     "pageid": 170,
     "ns": 120,
     "title": "Item:Q87",
-    "lastrevid": 1425,
-    "modified": "2026-04-12T14:27:28Z",
+    "lastrevid": 1441,
+    "modified": "2026-04-12T15:00:06Z",
     "type": "item",
     "id": "Q87",
     "labels": {
@@ -48,9 +48,9 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "27d30da7c2654d9cd1e9b7fa268c092a151fd17d",
+            "hash": "054db4ebe72599927a37a6026ad0034fdbbfb9cf",
             "datavalue": {
-              "value": "ListOfUnitsForHeight",
+              "value": "_height_units",
               "type": "string"
             },
             "datatype": "string"
@@ -105,8 +105,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-12T14:27:28Z",
-    "cache_exported_at": "2026-04-12T14:29:07.958250Z",
+    "graph_fetched_at": "2026-04-12T15:00:06Z",
+    "cache_exported_at": "2026-04-12T15:09:03.909260Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

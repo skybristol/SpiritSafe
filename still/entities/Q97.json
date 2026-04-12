@@ -1,23 +1,23 @@
 {
-  "entity_id": "Q7",
+  "entity_id": "Q97",
   "entity": {
-    "pageid": 13,
+    "pageid": 184,
     "ns": 120,
-    "title": "Item:Q7",
-    "lastrevid": 1431,
-    "modified": "2026-04-12T14:56:47Z",
+    "title": "Item:Q97",
+    "lastrevid": 1434,
+    "modified": "2026-04-12T14:57:40Z",
     "type": "item",
-    "id": "Q7",
+    "id": "Q97",
     "labels": {
       "en": {
         "language": "en",
-        "value": "SPARQL-backed Value List"
+        "value": "Embedded Value List"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "items that describe and embed a SPARQL query for use in building a list of viable items and labels used to fulfill wikibase-item statement values"
+        "value": "items that contain an embedded list of values for use in specifying a list of viable items and labels used to fulfill statement or parameter values"
       }
     },
     "aliases": {},
@@ -39,7 +39,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "Q7$E83B09EC-ADEB-4FC5-8A1F-44F006F3F09D",
+          "id": "Q97$467e2ff5-4382-593b-22e8-60952a4044f0",
           "rank": "normal"
         }
       ],
@@ -48,15 +48,15 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "abef1f75fe4546820fe925159fc2337d4be2b019",
+            "hash": "73008f1235ca3ef2c34c7436e1ccc525b463ff1a",
             "datavalue": {
-              "value": "_sparql_value_list",
+              "value": "_embedded_value_list",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "Q7$6a6110ce-4e39-13d5-72d2-01dcf405caff",
+          "id": "Q97$b913c275-406b-8552-22ff-420dfce75aed",
           "rank": "normal"
         }
       ]
@@ -67,7 +67,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-12T14:56:47Z",
+    "graph_fetched_at": "2026-04-12T14:57:40Z",
     "cache_exported_at": "2026-04-12T15:09:03.909260Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",

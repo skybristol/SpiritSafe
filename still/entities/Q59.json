@@ -4,8 +4,8 @@
     "pageid": 133,
     "ns": 120,
     "title": "Item:Q59",
-    "lastrevid": 955,
-    "modified": "2026-04-02T12:07:06Z",
+    "lastrevid": 1438,
+    "modified": "2026-04-12T14:58:59Z",
     "type": "item",
     "id": "Q59",
     "labels": {
@@ -27,12 +27,12 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P1",
-            "hash": "15b99b8396f20997284cdd601cb95c1b0368bba0",
+            "hash": "01b5900e825ba5568c074ede49af9a148f6b8db2",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 7,
-                "id": "Q7"
+                "numeric-id": 97,
+                "id": "Q97"
               },
               "type": "wikibase-entityid"
             },
@@ -48,9 +48,9 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "71847d95f2a13856aea9eb2c3af2a8037619f0e2",
+            "hash": "9b02bd122e31b9d089d0d962a5f493fe3a257666",
             "datavalue": {
-              "value": "TimePrecisionValues",
+              "value": "_time_precision_values",
               "type": "string"
             },
             "datatype": "string"
@@ -87,8 +87,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T12:07:06Z",
-    "cache_exported_at": "2026-04-12T14:29:07.958250Z",
+    "graph_fetched_at": "2026-04-12T14:58:59Z",
+    "cache_exported_at": "2026-04-12T15:09:03.909260Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

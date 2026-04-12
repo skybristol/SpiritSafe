@@ -4,8 +4,8 @@
     "pageid": 100,
     "ns": 120,
     "title": "Item:Q43",
-    "lastrevid": 951,
-    "modified": "2026-04-02T12:03:38Z",
+    "lastrevid": 1446,
+    "modified": "2026-04-12T15:05:37Z",
     "type": "item",
     "id": "Q43",
     "labels": {
@@ -69,9 +69,9 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "b0ee54eb37c9551e5aaeee414bd24e9446242ccb",
+            "hash": "b839cb8e76b21cc630cd3dfd610abd327bc18c2b",
             "datavalue": {
-              "value": "ListOfWorldCountries",
+              "value": "_world_countries",
               "type": "string"
             },
             "datatype": "string"
@@ -106,11 +106,11 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T12:03:38Z",
-    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-12T15:05:37Z",
+    "cache_exported_at": "2026-04-12T15:09:03.909260Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null
