@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T19:44:21.725346Z",
+    "generated_at": "2026-04-12T14:32:17.117248Z",
     "contract_digest": "fba41edd7c253fd527974aca2ea096b028942b85c58427f39dfbb40f9a1ced78",
     "property_count": 29,
     "item_count": 36
@@ -4211,13 +4211,13 @@
         "labels": {
           "en": {
             "language": "en",
-            "value": "GKC Entity Statement"
+            "value": "Entity Statement"
           }
         },
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "a statement used to define a characteristic of or facts about a GKC Entity"
+            "value": "a statement used to define a characteristic of or facts about an Entity"
           }
         },
         "claims": {
@@ -4255,8 +4255,17 @@
         }
       },
       "validation": {
-        "status": "valid",
-        "notices": []
+        "status": "warning",
+        "notices": [
+          {
+            "severity": "warning",
+            "code": "labels"
+          },
+          {
+            "severity": "warning",
+            "code": "descriptions"
+          }
+        ]
       }
     },
     "_error_message": {
@@ -10065,12 +10074,12 @@
   },
   "validation": {
     "status": "error",
-    "checked_at": "2026-04-10T19:44:21.896816Z",
+    "checked_at": "2026-04-12T14:32:17.276926Z",
     "required_anchor_count": 73,
     "matched_anchor_count": 73,
     "evaluated_anchor_count": 73,
     "error_count": 16,
-    "warning_count": 49,
+    "warning_count": 51,
     "freshness_checked": false,
     "freshness_match": null
   }
