@@ -4,20 +4,20 @@
     "pageid": 11,
     "ns": 120,
     "title": "Item:Q5",
-    "lastrevid": 1106,
-    "modified": "2026-04-02T20:14:18Z",
+    "lastrevid": 1417,
+    "modified": "2026-04-11T14:41:27Z",
     "type": "item",
     "id": "Q5",
     "labels": {
       "en": {
         "language": "en",
-        "value": "GKC Entity Statement"
+        "value": "Entity Statement"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "a statement used to define a characteristic of or facts about a GKC Entity"
+        "value": "a statement used to define a characteristic of or facts about an Entity"
       }
     },
     "aliases": {},
@@ -65,11 +65,11 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T20:14:18Z",
-    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-11T14:41:27Z",
+    "cache_exported_at": "2026-04-12T14:29:07.958250Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

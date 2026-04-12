@@ -4,20 +4,20 @@
     "pageid": 113,
     "ns": 120,
     "title": "Item:Q49",
-    "lastrevid": 436,
-    "modified": "2026-03-12T14:01:22Z",
+    "lastrevid": 1413,
+    "modified": "2026-04-11T12:59:58Z",
     "type": "item",
     "id": "Q49",
     "labels": {
       "en": {
         "language": "en",
-        "value": "GKC Entity Profile Ontology Property"
+        "value": "Entity Profile Ontology Property"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "property that makes up part of the GKC Entity Profile organizational structure"
+        "value": "property that makes up part of the Entity Profile organizational structure"
       }
     },
     "aliases": {},
@@ -42,17 +42,34 @@
           "id": "Q49$3e619060-4926-efd6-420b-76643e130142",
           "rank": "normal"
         }
+      ],
+      "P214": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P214",
+            "hash": "2394a5f6c24058930d4e57a3440aade62e7d0541",
+            "datavalue": {
+              "value": "_entity_profile_ontology_property",
+              "type": "string"
+            },
+            "datatype": "string"
+          },
+          "type": "statement",
+          "id": "Q49$0b5c6834-4186-bba4-056c-6ca3fba04dea",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-03-12T14:01:22Z",
-    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-11T12:59:58Z",
+    "cache_exported_at": "2026-04-12T14:29:07.958250Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

@@ -4,8 +4,8 @@
     "pageid": 10,
     "ns": 122,
     "title": "Property:P5",
-    "lastrevid": 1034,
-    "modified": "2026-04-02T19:02:04Z",
+    "lastrevid": 1410,
+    "modified": "2026-04-11T12:58:11Z",
     "type": "property",
     "datatype": "url",
     "id": "P5",
@@ -35,12 +35,12 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P1",
-            "hash": "6f88efb859e68b4a882141f754ea4a59dc762c86",
+            "hash": "c8492c48585bf2762135e41c99590fa33a15134a",
             "datavalue": {
               "value": {
                 "entity-type": "item",
-                "numeric-id": 48,
-                "id": "Q48"
+                "numeric-id": 46,
+                "id": "Q46"
               },
               "type": "wikibase-entityid"
             },
@@ -72,11 +72,11 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-02T19:02:04Z",
-    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-11T12:58:11Z",
+    "cache_exported_at": "2026-04-12T14:29:07.958250Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null

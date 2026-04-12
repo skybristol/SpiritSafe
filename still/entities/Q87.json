@@ -4,8 +4,8 @@
     "pageid": 170,
     "ns": 120,
     "title": "Item:Q87",
-    "lastrevid": 1287,
-    "modified": "2026-04-08T14:01:49Z",
+    "lastrevid": 1425,
+    "modified": "2026-04-12T14:27:28Z",
     "type": "item",
     "id": "Q87",
     "labels": {
@@ -80,6 +80,23 @@
           "id": "Q87$1ff6a921-4ecf-9d05-a08b-3621f1106742",
           "rank": "normal"
         }
+      ],
+      "P219": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P219",
+            "hash": "6bfb9f25e41a0fd8b7c3707fa5b4d215ea2cc4f4",
+            "datavalue": {
+              "value": "https://query.wikidata.org/sparql",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q87$dad32247-4774-17eb-985d-f219cf65a5e0",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -88,8 +105,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-08T14:01:49Z",
-    "cache_exported_at": "2026-04-09T20:31:29.583797Z",
+    "graph_fetched_at": "2026-04-12T14:27:28Z",
+    "cache_exported_at": "2026-04-12T14:29:07.958250Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

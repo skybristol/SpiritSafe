@@ -2,46 +2,61 @@
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
     "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/still/entities",
-    "since": "2026-04-09T21:49:26.548918Z",
-    "next_since": "2026-04-10T14:27:22Z",
+    "since": "2026-04-10T17:17:43.374827Z",
+    "next_since": "2026-04-12T14:28:13Z",
     "overlap_seconds": 60
   },
   "summary": {
-    "changed_count": 12,
+    "changed_count": 18,
     "ignored_count": 0,
-    "refreshed_count": 12,
-    "deleted_count": 0,
-    "missing_count": 0
+    "refreshed_count": 17,
+    "deleted_count": 1,
+    "missing_count": 1
   },
   "changed_ids": [
-    "Q37",
-    "Q62",
-    "Q78",
-    "Q79",
-    "Q81",
-    "Q83",
-    "Q86",
-    "Q89",
-    "Q91",
-    "Q92",
-    "Q95",
-    "Q96"
+    "P214",
+    "P219",
+    "P3",
+    "P5",
+    "Q30",
+    "Q45",
+    "Q46",
+    "Q47",
+    "Q48",
+    "Q49",
+    "Q5",
+    "Q59",
+    "Q60",
+    "Q80",
+    "Q82",
+    "Q87",
+    "Q88",
+    "Q90"
   ],
   "ignored_ids": [],
   "refreshed_ids": [
-    "Q37",
-    "Q62",
-    "Q78",
-    "Q79",
-    "Q81",
-    "Q83",
-    "Q86",
-    "Q89",
-    "Q91",
-    "Q92",
-    "Q95",
-    "Q96"
+    "P214",
+    "P219",
+    "P3",
+    "P5",
+    "Q30",
+    "Q45",
+    "Q46",
+    "Q47",
+    "Q49",
+    "Q5",
+    "Q59",
+    "Q60",
+    "Q80",
+    "Q82",
+    "Q87",
+    "Q88",
+    "Q90"
   ],
-  "deleted_ids": [],
-  "missing_ids": []
+  "deleted_ids": [
+    "Q48"
+  ],
+  "missing_ids": [
+    "Q48"
+  ]
 }

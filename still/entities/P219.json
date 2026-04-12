@@ -1,38 +1,27 @@
 {
-  "entity_id": "P214",
+  "entity_id": "P219",
   "entity": {
-    "pageid": 128,
+    "pageid": 183,
     "ns": 122,
-    "title": "Property:P214",
-    "lastrevid": 1414,
-    "modified": "2026-04-11T13:07:06Z",
+    "title": "Property:P219",
+    "lastrevid": 1423,
+    "modified": "2026-04-12T14:25:15Z",
     "type": "property",
-    "datatype": "string",
-    "id": "P214",
+    "datatype": "url",
+    "id": "P219",
     "labels": {
       "en": {
         "language": "en",
-        "value": "name identifier"
-      },
-      "mul": {
-        "language": "mul",
-        "value": "name identifier"
+        "value": "SPARQL endpoint"
       }
     },
     "descriptions": {
       "en": {
         "language": "en",
-        "value": "human-readable identifier for entities in this Wikibase used as a unique identifier in the JSON translations used by and within the SpiritSafe and gkc software package"
+        "value": "SPARQL API endpoint for use in fulfilling an embedded SPARQL query contained in the item discussion wikitext of the subject item"
       }
     },
-    "aliases": {
-      "en": [
-        {
-          "language": "en",
-          "value": "_name_identifier"
-        }
-      ]
-    },
+    "aliases": {},
     "claims": {
       "P1": [
         {
@@ -51,7 +40,7 @@
             "datatype": "wikibase-item"
           },
           "type": "statement",
-          "id": "P214$38e6149b-4875-336c-a5b7-075ee459c80f",
+          "id": "P219$b768ca39-40a2-bc79-8229-48dec641c088",
           "rank": "normal"
         }
       ],
@@ -60,15 +49,15 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P214",
-            "hash": "b9777de5db259d02176e5882eca3146bcbb36d01",
+            "hash": "296e7a05cba40c3c4021f112c68b1d22f26ae047",
             "datavalue": {
-              "value": "_name_identifier",
+              "value": "_sparql_endpoint",
               "type": "string"
             },
             "datatype": "string"
           },
           "type": "statement",
-          "id": "P214$1933516F-2165-4171-934A-0E6BC168F91E",
+          "id": "P219$18793767-40db-369a-5d78-47f9182478be",
           "rank": "normal"
         }
       ]
@@ -78,7 +67,7 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-11T13:07:06Z",
+    "graph_fetched_at": "2026-04-12T14:25:15Z",
     "cache_exported_at": "2026-04-12T14:29:07.958250Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
