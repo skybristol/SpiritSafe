@@ -126,10 +126,10 @@
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
     "graph_fetched_at": "2026-04-14T13:01:27Z",
-    "cache_exported_at": "2026-04-14T15:03:15.173545Z",
+    "cache_exported_at": "2026-04-14T15:52:10.050733Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
-    "source_branch": "main",
-    "source_commit": "0ec36dfc07a5b6788c15fb656d448061f24e172e"
+    "source_branch": null,
+    "source_commit": null
   }
 }
