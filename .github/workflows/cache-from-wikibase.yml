@@ -13,6 +13,11 @@ on:
         required: false
         type: string
         default: ""
+      since:
+        description: Optional recentchanges replay start timestamp in ISO 8601 UTC
+        required: false
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -46,18 +51,23 @@ jobs:
       - name: Refresh entity cache from recentchanges
         env:
           INPUT_API_URL: ${{ inputs.api_url }}
+          INPUT_SINCE: ${{ inputs.since }}
         run: |
           mkdir -p "$SPIRITSAFE_ENTITIES_PATH" "$SPIRITSAFE_LOGS_PATH"
+          ARGS=(
+            --cache-dir "$SPIRITSAFE_ENTITIES_PATH"
+            --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
+          )
+
           if [ -n "$INPUT_API_URL" ]; then
-            gkc mash cache-wikibase-revisions \
-              --api-url "$INPUT_API_URL" \
-              --cache-dir "$SPIRITSAFE_ENTITIES_PATH" \
-              --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
-          else
-            gkc mash cache-wikibase-revisions \
-              --cache-dir "$SPIRITSAFE_ENTITIES_PATH" \
-              --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
+            ARGS+=(--api-url "$INPUT_API_URL")
           fi
+
+          if [ -n "$INPUT_SINCE" ]; then
+            ARGS+=(--since "$INPUT_SINCE")
+          fi
+
+          gkc mash cache-wikibase-revisions "${ARGS[@]}"
 
       - name: Write run summary
         if: always()
