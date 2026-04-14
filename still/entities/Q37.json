@@ -4,8 +4,8 @@
     "pageid": 94,
     "ns": 120,
     "title": "Item:Q37",
-    "lastrevid": 1394,
-    "modified": "2026-04-10T13:46:56Z",
+    "lastrevid": 1457,
+    "modified": "2026-04-14T13:31:08Z",
     "type": "item",
     "id": "Q37",
     "labels": {
@@ -80,26 +80,6 @@
           "rank": "normal"
         }
       ],
-      "P168": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P168",
-            "hash": "b871a3841350a9abd2caaf222b7c7e11fcd03ef4",
-            "datavalue": {
-              "value": {
-                "text": "Without a value, the founding or creation date is unknown, making chronological ordering and timeline display impossible.",
-                "language": "mul"
-              },
-              "type": "monolingualtext"
-            },
-            "datatype": "monolingualtext"
-          },
-          "type": "statement",
-          "id": "Q37$bd5cb29a-41b2-dec8-c427-c555b7ae0d8a",
-          "rank": "normal"
-        }
-      ],
       "P182": [
         {
           "mainsnak": {
@@ -170,27 +150,6 @@
           "id": "Q37$a1de8e7a-4542-e25c-a6b7-8cca80f939c2",
           "rank": "normal"
         }
-      ],
-      "P215": [
-        {
-          "mainsnak": {
-            "snaktype": "value",
-            "property": "P215",
-            "hash": "ae3662f6f26107150110aab92b969c9e9f00b1f1",
-            "datavalue": {
-              "value": {
-                "entity-type": "item",
-                "numeric-id": 64,
-                "id": "Q64"
-              },
-              "type": "wikibase-entityid"
-            },
-            "datatype": "wikibase-item"
-          },
-          "type": "statement",
-          "id": "Q37$5aa8020e-4423-bb72-7a3c-1602bba3083f",
-          "rank": "normal"
-        }
       ]
     },
     "sitelinks": {}
@@ -199,8 +158,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-10T13:46:56Z",
-    "cache_exported_at": "2026-04-10T17:18:43.374827Z",
+    "graph_fetched_at": "2026-04-14T13:31:08Z",
+    "cache_exported_at": "2026-04-14T13:32:14.887317Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,

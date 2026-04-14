@@ -4,8 +4,8 @@
     "pageid": 69,
     "ns": 120,
     "title": "Item:Q25",
-    "lastrevid": 1143,
-    "modified": "2026-04-03T21:34:06Z",
+    "lastrevid": 1455,
+    "modified": "2026-04-14T13:29:28Z",
     "type": "item",
     "id": "Q25",
     "labels": {
@@ -85,10 +85,10 @@
           "mainsnak": {
             "snaktype": "value",
             "property": "P168",
-            "hash": "f7210d4abf366bd48abfe28b922117ab52e1329e",
+            "hash": "2862cf8eb4ec41aa39b0896e5fe9724891d11cfc",
             "datavalue": {
               "value": {
-                "text": "Without a value, the statement cannot be temporally situated, reducing its precision and usefulness in time-sensitive queries.mu",
+                "text": "Without a value, the statement cannot be temporally situated, reducing its precision and usefulness in time-sensitive queries.",
                 "language": "mul"
               },
               "type": "monolingualtext"
@@ -184,11 +184,11 @@
   },
   "metadata": {
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
-    "workflow_mode": "full_sync_baseline",
+    "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-03T21:34:06Z",
-    "cache_exported_at": "2026-04-05T16:45:01.108726Z",
-    "extractor": "gkc.mash.full_sync_wikibase_entity_cache",
+    "graph_fetched_at": "2026-04-14T13:29:28Z",
+    "cache_exported_at": "2026-04-14T13:32:14.887317Z",
+    "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
     "source_commit": null
