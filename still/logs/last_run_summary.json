@@ -2,23 +2,25 @@
   "metadata": {
     "api_url": "https://datadistillery.wikibase.cloud/w/api.php",
     "cache_dir": "/home/runner/work/SpiritSafe/SpiritSafe/still/entities",
-    "since": "2026-04-13T13:41:10.244340Z",
-    "next_since": "2026-04-14T11:35:13Z",
+    "since": "2026-04-14T11:35:03.704029Z",
+    "next_since": "2026-04-14T12:26:48Z",
     "overlap_seconds": 60
   },
   "summary": {
-    "changed_count": 1,
+    "changed_count": 2,
     "ignored_count": 0,
-    "refreshed_count": 1,
+    "refreshed_count": 2,
     "deleted_count": 0,
     "missing_count": 0
   },
   "changed_ids": [
-    "Q61"
+    "Q61",
+    "Q64"
   ],
   "ignored_ids": [],
   "refreshed_ids": [
-    "Q61"
+    "Q61",
+    "Q64"
   ],
   "deleted_ids": [],
   "missing_ids": []
