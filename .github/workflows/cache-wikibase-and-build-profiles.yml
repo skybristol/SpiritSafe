@@ -1,4 +1,4 @@
-name: Cache Wikibase and Build Profiles
+name: Sync Wikibase Cache, Talk Pages, and Profiles
 
 on:
   workflow_dispatch:
@@ -13,13 +13,18 @@ on:
         required: false
         type: string
         default: ""
+      since:
+        description: Optional recentchanges replay start timestamp in ISO 8601 UTC
+        required: false
+        type: string
+        default: ""
 
 permissions:
   contents: write
 
 jobs:
   refresh-cache-and-build-profiles:
-    name: Cache Wikibase and Build Profiles
+    name: Sync Wikibase Cache, Talk Pages, and Profiles
     runs-on: ubuntu-latest
 
     steps:
@@ -46,18 +51,39 @@ jobs:
       - name: Refresh entity cache from recentchanges
         env:
           INPUT_API_URL: ${{ inputs.api_url }}
+          INPUT_SINCE: ${{ inputs.since }}
         run: |
           mkdir -p "$SPIRITSAFE_ENTITIES_PATH" "$SPIRITSAFE_LOGS_PATH"
+          ARGS=(
+            --cache-dir "$SPIRITSAFE_ENTITIES_PATH"
+            --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
+          )
+
           if [ -n "$INPUT_API_URL" ]; then
-            gkc mash cache-wikibase-revisions \
-              --api-url "$INPUT_API_URL" \
-              --cache-dir "$SPIRITSAFE_ENTITIES_PATH" \
-              --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
-          else
-            gkc mash cache-wikibase-revisions \
-              --cache-dir "$SPIRITSAFE_ENTITIES_PATH" \
-              --output "$SPIRITSAFE_LOGS_PATH/last_run_summary.json"
+            ARGS+=(--api-url "$INPUT_API_URL")
           fi
+
+          if [ -n "$INPUT_SINCE" ]; then
+            ARGS+=(--since "$INPUT_SINCE")
+          fi
+
+          gkc mash cache-wikibase-revisions "${ARGS[@]}"
+
+      - name: Sync value-list artifacts from talk pages
+        env:
+          INPUT_API_URL: ${{ inputs.api_url }}
+        run: |
+          mkdir -p "$SPIRITSAFE_VALUE_LIST_QUERIES_PATH" "$SPIRITSAFE_VALUE_LIST_CACHE_PATH"
+          ARGS=(
+            --source local
+            --local-root .
+          )
+
+          if [ -n "$INPUT_API_URL" ]; then
+            ARGS+=(--api-url "$INPUT_API_URL")
+          fi
+
+          gkc --json profile value-lists sync "${ARGS[@]}"
 
       - name: Export JSON profiles from refreshed cache
         run: |
@@ -71,7 +97,7 @@ jobs:
         if: always()
         run: |
           if [ -f "$SPIRITSAFE_LOGS_PATH/last_run_summary.json" ]; then
-            python3 -c 'import json, os, pathlib; log_path = pathlib.Path(os.environ["SPIRITSAFE_LOGS_PATH"]) / "last_run_summary.json"; data = json.loads(log_path.read_text()); meta = data.get("metadata", {}); summ = data.get("summary", {}); lines = ["## Cache and Build Profiles Run Summary", "", "| Field | Value |", "| --- | --- |", "| API URL | `{}` |".format(meta.get("api_url", "")), "| Since | `{}` |".format(meta.get("since", "")), "| Next since | `{}` |".format(meta.get("next_since", "")), "| Changed | `{}` |".format(summ.get("changed_count", 0)), "| Refreshed | `{}` |".format(summ.get("refreshed_count", 0)), "| Deleted | `{}` |".format(summ.get("deleted_count", 0)), "| Ignored | `{}` |".format(summ.get("ignored_count", 0))]; summary_path = pathlib.Path(os.environ["GITHUB_STEP_SUMMARY"]); existing = summary_path.read_text() if summary_path.exists() else ""; summary_path.write_text(existing + "\n".join(lines) + "\n")'
+            python3 -c 'import json, os, pathlib; log_path = pathlib.Path(os.environ["SPIRITSAFE_LOGS_PATH"]) / "last_run_summary.json"; data = json.loads(log_path.read_text()); meta = data.get("metadata", {}); summ = data.get("summary", {}); lines = ["## Cache, Talk Page, and Profile Sync Summary", "", "| Field | Value |", "| --- | --- |", "| API URL | `{}` |".format(meta.get("api_url", "")), "| Since | `{}` |".format(meta.get("since", "")), "| Next since | `{}` |".format(meta.get("next_since", "")), "| Changed | `{}` |".format(summ.get("changed_count", 0)), "| Refreshed | `{}` |".format(summ.get("refreshed_count", 0)), "| Deleted | `{}` |".format(summ.get("deleted_count", 0)), "| Ignored | `{}` |".format(summ.get("ignored_count", 0))]; summary_path = pathlib.Path(os.environ["GITHUB_STEP_SUMMARY"]); existing = summary_path.read_text() if summary_path.exists() else ""; summary_path.write_text(existing + "\n".join(lines) + "\n")'
           fi
 
       - name: Remove legacy generated artifacts
@@ -84,8 +110,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A -- .
           if git diff --cached --quiet; then
-            echo "No cache or profile changes to commit"
+            echo "No cache, talk-page, or profile changes to commit"
           else
-            git commit -m "chore: refresh Wikibase cache and export profiles [skip ci]"
+            git commit -m "chore: sync Wikibase cache, talk pages, and profiles [skip ci]"
             git push origin "HEAD:${{ inputs.target_ref || github.ref_name }}"
           fi
