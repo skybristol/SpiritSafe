@@ -1,77 +1,64 @@
 {
-  "metadata": {
-    "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
-    "source": "https://datadistillery.wikibase.cloud/wiki/Item_talk:Q59",
-    "query_id": "Q59",
-    "query_sparql": "# Time Precision value list\n# Static enumeration of Wikibase time precision codes (integer 0-14).\n# Fermenter should cast selected item to integer for time.precision.\n\nSELECT ?item ?itemLabel WHERE {\n  VALUES (?item ?itemLabel) {\n    (\"0\"  \"Gigayear (10^9 years)\"@en)\n    (\"1\"  \"100 Megayears (10^8 years)\"@en)\n    (\"2\"  \"10 Megayears (10^7 years)\"@en)\n    (\"3\"  \"Megayear (10^6 years)\"@en)\n    (\"4\"  \"100 Kiloyears (10^5 years)\"@en)\n    (\"5\"  \"10 Kiloyears (10^4 years)\"@en)\n    (\"6\"  \"millennium\"@en)\n    (\"7\"  \"century\"@en)\n    (\"8\"  \"decade\"@en)\n    (\"9\"  \"year\"@en)\n    (\"10\" \"month\"@en)\n    (\"11\" \"day\"@en)\n    (\"12\" \"hour\"@en)\n    (\"13\" \"minute\"@en)\n    (\"14\" \"second\"@en)\n  }\n}\n",
-    "query_hash": "0554cdaa6ec61573ffcf0488a78589a2fd6b5fd899964933e5227d459d44dd7e",
-    "updated": "2026-04-05T16:51:06.865018Z",
-    "count": 15,
-    "columns": [
-      "item",
-      "itemLabel"
-    ]
-  },
-  "items": [
+  "value_list": [
     {
-      "item": "5",
-      "itemLabel": "10 Kiloyears (10^4 years)"
-    },
-    {
-      "item": "2",
-      "itemLabel": "10 Megayears (10^7 years)"
-    },
-    {
-      "item": "4",
-      "itemLabel": "100 Kiloyears (10^5 years)"
+      "item": "0",
+      "itemLabel": "Gigayear (10^9 years)"
     },
     {
       "item": "1",
       "itemLabel": "100 Megayears (10^8 years)"
     },
     {
-      "item": "7",
-      "itemLabel": "century"
-    },
-    {
-      "item": "11",
-      "itemLabel": "day"
-    },
-    {
-      "item": "8",
-      "itemLabel": "decade"
-    },
-    {
-      "item": "0",
-      "itemLabel": "Gigayear (10^9 years)"
-    },
-    {
-      "item": "12",
-      "itemLabel": "hour"
+      "item": "2",
+      "itemLabel": "10 Megayears (10^7 years)"
     },
     {
       "item": "3",
       "itemLabel": "Megayear (10^6 years)"
     },
     {
+      "item": "4",
+      "itemLabel": "100 Kiloyears (10^5 years)"
+    },
+    {
+      "item": "5",
+      "itemLabel": "10 Kiloyears (10^4 years)"
+    },
+    {
       "item": "6",
       "itemLabel": "millennium"
     },
     {
-      "item": "13",
-      "itemLabel": "minute"
+      "item": "7",
+      "itemLabel": "century"
+    },
+    {
+      "item": "8",
+      "itemLabel": "decade"
+    },
+    {
+      "item": "9",
+      "itemLabel": "year"
     },
     {
       "item": "10",
       "itemLabel": "month"
     },
     {
-      "item": "14",
-      "itemLabel": "second"
+      "item": "11",
+      "itemLabel": "day"
     },
     {
-      "item": "9",
-      "itemLabel": "year"
+      "item": "12",
+      "itemLabel": "hour"
+    },
+    {
+      "item": "13",
+      "itemLabel": "minute"
+    },
+    {
+      "item": "14",
+      "itemLabel": "second"
     }
   ]
 }
