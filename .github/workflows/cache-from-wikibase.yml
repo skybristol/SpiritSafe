@@ -69,6 +69,10 @@ jobs:
 
           gkc mash cache-wikibase-revisions "${ARGS[@]}"
 
+      - name: Rebuild semantic anchors from refreshed cache
+        run: |
+          gkc --json spiritsafe semantic-anchors build --source local --local-root .
+
       - name: Write run summary
         if: always()
         run: |

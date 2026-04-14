@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T15:09:52.979946Z",
-    "contract_digest": "fba41edd7c253fd527974aca2ea096b028942b85c58427f39dfbb40f9a1ced78",
-    "property_count": 29,
-    "item_count": 42
+    "generated_at": "2026-04-14T16:04:19.246779Z",
+    "contract_digest": "03ca40323faae1c06c226948506c613f2db88b9c75bb7603ef782cb2d1669a47",
+    "property_count": 30,
+    "item_count": 52
   },
   "entities": {
     "_alias_guidance": {
@@ -25,6 +25,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -65,6 +82,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -83,13 +117,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_alias_prompt": {
@@ -111,6 +140,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -151,6 +197,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -169,13 +232,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_applies_to_profile": {
@@ -193,10 +251,27 @@
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "used as a qualifier indicating that the subject statement applies to a particular GKC Entity Profile"
+            "value": "used as a qualifier indicating that the subject statement applies to a particular Entity Profile"
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -237,6 +312,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -259,7 +351,7 @@
         "notices": [
           {
             "severity": "warning",
-            "code": "aliases"
+            "code": "descriptions"
           }
         ]
       }
@@ -283,6 +375,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -323,6 +432,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -341,13 +467,8 @@
       },
       "datatype": "wikibase-item",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_checksum": {
@@ -368,23 +489,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to include the checksum may result in lack of trustworthiness in the veracity of the subject data",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_value": [
             {
               "mainsnak": {
@@ -464,40 +568,6 @@
               "rank": "normal"
             }
           ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide the generated checksum and specify the determination method (e.g., sha1) in the associated qualifier",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "provide the checksum string for the subject item",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_statement_type": [
             {
               "mainsnak": {
@@ -559,57 +629,6 @@
                   "value": {
                     "entity-type": "item",
                     "id": "_checksum_format"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to include the checksum may result in lack of trustworthiness in the veracity of the subject data",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide the generated checksum and specify the determination method (e.g., sha1) in the associated qualifier",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "provide the checksum string for the subject item",
-                    "language": "mul"
                   }
                 }
               },
@@ -836,23 +855,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide a valid Wikimedia Commons file name such as Example.jpg.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -926,23 +928,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide a valid Wikimedia Commons file name (for example: Example.jpg).",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -960,17 +945,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          },
-          {
-            "severity": "warning",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_commons_media_object": {
@@ -1163,23 +1139,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Statements with globe-coordinate values must include a precision value or they will be rejected when submitted to a Wikibase instance",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_value": [
             {
               "mainsnak": {
@@ -1206,7 +1165,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_entity_statement"
+                    "id": "_wikibase_statement_modifier"
                   }
                 }
               },
@@ -1244,40 +1203,6 @@
               "type": "statement",
               "rank": "normal"
             }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Coordinate precision values will be computed dynamically in most cases",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "set the coordinate precision value for the globe-coordinate statement",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
           ]
         }
       },
@@ -1305,21 +1230,6 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_entity_statement"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            },
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_instance_of",
-                "datavalue": {
-                  "type": "wikibase-entityid",
-                  "value": {
-                    "entity-type": "item",
                     "id": "_wikibase_statement_modifier"
                   }
                 }
@@ -1338,57 +1248,6 @@
                   "value": {
                     "entity-type": "item",
                     "id": "_coordinate_precision_values"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Statements with globe-coordinate values must include a precision value or they will be rejected when submitted to a Wikibase instance",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Coordinate precision values will be computed dynamically in most cases",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "set the coordinate precision value for the globe-coordinate statement",
-                    "language": "mul"
                   }
                 }
               },
@@ -1430,13 +1289,8 @@
         }
       },
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_coordinate_precision_values": {
@@ -1457,23 +1311,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "The geographic coordinates provided require a precision qualifier. Please select from the list provided or consult the query source for more context.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -1483,7 +1320,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_value_list"
+                    "id": "_embedded_value_list"
                   }
                 }
               },
@@ -1539,23 +1376,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "The geographic coordinates provided require a precision qualifier. Please select from the list provided or consult the query source for more context.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -1573,13 +1393,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_coordinates_of_the_point_of_view": {
@@ -1600,23 +1415,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide the point of view location may result in reduced usability for the subject item",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_qualifier": [
             {
               "mainsnak": {
@@ -1696,40 +1494,6 @@
               "rank": "normal"
             }
           ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Record the coordinates for a point on earth where an image was recorded or created",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "provide the coordinates from which the subject entity was observed or captured in a media object",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_statement_type": [
             {
               "mainsnak": {
@@ -1791,57 +1555,6 @@
                   "value": {
                     "entity-type": "item",
                     "id": "_coordinate_precision"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide the point of view location may result in reduced usability for the subject item",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Record the coordinates for a point on earth where an image was recorded or created",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "provide the coordinates from which the subject entity was observed or captured in a media object",
-                    "language": "mul"
                   }
                 }
               },
@@ -1936,23 +1649,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to select a valid license designation for a media object means the legal uses for the object will be ambiguous or unclear",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_value": [
             {
               "mainsnak": {
@@ -2032,40 +1728,6 @@
               "rank": "normal"
             }
           ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Link to the Wikidata item from a controlled list representing the license governing usage of the subject item",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter or select the Wikidata item specifying the specific license the subject item is released under",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_statement_type": [
             {
               "mainsnak": {
@@ -2127,57 +1789,6 @@
                   "value": {
                     "entity-type": "item",
                     "id": "_copyright_license_values"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to select a valid license designation for a media object means the legal uses for the object will be ambiguous or unclear",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Link to the Wikidata item from a controlled list representing the license governing usage of the subject item",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter or select the Wikidata item specifying the specific license the subject item is released under",
-                    "language": "mul"
                   }
                 }
               },
@@ -2281,7 +1892,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_value_list"
+                    "id": "_sparql_value_list"
                   }
                 }
               },
@@ -2314,6 +1925,20 @@
                     "entity-type": "item",
                     "id": "_manual_refresh_policy"
                   }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
                 }
               },
               "type": "statement",
@@ -2384,17 +2009,26 @@
               "type": "statement",
               "rank": "normal"
             }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
           ]
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_copyright_status": {
@@ -2415,23 +2049,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to select a valid copyright status value for a media object means the legal uses for the object will be ambiguous or unclear",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_value": [
             {
               "mainsnak": {
@@ -2511,40 +2128,6 @@
               "rank": "normal"
             }
           ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Link to the Wikidata item from a controlled list representing the copyright status for the subject media item to clarify legal use of the media object",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter or select the Wikidata item specifying copyright status for the subject media item",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_statement_type": [
             {
               "mainsnak": {
@@ -2606,57 +2189,6 @@
                   "value": {
                     "entity-type": "item",
                     "id": "_copyright_status_values"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to select a valid copyright status value for a media object means the legal uses for the object will be ambiguous or unclear",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Link to the Wikidata item from a controlled list representing the copyright status for the subject media item to clarify legal use of the media object",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter or select the Wikidata item specifying copyright status for the subject media item",
-                    "language": "mul"
                   }
                 }
               },
@@ -2747,7 +2279,7 @@
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "value list of valid copyright status values from Wikidata"
+            "value": "list of valid copyright status values from Wikidata"
           }
         },
         "claims": {
@@ -2760,7 +2292,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_value_list"
+                    "id": "_sparql_value_list"
                   }
                 }
               },
@@ -2793,6 +2325,20 @@
                     "entity-type": "item",
                     "id": "_manual_refresh_policy"
                   }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
                 }
               },
               "type": "statement",
@@ -2863,6 +2409,20 @@
               "type": "statement",
               "rank": "normal"
             }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
           ]
         }
       },
@@ -2871,9 +2431,113 @@
         "notices": [
           {
             "severity": "warning",
-            "code": "claims"
+            "code": "descriptions"
           }
         ]
+      }
+    },
+    "_data_curation_help_text_property": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q45",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Data Curation Help Text Property"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "property used to create statements with text in different languages providing guidance or input for data curation activities"
+          }
+        },
+        "claims": {
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_data_curation_help_text_property"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_property_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Data Curation Help Text Property"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "property used to create statements with text in different languages providing guidance or input for data curation activities"
+          }
+        },
+        "claims": {
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_property_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_data_curation_help_text_property"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "valid",
+        "notices": []
       }
     },
     "_data_size": {
@@ -2894,23 +2558,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide a data size with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_qualifier": [
             {
               "mainsnak": {
@@ -2948,15 +2595,9 @@
           "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
+                "snaktype": "novalue",
                 "property": "_max_count",
-                "datavalue": {
-                  "type": "quantity",
-                  "value": {
-                    "amount": "+None",
-                    "unit": "1"
-                  }
-                }
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -2984,40 +2625,6 @@
                 "datavalue": {
                   "type": "string",
                   "value": "http://www.wikidata.org/entity/P3575"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a value for the data size of the subject and specify an appropriate unit of measure",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter a value for total size of the data item",
-                    "language": "mul"
-                  }
                 }
               },
               "type": "statement",
@@ -3092,52 +2699,12 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
+          "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide a data size with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a value for the data size of the subject and specify an appropriate unit of measure",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter a value for total size of the data item",
-                    "language": "mul"
-                  }
-                }
+                "snaktype": "novalue",
+                "property": "_max_count",
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -3191,13 +2758,8 @@
         }
       },
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_data_size_units": {
@@ -3227,7 +2789,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_value_list"
+                    "id": "_sparql_value_list"
                   }
                 }
               },
@@ -3260,6 +2822,20 @@
                     "entity-type": "item",
                     "id": "_manual_refresh_policy"
                   }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
                 }
               },
               "type": "statement",
@@ -3330,21 +2906,30 @@
               "type": "statement",
               "rank": "normal"
             }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
           ]
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_datetime_precision": {
-      "id": null,
+      "id": "https://datadistillery.wikibase.cloud/entity/Q61",
       "kind": "item",
       "required": {
         "type": "item",
@@ -3361,23 +2946,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Statements with time values must include a precision value or they will be rejected when submitted to a Wikibase instance",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_value": [
             {
               "mainsnak": {
@@ -3404,7 +2972,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_entity_statement"
+                    "id": "_wikibase_statement_modifier"
                   }
                 }
               },
@@ -3442,17 +3010,34 @@
               "type": "statement",
               "rank": "normal"
             }
-          ],
-          "_statement_guidance": [
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "datetime precision"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "specialized qualifier/modifier used to set the time precision value for Wikibase data representations; generally set dynamically through coercion code"
+          }
+        },
+        "claims": {
+          "_instance_of": [
             {
               "mainsnak": {
                 "snaktype": "value",
-                "property": "_statement_guidance",
+                "property": "_instance_of",
                 "datavalue": {
-                  "type": "monolingualtext",
+                  "type": "wikibase-entityid",
                   "value": {
-                    "text": "Time precision values will be computed dynamically in most cases",
-                    "language": "mul"
+                    "entity-type": "item",
+                    "id": "_wikibase_statement_modifier"
                   }
                 }
               },
@@ -3460,17 +3045,48 @@
               "rank": "normal"
             }
           ],
-          "_statement_prompt": [
+          "_has_value": [
             {
               "mainsnak": {
                 "snaktype": "value",
-                "property": "_statement_prompt",
+                "property": "_has_value",
                 "datavalue": {
-                  "type": "monolingualtext",
+                  "type": "wikibase-entityid",
                   "value": {
-                    "text": "set the time precision value for the datetime statement",
-                    "language": "mul"
+                    "entity-type": "item",
+                    "id": "_time_precision_values"
                   }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_max_count": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_max_count",
+                "datavalue": {
+                  "type": "quantity",
+                  "value": {
+                    "amount": "+1",
+                    "unit": "1"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_datetime_precision"
                 }
               },
               "type": "statement",
@@ -3479,15 +3095,9 @@
           ]
         }
       },
-      "resolved": null,
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "anchor_id_missing"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_default_label": {
@@ -3509,6 +3119,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -3549,6 +3176,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -3567,13 +3211,8 @@
       },
       "datatype": "string",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_default_value": {
@@ -3595,6 +3234,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -3635,6 +3291,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -3653,13 +3326,8 @@
       },
       "datatype": "url",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_depicts": {
@@ -3680,23 +3348,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to identify a Wikidata item that is a subject of the media object will degarade the full functionallity of the information content",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -3717,15 +3368,9 @@
           "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
+                "snaktype": "novalue",
                 "property": "_max_count",
-                "datavalue": {
-                  "type": "quantity",
-                  "value": {
-                    "amount": "+None",
-                    "unit": "1"
-                  }
-                }
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -3753,40 +3398,6 @@
                 "datavalue": {
                   "type": "string",
                   "value": "http://www.wikidata.org/entity/P180"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Select the Wikidata item that the subject media object depicts",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter or choose the Wikidata item that the subject image portrays or depicts",
-                    "language": "mul"
-                  }
                 }
               },
               "type": "statement",
@@ -3844,52 +3455,12 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
+          "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to identify a Wikidata item that is a subject of the media object will degarade the full functionallity of the information content",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Select the Wikidata item that the subject media object depicts",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter or choose the Wikidata item that the subject image portrays or depicts",
-                    "language": "mul"
-                  }
-                }
+                "snaktype": "novalue",
+                "property": "_max_count",
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -3943,13 +3514,8 @@
         }
       },
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_derives_default_value_from": {
@@ -3971,6 +3537,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4011,6 +3594,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4029,13 +3629,8 @@
       },
       "datatype": "wikibase-item",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_description_guidance": {
@@ -4057,6 +3652,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4097,6 +3709,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4115,13 +3744,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_description_prompt": {
@@ -4143,6 +3767,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4183,6 +3824,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4201,13 +3859,112 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
+        "status": "valid",
+        "notices": []
+      }
+    },
+    "_embedded_value_list": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q97",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Embedded Value List"
           }
-        ]
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "items that contain an embedded list of values for use in specifying a list of viable items and labels used to fulfill statement or parameter values"
+          }
+        },
+        "claims": {
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_embedded_value_list"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Embedded Value List"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "items that contain an embedded list of values for use in specifying a list of viable items and labels used to fulfill statement or parameter values"
+          }
+        },
+        "claims": {
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_embedded_value_list"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "valid",
+        "notices": []
       }
     },
     "_entity": {
@@ -4289,10 +4046,6 @@
           {
             "severity": "warning",
             "code": "descriptions"
-          },
-          {
-            "severity": "warning",
-            "code": "aliases"
           }
         ]
       }
@@ -4401,6 +4154,110 @@
         "notices": []
       }
     },
+    "_entity_profile_ontology_property": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q49",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Entity Profile Ontology Property"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "property that makes up part of the Entity Profile organizational structure"
+          }
+        },
+        "claims": {
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_entity_profile_ontology_property"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_property_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Entity Profile Ontology Property"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "property that makes up part of the Entity Profile organizational structure"
+          }
+        },
+        "claims": {
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_property_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_entity_profile_ontology_property"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "valid",
+        "notices": []
+      }
+    },
     "_entity_statement": {
       "id": "https://datadistillery.wikibase.cloud/entity/Q5",
       "kind": "item",
@@ -4409,13 +4266,13 @@
         "labels": {
           "en": {
             "language": "en",
-            "value": "GKC Entity Statement"
+            "value": "Entity Statement"
           }
         },
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "a statement used to define a characteristic of or facts about a GKC Entity"
+            "value": "a statement used to define a characteristic of or facts about an Entity"
           }
         },
         "claims": {
@@ -4501,17 +4358,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "labels"
-          },
-          {
-            "severity": "warning",
-            "code": "descriptions"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_error_message": {
@@ -4533,6 +4381,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4573,6 +4438,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4591,13 +4473,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_external-id": {
@@ -4618,23 +4495,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter the identifier in the required format for this external ID.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -4708,23 +4568,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter the identifier in the required format for this external ID.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4742,13 +4585,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_format_specification": {
@@ -4873,23 +4711,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide a valid Commons Data namespace geo-shape reference.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -4963,23 +4784,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide a valid Commons Data namespace geo-shape reference.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -4997,13 +4801,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_globe-coordinate": {
@@ -5024,23 +4823,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter valid latitude and longitude coordinates.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -5114,23 +4896,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter valid latitude and longitude coordinates.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5148,13 +4913,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_has_fixed_value": {
@@ -5172,10 +4932,27 @@
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "links a statement directly to the canonical external identifier that must be used as its exact value when no local GKC value entity is needed"
+            "value": "links a statement directly to the canonical external identifier that must be used as its exact value when no local value is needed"
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5208,6 +4985,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5254,6 +5048,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5286,6 +5097,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5332,6 +5160,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5372,6 +5217,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5390,13 +5252,8 @@
       },
       "datatype": "wikibase-item",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_has_reference": {
@@ -5418,6 +5275,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5458,6 +5332,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5476,13 +5367,8 @@
       },
       "datatype": "wikibase-item",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_has_statement": {
@@ -5500,10 +5386,27 @@
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "links a GKC Entity Profile to a GKC Entity Property included as a statement in that profile"
+            "value": "links an Entity Profile to a Entity Property included as a statement in that profile"
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5544,6 +5447,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5566,7 +5486,7 @@
         "notices": [
           {
             "severity": "warning",
-            "code": "aliases"
+            "code": "descriptions"
           }
         ]
       }
@@ -5586,10 +5506,27 @@
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "links the value for a GKC Entity Statement to another entity with rules governing validation or coercion behavior that will be applied on that value"
+            "value": "links the value for an Entity Statement to another entity with rules governing validation or coercion behavior that will be applied on that value"
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5630,6 +5567,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -5652,7 +5606,7 @@
         "notices": [
           {
             "severity": "warning",
-            "code": "aliases"
+            "code": "descriptions"
           }
         ]
       }
@@ -5675,23 +5629,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide a height measurement with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_qualifier": [
             {
               "mainsnak": {
@@ -5729,15 +5666,9 @@
           "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
+                "snaktype": "novalue",
                 "property": "_max_count",
-                "datavalue": {
-                  "type": "quantity",
-                  "value": {
-                    "amount": "+None",
-                    "unit": "1"
-                  }
-                }
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -5765,40 +5696,6 @@
                 "datavalue": {
                   "type": "string",
                   "value": "http://www.wikidata.org/entity/P2048"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a value for the height of the subject and specify an appropriate unit of measure",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter a value for height of the subject item",
-                    "language": "mul"
-                  }
                 }
               },
               "type": "statement",
@@ -5873,52 +5770,12 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
+          "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide a height measurement with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a value for the height of the subject and specify an appropriate unit of measure",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter a value for height of the subject item",
-                    "language": "mul"
-                  }
-                }
+                "snaktype": "novalue",
+                "property": "_max_count",
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -5972,13 +5829,8 @@
         }
       },
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_height_units": {
@@ -6008,7 +5860,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_value_list"
+                    "id": "_sparql_value_list"
                   }
                 }
               },
@@ -6041,6 +5893,20 @@
                     "entity-type": "item",
                     "id": "_manual_refresh_policy"
                   }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
                 }
               },
               "type": "statement",
@@ -6111,6 +5977,172 @@
               "type": "statement",
               "rank": "normal"
             }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "valid",
+        "notices": []
+      }
+    },
+    "_human_languages": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q51",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of Human Languages"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "provides a listing of languages for use in qualifiers and statements"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_human_languages"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of Human Languages"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "provides a listing of languages for use in qualifiers and statements"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_human_languages"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
           ]
         }
       },
@@ -6119,7 +6151,7 @@
         "notices": [
           {
             "severity": "warning",
-            "code": "claims"
+            "code": "claims._sparql_endpoint"
           }
         ]
       }
@@ -6274,23 +6306,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Without a value, the founding or creation date is unknown, making chronological ordering and timeline display impossible.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_qualifier": [
             {
               "mainsnak": {
@@ -6328,15 +6343,9 @@
           "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
+                "snaktype": "novalue",
                 "property": "_max_count",
-                "datavalue": {
-                  "type": "quantity",
-                  "value": {
-                    "amount": "+None",
-                    "unit": "1"
-                  }
-                }
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -6364,40 +6373,6 @@
                 "datavalue": {
                   "type": "string",
                   "value": "http://www.wikidata.org/entity/P571"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter the date that the subject item came into existence or was established, citing a reliable reference.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter the date that the subject entity began to exist",
-                    "language": "mul"
-                  }
                 }
               },
               "type": "statement",
@@ -6464,7 +6439,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "Q61"
+                    "id": "_datetime_precision"
                   }
                 }
               },
@@ -6472,52 +6447,12 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
+          "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Without a value, the founding or creation date is unknown, making chronological ordering and timeline display impossible.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter the date that the subject item came into existence or was established, citing a reliable reference.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter the date that the subject entity began to exist",
-                    "language": "mul"
-                  }
-                }
+                "snaktype": "novalue",
+                "property": "_max_count",
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -6531,23 +6466,6 @@
                 "datavalue": {
                   "type": "string",
                   "value": "_inception"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_type": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_type",
-                "datavalue": {
-                  "type": "wikibase-entityid",
-                  "value": {
-                    "entity-type": "item",
-                    "id": "_time"
-                  }
                 }
               },
               "type": "statement",
@@ -6571,11 +6489,11 @@
         }
       },
       "validation": {
-        "status": "error",
+        "status": "warning",
         "notices": [
           {
-            "severity": "error",
-            "code": "claims"
+            "severity": "warning",
+            "code": "claims._statement_type"
           }
         ]
       }
@@ -6599,6 +6517,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -6639,6 +6574,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -6657,13 +6609,8 @@
       },
       "datatype": "wikibase-item",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_label_guidance": {
@@ -6685,6 +6632,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -6725,6 +6689,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -6743,13 +6724,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_label_prompt": {
@@ -6771,6 +6747,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -6811,6 +6804,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -6829,13 +6839,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_manual_refresh_policy": {
@@ -6960,23 +6965,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a valid math expression in supported syntax.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -7050,23 +7038,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a valid math expression in supported syntax.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -7084,13 +7055,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_max_count": {
@@ -7112,6 +7078,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -7152,6 +7135,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -7170,13 +7170,8 @@
       },
       "datatype": "quantity",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_media_type": {
@@ -7197,23 +7192,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to include a media type string may result in an inability for certain applications to use the information in the most efficient way",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_value": [
             {
               "mainsnak": {
@@ -7293,40 +7271,6 @@
               "rank": "normal"
             }
           ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide the official file object type from the Internet Assigned Numbers Authority",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "specify the media type for the subject media object using an approved value from IANA",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_statement_type": [
             {
               "mainsnak": {
@@ -7388,57 +7332,6 @@
                   "value": {
                     "entity-type": "item",
                     "id": "_iana_media_type"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to include a media type string may result in an inability for certain applications to use the information in the most efficient way",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide the official file object type from the Internet Assigned Numbers Authority",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "specify the media type for the subject media object using an approved value from IANA",
-                    "language": "mul"
                   }
                 }
               },
@@ -7515,6 +7408,110 @@
         "notices": []
       }
     },
+    "_meta_wikibase_organizational_property": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q46",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "metaWikibase Organizational Property"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "property within the metaWikibase providing semantic structure"
+          }
+        },
+        "claims": {
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_meta_wikibase_organizational_property"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_property_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "metaWikibase Organizational Property"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "property within the metaWikibase providing semantic structure"
+          }
+        },
+        "claims": {
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_property_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_meta_wikibase_organizational_property"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "valid",
+        "notices": []
+      }
+    },
     "_monolingualtext": {
       "id": "https://datadistillery.wikibase.cloud/entity/Q70",
       "kind": "item",
@@ -7533,23 +7530,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter text and choose the correct language code.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -7623,23 +7603,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter text and choose the correct language code.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -7657,13 +7620,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_musical-notation": {
@@ -7684,23 +7642,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "This field requires musical notation encoded in a supported format such as MusicXML or LilyPond. Enter a valid notation snippet rather than plain text or a link.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -7774,23 +7715,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "This field requires musical notation encoded in a supported format (MusicXML or LilyPond). Enter a valid notation snippet rather than plain text or a link.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -7808,17 +7732,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          },
-          {
-            "severity": "warning",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_name_identifier": {
@@ -7840,6 +7755,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -7880,6 +7812,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -7898,13 +7847,112 @@
       },
       "datatype": "string",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
+        "status": "valid",
+        "notices": []
+      }
+    },
+    "_property_entity": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q47",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "property entity"
           }
-        ]
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "a property entity used to characterize and define other entities"
+          }
+        },
+        "claims": {
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_property_entity"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "property entity"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "a property entity used to characterize and define other entities"
+          }
+        },
+        "claims": {
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_property_entity"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "valid",
+        "notices": []
       }
     },
     "_quantity": {
@@ -7925,23 +7973,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a numeric value; include unit only when required.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -8015,23 +8046,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a numeric value; include unit only when required.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8049,13 +8063,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_refresh_policy": {
@@ -8077,6 +8086,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8117,6 +8143,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8135,13 +8178,8 @@
       },
       "datatype": "wikibase-item",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_regex": {
@@ -8163,6 +8201,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8195,6 +8250,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8236,6 +8308,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8276,6 +8365,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8294,13 +8400,8 @@
       },
       "datatype": "url",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_see_also": {
@@ -8318,10 +8419,27 @@
         "descriptions": {
           "en": {
             "language": "en",
-            "value": "link to a Wikidata Entity Schema or another representation of a GKC Entity Profile"
+            "value": "link to a Wikidata Entity Schema or another representation of an Entity Profile"
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8362,6 +8480,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8384,9 +8519,220 @@
         "notices": [
           {
             "severity": "warning",
-            "code": "aliases"
+            "code": "descriptions"
           }
         ]
+      }
+    },
+    "_sparql_endpoint": {
+      "id": "https://datadistillery.wikibase.cloud/entity/P219",
+      "kind": "property",
+      "required": {
+        "type": "property",
+        "datatype": "url",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL endpoint"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL API endpoint for use in fulfilling an embedded SPARQL query contained in the item discussion wikitext of the subject item"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_sparql_endpoint"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "property",
+        "datatype": "url",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL endpoint"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL API endpoint for use in fulfilling an embedded SPARQL query contained in the item discussion wikitext of the subject item"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_sparql_endpoint"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "datatype": "url",
+      "validation": {
+        "status": "valid",
+        "notices": []
+      }
+    },
+    "_sparql_value_list": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q7",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL-backed Value List"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "items that describe and embed a SPARQL query for use in building a list of viable items and labels used to fulfill wikibase-item statement values"
+          }
+        },
+        "claims": {
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_sparql_value_list"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL-backed Value List"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "items that describe and embed a SPARQL query for use in building a list of viable items and labels used to fulfill wikibase-item statement values"
+          }
+        },
+        "claims": {
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_sparql_value_list"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "valid",
+        "notices": []
       }
     },
     "_statement_guidance": {
@@ -8408,6 +8754,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8448,6 +8811,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8466,13 +8846,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_statement_prompt": {
@@ -8494,6 +8869,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8534,6 +8926,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_data_curation_help_text_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8552,13 +8961,8 @@
       },
       "datatype": "monolingualtext",
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_statement_type": {
@@ -8580,6 +8984,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8620,6 +9041,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity_profile_ontology_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8643,10 +9081,6 @@
           {
             "severity": "warning",
             "code": "descriptions"
-          },
-          {
-            "severity": "warning",
-            "code": "aliases"
           }
         ]
       }
@@ -8669,23 +9103,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter plain text without unsupported formatting.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -8759,23 +9176,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter plain text without unsupported formatting.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8793,13 +9193,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_subclass_of": {
@@ -8821,6 +9216,23 @@
           }
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8861,6 +9273,23 @@
           ]
         },
         "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_meta_wikibase_organizational_property"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -8884,10 +9313,6 @@
           {
             "severity": "warning",
             "code": "descriptions"
-          },
-          {
-            "severity": "warning",
-            "code": "aliases"
           }
         ]
       }
@@ -8910,23 +9335,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide a valid Commons Data namespace tabular-data reference.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -9000,23 +9408,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Provide a valid Commons Data namespace tabular-data reference.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -9034,13 +9425,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_time": {
@@ -9061,23 +9447,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a valid date/time value such as 2024-01-31 or +2024-01-31T00:00:00Z.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -9151,36 +9520,7 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a valid date/time value (for example: 2024-01-31 or +2024-01-31T00:00:00Z).",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_name_identifier",
-                "datavalue": {
-                  "type": "string",
-                  "value": "_time"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            },
             {
               "mainsnak": {
                 "snaktype": "value",
@@ -9197,17 +9537,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          },
-          {
-            "severity": "warning",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_time_precision_values": {
@@ -9228,23 +9559,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "The time value provided requires a qualifier specifying the precision (e.g., year, month, day, etc.). Please select from the list provided or consult the query source for more context.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -9254,7 +9568,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_value_list"
+                    "id": "_embedded_value_list"
                   }
                 }
               },
@@ -9310,23 +9624,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "The time value provided requires a qualifier specifying the precision (e.g., year, month, day, etc.). Please select from the list provided or consult the query source for more context.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -9344,11 +9641,150 @@
         }
       },
       "validation": {
+        "status": "valid",
+        "notices": []
+      }
+    },
+    "_units_of_measure": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q56",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Units of Measure"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "value list for primary Wikidata units used in quantity statements"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_units_of_measure"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Units of Measure"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "value list for primary Wikidata units used in quantity statements"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_units_of_measure"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
         "status": "warning",
         "notices": [
           {
             "severity": "warning",
-            "code": "claims"
+            "code": "claims._refresh_policy"
+          },
+          {
+            "severity": "warning",
+            "code": "claims._sparql_endpoint"
           }
         ]
       }
@@ -9371,23 +9807,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a complete URL starting with http:// or https://.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -9461,23 +9880,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a complete URL starting with http:// or https://.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -9495,75 +9897,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
-      }
-    },
-    "_value_list": {
-      "id": null,
-      "kind": "item",
-      "required": {
-        "type": "item",
-        "labels": {
-          "en": {
-            "language": "en",
-            "value": "GKC Value List"
-          }
-        },
-        "descriptions": {
-          "en": {
-            "language": "en",
-            "value": "list of values to be used for a statement, qualifier, or reference requiring specified values"
-          }
-        },
-        "claims": {
-          "_name_identifier": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_name_identifier",
-                "datavalue": {
-                  "type": "string",
-                  "value": "_value_list"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_subclass_of": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_subclass_of",
-                "datavalue": {
-                  "type": "wikibase-entityid",
-                  "value": {
-                    "entity-type": "item",
-                    "id": "_entity"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ]
-        }
-      },
-      "resolved": null,
-      "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "anchor_id_missing"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_value_list_refresh_policy": {
@@ -9574,7 +9909,7 @@
         "labels": {
           "en": {
             "language": "en",
-            "value": "GKC Refresh Policy"
+            "value": "Refresh Policy"
           }
         },
         "descriptions": {
@@ -9666,8 +10001,13 @@
         }
       },
       "validation": {
-        "status": "valid",
-        "notices": []
+        "status": "warning",
+        "notices": [
+          {
+            "severity": "warning",
+            "code": "labels"
+          }
+        ]
       }
     },
     "_width": {
@@ -9688,23 +10028,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide a width measurement with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_has_qualifier": [
             {
               "mainsnak": {
@@ -9742,15 +10065,9 @@
           "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
+                "snaktype": "novalue",
                 "property": "_max_count",
-                "datavalue": {
-                  "type": "quantity",
-                  "value": {
-                    "amount": "+None",
-                    "unit": "1"
-                  }
-                }
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -9778,40 +10095,6 @@
                 "datavalue": {
                   "type": "string",
                   "value": "http://www.wikidata.org/entity/P2049"
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a value for the width of the subject and specify an appropriate unit of measure",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter a value for width of the subject item",
-                    "language": "mul"
-                  }
                 }
               },
               "type": "statement",
@@ -9886,52 +10169,12 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
+          "_max_count": [
             {
               "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Failure to provide a width measurement with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_guidance": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_guidance",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Enter a value for the width of the subject and specify an appropriate unit of measure",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
-          "_statement_prompt": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_statement_prompt",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "enter a value for width of the subject item",
-                    "language": "mul"
-                  }
-                }
+                "snaktype": "novalue",
+                "property": "_max_count",
+                "datatype": "quantity"
               },
               "type": "statement",
               "rank": "normal"
@@ -9985,13 +10228,8 @@
         }
       },
       "validation": {
-        "status": "error",
-        "notices": [
-          {
-            "severity": "error",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_width_units": {
@@ -10021,7 +10259,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_value_list"
+                    "id": "_sparql_value_list"
                   }
                 }
               },
@@ -10054,6 +10292,20 @@
                     "entity-type": "item",
                     "id": "_manual_refresh_policy"
                   }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
                 }
               },
               "type": "statement",
@@ -10124,17 +10376,26 @@
               "type": "statement",
               "rank": "normal"
             }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
           ]
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "claims"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_wikibase-item": {
@@ -10155,23 +10416,6 @@
           }
         },
         "claims": {
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Item must be or resolve to a valid QID identifier.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_instance_of": [
             {
               "mainsnak": {
@@ -10245,23 +10489,6 @@
               "rank": "normal"
             }
           ],
-          "_error_message": [
-            {
-              "mainsnak": {
-                "snaktype": "value",
-                "property": "_error_message",
-                "datavalue": {
-                  "type": "monolingualtext",
-                  "value": {
-                    "text": "Item must be or resolve to a valid QID identifier.",
-                    "language": "mul"
-                  }
-                }
-              },
-              "type": "statement",
-              "rank": "normal"
-            }
-          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -10279,13 +10506,8 @@
         }
       },
       "validation": {
-        "status": "warning",
-        "notices": [
-          {
-            "severity": "warning",
-            "code": "aliases"
-          }
-        ]
+        "status": "valid",
+        "notices": []
       }
     },
     "_wikibase_statement_modifier": {
@@ -10329,7 +10551,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_entity"
+                    "id": "_entity_statement"
                   }
                 }
               },
@@ -10363,7 +10585,7 @@
                   "type": "wikibase-entityid",
                   "value": {
                     "entity-type": "item",
-                    "id": "_entity"
+                    "id": "_entity_statement"
                   }
                 }
               },
@@ -10423,6 +10645,23 @@
               "type": "statement",
               "rank": "normal"
             }
+          ],
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
           ]
         }
       },
@@ -10441,6 +10680,23 @@
           }
         },
         "claims": {
+          "_subclass_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_subclass_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_entity"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
           "_name_identifier": [
             {
               "mainsnak": {
@@ -10466,16 +10722,187 @@
           }
         ]
       }
+    },
+    "_world_countries": {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q43",
+      "kind": "item",
+      "required": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of World Countries"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL query returning list of countries of the world for country statements in items"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_world_countries"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org/sparql"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "resolved": {
+        "type": "item",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "List of World Countries"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "SPARQL query returning list of countries of the world for country statements in items"
+          }
+        },
+        "claims": {
+          "_instance_of": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_instance_of",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_sparql_value_list"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_refresh_policy": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_refresh_policy",
+                "datavalue": {
+                  "type": "wikibase-entityid",
+                  "value": {
+                    "entity-type": "item",
+                    "id": "_manual_refresh_policy"
+                  }
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_name_identifier": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_name_identifier",
+                "datavalue": {
+                  "type": "string",
+                  "value": "_world_countries"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ],
+          "_sparql_endpoint": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "_sparql_endpoint",
+                "datavalue": {
+                  "type": "string",
+                  "value": "https://query.wikidata.org"
+                }
+              },
+              "type": "statement",
+              "rank": "normal"
+            }
+          ]
+        }
+      },
+      "validation": {
+        "status": "warning",
+        "notices": [
+          {
+            "severity": "warning",
+            "code": "claims._sparql_endpoint"
+          }
+        ]
+      }
     }
   },
   "validation": {
-    "status": "error",
-    "checked_at": "2026-04-12T15:09:53.141308Z",
-    "required_anchor_count": 73,
-    "matched_anchor_count": 73,
-    "evaluated_anchor_count": 73,
-    "error_count": 8,
-    "warning_count": 58,
+    "status": "warning",
+    "checked_at": "2026-04-14T16:04:19.345924Z",
+    "required_anchor_count": 82,
+    "matched_anchor_count": 82,
+    "evaluated_anchor_count": 82,
+    "error_count": 0,
+    "warning_count": 17,
     "freshness_checked": false,
     "freshness_match": null
   }
