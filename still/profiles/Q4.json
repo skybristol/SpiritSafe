@@ -4,12 +4,20 @@
   "entity": "https://datadistillery.wikibase.cloud/entity/Q4",
   "identification": {
     "labels": {
+      "es": {
+        "prompt": "nombre principal que la tribu utiliza para referirse a s\u00ed misma en ingl\u00e9s",
+        "guidance": "Utilice el nombre que la tribu emplea para referirse a s\u00ed misma como etiqueta principal siempre que sea posible. Ap\u00f3yese en los sitios web oficiales del gobierno tribal. D\u00e9 preferencia a la autodenominaci\u00f3n de la tribu sobre los nombres asignados por gobiernos externos."
+      },
       "mul": {
         "prompt": "primary name that the tribe uses to refer to itself in English",
         "guidance": "Use the name that the tribe uses in referring to itself as the primary label where possible. Rely on official tribal government websites. Prefer the tribe's self-designation over external government names."
       }
     },
     "descriptions": {
+      "es": {
+        "prompt": "descripci\u00f3n breve y distintiva para diferenciar esta tribu de otras",
+        "guidance": "Ejemplo: \u201ctribu nativa americana de personas cheroqui reconocida a nivel federal\u201d"
+      },
       "mul": {
         "prompt": "short, distinctive description to disambiguate this tribe from others",
         "guidance": "Example: \"federally recognized Native American tribe of Cherokee people\""
@@ -63,8 +71,7 @@
             }
           ],
           "value": {
-            "type": "wikibase-item",
-            "value_list_id": "Q28"
+            "type": "wikibase-item"
           },
           "messages": {
             "mul": {
@@ -122,7 +129,7 @@
             "mul": {
               "prompt": "date that the statement applies and can be referenced to",
               "guidance": "Enter a date value that specifies a point in time to which the statement applies or is/was considered valid.",
-              "error_message": "Without a value, the statement cannot be temporally situated, reducing its precision and usefulness in time-sensitive queries.mu"
+              "error_message": "Without a value, the statement cannot be temporally situated, reducing its precision and usefulness in time-sensitive queries."
             }
           },
           "max_count": null
@@ -138,8 +145,7 @@
           ],
           "io_map": [],
           "value": {
-            "type": "wikibase-item",
-            "value_list_id": "Q56"
+            "type": "wikibase-item"
           },
           "messages": {
             "mul": {
@@ -285,7 +291,7 @@
     },
     {
       "id": "https://datadistillery.wikibase.cloud/entity/Q37",
-      "name_identifier": "inception",
+      "name_identifier": "_inception",
       "entity": "https://datadistillery.wikibase.cloud/entity/Q37",
       "label": "inception",
       "entity_classes": [
@@ -297,30 +303,27 @@
         }
       ],
       "value": {
-        "type": "time"
+        "type": null
       },
       "messages": {
         "mul": {
           "prompt": "inception date for formal recognition or establishment",
-          "guidance": "Enter the date that the subject item came into existence or was established, citing a reliable reference.",
-          "error_message": "Without a value, the founding or creation date is unknown, making chronological ordering and timeline display impossible."
+          "guidance": "Enter the date that the subject item came into existence or was established, citing a reliable reference."
         }
       },
       "max_count": null,
       "qualifiers": [
         {
           "id": "https://datadistillery.wikibase.cloud/entity/Q61",
-          "name_identifier": "datetime_precision",
+          "name_identifier": "_datetime_precision",
           "entity": "https://datadistillery.wikibase.cloud/entity/Q61",
           "label": "datetime precision",
           "entity_classes": [
-            "Q5",
             "Q58"
           ],
           "io_map": [],
           "value": {
-            "type": null,
-            "value_list_id": "Q59"
+            "type": null
           },
           "messages": {
             "mul": {
@@ -379,8 +382,7 @@
         "profile": {
           "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
           "label": "Office Held by Head of Government"
-        },
-        "value_list_id": "Q39"
+        }
       },
       "messages": {
         "mul": {
@@ -432,8 +434,7 @@
             }
           ],
           "value": {
-            "type": "wikibase-item",
-            "value_list_id": "Q51"
+            "type": "wikibase-item"
           },
           "messages": {
             "mul": {
@@ -476,12 +477,16 @@
   ],
   "metadata": {
     "labels": {
-      "mul": "Tribal Government in the United States"
+      "mul": "Tribal Government in the United States",
+      "es": "Gobierno tribal en los Estados Unidos"
     },
-    "descriptions": {},
+    "descriptions": {
+      "es": "Perfil de entidad GKC que describe el modelo de contenido para las entidades que representan los gobiernos de las Tribus Nativas Americanas y Nativas de Alaska reconocidas federalmente en los Estados Unidos"
+    },
     "aliases": {},
-    "generated_at": "2026-04-09T21:50:28.275027Z",
+    "generated_at": "2026-04-14T16:27:18.079763Z",
     "languages": [
+      "es",
       "mul"
     ],
     "statement_count": 8,
@@ -495,48 +500,7 @@
         "name_identifier": "OfficeHeldByHeadOfGovernment"
       }
     ],
-    "value_list_graph": [
-      {
-        "id": "https://datadistillery.wikibase.cloud/entity/Q28",
-        "entity": "https://datadistillery.wikibase.cloud/entity/Q28",
-        "label": "Federal Register Notices Listing Tribes",
-        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q30",
-        "value_list_id": "Q28",
-        "name_identifier": "FederalRegisterNoticesListingTribes"
-      },
-      {
-        "id": "https://datadistillery.wikibase.cloud/entity/Q56",
-        "entity": "https://datadistillery.wikibase.cloud/entity/Q56",
-        "label": "Units of Measure",
-        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q57",
-        "value_list_id": "Q56",
-        "name_identifier": "UnitsOfMeasure"
-      },
-      {
-        "id": "https://datadistillery.wikibase.cloud/entity/Q59",
-        "entity": "https://datadistillery.wikibase.cloud/entity/Q59",
-        "label": "Time Precision Values",
-        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q61",
-        "value_list_id": "Q59",
-        "name_identifier": "TimePrecisionValues"
-      },
-      {
-        "id": "https://datadistillery.wikibase.cloud/entity/Q39",
-        "entity": "https://datadistillery.wikibase.cloud/entity/Q39",
-        "label": "Office Held by Head of Government",
-        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q40",
-        "value_list_id": "Q39",
-        "name_identifier": "OfficeHeldByHeadOfGovernment"
-      },
-      {
-        "id": "https://datadistillery.wikibase.cloud/entity/Q51",
-        "entity": "https://datadistillery.wikibase.cloud/entity/Q51",
-        "label": "List of Human Languages",
-        "via_statement": "https://datadistillery.wikibase.cloud/entity/Q27",
-        "value_list_id": "Q51",
-        "name_identifier": "ListOfHumanLanguages"
-      }
-    ],
+    "value_list_graph": [],
     "linkage_index": {
       "outbound_by_statement": {
         "https://datadistillery.wikibase.cloud/entity/Q16": {

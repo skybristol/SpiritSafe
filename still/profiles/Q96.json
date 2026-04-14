@@ -1,0 +1,519 @@
+{
+  "id": "https://datadistillery.wikibase.cloud/entity/Q96",
+  "name_identifier": "_commons_media_object",
+  "entity": "https://datadistillery.wikibase.cloud/entity/Q96",
+  "identification": {
+    "labels": {
+      "mul": {
+        "prompt": "caption used for the media object",
+        "guidance": "Provide a short but descriptive caption for the image file or other media object that will be used widely whereve the media is displayed"
+      }
+    },
+    "descriptions": {},
+    "aliases": {}
+  },
+  "statements": [
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q78",
+      "name_identifier": "_depicts",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q78",
+      "label": "depicts",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P180"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter or choose the Wikidata item that the subject image portrays or depicts",
+          "guidance": "Select the Wikidata item that the subject media object depicts",
+          "error_message": "Failure to identify a Wikidata item that is a subject of the media object will degarade the full functionallity of the information content"
+        }
+      },
+      "max_count": null,
+      "qualifiers": [],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q79",
+      "name_identifier": "_copyright_status",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q79",
+      "label": "copyright status",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P6216"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter or select the Wikidata item specifying copyright status for the subject media item",
+          "guidance": "Link to the Wikidata item from a controlled list representing the copyright status for the subject media item to clarify legal use of the media object",
+          "error_message": "Failure to select a valid copyright status value for a media object means the legal uses for the object will be ambiguous or unclear"
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q81",
+      "name_identifier": "_copyright_license",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q81",
+      "label": "copyright license",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P275"
+        }
+      ],
+      "value": {
+        "type": "wikibase-item"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter or select the Wikidata item specifying the specific license the subject item is released under",
+          "guidance": "Link to the Wikidata item from a controlled list representing the license governing usage of the subject item",
+          "error_message": "Failure to select a valid license designation for a media object means the legal uses for the object will be ambiguous or unclear"
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q37",
+      "name_identifier": "_inception",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q37",
+      "label": "inception",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P571"
+        }
+      ],
+      "value": {
+        "type": null
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter the date that the subject entity began to exist",
+          "guidance": "Enter the date that the subject item came into existence or was established, citing a reliable reference."
+        }
+      },
+      "max_count": null,
+      "qualifiers": [
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q61",
+          "name_identifier": "_datetime_precision",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q61",
+          "label": "datetime precision",
+          "entity_classes": [
+            "Q58"
+          ],
+          "io_map": [],
+          "value": {
+            "type": null
+          },
+          "messages": {
+            "mul": {
+              "prompt": "set the time precision value for the datetime statement",
+              "guidance": "Time precision values will be computed dynamically in most cases",
+              "error_message": "Statements with time values must include a precision value or they will be rejected when submitted to a Wikibase instance"
+            }
+          },
+          "max_count": 1
+        }
+      ],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q83",
+      "name_identifier": "_media_type",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q83",
+      "label": "media type",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P1163"
+        }
+      ],
+      "value": {
+        "type": "string"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "specify the media type for the subject media object using an approved value from IANA",
+          "guidance": "Provide the official file object type from the Internet Assigned Numbers Authority",
+          "error_message": "Failure to include a media type string may result in an inability for certain applications to use the information in the most efficient way"
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q86",
+      "name_identifier": "_height",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q86",
+      "label": "height",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P2048"
+        }
+      ],
+      "value": {
+        "type": "quantity"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter a value for height of the subject item",
+          "guidance": "Enter a value for the height of the subject and specify an appropriate unit of measure",
+          "error_message": "Failure to provide a height measurement with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information"
+        }
+      },
+      "max_count": null,
+      "qualifiers": [
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q87",
+          "name_identifier": "_height_units",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q87",
+          "label": "List of Units for Height",
+          "entity_classes": [
+            "Q7"
+          ],
+          "io_map": [],
+          "value": {
+            "type": null
+          },
+          "messages": {},
+          "max_count": null
+        }
+      ],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q89",
+      "name_identifier": "_width",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q89",
+      "label": "width",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P2049"
+        }
+      ],
+      "value": {
+        "type": "quantity"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter a value for width of the subject item",
+          "guidance": "Enter a value for the width of the subject and specify an appropriate unit of measure",
+          "error_message": "Failure to provide a width measurement with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information"
+        }
+      },
+      "max_count": null,
+      "qualifiers": [
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q88",
+          "name_identifier": "_width_units",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q88",
+          "label": "List of Units for Width",
+          "entity_classes": [
+            "Q7"
+          ],
+          "io_map": [],
+          "value": {
+            "type": null
+          },
+          "messages": {},
+          "max_count": null
+        }
+      ],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q91",
+      "name_identifier": "_data_size",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q91",
+      "label": "data size",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P3575"
+        }
+      ],
+      "value": {
+        "type": "quantity"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "enter a value for total size of the data item",
+          "guidance": "Enter a value for the data size of the subject and specify an appropriate unit of measure",
+          "error_message": "Failure to provide a data size with the appropriate unit of measure may result in a reduced ability to determine appropriate use of the information"
+        }
+      },
+      "max_count": null,
+      "qualifiers": [
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q90",
+          "name_identifier": "_data_size_units",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q90",
+          "label": "List of Units for Data Size",
+          "entity_classes": [
+            "Q7"
+          ],
+          "io_map": [],
+          "value": {
+            "type": null
+          },
+          "messages": {},
+          "max_count": null
+        }
+      ],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q92",
+      "name_identifier": "_checksum",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q92",
+      "label": "checksum",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P4092"
+        }
+      ],
+      "value": {
+        "type": "string"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "provide the checksum string for the subject item",
+          "guidance": "Provide the generated checksum and specify the determination method (e.g., sha1) in the associated qualifier",
+          "error_message": "Failure to include the checksum may result in lack of trustworthiness in the veracity of the subject data"
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [],
+      "references": []
+    },
+    {
+      "id": "https://datadistillery.wikibase.cloud/entity/Q95",
+      "name_identifier": "_coordinates_of_the_point_of_view",
+      "entity": "https://datadistillery.wikibase.cloud/entity/Q95",
+      "label": "coordinates of the point of view",
+      "entity_classes": [
+        "Q5"
+      ],
+      "io_map": [
+        {
+          "to": "http://www.wikidata.org/entity/P1259"
+        }
+      ],
+      "value": {
+        "type": "globe-coordinate"
+      },
+      "messages": {
+        "mul": {
+          "prompt": "provide the coordinates from which the subject entity was observed or captured in a media object",
+          "guidance": "Record the coordinates for a point on earth where an image was recorded or created",
+          "error_message": "Failure to provide the point of view location may result in reduced usability for the subject item"
+        }
+      },
+      "max_count": 1,
+      "qualifiers": [
+        {
+          "id": "https://datadistillery.wikibase.cloud/entity/Q62",
+          "name_identifier": "_coordinate_precision",
+          "entity": "https://datadistillery.wikibase.cloud/entity/Q62",
+          "label": "coordinate precision",
+          "entity_classes": [
+            "Q58"
+          ],
+          "io_map": [],
+          "value": {
+            "type": null
+          },
+          "messages": {
+            "mul": {
+              "prompt": "set the coordinate precision value for the globe-coordinate statement",
+              "guidance": "Coordinate precision values will be computed dynamically in most cases",
+              "error_message": "Statements with globe-coordinate values must include a precision value or they will be rejected when submitted to a Wikibase instance"
+            }
+          },
+          "max_count": 1
+        }
+      ],
+      "references": []
+    }
+  ],
+  "metadata": {
+    "labels": {
+      "mul": "Commons Media Object"
+    },
+    "descriptions": {},
+    "aliases": {},
+    "generated_at": "2026-04-14T16:27:18.080279Z",
+    "languages": [
+      "mul"
+    ],
+    "statement_count": 10,
+    "profile_graph": [],
+    "value_list_graph": [],
+    "linkage_index": {
+      "outbound_by_statement": {
+        "https://datadistillery.wikibase.cloud/entity/Q37": {
+          "wikidata_properties": [
+            "P571"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q78": {
+          "wikidata_properties": [
+            "P180"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q79": {
+          "wikidata_properties": [
+            "P6216"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q81": {
+          "wikidata_properties": [
+            "P275"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q83": {
+          "wikidata_properties": [
+            "P1163"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q86": {
+          "wikidata_properties": [
+            "P2048"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q89": {
+          "wikidata_properties": [
+            "P2049"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q91": {
+          "wikidata_properties": [
+            "P3575"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q92": {
+          "wikidata_properties": [
+            "P4092"
+          ],
+          "target_profiles": []
+        },
+        "https://datadistillery.wikibase.cloud/entity/Q95": {
+          "wikidata_properties": [
+            "P1259"
+          ],
+          "target_profiles": []
+        }
+      },
+      "inbound_by_wikidata_property": {
+        "P1163": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q83"
+          }
+        ],
+        "P1259": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q95"
+          }
+        ],
+        "P180": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q78"
+          }
+        ],
+        "P2048": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q86"
+          }
+        ],
+        "P2049": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q89"
+          }
+        ],
+        "P275": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q81"
+          }
+        ],
+        "P3575": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q91"
+          }
+        ],
+        "P4092": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q92"
+          }
+        ],
+        "P571": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q37"
+          }
+        ],
+        "P6216": [
+          {
+            "source_profile": "https://datadistillery.wikibase.cloud/entity/Q96",
+            "source_statement": "https://datadistillery.wikibase.cloud/entity/Q79"
+          }
+        ]
+      }
+    },
+    "exported_from": "https://datadistillery.wikibase.cloud/entity/Q96"
+  }
+}

@@ -31,5 +31,58 @@
     "Q64"
   ],
   "deleted_ids": [],
-  "missing_ids": []
+  "missing_ids": [],
+  "profile_export": {
+    "summary": {
+      "requested_count": 0,
+      "written_count": 3,
+      "skipped_count": 0,
+      "failure_count": 0,
+      "language_filtered_count": 3
+    },
+    "requested_profile_ids": [],
+    "written_ids": [
+      "Q39",
+      "Q4",
+      "Q96"
+    ],
+    "skipped_ids": [],
+    "failures": [],
+    "language_filtering": [
+      {
+        "profile_id": "Q39",
+        "excluded_languages": [
+          {
+            "language": "en",
+            "missing_paths": [
+              "identification.labels.en.prompt"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "Q4",
+        "excluded_languages": [
+          {
+            "language": "en",
+            "missing_paths": [
+              "identification.labels.en.prompt"
+            ]
+          }
+        ]
+      },
+      {
+        "profile_id": "Q96",
+        "excluded_languages": [
+          {
+            "language": "en",
+            "missing_paths": [
+              "identification.labels.en.prompt"
+            ]
+          }
+        ]
+      }
+    ],
+    "output_dir": "/home/runner/work/SpiritSafe/SpiritSafe/still/profiles"
+  }
 }
