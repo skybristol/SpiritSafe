@@ -8,6 +8,15 @@ meta_wikibase:
     name_identifier_property_id: P214
     internal_name_identifier_prefix: "_"
 
+  value_list_talk_pages:
+    rules:
+      - class_name_identifier: _sparql_value_list
+        block_type: sparql
+        artifact_store: value_list_queries
+      - class_name_identifier: _embedded_value_list
+        block_type: json
+        artifact_store: value_list_cache
+
 spiritsafe:
   layout_version: 2
 
