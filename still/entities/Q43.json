@@ -4,8 +4,8 @@
     "pageid": 100,
     "ns": 120,
     "title": "Item:Q43",
-    "lastrevid": 1446,
-    "modified": "2026-04-12T15:05:37Z",
+    "lastrevid": 1453,
+    "modified": "2026-04-14T13:01:27Z",
     "type": "item",
     "id": "Q43",
     "labels": {
@@ -100,6 +100,23 @@
           "id": "Q43$3fb2c4a8-49e5-352c-787b-2fdba98ab387",
           "rank": "normal"
         }
+      ],
+      "P219": [
+        {
+          "mainsnak": {
+            "snaktype": "value",
+            "property": "P219",
+            "hash": "a4ccd958ef92a50ddfa5a9f05b71080e26a17526",
+            "datavalue": {
+              "value": "https://query.wikidata.org",
+              "type": "string"
+            },
+            "datatype": "url"
+          },
+          "type": "statement",
+          "id": "Q43$c0080f5d-44ba-8d54-5fe7-17192fa4390d",
+          "rank": "normal"
+        }
       ]
     },
     "sitelinks": {}
@@ -108,8 +125,8 @@
     "source_endpoint": "https://datadistillery.wikibase.cloud/w/api.php",
     "workflow_mode": "recentchanges",
     "profile_entry_ids": [],
-    "graph_fetched_at": "2026-04-12T15:05:37Z",
-    "cache_exported_at": "2026-04-12T15:09:03.909260Z",
+    "graph_fetched_at": "2026-04-14T13:01:27Z",
+    "cache_exported_at": "2026-04-14T13:02:31.239154Z",
     "extractor": "gkc.mash.refresh_entity_cache_from_recentchanges",
     "extractor_version": "0.1.0",
     "source_branch": null,
