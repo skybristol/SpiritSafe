@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-14T16:04:19.246779Z",
+    "generated_at": "2026-04-14T16:16:08.014445Z",
     "contract_digest": "03ca40323faae1c06c226948506c613f2db88b9c75bb7603ef782cb2d1669a47",
     "property_count": 30,
     "item_count": 52
@@ -10897,7 +10897,7 @@
   },
   "validation": {
     "status": "warning",
-    "checked_at": "2026-04-14T16:04:19.345924Z",
+    "checked_at": "2026-04-14T16:16:08.176484Z",
     "required_anchor_count": 82,
     "matched_anchor_count": 82,
     "evaluated_anchor_count": 82,
