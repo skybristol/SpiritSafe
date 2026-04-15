@@ -1,0 +1,36 @@
+{
+    "value_list": [
+        {
+            "item": 10,
+            "itemLabel": "10 degrees"
+        },
+        {
+            "item": 1,
+            "itemLabel": "1 degree (~111 km)"
+        },
+        {
+            "item": 0.1,
+            "itemLabel": "0.1 degree (~11 km)"
+        },
+        {
+            "item": 0.01667,
+            "itemLabel": "1 arcminute (~1.85 km)"
+        },
+        {
+            "item": 0.00278,
+            "itemLabel": "10 arcseconds (~300 m)"
+        },
+        {
+            "item": 0.000278,
+            "itemLabel": "1 arcsecond (~30 m)"
+        },
+        {
+            "item": 0.0001,
+            "itemLabel": "0.0001 degree (~11 m)"
+        },
+        {
+            "item": 0.00001,
+            "itemLabel": "0.00001 degree (~1 m)"
+        }
+    ]
+}
