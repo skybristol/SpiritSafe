@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-05-04T04:32:22.387809Z",
+    "fetched_at": "2026-05-11T04:41:31.723316Z",
     "schema_version": "1.0",
     "total_sites": 1068,
-    "active_sites": 927,
-    "closed_sites": 141
+    "active_sites": 896,
+    "closed_sites": 172
   },
   "sites": [
     {
@@ -178,7 +178,7 @@
       "url": "https://ak.wikipedia.org",
       "domain": "ak.wikipedia.org",
       "code": "wiki",
-      "lang": "",
+      "lang": "Akan",
       "sitename": "Wikipedia",
       "project": "wiki",
       "closed": true,
@@ -189,7 +189,7 @@
       "url": "https://ak.wikibooks.org",
       "domain": "ak.wikibooks.org",
       "code": "wikibooks",
-      "lang": "",
+      "lang": "Akan",
       "sitename": "Wikibooks",
       "project": "wikibooks",
       "closed": true,
@@ -200,7 +200,7 @@
       "url": "https://ak.wiktionary.org",
       "domain": "ak.wiktionary.org",
       "code": "wiktionary",
-      "lang": "",
+      "lang": "Akan",
       "sitename": "Wiktionary",
       "project": "wiktionary",
       "closed": true,
@@ -544,7 +544,7 @@
       "lang": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
       "sitename": "\u0648\u064a\u0643\u064a \u0627\u0644\u0623\u062e\u0628\u0627\u0631",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "ar"
     },
     {
@@ -1578,7 +1578,7 @@
       "lang": "bosanski",
       "sitename": "Wikivijesti",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "bs"
     },
     {
@@ -1699,7 +1699,7 @@
       "lang": "catal\u00e0",
       "sitename": "Viquinot\u00edcies",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "ca"
     },
     {
@@ -2095,7 +2095,7 @@
       "lang": "\u010de\u0161tina",
       "sitename": "Wikizpr\u00e1vy",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "cs"
     },
     {
@@ -2337,7 +2337,7 @@
       "lang": "Deutsch",
       "sitename": "Wikinews",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "de"
     },
     {
@@ -2601,7 +2601,7 @@
       "lang": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
       "sitename": "\u0392\u03b9\u03ba\u03b9\u03bd\u03ad\u03b1",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "el"
     },
     {
@@ -2700,7 +2700,7 @@
       "lang": "English",
       "sitename": "Wikinews",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "en"
     },
     {
@@ -2788,7 +2788,7 @@
       "lang": "Esperanto",
       "sitename": "Vikinova\u0135oj",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "eo"
     },
     {
@@ -2865,7 +2865,7 @@
       "lang": "espa\u00f1ol",
       "sitename": "Wikinoticias",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "es"
     },
     {
@@ -3107,7 +3107,7 @@
       "lang": "\u0641\u0627\u0631\u0633\u06cc",
       "sitename": "\u0648\u06cc\u06a9\u06cc\u200c\u062e\u0628\u0631",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "fa"
     },
     {
@@ -3228,7 +3228,7 @@
       "lang": "suomi",
       "sitename": "Wikiuutiset",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "fi"
     },
     {
@@ -3415,7 +3415,7 @@
       "lang": "fran\u00e7ais",
       "sitename": "Wikinews",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "fr"
     },
     {
@@ -3932,7 +3932,7 @@
       "lang": "gungbe",
       "sitename": "Wikilinlin",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "guw"
     },
     {
@@ -4053,7 +4053,7 @@
       "lang": "\u05e2\u05d1\u05e8\u05d9\u05ea",
       "sitename": "\u05d5\u05d9\u05e7\u05d9\u05d7\u05d3\u05e9\u05d5\u05ea",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "he"
     },
     {
@@ -4878,7 +4878,7 @@
       "lang": "italiano",
       "sitename": "Wikinotizie",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "it"
     },
     {
@@ -4999,7 +4999,7 @@
       "lang": "\u65e5\u672c\u8a9e",
       "sitename": "\u30a6\u30a3\u30ad\u30cb\u30e5\u30fc\u30b9",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "ja"
     },
     {
@@ -5527,7 +5527,7 @@
       "lang": "\ud55c\uad6d\uc5b4",
       "sitename": "\uc704\ud0a4\ub274\uc2a4",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "ko"
     },
     {
@@ -6033,7 +6033,7 @@
       "lang": "Limburgs",
       "sitename": "Wikinuujs",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "li"
     },
     {
@@ -7254,7 +7254,7 @@
       "lang": "Nederlands",
       "sitename": "Wikinieuws",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "nl"
     },
     {
@@ -7408,7 +7408,7 @@
       "lang": "norsk",
       "sitename": "Wikinytt",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "no"
     },
     {
@@ -7914,7 +7914,7 @@
       "lang": "polski",
       "sitename": "Wikinews",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "pl"
     },
     {
@@ -8123,7 +8123,7 @@
       "lang": "portugu\u00eas",
       "sitename": "Wikinot\u00edcias",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "pt"
     },
     {
@@ -8409,7 +8409,7 @@
       "lang": "rom\u00e2n\u0103",
       "sitename": "Wiki\u0219tiri",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "ro"
     },
     {
@@ -8530,7 +8530,7 @@
       "lang": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439",
       "sitename": "\u0412\u0438\u043a\u0438\u043d\u043e\u0432\u043e\u0441\u0442\u0438",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "ru"
     },
     {
@@ -8915,7 +8915,7 @@
       "lang": "\u1010\u1086\u1038",
       "sitename": "\u101d\u102e\u1087\u1076\u102e\u1087\u1076\u1062\u101d\u103a\u1087",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "shn"
     },
     {
@@ -9333,7 +9333,7 @@
       "lang": "shqip",
       "sitename": "Wikilajme",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "sq"
     },
     {
@@ -9399,7 +9399,7 @@
       "lang": "\u0441\u0440\u043f\u0441\u043a\u0438 / srpski",
       "sitename": "\u0412\u0438\u043a\u0438\u043d\u043e\u0432\u043e\u0441\u0442\u0438",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "sr"
     },
     {
@@ -9597,7 +9597,7 @@
       "lang": "svenska",
       "sitename": "Wikinews",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "sv"
     },
     {
@@ -9773,7 +9773,7 @@
       "lang": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd",
       "sitename": "\u0bb5\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bbf",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "ta"
     },
     {
@@ -10675,7 +10675,7 @@
       "lang": "\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430",
       "sitename": "\u0412\u0456\u043a\u0456\u043d\u043e\u0432\u0438\u043d\u0438",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "uk"
     },
     {
@@ -11665,7 +11665,7 @@
       "lang": "\u4e2d\u6587",
       "sitename": "Wikinews",
       "project": "wikinews",
-      "closed": false,
+      "closed": true,
       "language_code": "zh"
     },
     {
@@ -11929,7 +11929,7 @@
         "url": "https://ak.wikipedia.org",
         "domain": "ak.wikipedia.org",
         "code": "wiki",
-        "lang": "",
+        "lang": "Akan",
         "sitename": "Wikipedia",
         "project": "wiki",
         "closed": true,
@@ -11940,7 +11940,7 @@
         "url": "https://ak.wikibooks.org",
         "domain": "ak.wikibooks.org",
         "code": "wikibooks",
-        "lang": "",
+        "lang": "Akan",
         "sitename": "Wikibooks",
         "project": "wikibooks",
         "closed": true,
@@ -11951,7 +11951,7 @@
         "url": "https://ak.wiktionary.org",
         "domain": "ak.wiktionary.org",
         "code": "wiktionary",
-        "lang": "",
+        "lang": "Akan",
         "sitename": "Wiktionary",
         "project": "wiktionary",
         "closed": true,
@@ -12295,7 +12295,7 @@
         "lang": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
         "sitename": "\u0648\u064a\u0643\u064a \u0627\u0644\u0623\u062e\u0628\u0627\u0631",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "ar"
       },
       "arwikiquote": {
@@ -13329,7 +13329,7 @@
         "lang": "bosanski",
         "sitename": "Wikivijesti",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "bs"
       },
       "bswikiquote": {
@@ -13450,7 +13450,7 @@
         "lang": "catal\u00e0",
         "sitename": "Viquinot\u00edcies",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "ca"
       },
       "cawikiquote": {
@@ -13846,7 +13846,7 @@
         "lang": "\u010de\u0161tina",
         "sitename": "Wikizpr\u00e1vy",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "cs"
       },
       "cswikiquote": {
@@ -14088,7 +14088,7 @@
         "lang": "Deutsch",
         "sitename": "Wikinews",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "de"
       },
       "dewikiquote": {
@@ -14352,7 +14352,7 @@
         "lang": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
         "sitename": "\u0392\u03b9\u03ba\u03b9\u03bd\u03ad\u03b1",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "el"
       },
       "elwikiquote": {
@@ -14451,7 +14451,7 @@
         "lang": "English",
         "sitename": "Wikinews",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "en"
       },
       "enwikiquote": {
@@ -14539,7 +14539,7 @@
         "lang": "Esperanto",
         "sitename": "Vikinova\u0135oj",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "eo"
       },
       "eowikiquote": {
@@ -14616,7 +14616,7 @@
         "lang": "espa\u00f1ol",
         "sitename": "Wikinoticias",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "es"
       },
       "eswikiquote": {
@@ -14858,7 +14858,7 @@
         "lang": "\u0641\u0627\u0631\u0633\u06cc",
         "sitename": "\u0648\u06cc\u06a9\u06cc\u200c\u062e\u0628\u0631",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "fa"
       },
       "fawikiquote": {
@@ -14979,7 +14979,7 @@
         "lang": "suomi",
         "sitename": "Wikiuutiset",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "fi"
       },
       "fiwikiquote": {
@@ -15166,7 +15166,7 @@
         "lang": "fran\u00e7ais",
         "sitename": "Wikinews",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "fr"
       },
       "frwikiquote": {
@@ -15683,7 +15683,7 @@
         "lang": "gungbe",
         "sitename": "Wikilinlin",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "guw"
       },
       "guwwikiquote": {
@@ -15804,7 +15804,7 @@
         "lang": "\u05e2\u05d1\u05e8\u05d9\u05ea",
         "sitename": "\u05d5\u05d9\u05e7\u05d9\u05d7\u05d3\u05e9\u05d5\u05ea",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "he"
       },
       "hewikiquote": {
@@ -16629,7 +16629,7 @@
         "lang": "italiano",
         "sitename": "Wikinotizie",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "it"
       },
       "itwikiquote": {
@@ -16750,7 +16750,7 @@
         "lang": "\u65e5\u672c\u8a9e",
         "sitename": "\u30a6\u30a3\u30ad\u30cb\u30e5\u30fc\u30b9",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "ja"
       },
       "jawikiquote": {
@@ -17278,7 +17278,7 @@
         "lang": "\ud55c\uad6d\uc5b4",
         "sitename": "\uc704\ud0a4\ub274\uc2a4",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "ko"
       },
       "kowikiquote": {
@@ -17784,7 +17784,7 @@
         "lang": "Limburgs",
         "sitename": "Wikinuujs",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "li"
       },
       "liwikiquote": {
@@ -19005,7 +19005,7 @@
         "lang": "Nederlands",
         "sitename": "Wikinieuws",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "nl"
       },
       "nlwikiquote": {
@@ -19159,7 +19159,7 @@
         "lang": "norsk",
         "sitename": "Wikinytt",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "no"
       },
       "nowikiquote": {
@@ -19665,7 +19665,7 @@
         "lang": "polski",
         "sitename": "Wikinews",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "pl"
       },
       "plwikiquote": {
@@ -19874,7 +19874,7 @@
         "lang": "portugu\u00eas",
         "sitename": "Wikinot\u00edcias",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "pt"
       },
       "ptwikiquote": {
@@ -20160,7 +20160,7 @@
         "lang": "rom\u00e2n\u0103",
         "sitename": "Wiki\u0219tiri",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "ro"
       },
       "rowikiquote": {
@@ -20281,7 +20281,7 @@
         "lang": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439",
         "sitename": "\u0412\u0438\u043a\u0438\u043d\u043e\u0432\u043e\u0441\u0442\u0438",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "ru"
       },
       "ruwikiquote": {
@@ -20666,7 +20666,7 @@
         "lang": "\u1010\u1086\u1038",
         "sitename": "\u101d\u102e\u1087\u1076\u102e\u1087\u1076\u1062\u101d\u103a\u1087",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "shn"
       },
       "shnwikivoyage": {
@@ -21084,7 +21084,7 @@
         "lang": "shqip",
         "sitename": "Wikilajme",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "sq"
       },
       "sqwikiquote": {
@@ -21150,7 +21150,7 @@
         "lang": "\u0441\u0440\u043f\u0441\u043a\u0438 / srpski",
         "sitename": "\u0412\u0438\u043a\u0438\u043d\u043e\u0432\u043e\u0441\u0442\u0438",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "sr"
       },
       "srwikiquote": {
@@ -21348,7 +21348,7 @@
         "lang": "svenska",
         "sitename": "Wikinews",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "sv"
       },
       "svwikiquote": {
@@ -21524,7 +21524,7 @@
         "lang": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd",
         "sitename": "\u0bb5\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bbf",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "ta"
       },
       "tawikiquote": {
@@ -22426,7 +22426,7 @@
         "lang": "\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430",
         "sitename": "\u0412\u0456\u043a\u0456\u043d\u043e\u0432\u0438\u043d\u0438",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "uk"
       },
       "ukwikiquote": {
@@ -23416,7 +23416,7 @@
         "lang": "\u4e2d\u6587",
         "sitename": "Wikinews",
         "project": "wikinews",
-        "closed": false,
+        "closed": true,
         "language_code": "zh"
       },
       "zhwikiquote": {
