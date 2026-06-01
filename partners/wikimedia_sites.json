@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-05-25T04:48:50.638789Z",
+    "fetched_at": "2026-06-01T04:53:45.196241Z",
     "schema_version": "1.0",
-    "total_sites": 1068,
-    "active_sites": 896,
+    "total_sites": 1069,
+    "active_sites": 897,
     "closed_sites": 172
   },
   "sites": [
@@ -1940,6 +1940,17 @@
       "code": "commons",
       "lang": "",
       "sitename": "Wikimedia Commons",
+      "project": "wiki",
+      "closed": false,
+      "language_code": ""
+    },
+    {
+      "dbname": "conductwiki",
+      "url": "https://conduct.wikimedia.org",
+      "domain": "conduct.wikimedia.org",
+      "code": "conduct",
+      "lang": "",
+      "sitename": "Wikipedia",
       "project": "wiki",
       "closed": false,
       "language_code": ""
@@ -13695,6 +13706,17 @@
         "closed": false,
         "language_code": ""
       },
+      "conductwiki": {
+        "dbname": "conductwiki",
+        "url": "https://conduct.wikimedia.org",
+        "domain": "conduct.wikimedia.org",
+        "code": "conduct",
+        "lang": "",
+        "sitename": "Wikipedia",
+        "project": "wiki",
+        "closed": false,
+        "language_code": ""
+      },
       "cowiki": {
         "dbname": "cowiki",
         "url": "https://co.wikipedia.org",
@@ -24042,6 +24064,9 @@
       ],
       "commons.wikimedia.org": [
         "commonswiki"
+      ],
+      "conduct.wikimedia.org": [
+        "conductwiki"
       ],
       "cr.wikipedia.org": [
         "crwiki"
