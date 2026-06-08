@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-06-01T04:53:45.196241Z",
+    "fetched_at": "2026-06-08T04:53:14.479023Z",
     "schema_version": "1.0",
     "total_sites": 1069,
     "active_sites": 897,
@@ -1950,7 +1950,7 @@
       "domain": "conduct.wikimedia.org",
       "code": "conduct",
       "lang": "",
-      "sitename": "Wikipedia",
+      "sitename": "Conductwiki",
       "project": "wiki",
       "closed": false,
       "language_code": ""
@@ -2577,7 +2577,7 @@
       "domain": "electcom.wikimedia.org",
       "code": "electcom",
       "lang": "",
-      "sitename": "Wikipedia",
+      "sitename": "Wikimedia Elections Committee",
       "project": "wiki",
       "closed": false,
       "language_code": ""
@@ -13712,7 +13712,7 @@
         "domain": "conduct.wikimedia.org",
         "code": "conduct",
         "lang": "",
-        "sitename": "Wikipedia",
+        "sitename": "Conductwiki",
         "project": "wiki",
         "closed": false,
         "language_code": ""
@@ -14339,7 +14339,7 @@
         "domain": "electcom.wikimedia.org",
         "code": "electcom",
         "lang": "",
-        "sitename": "Wikipedia",
+        "sitename": "Wikimedia Elections Committee",
         "project": "wiki",
         "closed": false,
         "language_code": ""
