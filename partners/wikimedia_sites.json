@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-06-08T04:53:14.479023Z",
+    "fetched_at": "2026-06-15T04:53:49.534193Z",
     "schema_version": "1.0",
     "total_sites": 1069,
     "active_sites": 897,
