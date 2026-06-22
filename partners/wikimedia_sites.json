@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-06-15T04:53:49.534193Z",
+    "fetched_at": "2026-06-22T04:53:53.913167Z",
     "schema_version": "1.0",
-    "total_sites": 1069,
+    "total_sites": 1070,
     "active_sites": 897,
-    "closed_sites": 172
+    "closed_sites": 173
   },
   "sites": [
     {
@@ -390,7 +390,7 @@
       "lang": "",
       "sitename": "API Portal",
       "project": "wiki",
-      "closed": false,
+      "closed": true,
       "language_code": ""
     },
     {
@@ -6323,6 +6323,17 @@
       "language_code": "mad"
     },
     {
+      "dbname": "magwiki",
+      "url": "https://mag.wikipedia.org",
+      "domain": "mag.wikipedia.org",
+      "code": "wiki",
+      "lang": "\u092e\u0917\u0939\u0940",
+      "sitename": "\u0935\u093f\u0915\u093f\u092a\u0940\u0921\u093f\u092f\u093e",
+      "project": "wiki",
+      "closed": false,
+      "language_code": "mag"
+    },
+    {
       "dbname": "maiwiki",
       "url": "https://mai.wikipedia.org",
       "domain": "mai.wikipedia.org",
@@ -12152,7 +12163,7 @@
         "lang": "",
         "sitename": "API Portal",
         "project": "wiki",
-        "closed": false,
+        "closed": true,
         "language_code": ""
       },
       "arbcom_cswiki": {
@@ -18083,6 +18094,17 @@
         "project": "wiktionary",
         "closed": false,
         "language_code": "mad"
+      },
+      "magwiki": {
+        "dbname": "magwiki",
+        "url": "https://mag.wikipedia.org",
+        "domain": "mag.wikipedia.org",
+        "code": "wiki",
+        "lang": "\u092e\u0917\u0939\u0940",
+        "sitename": "\u0935\u093f\u0915\u093f\u092a\u0940\u0921\u093f\u092f\u093e",
+        "project": "wiki",
+        "closed": false,
+        "language_code": "mag"
       },
       "maiwiki": {
         "dbname": "maiwiki",
@@ -25240,6 +25262,9 @@
       ],
       "mad.wiktionary.org": [
         "madwiktionary"
+      ],
+      "mag.wikipedia.org": [
+        "magwiki"
       ],
       "mai.wikimedia.org": [
         "maiwikimedia"
