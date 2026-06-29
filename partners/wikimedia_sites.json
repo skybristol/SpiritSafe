@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-06-22T04:53:53.913167Z",
+    "fetched_at": "2026-06-29T04:52:46.885589Z",
     "schema_version": "1.0",
     "total_sites": 1070,
-    "active_sites": 897,
-    "closed_sites": 173
+    "active_sites": 898,
+    "closed_sites": 172
   },
   "sites": [
     {
@@ -381,17 +381,6 @@
       "project": "wiktionary",
       "closed": false,
       "language_code": "an"
-    },
-    {
-      "dbname": "apiportalwiki",
-      "url": "https://api.wikimedia.org",
-      "domain": "api.wikimedia.org",
-      "code": "apiportal",
-      "lang": "",
-      "sitename": "API Portal",
-      "project": "wiki",
-      "closed": true,
-      "language_code": ""
     },
     {
       "dbname": "arbcom_cswiki",
@@ -4803,6 +4792,17 @@
       "project": "wiktionary",
       "closed": false,
       "language_code": "io"
+    },
+    {
+      "dbname": "isvwiki",
+      "url": "https://isv.wikipedia.org",
+      "domain": "isv.wikipedia.org",
+      "code": "wiki",
+      "lang": "med\u017euslovjansky",
+      "sitename": "Vikipedija",
+      "project": "wiki",
+      "closed": false,
+      "language_code": "isv"
     },
     {
       "dbname": "iswiki",
@@ -12155,17 +12155,6 @@
         "closed": false,
         "language_code": "an"
       },
-      "apiportalwiki": {
-        "dbname": "apiportalwiki",
-        "url": "https://api.wikimedia.org",
-        "domain": "api.wikimedia.org",
-        "code": "apiportal",
-        "lang": "",
-        "sitename": "API Portal",
-        "project": "wiki",
-        "closed": true,
-        "language_code": ""
-      },
       "arbcom_cswiki": {
         "dbname": "arbcom_cswiki",
         "url": "https://arbcom-cs.wikipedia.org",
@@ -16576,6 +16565,17 @@
         "project": "wiktionary",
         "closed": false,
         "language_code": "io"
+      },
+      "isvwiki": {
+        "dbname": "isvwiki",
+        "url": "https://isv.wikipedia.org",
+        "domain": "isv.wikipedia.org",
+        "code": "wiki",
+        "lang": "med\u017euslovjansky",
+        "sitename": "Vikipedija",
+        "project": "wiki",
+        "closed": false,
+        "language_code": "isv"
       },
       "iswiki": {
         "dbname": "iswiki",
@@ -23658,9 +23658,6 @@
       "anp.wikipedia.org": [
         "anpwiki"
       ],
-      "api.wikimedia.org": [
-        "apiportalwiki"
-      ],
       "ar.wikibooks.org": [
         "arwikibooks"
       ],
@@ -24866,6 +24863,9 @@
       ],
       "is.wiktionary.org": [
         "iswiktionary"
+      ],
+      "isv.wikipedia.org": [
+        "isvwiki"
       ],
       "it.wikibooks.org": [
         "itwikibooks"
