@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-07-06T04:44:30.917902Z",
+    "fetched_at": "2026-07-13T04:25:52.563768Z",
     "schema_version": "1.0",
-    "total_sites": 1070,
-    "active_sites": 898,
+    "total_sites": 1071,
+    "active_sites": 899,
     "closed_sites": 172
   },
   "sites": [
@@ -6484,6 +6484,17 @@
       "lang": "Minangkabau",
       "sitename": "Wikibuku",
       "project": "wikibooks",
+      "closed": false,
+      "language_code": "min"
+    },
+    {
+      "dbname": "minwikiquote",
+      "url": "https://min.wikiquote.org",
+      "domain": "min.wikiquote.org",
+      "code": "wikiquote",
+      "lang": "Minangkabau",
+      "sitename": "Wikiquote",
+      "project": "wikiquote",
       "closed": false,
       "language_code": "min"
     },
@@ -18260,6 +18271,17 @@
         "closed": false,
         "language_code": "min"
       },
+      "minwikiquote": {
+        "dbname": "minwikiquote",
+        "url": "https://min.wikiquote.org",
+        "domain": "min.wikiquote.org",
+        "code": "wikiquote",
+        "lang": "Minangkabau",
+        "sitename": "Wikiquote",
+        "project": "wikiquote",
+        "closed": false,
+        "language_code": "min"
+      },
       "minwikisource": {
         "dbname": "minwikisource",
         "url": "https://min.wikisource.org",
@@ -25316,6 +25338,9 @@
       ],
       "min.wikipedia.org": [
         "minwiki"
+      ],
+      "min.wikiquote.org": [
+        "minwikiquote"
       ],
       "min.wikisource.org": [
         "minwikisource"
