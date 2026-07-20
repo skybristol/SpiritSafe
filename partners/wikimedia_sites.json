@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-07-13T04:25:52.563768Z",
+    "fetched_at": "2026-07-20T04:27:56.841830Z",
     "schema_version": "1.0",
     "total_sites": 1071,
     "active_sites": 899,
@@ -3061,7 +3061,7 @@
       "domain": "ext.wikipedia.org",
       "code": "wiki",
       "lang": "estreme\u00f1u",
-      "sitename": "G\u00fciquipeya",
+      "sitename": "G\u00fciquipedia",
       "project": "wiki",
       "closed": false,
       "language_code": "ext"
@@ -6493,7 +6493,7 @@
       "domain": "min.wikiquote.org",
       "code": "wikiquote",
       "lang": "Minangkabau",
-      "sitename": "Wikiquote",
+      "sitename": "Wikipituah",
       "project": "wikiquote",
       "closed": false,
       "language_code": "min"
@@ -14845,7 +14845,7 @@
         "domain": "ext.wikipedia.org",
         "code": "wiki",
         "lang": "estreme\u00f1u",
-        "sitename": "G\u00fciquipeya",
+        "sitename": "G\u00fciquipedia",
         "project": "wiki",
         "closed": false,
         "language_code": "ext"
@@ -18277,7 +18277,7 @@
         "domain": "min.wikiquote.org",
         "code": "wikiquote",
         "lang": "Minangkabau",
-        "sitename": "Wikiquote",
+        "sitename": "Wikipituah",
         "project": "wikiquote",
         "closed": false,
         "language_code": "min"
