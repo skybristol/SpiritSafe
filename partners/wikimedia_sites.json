@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-07-20T04:27:56.841830Z",
+    "fetched_at": "2026-07-27T04:27:45.856232Z",
     "schema_version": "1.0",
-    "total_sites": 1071,
-    "active_sites": 899,
+    "total_sites": 1072,
+    "active_sites": 900,
     "closed_sites": 172
   },
   "sites": [
@@ -1437,6 +1437,17 @@
       "project": "wiki",
       "closed": false,
       "language_code": ""
+    },
+    {
+      "dbname": "bolwiki",
+      "url": "https://bol.wikipedia.org",
+      "domain": "bol.wikipedia.org",
+      "code": "wiki",
+      "lang": "b\u00f2o p\u00eckk\u00e0",
+      "sitename": "Wikipedia",
+      "project": "wiki",
+      "closed": false,
+      "language_code": "bol"
     },
     {
       "dbname": "bowiki",
@@ -13222,6 +13233,17 @@
         "closed": false,
         "language_code": ""
       },
+      "bolwiki": {
+        "dbname": "bolwiki",
+        "url": "https://bol.wikipedia.org",
+        "domain": "bol.wikipedia.org",
+        "code": "wiki",
+        "lang": "b\u00f2o p\u00eckk\u00e0",
+        "sitename": "Wikipedia",
+        "project": "wiki",
+        "closed": false,
+        "language_code": "bol"
+      },
       "bowiki": {
         "dbname": "bowiki",
         "url": "https://bo.wikipedia.org",
@@ -23967,6 +23989,9 @@
       ],
       "boardgovcom.wikimedia.org": [
         "boardgovcomwiki"
+      ],
+      "bol.wikipedia.org": [
+        "bolwiki"
       ],
       "bpy.wikipedia.org": [
         "bpywiki"
