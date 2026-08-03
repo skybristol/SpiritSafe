@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-07-27T04:27:45.856232Z",
+    "fetched_at": "2026-08-03T04:25:30.818431Z",
     "schema_version": "1.0",
     "total_sites": 1072,
     "active_sites": 900,
@@ -1444,7 +1444,7 @@
       "domain": "bol.wikipedia.org",
       "code": "wiki",
       "lang": "b\u00f2o p\u00eckk\u00e0",
-      "sitename": "Wikipedia",
+      "sitename": "Wikipidiya",
       "project": "wiki",
       "closed": false,
       "language_code": "bol"
@@ -13239,7 +13239,7 @@
         "domain": "bol.wikipedia.org",
         "code": "wiki",
         "lang": "b\u00f2o p\u00eckk\u00e0",
-        "sitename": "Wikipedia",
+        "sitename": "Wikipidiya",
         "project": "wiki",
         "closed": false,
         "language_code": "bol"
