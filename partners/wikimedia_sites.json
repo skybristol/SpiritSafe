@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-08-24T03:35:01.195175Z",
+    "fetched_at": "2026-08-31T03:31:00.689109Z",
     "schema_version": "1.0",
     "total_sites": 1072,
-    "active_sites": 900,
-    "closed_sites": 172
+    "active_sites": 899,
+    "closed_sites": 173
   },
   "sites": [
     {
@@ -1611,7 +1611,7 @@
       "lang": "bosanski",
       "sitename": "Wikirje\u010dnik",
       "project": "wiktionary",
-      "closed": false,
+      "closed": true,
       "language_code": "bs"
     },
     {
@@ -13406,7 +13406,7 @@
         "lang": "bosanski",
         "sitename": "Wikirje\u010dnik",
         "project": "wiktionary",
-        "closed": false,
+        "closed": true,
         "language_code": "bs"
       },
       "btmwiki": {
