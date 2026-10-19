@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-10-12T03:43:06.415604Z",
+    "fetched_at": "2026-10-19T03:32:05.238946Z",
     "schema_version": "1.0",
-    "total_sites": 1072,
-    "active_sites": 899,
+    "total_sites": 1073,
+    "active_sites": 900,
     "closed_sites": 173
   },
   "sites": [
@@ -6660,6 +6660,17 @@
       "lang": "\u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02",
       "sitename": "\u0d35\u0d3f\u0d15\u0d4d\u0d15\u0d3f\u0d17\u0d4d\u0d30\u0d28\u0d4d\u0d25\u0d36\u0d3e\u0d32",
       "project": "wikisource",
+      "closed": false,
+      "language_code": "ml"
+    },
+    {
+      "dbname": "mlwikivoyage",
+      "url": "https://ml.wikivoyage.org",
+      "domain": "ml.wikivoyage.org",
+      "code": "wikivoyage",
+      "lang": "\u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02",
+      "sitename": "Wikivoyage",
+      "project": "wikivoyage",
       "closed": false,
       "language_code": "ml"
     },
@@ -18458,6 +18469,17 @@
         "closed": false,
         "language_code": "ml"
       },
+      "mlwikivoyage": {
+        "dbname": "mlwikivoyage",
+        "url": "https://ml.wikivoyage.org",
+        "domain": "ml.wikivoyage.org",
+        "code": "wikivoyage",
+        "lang": "\u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02",
+        "sitename": "Wikivoyage",
+        "project": "wikivoyage",
+        "closed": false,
+        "language_code": "ml"
+      },
       "mlwiktionary": {
         "dbname": "mlwiktionary",
         "url": "https://ml.wiktionary.org",
@@ -25399,6 +25421,9 @@
       ],
       "ml.wikisource.org": [
         "mlwikisource"
+      ],
+      "ml.wikivoyage.org": [
+        "mlwikivoyage"
       ],
       "ml.wiktionary.org": [
         "mlwiktionary"
