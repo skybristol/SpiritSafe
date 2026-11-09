@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_url": "https://meta.wikimedia.org/w/api.php?action=sitematrix&format=json&smstate=all",
-    "fetched_at": "2026-11-02T03:21:30.209787Z",
+    "fetched_at": "2026-11-09T03:21:53.859234Z",
     "schema_version": "1.0",
     "total_sites": 1073,
     "active_sites": 900,
@@ -6328,7 +6328,7 @@
       "domain": "mad.wiktionary.org",
       "code": "wiktionary",
       "lang": "Madhur\u00e2",
-      "sitename": "Wikikamus",
+      "sitename": "Wikioca'",
       "project": "wiktionary",
       "closed": false,
       "language_code": "mad"
@@ -18134,7 +18134,7 @@
         "domain": "mad.wiktionary.org",
         "code": "wiktionary",
         "lang": "Madhur\u00e2",
-        "sitename": "Wikikamus",
+        "sitename": "Wikioca'",
         "project": "wiktionary",
         "closed": false,
         "language_code": "mad"
